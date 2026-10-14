@@ -24,7 +24,7 @@ Agent（自定义 TypeScript 循环）→ Qwen OpenAI 兼容接口 → 真实 MC
 - packages/utils/src/travel-intelligence.ts：唯一确定性约束规则。
 - packages/utils/src/travel-inspection.ts：可解释 Snapshot。
 
-详细架构与决策见 ARCHITECTURE.md 和 ADR/。Phoenix/OTel 只为隔离 Eval 观测，关闭不影响业务或本地报告。SDK Spike 不属于正式运行链路。
+本页列出的源码入口可直接检查共享能力与写入边界。Phoenix/OTel 只为隔离 Eval 观测，关闭不影响业务或本地报告。SDK Spike 不属于正式运行链路。
 
 ## 可靠性与已知负担
 
