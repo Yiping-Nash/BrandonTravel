@@ -1,0 +1,307 @@
+import { useState, useCallback, useRef } from "react";
+import type { Task, TimeBlock, CalendarEvent } from "@open-sunsama/types";
+import type { DragState, DropPreview, CalendarDndOptions } from "./calendar-dnd-types";
+import {
+  calculateTimeFromY,
+  calculateYFromTime,
+  snapToInterval,
+  formatTimeRange,
+  calculateTaskDropPreview,
+  calculateMovePreview,
+  calculateResizePreview,
+} from "./calendar-dnd-utils";
+
+// Re-export types and utilities for backwards compatibility
+export type { DragType, DragState, DropPreview } from "./calendar-dnd-types";
+export {
+  HOUR_HEIGHT,
+  SNAP_INTERVAL,
+  MIN_BLOCK_DURATION,
+  TIMELINE_START_HOUR,
+  TIMELINE_END_HOUR,
+  calculateTimeFromY,
+  calculateYFromTime,
+  snapToInterval,
+  calculateTaskDropPreview,
+  calculateMovePreview,
+  calculateResizePreview,
+  formatTimeRange,
+} from "./calendar-dnd-utils";
+
+/**
+ * Custom hook for calendar drag and drop
+ */
+export function useCalendarDnd(
+  selectedDate: Date,
+  options?: CalendarDndOptions
+) {
+  const [dragState, setDragState] = useState<DragState | null>(null);
+  const [dropPreview, setDropPreview] = useState<DropPreview | null>(null);
+  // Track if we just ended a drag operation to prevent click events from firing
+  const [justEndedDrag, setJustEndedDrag] = useState(false);
+  const timelineRef = useRef<HTMLDivElement>(null);
+
+  /**
+   * Start dragging a task from unscheduled list
+   */
+  const startTaskDrag = useCallback(
+    (task: Task, startY: number) => {
+      setDragState({
+        type: "task-to-timeline",
+        taskId: task.id,
+        task,
+        startY,
+        currentY: startY,
+      });
+    },
+    []
+  );
+
+  /**
+   * Start dragging a time block to move it
+   */
+  const startBlockDrag = useCallback(
+    (block: TimeBlock, startY: number) => {
+      setDragState({
+        type: "move-block",
+        blockId: block.id,
+        block,
+        startY,
+        currentY: startY,
+        initialStartTime: new Date(block.startTime),
+        initialEndTime: new Date(block.endTime),
+      });
+    },
+    []
+  );
+
+  /**
+   * Start dragging an external calendar event to a new time slot.
+   * Mirrors `startBlockDrag` — the move math doesn't care whether the
+   * draggable thing is a TimeBlock or a CalendarEvent, only its
+   * current start/end pair.
+   */
+  const startEventDrag = useCallback(
+    (event: CalendarEvent, startY: number) => {
+      setDragState({
+        type: "move-event",
+        eventId: event.id,
+        event,
+        startY,
+        currentY: startY,
+        initialStartTime: new Date(event.startTime),
+        initialEndTime: new Date(event.endTime),
+      });
+    },
+    []
+  );
+
+  /**
+   * Start resizing an external calendar event from one of its edges.
+   */
+  const startEventResize = useCallback(
+    (event: CalendarEvent, edge: "top" | "bottom", startY: number) => {
+      setDragState({
+        type: edge === "top" ? "resize-event-top" : "resize-event-bottom",
+        eventId: event.id,
+        event,
+        startY,
+        currentY: startY,
+        initialStartTime: new Date(event.startTime),
+        initialEndTime: new Date(event.endTime),
+      });
+    },
+    []
+  );
+
+  /**
+   * Start resizing a time block
+   */
+  const startBlockResize = useCallback(
+    (block: TimeBlock, edge: "top" | "bottom", startY: number) => {
+      setDragState({
+        type: edge === "top" ? "resize-top" : "resize-bottom",
+        blockId: block.id,
+        block,
+        startY,
+        currentY: startY,
+        initialStartTime: new Date(block.startTime),
+        initialEndTime: new Date(block.endTime),
+      });
+    },
+    []
+  );
+
+  /**
+   * Update drag position
+   */
+  const updateDrag = useCallback(
+    (currentY: number, timelineRect?: DOMRect) => {
+      if (!dragState) return;
+
+      setDragState((prev) => (prev ? { ...prev, currentY } : null));
+
+      // Calculate drop preview
+      if (!timelineRect && timelineRef.current) {
+        timelineRect = timelineRef.current.getBoundingClientRect();
+      }
+
+      if (!timelineRect) return;
+
+      const relativeY = currentY - timelineRect.top + (timelineRef.current?.scrollTop ?? 0);
+
+      switch (dragState.type) {
+        case "task-to-timeline": {
+          const duration = dragState.task?.estimatedMins ?? 60;
+          const preview = calculateTaskDropPreview(relativeY, selectedDate, duration);
+          setDropPreview(preview);
+          break;
+        }
+        case "move-block": {
+          if (dragState.block) {
+            const deltaY = currentY - dragState.startY;
+            const preview = calculateMovePreview(deltaY, dragState.block, selectedDate);
+            setDropPreview(preview);
+          }
+          break;
+        }
+        case "resize-top":
+        case "resize-bottom": {
+          if (dragState.block) {
+            const deltaY = currentY - dragState.startY;
+            const edge = dragState.type === "resize-top" ? "top" : "bottom";
+            const preview = calculateResizePreview(
+              deltaY,
+              dragState.block,
+              edge,
+              selectedDate
+            );
+            setDropPreview(preview);
+          }
+          break;
+        }
+        case "move-event": {
+          if (dragState.event) {
+            const deltaY = currentY - dragState.startY;
+            // calculateMovePreview reads only `startTime` / `endTime`
+            // off its second arg, so a CalendarEvent satisfies its
+            // structural contract.
+            const preview = calculateMovePreview(
+              deltaY,
+              dragState.event as unknown as TimeBlock,
+              selectedDate
+            );
+            setDropPreview(preview);
+          }
+          break;
+        }
+        case "resize-event-top":
+        case "resize-event-bottom": {
+          if (dragState.event) {
+            const deltaY = currentY - dragState.startY;
+            const edge =
+              dragState.type === "resize-event-top" ? "top" : "bottom";
+            const preview = calculateResizePreview(
+              deltaY,
+              dragState.event as unknown as TimeBlock,
+              edge,
+              selectedDate
+            );
+            setDropPreview(preview);
+          }
+          break;
+        }
+      }
+    },
+    [dragState, selectedDate]
+  );
+
+  /**
+   * End drag operation and commit changes
+   */
+  const endDrag = useCallback(
+    (cancelled: boolean = false) => {
+      if (!dragState || cancelled || !dropPreview) {
+        setDragState(null);
+        setDropPreview(null);
+        return;
+      }
+
+      const { startTime, endTime } = dropPreview;
+
+      switch (dragState.type) {
+        case "task-to-timeline":
+          if (dragState.taskId) {
+            options?.onTaskDrop?.(dragState.taskId, startTime, endTime);
+          }
+          break;
+        case "move-block":
+          if (dragState.blockId) {
+            options?.onBlockMove?.(dragState.blockId, startTime, endTime);
+          }
+          break;
+        case "resize-top":
+        case "resize-bottom":
+          if (dragState.blockId) {
+            options?.onBlockResize?.(dragState.blockId, startTime, endTime);
+          }
+          break;
+        case "move-event":
+          if (dragState.eventId) {
+            options?.onEventMove?.(dragState.eventId, startTime, endTime);
+          }
+          break;
+        case "resize-event-top":
+        case "resize-event-bottom":
+          if (dragState.eventId) {
+            options?.onEventResize?.(dragState.eventId, startTime, endTime);
+          }
+          break;
+      }
+
+      // Set flag to prevent click event from firing after drag ends
+      // This is needed because mouseup fires before click, so by the time
+      // click handler runs, dragState is already null
+      setJustEndedDrag(true);
+      // Clear the flag after a short delay (after click event would have fired)
+      setTimeout(() => setJustEndedDrag(false), 0);
+
+      setDragState(null);
+      setDropPreview(null);
+    },
+    [dragState, dropPreview, options]
+  );
+
+  /**
+   * Cancel drag operation
+   */
+  const cancelDrag = useCallback(() => {
+    setDragState(null);
+    setDropPreview(null);
+  }, []);
+
+  return {
+    // State
+    dragState,
+    dropPreview,
+    isDragging: dragState !== null,
+    justEndedDrag,
+    timelineRef,
+
+    // Actions
+    startTaskDrag,
+    startBlockDrag,
+    startBlockResize,
+    startEventDrag,
+    startEventResize,
+    updateDrag,
+    endDrag,
+    cancelDrag,
+
+    // Utilities
+    calculateTimeFromY: (y: number) => calculateTimeFromY(y, selectedDate),
+    calculateYFromTime,
+    snapToInterval,
+    formatTimeRange,
+  };
+}

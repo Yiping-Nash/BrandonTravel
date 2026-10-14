@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-14T07:36:25.740Z",
+  "baseline": "d94769d",
+  "databasePort": 54339,
+  "webPort": 18441,
+  "readbacks": {
+    "creating": {
+      "id": "a0da970b-e342-4874-a611-07bf9fd0df81",
+      "revision": 1,
+      "activities": 9
+    },
+    "formed": {
+      "id": "4e713ef4-42ae-400b-b4cc-cbae1b573775",
+      "revision": 1,
+      "activities": 23
+    },
+    "collaborating": {
+      "id": "48e4d667-1a67-4b3c-8d21-e699199855ed",
+      "revision": 1,
+      "activities": 23
+    }
+  },
+  "modelRequests": 0,
+  "providerRequests": 0
+}

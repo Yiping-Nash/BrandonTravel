@@ -1,0 +1,317 @@
+/**
+ * Outlook Calendar helper functions and types
+ */
+import type { ExternalAttendee, ExternalEvent } from './index';
+
+// Outlook API interfaces
+export interface OutlookCalendar {
+  id: string;
+  name: string;
+  color?: string;
+  canEdit: boolean;
+}
+
+export interface OutlookEvent {
+  id: string;
+  subject?: string;
+  body?: {
+    content?: string;
+    contentType?: string;
+  };
+  location?: {
+    displayName?: string;
+  };
+  start?: {
+    dateTime?: string;
+    timeZone?: string;
+  };
+  end?: {
+    dateTime?: string;
+    timeZone?: string;
+  };
+  isAllDay?: boolean;
+  recurrence?: {
+    pattern?: {
+      type?: string;
+      interval?: number;
+      daysOfWeek?: string[];
+      dayOfMonth?: number;
+      month?: number;
+    };
+    range?: {
+      type?: string;
+      startDate?: string;
+      endDate?: string;
+      numberOfOccurrences?: number;
+    };
+  };
+  seriesMasterId?: string;
+  showAs?: string;
+  responseStatus?: {
+    response?: string;
+  };
+  attendees?: Array<{
+    type?: string;
+    status?: { response?: string };
+    emailAddress?: { name?: string; address?: string };
+  }>;
+  organizer?: { emailAddress?: { name?: string; address?: string } };
+  isOrganizer?: boolean;
+  onlineMeeting?: { joinUrl?: string } | null;
+  onlineMeetingUrl?: string | null;
+  webLink?: string;
+  changeKey?: string;
+  '@removed'?: { reason: string };
+}
+
+export interface OutlookEventsResponse {
+  value?: OutlookEvent[];
+  '@odata.deltaLink'?: string;
+  '@odata.nextLink'?: string;
+}
+
+export interface OutlookTokenResponse {
+  access_token: string;
+  refresh_token?: string;
+  expires_in: number;
+}
+
+export interface OutlookCalendarListResponse {
+  value?: OutlookCalendar[];
+}
+
+// Microsoft color codes mapped to hex
+export const OUTLOOK_COLORS: Record<string, string> = {
+  auto: '#0078D4',
+  lightBlue: '#8ED0FF',
+  lightGreen: '#7FD37F',
+  lightOrange: '#FFB878',
+  lightGray: '#D5D5D5',
+  lightYellow: '#FFF078',
+  lightTeal: '#7FD2D5',
+  lightPink: '#FFB3DE',
+  lightBrown: '#D5B59C',
+  lightRed: '#FF8080',
+  maxColor: '#0078D4',
+};
+
+/**
+ * Get Microsoft OAuth client ID from environment
+ */
+export function getClientId(): string {
+  const clientId = process.env.MICROSOFT_CLIENT_ID;
+  if (!clientId) {
+    throw new Error('MICROSOFT_CLIENT_ID environment variable is required');
+  }
+  return clientId;
+}
+
+/**
+ * Get Microsoft OAuth client secret from environment
+ */
+export function getClientSecret(): string {
+  const clientSecret = process.env.MICROSOFT_CLIENT_SECRET;
+  if (!clientSecret) {
+    throw new Error('MICROSOFT_CLIENT_SECRET environment variable is required');
+  }
+  return clientSecret;
+}
+
+/**
+ * Map Outlook showAs status to our status type
+ */
+export function mapShowAsToStatus(showAs?: string): 'confirmed' | 'tentative' | 'cancelled' {
+  switch (showAs) {
+    case 'tentative':
+      return 'tentative';
+    case 'free':
+      return 'tentative';
+    default:
+      return 'confirmed';
+  }
+}
+
+/**
+ * Map Outlook response status to our response status type
+ */
+export function mapOutlookResponseStatus(
+  response?: string
+): 'accepted' | 'declined' | 'tentative' | 'needsAction' | null {
+  switch (response) {
+    case 'accepted':
+      return 'accepted';
+    case 'declined':
+      return 'declined';
+    case 'tentativelyAccepted':
+      return 'tentative';
+    case 'notResponded':
+    case 'none':
+      return 'needsAction';
+    default:
+      return null;
+  }
+}
+
+/**
+ * Build RRULE string from Outlook recurrence pattern
+ */
+export function buildRRuleFromOutlook(recurrence?: OutlookEvent['recurrence']): string | null {
+  if (!recurrence?.pattern) return null;
+
+  const parts: string[] = [];
+  const pattern = recurrence.pattern;
+  const range = recurrence.range;
+
+  switch (pattern.type) {
+    case 'daily':
+      parts.push('FREQ=DAILY');
+      break;
+    case 'weekly':
+      parts.push('FREQ=WEEKLY');
+      break;
+    case 'absoluteMonthly':
+    case 'relativeMonthly':
+      parts.push('FREQ=MONTHLY');
+      break;
+    case 'absoluteYearly':
+    case 'relativeYearly':
+      parts.push('FREQ=YEARLY');
+      break;
+    default:
+      return null;
+  }
+
+  if (pattern.interval && pattern.interval > 1) {
+    parts.push(`INTERVAL=${pattern.interval}`);
+  }
+
+  if (pattern.daysOfWeek?.length) {
+    const days = pattern.daysOfWeek.map((d) => d.slice(0, 2).toUpperCase());
+    parts.push(`BYDAY=${days.join(',')}`);
+  }
+
+  if (pattern.dayOfMonth) {
+    parts.push(`BYMONTHDAY=${pattern.dayOfMonth}`);
+  }
+
+  if (pattern.month) {
+    parts.push(`BYMONTH=${pattern.month}`);
+  }
+
+  if (range) {
+    if (range.type === 'endDate' && range.endDate) {
+      const until = range.endDate.replace(/-/g, '');
+      parts.push(`UNTIL=${until}T235959Z`);
+    } else if (range.type === 'numbered' && range.numberOfOccurrences) {
+      parts.push(`COUNT=${range.numberOfOccurrences}`);
+    }
+  }
+
+  return parts.join(';');
+}
+
+/**
+ * Parse an Outlook event into our ExternalEvent format
+ */
+export function parseOutlookEvent(event: OutlookEvent): ExternalEvent | null {
+  if (!event.id || !event.start?.dateTime) {
+    return null;
+  }
+
+  const isAllDay = event.isAllDay || false;
+  let startTime: Date;
+  let endTime: Date;
+
+  // Microsoft Graph returns `dateTime` strings without an explicit
+  // timezone offset (e.g. "2026-05-03T10:00:00.0000000") and pairs
+  // them with a separate `timeZone` field. For our query path
+  // (`/calendarView` with `startDateTime`/`endDateTime` params),
+  // Graph returns times in UTC unless a `Prefer: outlook.timezone`
+  // header is sent — and we don't send one, so the dateTime IS UTC.
+  // For all-day events, Graph returns dateTime at "00:00:00.0000000"
+  // with timeZone="UTC" — same UTC convention. In both cases the
+  // JS Date parser would default to LOCAL time without the trailing
+  // Z, shifting the moment by the viewer's UTC offset (off by a
+  // whole day for all-day events east/west of UTC). Append Z to
+  // force UTC interpretation in both branches.
+  const toUtcDate = (s: string): Date =>
+    new Date(s.endsWith('Z') ? s : s + 'Z');
+
+  if (isAllDay) {
+    startTime = toUtcDate(event.start.dateTime);
+    endTime = event.end?.dateTime
+      ? toUtcDate(event.end.dateTime)
+      : new Date(startTime.getTime() + 24 * 60 * 60 * 1000);
+  } else {
+    startTime = toUtcDate(event.start.dateTime);
+    endTime = event.end?.dateTime
+      ? toUtcDate(event.end.dateTime)
+      : new Date(startTime.getTime() + 60 * 60 * 1000);
+  }
+
+  let description: string | null = null;
+  if (event.body?.content) {
+    if (event.body.contentType === 'text') {
+      description = event.body.content;
+    } else {
+      description = event.body.content.replace(/<[^>]*>/g, '').trim() || null;
+    }
+  }
+
+  return {
+    externalId: event.id,
+    title: event.subject || '(No title)',
+    description,
+    location: event.location?.displayName ?? null,
+    startTime,
+    endTime,
+    isAllDay,
+    timezone: event.start.timeZone ?? null,
+    recurrenceRule: buildRRuleFromOutlook(event.recurrence),
+    recurringEventId: event.seriesMasterId ?? null,
+    status: mapShowAsToStatus(event.showAs),
+    responseStatus: mapOutlookResponseStatus(event.responseStatus?.response),
+    htmlLink: event.webLink ?? null,
+    etag: event.changeKey ?? null,
+    attendees: parseOutlookAttendees(event),
+    conferenceUrl:
+      event.onlineMeeting?.joinUrl ?? event.onlineMeetingUrl ?? null,
+  };
+}
+
+/**
+ * Graph lists the organizer separately from attendees and doesn't mark
+ * the signed-in user's entry, so `self` is only known when we organize.
+ */
+function parseOutlookAttendees(event: OutlookEvent): ExternalAttendee[] | null {
+  const organizerEmail = event.organizer?.emailAddress?.address?.toLowerCase();
+  const people: ExternalAttendee[] = (event.attendees ?? [])
+    .filter((a) => a.emailAddress?.address && a.type !== 'resource')
+    .map((a) => {
+      const email = a.emailAddress!.address!;
+      const isOrganizer = email.toLowerCase() === organizerEmail;
+      return {
+        email,
+        name: a.emailAddress?.name ?? null,
+        responseStatus: isOrganizer
+          ? 'accepted'
+          : mapOutlookResponseStatus(a.status?.response),
+        organizer: isOrganizer,
+        self: isOrganizer && (event.isOrganizer ?? false),
+      };
+    });
+  if (
+    organizerEmail &&
+    !people.some((p) => p.email.toLowerCase() === organizerEmail)
+  ) {
+    people.unshift({
+      email: event.organizer!.emailAddress!.address!,
+      name: event.organizer?.emailAddress?.name ?? null,
+      responseStatus: 'accepted',
+      organizer: true,
+      self: event.isOrganizer ?? false,
+    });
+  }
+  // An event with only its organizer has no guests to show.
+  return people.length > 1 ? people : null;
+}

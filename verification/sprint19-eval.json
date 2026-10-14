@@ -1,0 +1,3123 @@
+{
+  "sprint": "Sprint19",
+  "realModelRequests": 61,
+  "amapRequests": 0,
+  "webSearchRequests": 0,
+  "realTrials": [
+    {
+      "scenarioId": "S01",
+      "trialId": "S01-1",
+      "agentRunId": "1c96af22-7368-4971-bea8-7477dcf09561",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "f8bec28d2bdd37b0a66210ea83968e1c",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 840,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 900,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 6594,
+        "output": 351
+      },
+      "modelRequests": 2,
+      "elapsedMs": 5319,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791733461348-live/report.json"
+    },
+    {
+      "scenarioId": "S02",
+      "trialId": "S02-1",
+      "agentRunId": "9e7876ba-f23f-4d76-aa5c-d80684e75af6",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "3119011b9e06dfc2a78be811a694633e",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000003",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": null,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-14"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 6143,
+        "output": 267
+      },
+      "modelRequests": 2,
+      "elapsedMs": 4140,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "initialAnnotationStatus": "upload-failed",
+      "annotationRepairAt": "2026-10-11T16:01:16.459Z",
+      "localReport": ".runtime/evals/1791733461348-live/report.json"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-1",
+      "agentRunId": "e3a24427-7fee-4c2a-aae7-ce65e3c4b42d",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "1b93c7ce5a21561d26e746ced0f17b58",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 22181,
+        "output": 768
+      },
+      "modelRequests": 5,
+      "elapsedMs": 12731,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "initialAnnotationStatus": "upload-failed",
+      "annotationRepairAt": "2026-10-11T16:01:16.749Z",
+      "localReport": ".runtime/evals/1791733461348-live/report.json"
+    },
+    {
+      "scenarioId": "S01",
+      "trialId": "S01-1",
+      "agentRunId": "e6c04e1e-0ffb-4d78-8b6f-a341d7c41317",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "77e9325fcb9736c769bb79ab9bad4873",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 840,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 900,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 6569,
+        "output": 317
+      },
+      "modelRequests": 2,
+      "elapsedMs": 6325,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791733564365-live/report.json"
+    },
+    {
+      "scenarioId": "S02",
+      "trialId": "S02-1",
+      "agentRunId": "c8f83d80-b7eb-452e-950c-e53a2cacd98c",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "ed8f5d6ca1d15e909f7765a6e55657b7",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000003",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": null,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-14"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 6156,
+        "output": 236
+      },
+      "modelRequests": 2,
+      "elapsedMs": 5057,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791733564365-live/report.json"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-1",
+      "agentRunId": "42ddc067-f3f5-42d8-b1f9-fefb2886caab",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "99cf987e104f3fc3bcd18a6a4c625bc1",
+      "agentOutcome": "incomplete",
+      "agentStatus": "failed",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 22833,
+        "output": 680
+      },
+      "modelRequests": 5,
+      "elapsedMs": 10614,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791733564365-live/report.json"
+    },
+    {
+      "scenarioId": "S01",
+      "trialId": "S01-2",
+      "agentRunId": "49ecb043-1da8-4a12-8eb6-fceaacd5dcd0",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "59538bce7da8fbf895e84962f1631a32",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 840,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 900,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 6596,
+        "output": 390
+      },
+      "modelRequests": 2,
+      "elapsedMs": 6735,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791733564365-live/report.json"
+    },
+    {
+      "scenarioId": "S02",
+      "trialId": "S02-2",
+      "agentRunId": "3177d4a2-85b2-4230-9800-17f7d5f89f74",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "cf0f04e0ac2e4c54378378a989b5ce24",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000003",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": null,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-14"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 6143,
+        "output": 250
+      },
+      "modelRequests": 2,
+      "elapsedMs": 4400,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791733564365-live/report.json"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-2",
+      "agentRunId": "07038558-f92d-4f9e-8ce3-fa2621897868",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "08dae44e3235395a1e0a42494d0d08c2",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 27047,
+        "output": 897
+      },
+      "modelRequests": 6,
+      "elapsedMs": 12711,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791733564365-live/report.json"
+    },
+    {
+      "scenarioId": "S01",
+      "trialId": "S01-1",
+      "agentRunId": "36193472-3f3c-40bf-a255-001933773e90",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "22d74d26745721a165354667a4d29d6b",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 840,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 900,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 6578,
+        "output": 376
+      },
+      "modelRequests": 2,
+      "elapsedMs": 6281,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791733937035-live/report.json"
+    },
+    {
+      "scenarioId": "S02",
+      "trialId": "S02-1",
+      "agentRunId": "206e010f-e115-4483-a85b-5f565061ae4b",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "ec905f6ed583067cd8b339c3ed5f17c0",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000003",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": null,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-14"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 6218,
+        "output": 254
+      },
+      "modelRequests": 2,
+      "elapsedMs": 4716,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791733937035-live/report.json"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-1",
+      "agentRunId": "7025b3af-0edb-40cf-be0c-72146fd345d6",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "aaecc91679a08096e546186cf7fa04d6",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 27548,
+        "output": 665
+      },
+      "modelRequests": 6,
+      "elapsedMs": 11071,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791733937035-live/report.json"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-1",
+      "agentRunId": "4a5f9a88-a265-45a0-b0fb-0ae4c3d6578d",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "35dbf2febea30049a0561656b0472d5d",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 26442,
+        "output": 524,
+        "usageAvailable": true
+      },
+      "modelRequests": 6,
+      "elapsedMs": 9573,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791734886615-live/report.json"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-2",
+      "agentRunId": "4940d6b7-42df-4ab1-bc5a-b13e0bf6f2ca",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "e7ff15e8e7a349ab415312824d00cdd7",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 21608,
+        "output": 557,
+        "usageAvailable": true
+      },
+      "modelRequests": 5,
+      "elapsedMs": 8636,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791734886615-live/report.json"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-3",
+      "agentRunId": "16fc57d0-6e94-4772-8434-806f2ee77218",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "9aae3a2e82a3aa4e72d79ad5e2d47225",
+      "agentOutcome": "incomplete",
+      "agentStatus": "done",
+      "grader": {
+        "passed": false,
+        "failures": [
+          "没有唯一待确认提案",
+          "计划应恰好一个事务版本",
+          "应缩为前三天",
+          "越界活动须按原日期保留待安排",
+          "越界活动内容变化",
+          "越界活动须按原日期保留待安排",
+          "越界活动内容变化"
+        ],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 29364,
+        "output": 366,
+        "usageAvailable": true
+      },
+      "modelRequests": 6,
+      "elapsedMs": 8451,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791734886615-live/report.json"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-1",
+      "agentRunId": "89181874-2f3e-4cb8-945d-75b79b8cf73b",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint19-v2",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "8f93dcb185860cc5db93a9a3a87143ec",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 5706,
+        "output": 304,
+        "usageAvailable": true
+      },
+      "modelRequests": 2,
+      "elapsedMs": 4784,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791735032153-live/report.json"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-2",
+      "agentRunId": "ad3d3179-2444-4606-b12f-a15e3778e3d1",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint19-v2",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "840c4d7830b790e358e6d1d835ee0ebb",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 5721,
+        "output": 357,
+        "usageAvailable": true
+      },
+      "modelRequests": 2,
+      "elapsedMs": 5976,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791735032153-live/report.json"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-3",
+      "agentRunId": "7881ad04-5f2a-49e5-a490-03f70161b579",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint19-v2",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "1a11f98a7aa656e3c06b0941ce67b0e9",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 5680,
+        "output": 283,
+        "usageAvailable": true
+      },
+      "modelRequests": 2,
+      "elapsedMs": 4575,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded",
+      "localReport": ".runtime/evals/1791735032153-live/report.json"
+    }
+  ],
+  "mockTrials": [
+    {
+      "scenarioId": "S01",
+      "trialId": "S01-1",
+      "agentRunId": "c32ebb9e-b9ce-4be3-8e83-ef9b126bc8b8",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "c76ee3cbdd2a727108e9b22514c04b82",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 840,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 900,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 305,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S02",
+      "trialId": "S02-1",
+      "agentRunId": "bb6802a3-fd16-4460-b83a-5e65dc5cb38f",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "08f39c23ec6125f9be4458b5ecef457d",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000003",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": null,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-14"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 199,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-1",
+      "agentRunId": "3e2efc74-6a4f-4e85-bc6b-b6f26683f492",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "9a62a833ed30a0146e6e04326e1515da",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 184,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S01",
+      "trialId": "S01-2",
+      "agentRunId": "194a641c-2ec1-4dfd-84dd-64508d6d04e5",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "9963085548aee099c1984020c9132a80",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 840,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 900,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 203,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S02",
+      "trialId": "S02-2",
+      "agentRunId": "2492c66c-5724-465e-a0c8-346240b12ada",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "96e9c361818b0553d2df1f8b3720dec8",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000003",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": null,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-14"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 200,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-2",
+      "agentRunId": "32132c4f-4b4a-4343-b92e-afc6ee2a1c0f",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "9f5c0b77f2f26391c1b2df58156ac04c",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 201,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S01",
+      "trialId": "S01-3",
+      "agentRunId": "ee69a6cf-3f7d-4600-acd9-7e91bd747233",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "03f029e77480a86fae580bb2ef55306b",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 840,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 900,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 174,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S02",
+      "trialId": "S02-3",
+      "agentRunId": "694d8657-b202-492f-ac86-9309ff2ba1b4",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "c350c81483a76459720d28650c022bfb",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000003",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": null,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-14"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 172,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-3",
+      "agentRunId": "29cb3a06-c121-46f3-8128-7dca3d1e5ad0",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "db253a811450d01d92b7eabb674f77c3",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 173,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    }
+  ],
+  "phoenixDown": [
+    {
+      "scenarioId": "S01",
+      "trialId": "S01-1",
+      "agentRunId": "92f3f4d4-2245-4f50-a927-3053ef0513a7",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "245251ed182dac60d02461d8e8956a41",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 840,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 900,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 307,
+      "exportStatus": "upload-failed",
+      "annotationStatus": "upload-failed"
+    },
+    {
+      "scenarioId": "S02",
+      "trialId": "S02-1",
+      "agentRunId": "d9b66435-173b-44ce-830e-8a7ef3733b8d",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "f0ed69342d8bb02e26387ff6075c5619",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000003",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": null,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-14"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 188,
+      "exportStatus": "upload-failed",
+      "annotationStatus": "upload-failed"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-1",
+      "agentRunId": "d39b9b64-838c-4a50-acb1-ca9adb8e9eec",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "e7fb09192df5b08a7dc4a56f7a4f4254",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 182,
+      "exportStatus": "upload-failed",
+      "annotationStatus": "upload-failed"
+    }
+  ],
+  "traceOff": [
+    {
+      "scenarioId": "S01",
+      "trialId": "S01-1",
+      "agentRunId": "fea1ed0f-853e-4d4c-9698-85f644960ac4",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": null,
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 840,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注1",
+              "place": "地点待确认",
+              "start": 900,
+              "title": "山西博物院",
+              "locked": false,
+              "duration": 120,
+              "position": 1
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 268,
+      "exportStatus": "disabled",
+      "annotationStatus": "disabled"
+    },
+    {
+      "scenarioId": "S02",
+      "trialId": "S02-1",
+      "agentRunId": "0348ca1e-7e36-4584-a368-cdb8b0ff73d7",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": null,
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000003",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构Fixture备注2",
+              "place": "地点待确认",
+              "start": null,
+              "title": "晋祠",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-14"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 203,
+      "exportStatus": "disabled",
+      "annotationStatus": "disabled"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-1",
+      "agentRunId": "866cf0b8-1b72-41e4-bceb-09f1bfe564a9",
+      "provider": "fixture",
+      "thinking": false,
+      "graderVersion": "1",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": null,
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 200,
+        "output": 60
+      },
+      "modelRequests": 2,
+      "elapsedMs": 205,
+      "exportStatus": "disabled",
+      "annotationStatus": "disabled"
+    }
+  ],
+  "realTokens": {
+    "input": 245127,
+    "output": 7842
+  },
+  "limitations": [
+    "受控Fixture重复试验，不代表S04–S15可靠性",
+    "正式网页聊天默认不采集Trace",
+    "没有思考模式A/B结论",
+    "手机真机未验证"
+  ],
+  "regradeVerified": true,
+  "workspaceTests": {
+    "passed": 479,
+    "skipped": 2,
+    "api": 184,
+    "utils": 220,
+    "web": 71,
+    "apiClient": 4
+  },
+  "traceFaultsVerified": true,
+  "startup": {
+    "web": "http://localhost:4331/",
+    "api": "http://127.0.0.1:4332/health",
+    "phoenix": "http://127.0.0.1:6006/",
+    "projectRestartVerified": true
+  },
+  "realPassed": 17,
+  "realFailed": 1,
+  "finalS03Trials": [
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-1",
+      "agentRunId": "89181874-2f3e-4cb8-945d-75b79b8cf73b",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint19-v2",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "8f93dcb185860cc5db93a9a3a87143ec",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 5706,
+        "output": 304,
+        "usageAvailable": true
+      },
+      "modelRequests": 2,
+      "elapsedMs": 4784,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-2",
+      "agentRunId": "ad3d3179-2444-4606-b12f-a15e3778e3d1",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint19-v2",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "840c4d7830b790e358e6d1d835ee0ebb",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 5721,
+        "output": 357,
+        "usageAvailable": true
+      },
+      "modelRequests": 2,
+      "elapsedMs": 5976,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S03",
+      "trialId": "S03-3",
+      "agentRunId": "7881ad04-5f2a-49e5-a490-03f70161b579",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint19-v2",
+      "fixtureClock": "2026-10-11T04:00:00.000Z",
+      "traceId": "1a11f98a7aa656e3c06b0941ce67b0e9",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "1"
+      },
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-15"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000004",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": "2026-10-16",
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000004",
+              "date": null,
+              "notes": "虚构Fixture备注3",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第四天",
+              "locked": false,
+              "duration": 60,
+              "position": 0,
+              "backlogOriginDate": "2026-10-16"
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": "2026-10-17",
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": 600,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 4
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "date": null,
+              "notes": "虚构Fixture备注4",
+              "place": "地点待确认",
+              "start": null,
+              "title": "合成第五天",
+              "locked": false,
+              "duration": 60,
+              "position": 1,
+              "backlogOriginDate": "2026-10-17"
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 0,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 5680,
+        "output": 283,
+        "usageAvailable": true
+      },
+      "modelRequests": 2,
+      "elapsedMs": 4575,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    }
+  ]
+}

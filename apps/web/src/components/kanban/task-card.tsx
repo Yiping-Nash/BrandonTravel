@@ -1,0 +1,260 @@
+import * as React from "react";
+import { useSortable } from "@dnd-kit/sortable";
+import { CSS } from "@dnd-kit/utilities";
+import type { Task, UpdateTaskInput } from "@open-sunsama/types";
+import { cn } from "@/lib/utils";
+import { useCompleteTask, useUpdateTask } from "@/hooks/useTasks";
+import { useSubtasks, useUpdateSubtask } from "@/hooks/useSubtasks";
+import { TaskContextMenu } from "./task-context-menu";
+import { TaskCardContent } from "./task-card-content";
+import { prefetchTaskModal } from "./task-modal.lazy";
+
+interface TaskCardProps {
+  task: Task;
+  onSelect: (task: Task) => void;
+  isDragging?: boolean;
+  /** Start of the task's earliest time block that day, shown on the card. */
+  scheduledTime?: Date | string | null;
+  /** The time is a projection, not a block on the calendar. */
+  timeIsProjected?: boolean;
+}
+
+/**
+ * Sortable task card for drag-and-drop reordering within columns.
+ * Uses @dnd-kit/sortable for smooth animations.
+ */
+export function SortableTaskCard({
+  task,
+  onSelect,
+  isDragging: externalDragging,
+  scheduledTime,
+  timeIsProjected,
+}: TaskCardProps) {
+  const [isHovered, setIsHovered] = React.useState(false);
+  const completeTask = useCompleteTask();
+  const updateTask = useUpdateTask();
+  const isCompleted = !!task.completedAt;
+
+  // Fetch subtasks for this task
+  const { data: subtasks } = useSubtasks(task.id);
+  const updateSubtask = useUpdateSubtask();
+
+  const handleToggleSubtask = async (subtaskId: string) => {
+    const subtask = subtasks?.find((s) => s.id === subtaskId);
+    if (subtask) {
+      await updateSubtask.mutateAsync({
+        taskId: task.id,
+        subtaskId,
+        data: { completed: !subtask.completed },
+      });
+    }
+  };
+
+  const handleUpdateTask = async (data: UpdateTaskInput) => {
+    await updateTask.mutateAsync({ id: task.id, data });
+  };
+
+  const {
+    attributes,
+    listeners,
+    setNodeRef,
+    transform,
+    transition,
+    isDragging: isCurrentlyDragging,
+    isOver,
+    active,
+    index,
+  } = useSortable({
+    id: task.id,
+    data: {
+      type: "task",
+      task,
+      columnId: task.scheduledDate || "backlog",
+    },
+  });
+
+  // Determine if we should show a drop indicator
+  // isOver is true when this item is being hovered by the dragged item
+  const showIndicator = isOver && active?.id !== task.id;
+
+  // Determine indicator position based on where the item will be inserted
+  // Improved logic that works for both same-column and cross-column drags
+  const activeColumn = active?.data?.current?.columnId;
+  const currentColumn = task.scheduledDate || "backlog";
+  const isCrossColumnDrag = activeColumn !== currentColumn;
+
+  let showDropIndicatorAbove = false;
+  let showDropIndicatorBelow = false;
+
+  if (showIndicator) {
+    if (isCrossColumnDrag) {
+      // For cross-column drags, show above the target task
+      // This matches the "insert before" behavior in tasks-dnd-context.tsx
+      showDropIndicatorAbove = true;
+    } else {
+      // For same-column drags, use index-based logic
+      const activeIndex = active?.data?.current?.sortable?.index ?? -1;
+      showDropIndicatorAbove = activeIndex > index;
+      showDropIndicatorBelow = activeIndex < index && activeIndex !== -1;
+    }
+  }
+
+  const style = {
+    transform: CSS.Transform.toString(transform),
+    transition,
+  };
+
+  const dragging = isCurrentlyDragging || externalDragging;
+
+  const handleToggleComplete = async (e: React.MouseEvent) => {
+    e.stopPropagation();
+    await completeTask.mutateAsync({ id: task.id, completed: !isCompleted });
+  };
+
+  const handleClick = (e: React.MouseEvent) => {
+    if (!dragging) {
+      e.stopPropagation();
+      // Kick off the modal chunk download synchronously with the click —
+      // by the time React commits the open state, the chunk is in flight.
+      void prefetchTaskModal();
+      onSelect(task);
+    }
+  };
+
+  // Prefetch on hover so even slow connections feel instant when the user
+  // commits to clicking. `prefetchTaskModal` is idempotent and cached.
+  const handleHoverChangeWithPrefetch = React.useCallback(
+    (hovered: boolean) => {
+      if (hovered) {
+        void prefetchTaskModal();
+      }
+      setIsHovered(hovered);
+    },
+    []
+  );
+
+  return (
+    <TaskContextMenu task={task} onEdit={() => onSelect(task)}>
+      <div
+        ref={setNodeRef}
+        style={style}
+        {...attributes}
+        {...listeners}
+        onClick={handleClick}
+        data-task-id={task.id}
+        className={cn("relative", isCurrentlyDragging && "opacity-30 z-50")}
+      >
+        {/* Drop indicator line - above */}
+        {showDropIndicatorAbove && (
+          <div className="absolute -top-1 left-0 right-0 h-0.5 bg-primary rounded-full z-10 shadow-[0_0_4px_rgba(var(--primary),0.5)]" />
+        )}
+
+        <TaskCardContent
+          task={task}
+          isCompleted={isCompleted}
+          isHovered={isHovered}
+          isDragging={externalDragging}
+          onToggleComplete={handleToggleComplete}
+          onClick={handleClick}
+          onHoverChange={handleHoverChangeWithPrefetch}
+          subtasks={subtasks}
+          onToggleSubtask={handleToggleSubtask}
+          subtasksHidden={task.subtasksHidden}
+          onUpdateTask={handleUpdateTask}
+          scheduledTime={scheduledTime ?? null}
+          timeIsProjected={timeIsProjected ?? false}
+        />
+
+        {/* Drop indicator line - below */}
+        {showDropIndicatorBelow && (
+          <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary rounded-full z-10 shadow-[0_0_4px_rgba(var(--primary),0.5)]" />
+        )}
+      </div>
+    </TaskContextMenu>
+  );
+}
+
+/**
+ * Legacy TaskCard - used for DragOverlay display
+ */
+export function TaskCard({
+  task,
+  onSelect,
+  isDragging: externalDragging,
+  scheduledTime,
+}: TaskCardProps) {
+  const [isHovered, setIsHovered] = React.useState(false);
+  const completeTask = useCompleteTask();
+  const updateTask = useUpdateTask();
+  const isCompleted = !!task.completedAt;
+
+  // Fetch subtasks for this task
+  const { data: subtasks } = useSubtasks(task.id);
+  const updateSubtask = useUpdateSubtask();
+
+  const handleToggleSubtask = async (subtaskId: string) => {
+    const subtask = subtasks?.find((s) => s.id === subtaskId);
+    if (subtask) {
+      await updateSubtask.mutateAsync({
+        taskId: task.id,
+        subtaskId,
+        data: { completed: !subtask.completed },
+      });
+    }
+  };
+
+  const handleUpdateTask = async (data: UpdateTaskInput) => {
+    await updateTask.mutateAsync({ id: task.id, data });
+  };
+
+  const handleToggleComplete = async (e: React.MouseEvent) => {
+    e.stopPropagation();
+    await completeTask.mutateAsync({ id: task.id, completed: !isCompleted });
+  };
+
+  const handleClick = (e: React.MouseEvent) => {
+    if (!externalDragging) {
+      e.stopPropagation();
+      void prefetchTaskModal();
+      onSelect(task);
+    }
+  };
+
+  const handleHoverChangeWithPrefetch = React.useCallback(
+    (hovered: boolean) => {
+      if (hovered) {
+        void prefetchTaskModal();
+      }
+      setIsHovered(hovered);
+    },
+    []
+  );
+
+  return (
+    <TaskCardContent
+      task={task}
+      isCompleted={isCompleted}
+      isHovered={isHovered}
+      isDragging={externalDragging}
+      onToggleComplete={handleToggleComplete}
+      onClick={handleClick}
+      onHoverChange={handleHoverChangeWithPrefetch}
+      subtasks={subtasks}
+      onToggleSubtask={handleToggleSubtask}
+      subtasksHidden={task.subtasksHidden}
+      onUpdateTask={handleUpdateTask}
+      scheduledTime={scheduledTime ?? null}
+    />
+  );
+}
+
+/**
+ * Placeholder card shown when dragging into empty column
+ */
+export function TaskCardPlaceholder() {
+  return (
+    <div className="rounded-lg border-2 border-dashed border-primary/40 bg-primary/5 px-3 py-2.5">
+      <div className="h-4 w-2/3 rounded bg-primary/10" />
+    </div>
+  );
+}

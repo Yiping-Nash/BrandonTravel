@@ -1,0 +1,28 @@
+{
+  "baseline": "d94769d",
+  "dataOrigin": "authored_public_demo",
+  "executionStatus": "awaiting_user_itinerary_review",
+  "recordingStatus": "not_started",
+  "cases": [
+    {
+      "id": "creating",
+      "fixture": "creating.json",
+      "goal": "安排第二天的云冈石窟，保留其他未决定项",
+      "captureSeconds": 12
+    },
+    {
+      "id": "formed",
+      "fixture": "formed.json",
+      "goal": "查看不同密度的六天安排、固定交通与待安排项",
+      "captureSeconds": 10
+    },
+    {
+      "id": "collaborating",
+      "fixture": "collaborating.json",
+      "prompt": "把10月25日的山西博物院往后推一小时，时长不变，其他安排不动。",
+      "goal": "读取最新状态 → 提案 → 用户确认 → 读回；固定交通保持不变",
+      "captureSeconds": 22,
+      "historicalEvidence": "demo/agent-evidence.json / S01-1；不同fixture，不代表本案例已通过"
+    }
+  ]
+}

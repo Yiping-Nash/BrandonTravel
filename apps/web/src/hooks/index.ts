@@ -1,0 +1,158 @@
+// Hooks Index
+// Re-export all custom hooks
+
+export { useToast, toast } from "./use-toast";
+export { useAuth, AuthProvider, useRequireAuth } from "./useAuth";
+export {
+  useTasks,
+  useTask,
+  useCreateTask,
+  useUpdateTask,
+  useDeleteTask,
+  useCompleteTask,
+  useMoveTask,
+  useReorderTasks,
+  taskKeys,
+} from "./useTasks";
+export {
+  useSearchTasks,
+  useAllTasks,
+  type SearchTasksParams,
+} from "./useSearchTasks";
+export {
+  useTimeBlocks,
+  useTimeBlock,
+  useTimeBlocksForDate,
+  useTimeBlocksForDateRange,
+  useCreateTimeBlock,
+  useUpdateTimeBlock,
+  useDeleteTimeBlock,
+  useQuickSchedule,
+  useAutoSchedule,
+  useStartTimeBlock,
+  useStopTimeBlock,
+  useResizeTimeBlock,
+  useCascadeResizeTimeBlock,
+  useMoveTimeBlock,
+  timeBlockKeys,
+} from "./useTimeBlocks";
+export {
+  useApiKeys,
+  useCreateApiKey,
+  useRevokeApiKey,
+  apiKeyKeys,
+  type ApiKey,
+  type CreateApiKeyInput,
+  type CreateApiKeyResponse,
+} from "./useApiKeys";
+export {
+  useCalendarDnd,
+  calculateTimeFromY,
+  calculateYFromTime,
+  snapToInterval,
+  calculateTaskDropPreview,
+  calculateMovePreview,
+  calculateResizePreview,
+  formatTimeRange,
+  HOUR_HEIGHT,
+  SNAP_INTERVAL,
+  MIN_BLOCK_DURATION,
+  TIMELINE_START_HOUR,
+  TIMELINE_END_HOUR,
+  type DragType,
+  type DragState,
+  type DropPreview,
+} from "./useCalendarDnd";
+export type { CalendarDndOptions } from "./calendar-dnd-types";
+export {
+  useNotificationPreferences,
+  useUpdateNotificationPreferences,
+  requestNotificationPermission,
+  getNotificationPermissionStatus,
+  notificationPreferencesKeys,
+  type NotificationPreferences,
+  type UpdateNotificationPreferencesInput,
+} from "./useNotificationPreferences";
+export {
+  useSubtasks,
+  useCreateSubtask,
+  useUpdateSubtask,
+  useDeleteSubtask,
+  useReorderSubtasks,
+  subtaskKeys,
+  type Subtask,
+  type CreateSubtaskInput,
+  type UpdateSubtaskInput,
+} from "./useSubtasks";
+export {
+  useUploadAvatar,
+  validateAvatarFile,
+  type UploadAvatarResponse,
+} from "./useUploadAvatar";
+export {
+  useUploadAttachment,
+  useUploadMultipleAttachments,
+  validateFile,
+  isFileSupported,
+  formatFileSize,
+  getFileIcon,
+  getFileType,
+  type UploadResult,
+  type FileType,
+} from "./useUploadAttachment";
+export {
+  useTaskAttachments,
+  isImageFile,
+  isVideoFile,
+  attachmentKeys,
+} from "./useTaskAttachments";
+export {
+  useIsDesktop,
+  useNativeNotification,
+  useAutoLaunch,
+  useDesktopSettings,
+  useDesktopEvents,
+  useDesktop,
+} from "./useDesktop";
+export {
+  SHORTCUTS,
+  formatShortcut,
+  matchesShortcut,
+  shouldIgnoreShortcut,
+  HoveredTaskProvider,
+  useHoveredTask,
+  ShortcutsProvider,
+  useShortcutsModal,
+  type ShortcutDefinition,
+} from "./useKeyboardShortcuts.tsx";
+export { useTimezoneSync, getDeviceTimezone } from "./useTimezoneSync";
+export { useWebSocket } from "./useWebSocket";
+export { useTimer, formatTime, formatMins, timerKeys } from "./useTimer";
+export { useIsMobile } from "./useIsMobile";
+export {
+  useCalendarAccounts,
+  useCalendars,
+  useCalendarEvents,
+  useDisconnectAccount,
+  useSyncAccount,
+  useUpdateCalendar,
+  useConnectICloud,
+  useInitiateOAuth,
+  calendarKeys,
+  type CalendarAccount,
+  type Calendar,
+  type CalendarEvent,
+  type ConnectCalDavRequest,
+  type UpdateCalendarRequest,
+} from "./useCalendars";
+export {
+  useTaskSeriesList,
+  useTaskSeries,
+  useCreateTaskSeries,
+  useUpdateTaskSeries,
+  useStopTaskSeries,
+  useDeleteTaskSeriesInstances,
+  useSyncTaskSeriesInstances,
+  useTaskSeriesInstances,
+  taskSeriesKeys,
+} from "./useTaskSeries";

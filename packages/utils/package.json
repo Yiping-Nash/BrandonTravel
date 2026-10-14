@@ -1,0 +1,78 @@
+{
+  "name": "@open-sunsama/utils",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "types": "./src/index.ts"
+    },
+    "./date": {
+      "import": "./src/date.ts",
+      "types": "./src/date.ts"
+    },
+    "./validation": {
+      "import": "./src/validation.ts",
+      "types": "./src/validation.ts"
+    },
+    "./errors": {
+      "import": "./src/errors.ts",
+      "types": "./src/errors.ts"
+    },
+    "./api-key": {
+      "import": "./src/api-key.ts",
+      "types": "./src/api-key.ts"
+    },
+    "./constants": {
+      "import": "./src/constants.ts",
+      "types": "./src/constants.ts"
+    },
+    "./travel-contract": {
+      "import": "./src/travel-contract.ts",
+      "types": "./src/travel-contract.ts"
+    },
+    "./travel-kernel-contract": {
+      "import": "./src/travel-kernel-contract.ts",
+      "types": "./src/travel-kernel-contract.ts"
+    },
+    "./travel-intelligence": {
+      "import": "./src/travel-intelligence.ts",
+      "types": "./src/travel-intelligence.ts"
+    },
+    "./travel-inspection": {
+      "import": "./src/travel-inspection.ts",
+      "types": "./src/travel-inspection.ts"
+    },
+    "./travel-weather-location": {
+      "import": "./src/travel-weather-location.ts",
+      "types": "./src/travel-weather-location.ts"
+    }
+  },
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "zod": "catalog:",
+    "@open-sunsama/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.0.0"
+  }
+}

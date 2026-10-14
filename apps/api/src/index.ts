@@ -1,0 +1,397 @@
+/**
+ * Open Sunsama API - Main Entry Point
+ *
+ * A Hono-based REST API for the Open Sunsama time blocking application.
+ * Supports both JWT and API key authentication.
+ */
+
+import "dotenv/config";
+import {httpUsage} from "./travel/http-usage.js";
+import { amapJsProxy } from "./travel/amap-js-routes.js";
+import { travelRouter } from "./travel/routes.js";
+import { createServer, type Server as HttpServer } from "http";
+import { Hono } from "hono";
+import { cors } from "hono/cors";
+import { logger } from "hono/logger";
+
+import { errorHandler, notFoundHandler } from "./middleware/error.js";
+import { authRouter } from "./routes/auth.js";
+import { tasksRouter } from "./routes/tasks.js";
+import { subtasksRouter } from "./routes/subtasks.js";
+import { timeBlocksRouter } from "./routes/time-blocks.js";
+import { apiKeysRouter } from "./routes/api-keys.js";
+import { notificationsRouter } from "./routes/notifications.js";
+import { uploadsRouter } from "./routes/uploads.js";
+import { attachmentsRouter } from "./routes/attachments.js";
+import { pushRouter } from "./routes/push.js";
+import { calendarOAuthRouter } from "./routes/calendar-oauth.js";
+import { calendarCaldavRouter } from "./routes/calendar-caldav.js";
+import { calendarAccountsRouter } from "./routes/calendar-accounts.js";
+import { calendarsRouter } from "./routes/calendars.js";
+import { calendarEventsRouter } from "./routes/calendar-events.js";
+import { releasesRouter } from "./routes/releases.js";
+import { taskSeriesRouter } from "./routes/task-series.js";
+import { ideasRouter } from "./routes/ideas.js";
+import { ideaSubtasksRouter } from "./routes/idea-subtasks.js";
+import { integrationsRouter } from "./routes/integrations.js";
+import { webhooksRouter } from "./routes/webhooks.js";
+import { oauthRouter } from "./routes/oauth.js";
+import { wellKnownRouter } from "./routes/well-known.js";
+import { createMcpRouter } from "./routes/mcp.js";
+import { registerAllWorkers } from "./workers/index.js";
+import {
+  stopPgBoss,
+  isPgBossRunning,
+  getPgBoss,
+  JOBS,
+  getPgBossInitError,
+} from "./lib/pgboss.js";
+import { initWebSocket, initRedisSubscriber } from "./lib/websocket/index.js";
+import { closeRedisConnections } from "./lib/redis.js";
+import { migrateDatabase } from "./lib/migrations.js";
+
+// Create Hono app
+const app = new Hono();
+
+// Global middleware
+app.use("*", logger());
+app.use("*", httpUsage);
+
+const allowedOrigins = process.env.CORS_ORIGIN?.split(",") || ["http://localhost:3000"];
+// OAuth discovery/token endpoints and the MCP endpoint are called by
+// third-party clients (including browser-based ones like MCP Inspector), so
+// they answer any origin. They never rely on cookies.
+const PUBLIC_CORS_PATHS = ["/.well-known/", "/oauth/token", "/oauth/register", "/oauth/revoke", "/mcp"];
+
+app.use(
+  "*",
+  cors({
+    origin: (origin, c) => {
+      const path = c.req.path;
+      if (PUBLIC_CORS_PATHS.some((p) => path === p || path.startsWith(p))) {
+        return origin || "*";
+      }
+      return allowedOrigins.includes(origin) ? origin : allowedOrigins[0];
+    },
+    allowHeaders: [
+      "Content-Type",
+      "Authorization",
+      "X-API-Key",
+      "Mcp-Session-Id",
+      "Mcp-Protocol-Version",
+      "Last-Event-ID",
+    ],
+    allowMethods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    exposeHeaders: ["X-Total-Count", "X-Page", "X-Limit", "Mcp-Session-Id", "WWW-Authenticate"],
+    maxAge: 86400,
+    credentials: true,
+  })
+);
+
+// Track server start time for health check grace period
+const serverStartTime = Date.now();
+const HEALTH_CHECK_GRACE_PERIOD_MS = 5 * 60 * 1000; // 5 minutes grace period
+
+// Health check endpoint with PG Boss stats
+// Returns unhealthy status if PG Boss is dead (triggers Railway restart)
+// BUT has a grace period during startup to allow initial deployment
+app.get("/health", async (c) => {
+  const pgBossRunning = isPgBossRunning();
+  const uptimeMs = Date.now() - serverStartTime;
+  const inGracePeriod = uptimeMs < HEALTH_CHECK_GRACE_PERIOD_MS;
+
+  // Determine overall health status
+  // If PG Boss should be running but isn't, mark as degraded
+  // BUT during grace period, always return healthy to allow deployment
+  const pgBossRequired = process.env.ROLLOVER_ENABLED !== "false";
+  const isHealthy = inGracePeriod || !pgBossRequired || pgBossRunning;
+
+  const healthData: Record<string, unknown> = {
+    status: isHealthy ? "ok" : "degraded",
+    timestamp: new Date().toISOString(),
+    version: process.env.npm_package_version || "0.0.0",
+    uptimeSeconds: Math.floor(uptimeMs / 1000),
+    inGracePeriod,
+  };
+
+  // Add PG Boss job queue stats if running
+  if (pgBossRunning) {
+    try {
+      const boss = await getPgBoss();
+      const pendingRolloverBatches = await boss.getQueueSize(
+        JOBS.USER_BATCH_ROLLOVER
+      );
+      healthData.jobs = {
+        pgBossRunning: true,
+        pendingRolloverBatches,
+      };
+    } catch {
+      healthData.jobs = {
+        pgBossRunning: true,
+        error: "Failed to get queue stats",
+      };
+    }
+  } else {
+    const initError = getPgBossInitError();
+    healthData.jobs = {
+      pgBossRunning: false,
+      initializationError:
+        initError?.message || "PG Boss not started (no error captured)",
+      databaseUrlSet: !!process.env.DATABASE_URL,
+    };
+  }
+
+  // Return 503 Service Unavailable if degraded AND past grace period
+  // This triggers Railway restart after the service has been running for a while
+  if (!isHealthy) {
+    return c.json(healthData, 503);
+  }
+
+  return c.json(healthData);
+});
+
+// API info endpoint
+app.get("/", (c) => {
+  return c.json({
+    name: "Open Sunsama API",
+    version: process.env.npm_package_version || "0.0.0",
+    docs: "/docs",
+    health: "/health",
+    endpoints: {
+      auth: "/auth",
+      tasks: "/tasks",
+      subtasks: "/tasks/:taskId/subtasks",
+      timeBlocks: "/time-blocks",
+      apiKeys: "/api-keys",
+      notifications: "/notifications",
+      uploads: "/uploads",
+      attachments: "/attachments",
+      push: "/push",
+      calendarOAuth: "/calendar/oauth",
+      calendarCaldav: "/calendar/caldav",
+      calendarAccounts: "/calendar/accounts",
+      calendars: "/calendars",
+      calendarEvents: "/calendar-events",
+      releases: "/releases",
+      ideas: "/ideas",
+      mcp: "/mcp",
+      oauth: "/oauth",
+    },
+  });
+});
+
+// Mount routes
+app.route("/amap-map", amapJsProxy);
+app.route("/travel", travelRouter);
+app.route("/auth", authRouter);
+app.route("/tasks", tasksRouter);
+app.route("/tasks", subtasksRouter); // Subtask routes under /tasks/:taskId/subtasks
+app.route("/time-blocks", timeBlocksRouter);
+app.route("/api-keys", apiKeysRouter);
+app.route("/notifications", notificationsRouter);
+app.route("/uploads", uploadsRouter);
+app.route("/attachments", attachmentsRouter);
+app.route("/push", pushRouter);
+app.route("/calendar/oauth", calendarOAuthRouter);
+app.route("/calendar/caldav", calendarCaldavRouter);
+app.route("/calendar/accounts", calendarAccountsRouter);
+app.route("/calendars", calendarsRouter);
+app.route("/calendar-events", calendarEventsRouter);
+app.route("/releases", releasesRouter);
+app.route("/task-series", taskSeriesRouter);
+app.route("/ideas", ideasRouter);
+app.route("/ideas", ideaSubtasksRouter); // /ideas/:ideaId/subtasks
+app.route("/integrations", integrationsRouter);
+// Public — no auth (provider webhooks). Identity verified by per-
+// channel state stored when we registered the watch.
+app.route("/webhooks", webhooksRouter);
+// Remote MCP server + the OAuth 2.1 authorization server that protects it.
+app.route("/.well-known", wellKnownRouter);
+app.route("/oauth", oauthRouter);
+app.route("/mcp", createMcpRouter((request) => app.fetch(request)));
+
+// Error handling
+app.onError(errorHandler);
+app.notFound(notFoundHandler);
+
+// Start server
+const port = parseInt(process.env.PORT || "3001", 10);
+
+// Reference to HTTP server for graceful shutdown
+let httpServer: HttpServer | null = null;
+
+/**
+ * Initialize and start the server
+ */
+async function startServer(): Promise<void> {
+  // Self-hosted Docker setups set this so a fresh database gets its tables
+  // before anything queries it. A failed migration stops the server.
+  if (process.env.MIGRATE_ON_START === "true") {
+    await migrateDatabase();
+  }
+
+  // Initialize PG Boss and register workers
+  try {
+    console.log("[Server] Starting worker registration...");
+    console.log("[Server] DATABASE_URL set:", !!process.env.DATABASE_URL);
+    console.log(
+      "[Server] ROLLOVER_ENABLED:",
+      process.env.ROLLOVER_ENABLED !== "false" ? "true" : "false"
+    );
+    if (process.env.BRANDON_LOCAL !== "true") await registerAllWorkers();
+    console.log("[Server] Worker registration complete");
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    const errorStack = error instanceof Error ? error.stack : undefined;
+    console.error("[Server] Failed to initialize workers:", errorMessage);
+    if (errorStack) {
+      console.error("[Server] Stack trace:", errorStack);
+    }
+    // Continue starting the server even if workers fail
+    // This allows the API to function without background jobs
+  }
+
+  // Create HTTP server from Hono app
+  httpServer = createServer(async (req, res) => {
+    // Convert Node.js IncomingHttpHeaders to a plain object for Request
+    const headers: Record<string, string> = {};
+    for (const [key, value] of Object.entries(req.headers)) {
+      if (typeof value === "string") {
+        headers[key] = value;
+      } else if (Array.isArray(value)) {
+        headers[key] = value.join(", ");
+      }
+    }
+
+    const response = await app.fetch(
+      new Request(`http://${req.headers.host}${req.url}`, {
+        method: req.method,
+        headers,
+        body: req.method !== "GET" && req.method !== "HEAD" ? req : undefined,
+        duplex: "half",
+      } as RequestInit)
+    );
+
+    res.statusCode = response.status;
+    response.headers.forEach((value, key) => {
+      res.setHeader(key, value);
+    });
+
+    if (response.body) {
+      const reader = response.body.getReader();
+      const pump = async () => {
+        const { done, value } = await reader.read();
+        if (done) {
+          res.end();
+          return;
+        }
+        res.write(value);
+        await pump();
+      };
+      await pump();
+    } else {
+      res.end();
+    }
+  });
+
+  // Initialize WebSocket server
+  // Redis is optional - without it, events are broadcast directly (single-server mode)
+  const redisConfigured = !!process.env.REDIS_URL;
+  let redisEnabled = false;
+
+  if (redisConfigured) {
+    redisEnabled = initRedisSubscriber();
+  }
+
+  // Always initialize WebSocket server
+  initWebSocket(httpServer);
+
+  const wsMode = redisEnabled
+    ? "Redis pub/sub"
+    : "direct broadcast (local dev)";
+  console.log(`[WS] WebSocket enabled with ${wsMode}`);
+
+  // Start listening
+  httpServer.listen(port, process.env.HOST || "127.0.0.1", () => {
+    console.log(`
+  ╔═══════════════════════════════════════════════════════════╗
+  ║                                                           ║
+  ║   Open Sunsama API                                        ║
+  ║                                                           ║
+  ║   Server running at http://localhost:${port}                 ║
+  ║                                                           ║
+  ║   Endpoints:                                              ║
+   ║   - GET  /           API info                             ║
+   ║   - GET  /health     Health check                         ║
+   ║   - POST /auth/*     Authentication                       ║
+   ║   - *    /tasks/*    Task management                      ║
+   ║   - *    /time-blocks/*  Time block management            ║
+   ║   - *    /api-keys/* API key management                   ║
+   ║   - *    /notifications/* Notification settings           ║
+   ║   - *    /uploads/*  File uploads                         ║
+   ║   - *    /attachments/* Attachment management             ║
+   ║   - *    /push/*    Push notifications                    ║
+   ║   - *    /calendar/* Calendar integration                 ║
+   ║   - *    /calendars  Calendar settings                    ║
+   ║   - *    /calendar-events Calendar events                 ║
+   ║   - *    /releases/*  Desktop releases                    ║
+   ║   - POST /mcp       Remote MCP (OAuth or API key)         ║
+   ║   - *    /oauth/*   OAuth 2.1 for MCP clients             ║
+  ║                                                           ║
+  ║   Background Jobs:                                        ║
+  ║   - Task Rollover (${process.env.ROLLOVER_ENABLED !== "false" ? "enabled" : "disabled"})                           ║
+  ║                                                           ║
+  ║   WebSocket:                                              ║
+  ║   - Enabled at /ws (${redisEnabled ? "Redis" : "direct"})                        ║
+  ║                                                           ║
+  ╚═══════════════════════════════════════════════════════════╝
+`);
+  });
+}
+
+// Graceful shutdown handlers
+async function gracefulShutdown(signal: string): Promise<void> {
+  console.log(`\n[Server] Received ${signal}, shutting down gracefully...`);
+
+  try {
+    // Close HTTP server (stops accepting new connections)
+    if (httpServer) {
+      httpServer.close();
+    }
+
+    // Stop background job processor
+    await stopPgBoss();
+
+    // Close Redis connections
+    await closeRedisConnections();
+
+    console.log("[Server] Cleanup complete");
+  } catch (error) {
+    console.error("[Server] Error during shutdown:", error);
+  }
+
+  process.exit(0);
+}
+
+process.on("SIGTERM", () => gracefulShutdown("SIGTERM"));
+process.on("SIGINT", () => gracefulShutdown("SIGINT"));
+
+// Handle uncaught errors
+process.on("uncaughtException", (error) => {
+  console.error("[Server] Uncaught exception:", error);
+  gracefulShutdown("uncaughtException");
+});
+
+process.on("unhandledRejection", (reason, promise) => {
+  console.error("[Server] Unhandled rejection at:", promise, "reason:", reason);
+});
+
+// Start the server
+startServer().catch((error) => {
+  console.error("[Server] Failed to start:", error);
+  process.exit(1);
+});
+
+export default app;
+export type AppType = typeof app;
+

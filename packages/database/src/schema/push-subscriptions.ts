@@ -1,0 +1,54 @@
+import { pgTable, uuid, varchar, timestamp, text, bigint, index } from 'drizzle-orm/pg-core';
+import { relations } from 'drizzle-orm';
+import { createInsertSchema, createSelectSchema } from 'drizzle-zod';
+import { z } from 'zod';
+import { users } from './users';
+
+/**
+ * Push subscriptions schema
+ * Stores web push notification subscription data for users
+ */
+export const pushSubscriptions = pgTable(
+  'push_subscriptions',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    userId: uuid('user_id').notNull().references(() => users.id, { onDelete: 'cascade' }),
+
+    // Push subscription data from the browser
+    endpoint: text('endpoint').notNull().unique(),
+    p256dhKey: text('p256dh_key').notNull(),
+    authKey: text('auth_key').notNull(),
+
+    // Optional expiration time from the browser
+    expirationTime: bigint('expiration_time', { mode: 'number' }),
+
+    // User agent info for debugging
+    userAgent: varchar('user_agent', { length: 500 }),
+
+    createdAt: timestamp('created_at').defaultNow().notNull(),
+  },
+  (table) => ({
+    // Push notifications are sent by looking up subscriptions for a user.
+    userIdIdx: index('push_subscriptions_user_id_idx').on(table.userId),
+  })
+);
+
+export const pushSubscriptionsRelations = relations(pushSubscriptions, ({ one }) => ({
+  user: one(users, {
+    fields: [pushSubscriptions.userId],
+    references: [users.id],
+  }),
+}));
+
+// Zod schemas for validation
+export const insertPushSubscriptionSchema = createInsertSchema(pushSubscriptions, {
+  endpoint: z.url({ error: 'Invalid endpoint URL' }),
+  p256dhKey: z.string().min(1, { error: 'p256dh key is required' }),
+  authKey: z.string().min(1, { error: 'Auth key is required' }),
+});
+
+export const selectPushSubscriptionSchema = createSelectSchema(pushSubscriptions);
+
+// Type exports
+export type PushSubscription = typeof pushSubscriptions.$inferSelect;
+export type NewPushSubscription = typeof pushSubscriptions.$inferInsert;

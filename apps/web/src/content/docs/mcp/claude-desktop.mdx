@@ -1,0 +1,67 @@
+export const frontmatter = {
+  title: "Claude Desktop Setup",
+  description:
+    "Connect Open Sunsama to Claude Desktop. Add it once as a connector with OAuth sign-in, or run the local MCP server with an API key.",
+  order: 5,
+  section: "mcp",
+};
+
+Claude Desktop uses the same connectors as claude.ai. If you've already added Open Sunsama on the web, it's available in the Desktop app too. There's nothing to install and no config file to edit.
+
+## Recommended: add the connector
+
+1. In Claude Desktop, open **Settings → Customize → Connectors** and click **Add**.
+2. Enter the name **Open Sunsama** and this MCP server URL:
+
+   ```
+   https://api.opensunsama.com/mcp
+   ```
+
+3. Click **Continue**, keep the detected sign-in settings, and click **Add**. Then click **Connect**, sign in to Open Sunsama, and click **Allow access**.
+
+The full walkthrough, including Team and Enterprise plans, is in [Claude setup](/docs/mcp/claude).
+
+## Alternative: local server with an API key
+
+Use this if your organization blocks custom connectors, or if you point Claude Desktop at a self-hosted instance that isn't reachable from the internet.
+
+1. In Open Sunsama, open **Settings → MCP**, expand **Use an API key instead**, and click **Generate key**.
+2. In Claude Desktop, open **Settings → Developer → Edit Config**. This opens `claude_desktop_config.json`:
+   - macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - Windows: `%APPDATA%\Claude\claude_desktop_config.json`
+3. Add the server:
+
+   ```json
+   {
+     "mcpServers": {
+       "open-sunsama": {
+         "command": "npx",
+         "args": ["-y", "@open-sunsama/mcp"],
+         "env": {
+           "OPENSUNSAMA_API_KEY": "os_your_key_here"
+         }
+       }
+     }
+   }
+   ```
+
+   For a self-hosted instance, add `"OPENSUNSAMA_API_URL": "https://api.your-domain.com"` to `env`.
+4. Quit and reopen Claude Desktop.
+
+The local server needs Node.js 18 or newer. To check it outside Claude, run `OPENSUNSAMA_API_KEY=os_your_key npx @open-sunsama/mcp`. It should print `Open Sunsama MCP Server running on stdio`.
+
+Logs are at `~/Library/Logs/Claude/mcp-server-open-sunsama.log` on macOS and `%APPDATA%\Claude\logs\mcp-server-open-sunsama.log` on Windows.
+
+## Example workflows
+
+```
+Good morning! What's on my schedule today? Move the low-priority items to tomorrow and block time for the P0 tasks.
+```
+
+```
+Create a task: call the dentist to reschedule, P2, tomorrow, 15 minutes.
+```
+
+```
+How did I do today? Roll my unfinished tasks to the top of tomorrow's list.
+```

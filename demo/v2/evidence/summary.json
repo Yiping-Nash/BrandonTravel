@@ -1,0 +1,67 @@
+{
+  "baseline": "d94769d",
+  "recordedAt": "2026-10-14T07:55:04.543Z",
+  "media": [
+    {
+      "name": "01-creating",
+      "duration": 12.41,
+      "width": 1440,
+      "height": 1000,
+      "bytes": 400227,
+      "metadata": "passed",
+      "seek": "passed"
+    },
+    {
+      "name": "02-formed",
+      "duration": 13.064,
+      "width": 1440,
+      "height": 1000,
+      "bytes": 467966,
+      "metadata": "passed",
+      "seek": "passed"
+    },
+    {
+      "name": "03-collaborating",
+      "duration": 23.984,
+      "width": 1440,
+      "height": 1000,
+      "bytes": 997023,
+      "metadata": "passed",
+      "seek": "passed"
+    }
+  ],
+  "modelRequests": 6,
+  "providerRequests": 0,
+  "confirmation": "scripted real UI click, not a human-user acceptance session",
+  "attempts": [
+    {
+      "traceId": "2105f20e344bc8b36b16ccfc61e5ee7d",
+      "requests": 2,
+      "status": "failed",
+      "outcome": "incomplete"
+    },
+    {
+      "traceId": "328b0f6b75723d414791a80072c35880",
+      "requests": 2,
+      "status": "done",
+      "outcome": "proposal_created",
+      "recordingIssue": "recording script asserted wrong overlap rule name; actual proposal applied"
+    },
+    {
+      "traceId": "32e3b3bdb676f70d5100d5abc8665a5e",
+      "requests": 2,
+      "status": "done",
+      "outcome": "proposal_created",
+      "proposalStatus": "applied"
+    }
+  ],
+  "planReadback": {
+    "before": 1,
+    "after": 2,
+    "onlyAuthorisedChange": true,
+    "overlapMinutes": 10
+  },
+  "fullUserAcceptance": "pending",
+  "gif": "not_created",
+  "mergedVideo": "not_created"
+}

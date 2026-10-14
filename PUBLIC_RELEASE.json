@@ -1,0 +1,10 @@
+{
+  "sourceBaseline": "d94769d",
+  "releasePurpose": "AI product manager portfolio",
+  "history": "New audited publication snapshot; original development history is retained privately and is not rewritten",
+  "dataOrigin": "Authored public-demo itineraries; not bookings or verified schedules",
+  "sourceChanges": "Documentation/media and optional fixture input for demo seed only; Domain Kernel and Agent preserved",
+  "modelRequestsForRecordedDemo": 6,
+  "providerRequestsForRecordedDemo": 0,
+  "licensing": "Upstream non-commercial license and attribution preserved"
+}

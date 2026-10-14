@@ -1,0 +1,60 @@
+export const frontmatter = {
+  title: "Cursor Setup",
+  description:
+    "Connect Open Sunsama to Cursor with one click. Sign in with OAuth and manage tasks while you code, with no API key to paste.",
+  order: 4,
+  section: "mcp",
+};
+
+Cursor connects to Open Sunsama's hosted MCP server and signs you in with OAuth. You can manage tasks and your calendar without leaving the editor.
+
+## Option 1: One-click install
+
+Open **Open Sunsama → Settings → MCP → Cursor** and click **Add to Cursor**. Cursor opens with the server pre-filled. Click **Install**, then **Connect**, and approve access in the browser window that opens.
+
+## Option 2: Add it to `mcp.json`
+
+1. Add this to `~/.cursor/mcp.json` for all projects, or `.cursor/mcp.json` for just one:
+
+   ```json
+   {
+     "mcpServers": {
+       "open-sunsama": {
+         "url": "https://api.opensunsama.com/mcp"
+       }
+     }
+   }
+   ```
+
+2. Open **Cursor Settings → MCP**. Next to **open-sunsama**, click **Connect** (it may say **Needs login**).
+3. Sign in to Open Sunsama in the browser and click **Allow access**. The server turns green and lists its tools.
+
+## Using Open Sunsama in Cursor
+
+In Agent chat, ask naturally or mention the server:
+
+```
+Create a P1 task: refactor the auth middleware, 2 hours, notes: move JWT validation to its own file
+```
+
+```
+What's on my schedule this afternoon? Do I have time for a 3-hour code review?
+```
+
+```
+Mark "Implement user auth" complete and block 10–11am tomorrow for its code review
+```
+
+### Create tasks from TODOs
+
+Select a `// TODO:` comment and ask: *"Create a P2 task from this TODO for Friday."*
+
+## Using an API key instead
+
+If you'd rather not use OAuth (for example on a shared machine or in CI), use the local server with an API key. See [Local server & API keys](/docs/mcp/local-server#cursor).
+
+## Troubleshooting
+
+- **Stuck on "Needs login"**: click **Connect** again. If the browser doesn't open, copy the link Cursor shows into your browser.
+- **Tools not appearing**: toggle the server off and on in **Cursor Settings → MCP**, or reload the window.
+- **Signed in to the wrong account**: in Open Sunsama, open **Settings → MCP → Connected apps**, disconnect Cursor, and connect again.

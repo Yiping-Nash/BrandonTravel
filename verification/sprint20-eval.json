@@ -1,0 +1,2217 @@
+{
+  "sprint": "B / Sprint20",
+  "trials": 30,
+  "passed": 22,
+  "failed": 8,
+  "modelRequests": 134,
+  "tokens": {
+    "input": 1475039,
+    "output": 20801
+  },
+  "reports": [
+    ".runtime\\evals\\1791736775654-live\\report.json",
+    ".runtime\\evals\\1791736903900-live\\report.json",
+    ".runtime\\evals\\1791736977846-live\\report.json",
+    ".runtime\\evals\\1791737022229-live\\report.json",
+    ".runtime\\evals\\1791737106846-live\\report.json",
+    ".runtime\\evals\\1791737304275-live\\report.json"
+  ],
+  "results": [
+    {
+      "scenarioId": "S04",
+      "trialId": "S04-1",
+      "agentRunId": "538d80f5-b3e4-4057-93c7-3fb886adfa11",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "146d081149148609ee5d3f6604740b46",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 72a78098-520f-47cd-8c46-f11861ba0cc6\n合成博物馆：2026-10-13 08:00 → 2026-10-13 10:00，停留90分钟\n合成下午景点：2026-10-13 12:00 → 2026-10-13 12:30，停留60分钟\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000001",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成博物馆",
+              "start": 480,
+              "title": "合成博物馆",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成博物馆",
+              "start": 600,
+              "title": "合成博物馆",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 720,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 750,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 57721,
+        "output": 811,
+        "usageAvailable": true
+      },
+      "modelRequests": 6,
+      "elapsedMs": 11910,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S05",
+      "trialId": "S05-1",
+      "agentRunId": "b648cfe2-d15e-403c-989c-c7e706b63339",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "b0eaf2e054a1485aa09be2896a185b3c",
+      "agentOutcome": "incomplete",
+      "agentStatus": "done",
+      "grader": {
+        "passed": false,
+        "failures": [
+          "候选应在第二天下午",
+          "未明确可行性判断"
+        ],
+        "graderVersion": "B1"
+      },
+      "answer": "本轮未完成。未生成修改建议，行程未修改；请澄清或重试。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 9,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 74821,
+        "output": 708,
+        "usageAvailable": true
+      },
+      "modelRequests": 6,
+      "elapsedMs": 9817,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S06",
+      "trialId": "S06-1",
+      "agentRunId": "db8f62fd-2893-4268-b75b-d3a5bf7a0f60",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "016b3be7224d5b94b4b07b2f0823d93d",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": false,
+        "failures": [
+          "最小空档未实质改善15分钟"
+        ],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 9f4a7999-7239-498f-b543-f54117df33d4\n合成景点甲：2026-10-14 10:00 → 2026-10-14 10:00，停留60分钟\n合成景点乙：2026-10-14 11:10 → 2026-10-14 11:20，停留60分钟\n合成景点丙：2026-10-14 12:20 → 2026-10-14 12:40，停留60分钟\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点乙",
+              "start": 670,
+              "title": "合成景点乙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点乙",
+              "start": 680,
+              "title": "合成景点乙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000003",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点丙",
+              "start": 740,
+              "title": "合成景点丙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000103",
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点丙",
+              "start": 760,
+              "title": "合成景点丙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000103",
+              "position": 3
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 9,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 63634,
+        "output": 763,
+        "usageAvailable": true
+      },
+      "modelRequests": 6,
+      "elapsedMs": 10551,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S07",
+      "trialId": "S07-1",
+      "agentRunId": "c7b70364-62a4-4941-ae0e-d4a1957b6e0b",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "24a6112d32240b2ee98e79fe3db787cc",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 a42585ad-0e6d-4964-8ff6-5494e61b43fa\n合成下午景点：2026-10-14 17:30 → 2026-10-14 16:00，停留90分钟\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000001",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 1050,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 960,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 55455,
+        "output": 640,
+        "usageAvailable": true
+      },
+      "modelRequests": 6,
+      "elapsedMs": 11014,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S08",
+      "trialId": "S08-1",
+      "agentRunId": "c2692c1a-f9b6-45e9-93e7-b902e5fa1d64",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "086632adb885399cf3c47286cddad30d",
+      "agentOutcome": "needs_clarification",
+      "agentStatus": "done",
+      "grader": {
+        "passed": false,
+        "failures": [
+          "未读取真实领域评估"
+        ],
+        "graderVersion": "B1"
+      },
+      "answer": "第二天（2026-10-14，周三）的景点甲、乙各需 90 分钟；两景点相距 50 公里，当前驾车估计 60 分钟。因此完整安排至少需要 240 分钟，而 14:00–16:00 只有 180 分钟，缺口为 60 分钟。\n\n在不缩短参观时间且不能把路程视为 0 的条件下，明确无法容纳。你希望延长到至少 17:00、改为不同日期，还是选择其他调整？确认前不会修改行程。\n本轮未生成修改建议，行程未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 56478,
+        "output": 1035,
+        "usageAvailable": true
+      },
+      "modelRequests": 6,
+      "elapsedMs": 13001,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S04",
+      "trialId": "S04-1",
+      "agentRunId": "3fb5873b-10ed-4b2e-b3fd-17cec8605602",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "71bd9bedccbf985d7e00f186b707860b",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 9a498ae7-853b-4fe7-b5ca-31d4249e461c\n合成博物馆：2026-10-13 08:00 → 2026-10-13 10:00，停留90分钟\n合成下午景点：2026-10-13 12:00 → 2026-10-13 12:30，停留60分钟\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000001",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成博物馆",
+              "start": 480,
+              "title": "合成博物馆",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成博物馆",
+              "start": 600,
+              "title": "合成博物馆",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 720,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 750,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 47122,
+        "output": 714,
+        "usageAvailable": true
+      },
+      "modelRequests": 5,
+      "elapsedMs": 11435,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S05",
+      "trialId": "S05-1",
+      "agentRunId": "2c17a5e3-703d-4566-9c79-69fbae95cf8e",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "4fbb96e660342db57ad356aa92ffa710",
+      "agentOutcome": "incomplete",
+      "agentStatus": "done",
+      "grader": {
+        "passed": false,
+        "failures": [
+          "候选应在第二天下午",
+          "候选不可行或未知",
+          "未明确可行性判断"
+        ],
+        "graderVersion": "B1"
+      },
+      "answer": "本轮未完成。未生成修改建议，行程未修改；请澄清或重试。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 9,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 102472,
+        "output": 861,
+        "usageAvailable": true
+      },
+      "modelRequests": 6,
+      "elapsedMs": 11093,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S06",
+      "trialId": "S06-1",
+      "agentRunId": "100c7c7a-4123-4019-b519-c5ba8129558f",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "40680c39cf4872d796404e32fef6014f",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 c0c778a7-6437-48c6-97fd-84b4b3df404c\n合成景点乙：2026-10-14 11:10 → 2026-10-14 11:30，停留60分钟\n合成景点丙：2026-10-14 12:20 → 2026-10-14 13:00，停留60分钟\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点乙",
+              "start": 670,
+              "title": "合成景点乙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点乙",
+              "start": 690,
+              "title": "合成景点乙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000003",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点丙",
+              "start": 740,
+              "title": "合成景点丙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000103",
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点丙",
+              "start": 780,
+              "title": "合成景点丙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000103",
+              "position": 3
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 9,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 46717,
+        "output": 690,
+        "usageAvailable": true
+      },
+      "modelRequests": 4,
+      "elapsedMs": 10983,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S07",
+      "trialId": "S07-1",
+      "agentRunId": "a18e8e21-a0f3-4f99-8603-18f0b2a8d5e7",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "34e1489ff37bc5a8610c2b4dee8da6f9",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 f412ec08-86da-49f6-8562-eecc1e872863\n合成下午景点：2026-10-14 17:30 → 2026-10-14 16:00，停留90分钟\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000001",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 1050,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 960,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 38099,
+        "output": 511,
+        "usageAvailable": true
+      },
+      "modelRequests": 4,
+      "elapsedMs": 8667,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S08",
+      "trialId": "S08-1",
+      "agentRunId": "335c6b70-e244-4739-aa28-48e4845ebc02",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "6d5af0223aed442ffd64db5588e68e9e",
+      "agentOutcome": "needs_clarification",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "第二天（2026-10-14）两景点各需90分钟，驾车还需60分钟，因此共需至少240分钟。若严格限定为14:00–16:00，窗口只有120分钟，数学上不可能；即使允许从14:00连续安排到18:00，也刚好无休息余量。请确认：A. 将“下午两点到四点”理解为14:00开始、最晚18:00结束且接受零缓冲；B. 保留两段90分钟，把其中一个景点改到其他日期/时段。当前行程已把它们安排在14:00–15:30和16:30–18:00，车程60分钟正好衔接但无额外休息。不会缩短参观时间。\n本轮未生成修改建议，行程未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 30700,
+        "output": 508,
+        "usageAvailable": true
+      },
+      "modelRequests": 3,
+      "elapsedMs": 7610,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S05",
+      "trialId": "S05-1",
+      "agentRunId": "7cc9a650-861a-44d3-b59d-ff2480b050ce",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "f2bc45898df646ec479a5a71aa4156c0",
+      "agentOutcome": "incomplete",
+      "agentStatus": "done",
+      "grader": {
+        "passed": false,
+        "failures": [
+          "候选应在第二天下午",
+          "候选不可行或未知",
+          "未明确可行性判断"
+        ],
+        "graderVersion": "B1"
+      },
+      "answer": "本轮未完成。未生成修改建议，行程未修改；请澄清或重试。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 9,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 91332,
+        "output": 697,
+        "usageAvailable": true
+      },
+      "modelRequests": 6,
+      "elapsedMs": 10117,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S05",
+      "trialId": "S05-1",
+      "agentRunId": "a505ed9f-0e1f-4214-bb77-df009f754a04",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "3dc01fe566f4069dd1459f14868bcc62",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": false,
+        "failures": [
+          "未明确可行性判断"
+        ],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 7190682d-5f42-4e14-8308-f44c9ed38384\n双塔寺：2026-10-14 待安排 → 2026-10-14 13:00，停留90分钟\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 9,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 45757,
+        "output": 525,
+        "usageAvailable": true
+      },
+      "modelRequests": 4,
+      "elapsedMs": 7891,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S04",
+      "trialId": "S04-1",
+      "agentRunId": "a6953fe7-b61a-499c-867b-4e73e7d3a3c8",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "dbc6291acb2cee4667d5a0ee20fe3918",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 236cac97-971f-4804-8611-f59bf5f22638\n合成博物馆：2026-10-13 08:00 → 2026-10-13 10:00，停留90分钟\n合成下午景点：2026-10-13 12:00 → 2026-10-13 12:30，停留60分钟\n已检查的营业、路程和重叠条件下，候选安排可行；未检查/UNKNOWN资料不代表已验证。\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000001",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成博物馆",
+              "start": 480,
+              "title": "合成博物馆",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成博物馆",
+              "start": 600,
+              "title": "合成博物馆",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 720,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 750,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 38741,
+        "output": 608,
+        "usageAvailable": true
+      },
+      "modelRequests": 4,
+      "elapsedMs": 9297,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S05",
+      "trialId": "S05-1",
+      "agentRunId": "b51602dd-ff07-43d5-a416-33d1c55f41e7",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "b6332209f03883245f2f78322b24f108",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 1e62afc9-dd2c-4c1c-a1fb-d42bd657626f\n双塔寺：2026-10-14 待安排 → 2026-10-14 13:15，停留90分钟\n已检查的营业、路程和重叠条件下，候选安排可行；未检查/UNKNOWN资料不代表已验证。\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 9,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 53764,
+        "output": 601,
+        "usageAvailable": true
+      },
+      "modelRequests": 5,
+      "elapsedMs": 10922,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S06",
+      "trialId": "S06-1",
+      "agentRunId": "10495cc0-4064-4960-9951-f4d95c3873f1",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "36708d911382159c1c9850729452e136",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 c2031517-32a6-493d-bee3-a25d3da54e0a\n合成景点乙：2026-10-14 11:10 → 2026-10-14 11:40，停留60分钟\n合成景点丙：2026-10-14 12:20 → 2026-10-14 13:20，停留60分钟\n已检查的营业、路程和重叠条件下，候选安排可行；未检查/UNKNOWN资料不代表已验证。\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点乙",
+              "start": 670,
+              "title": "合成景点乙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点乙",
+              "start": 700,
+              "title": "合成景点乙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000003",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点丙",
+              "start": 740,
+              "title": "合成景点丙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000103",
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点丙",
+              "start": 800,
+              "title": "合成景点丙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000103",
+              "position": 3
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 9,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 46966,
+        "output": 741,
+        "usageAvailable": true
+      },
+      "modelRequests": 4,
+      "elapsedMs": 9770,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S07",
+      "trialId": "S07-1",
+      "agentRunId": "c69e983b-21a2-4724-b928-efad2810959b",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "84be1d01ad84fdd8e447dd9a7999dc60",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 9acb2665-d69a-4b26-8dc7-0d4ac23b1298\n合成下午景点：2026-10-14 17:30 → 2026-10-14 15:00，停留90分钟\n已检查的营业、路程和重叠条件下，候选安排可行；未检查/UNKNOWN资料不代表已验证。\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000001",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 1050,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 900,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 38218,
+        "output": 436,
+        "usageAvailable": true
+      },
+      "modelRequests": 4,
+      "elapsedMs": 7681,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S08",
+      "trialId": "S08-1",
+      "agentRunId": "a36b6c57-0af7-4df4-bfa4-a808fd36eea3",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "058f4dc90b2295fde01c11dd0a9fddc3",
+      "agentOutcome": "incomplete",
+      "agentStatus": "done",
+      "grader": {
+        "passed": false,
+        "failures": [
+          "未解释不可行",
+          "未使用路线和停留数值解释"
+        ],
+        "graderVersion": "B1"
+      },
+      "answer": "本轮未完成。未生成修改建议，行程未修改；请澄清或重试。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 63027,
+        "output": 1590,
+        "usageAvailable": true
+      },
+      "modelRequests": 6,
+      "elapsedMs": 17063,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S04",
+      "trialId": "S04-2",
+      "agentRunId": "981f4190-6742-431d-ae0c-7845bccf5396",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "f6cc346bfb594ecc9c5c49236c3c6a16",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 08358c7a-bf5f-4ef8-adcb-6398143442d5\n合成博物馆：2026-10-13 08:00 → 2026-10-13 10:05，停留90分钟\n合成下午景点：2026-10-13 12:00 → 2026-10-13 13:00，停留60分钟\n已检查的营业、路程和重叠条件下，候选安排可行；未检查/UNKNOWN资料不代表已验证。\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000001",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成博物馆",
+              "start": 480,
+              "title": "合成博物馆",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成博物馆",
+              "start": 605,
+              "title": "合成博物馆",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 720,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 780,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 38696,
+        "output": 616,
+        "usageAvailable": true
+      },
+      "modelRequests": 4,
+      "elapsedMs": 9448,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S05",
+      "trialId": "S05-2",
+      "agentRunId": "d1ce1706-88bb-45f1-a24e-84c44c3d336f",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "f01bd426e5f7a6cf455f2ca15a946bf4",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 a07da440-a927-49d0-824f-5e904cc328ed\n双塔寺：2026-10-14 待安排 → 2026-10-14 13:30，停留90分钟\n已检查的营业、路程和重叠条件下，候选安排可行；未检查/UNKNOWN资料不代表已验证。\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 9,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 45770,
+        "output": 576,
+        "usageAvailable": true
+      },
+      "modelRequests": 4,
+      "elapsedMs": 8731,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S06",
+      "trialId": "S06-2",
+      "agentRunId": "6c195556-1972-4036-9701-b7afed2c7055",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "672cb5aa50b33a447fa4aa903bf6ba29",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 5604fc07-155a-447b-8bc6-5831bf008183\n合成景点乙：2026-10-14 11:10 → 2026-10-14 12:00，停留60分钟\n合成景点丙：2026-10-14 12:20 → 2026-10-14 14:00，停留60分钟\n已检查的营业、路程和重叠条件下，候选安排可行；未检查/UNKNOWN资料不代表已验证。\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点乙",
+              "start": 670,
+              "title": "合成景点乙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点乙",
+              "start": 720,
+              "title": "合成景点乙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000003",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点丙",
+              "start": 740,
+              "title": "合成景点丙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000103",
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点丙",
+              "start": 840,
+              "title": "合成景点丙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000103",
+              "position": 3
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 9,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 46957,
+        "output": 649,
+        "usageAvailable": true
+      },
+      "modelRequests": 4,
+      "elapsedMs": 9769,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S07",
+      "trialId": "S07-2",
+      "agentRunId": "cec7e439-5f8c-4013-8b55-5d84719aba6c",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "253f90e01ebd27c9c91c07e55d44a315",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 fffc1ccd-11cd-4f23-8f0a-dc252e756896\n合成下午景点：2026-10-14 17:30 → 2026-10-14 16:00，停留90分钟\n已检查的营业、路程和重叠条件下，候选安排可行；未检查/UNKNOWN资料不代表已验证。\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000001",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 1050,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 960,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 38204,
+        "output": 548,
+        "usageAvailable": true
+      },
+      "modelRequests": 4,
+      "elapsedMs": 8042,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S08",
+      "trialId": "S08-2",
+      "agentRunId": "bdda8563-ed88-48ce-9c40-5c2eb9df184d",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "14fc483d8b2aa426480b6daf804fec86",
+      "agentOutcome": "answered",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "第二天（10月14日）下午2–4点无法同时安排两个90分钟景点：两段参观共需3小时，而窗口只有2小时；即使不计交通也至少缺少60分钟。当前已排版本是甲14:00–15:30、乙16:00–17:30，中间预留恰好1小时车程（约50公里）。在“不缩短参观”和“相距很远”两项条件下，数学上不存在可行方案。若可改为三小时窗口、减少一个景点或允许延长车程，我可以重新预览并提案。\n本轮未生成修改建议，行程未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 17667,
+        "output": 207,
+        "usageAvailable": true
+      },
+      "modelRequests": 2,
+      "elapsedMs": 4019,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S04",
+      "trialId": "S04-3",
+      "agentRunId": "be0ed7fd-28e6-4207-8c8f-b1f309ff080a",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "3856fb933726a63450b61d3db6dba1a2",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 13b3da7c-4795-49bf-bbd5-044edd443afc\n合成博物馆：2026-10-13 08:00 → 2026-10-13 10:00，停留90分钟\n合成下午景点：2026-10-13 12:00 → 2026-10-13 12:30，停留60分钟\n已检查的营业、路程和重叠条件下，候选安排可行；未检查/UNKNOWN资料不代表已验证。\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000001",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成博物馆",
+              "start": 480,
+              "title": "合成博物馆",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成博物馆",
+              "start": 600,
+              "title": "合成博物馆",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 720,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-13",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 750,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 47270,
+        "output": 742,
+        "usageAvailable": true
+      },
+      "modelRequests": 5,
+      "elapsedMs": 10549,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S05",
+      "trialId": "S05-3",
+      "agentRunId": "0eb2ef00-2adb-4ce2-8dcc-724509bd9b0b",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "10ff077475cb76e34845e85adb4a71cd",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 533be9ae-c3e8-4c61-b564-317a5e3f788c\n双塔寺：2026-10-14 待安排 → 2026-10-14 13:00，停留90分钟\n已检查的营业、路程和重叠条件下，候选安排可行；未检查/UNKNOWN资料不代表已验证。\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 9,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 45778,
+        "output": 551,
+        "usageAvailable": true
+      },
+      "modelRequests": 4,
+      "elapsedMs": 8177,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S06",
+      "trialId": "S06-3",
+      "agentRunId": "eb9f17b4-bb60-428f-b2e4-296506cee252",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "357414ee708534a3ca62751fd25da8d1",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 3c8458a2-02c8-45fe-bd72-f062f4a2c88a\n合成景点乙：2026-10-14 11:10 → 2026-10-14 11:45，停留60分钟\n合成景点丙：2026-10-14 12:20 → 2026-10-14 13:30，停留60分钟\n已检查的营业、路程和重叠条件下，候选安排可行；未检查/UNKNOWN资料不代表已验证。\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点乙",
+              "start": 670,
+              "title": "合成景点乙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000002",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点乙",
+              "start": 705,
+              "title": "合成景点乙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000102",
+              "position": 2
+            }
+          },
+          {
+            "id": "00000000-0000-4000-8000-000000000003",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点丙",
+              "start": 740,
+              "title": "合成景点丙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000103",
+              "position": 3
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成景点丙",
+              "start": 810,
+              "title": "合成景点丙",
+              "locked": false,
+              "duration": 60,
+              "entityId": "00000000-0000-4000-8000-000000000103",
+              "position": 3
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 9,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 64053,
+        "output": 995,
+        "usageAvailable": true
+      },
+      "modelRequests": 5,
+      "elapsedMs": 12594,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S07",
+      "trialId": "S07-3",
+      "agentRunId": "19e4c247-1986-4241-90bd-c13f320c9c8e",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "5f50a3cd1f609da7d2bf2725e4db3852",
+      "agentOutcome": "proposal_created",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已验证修改建议 97a0113d-0ab5-49c4-889a-4c07383f57db\n合成下午景点：2026-10-14 17:30 → 2026-10-14 16:30，停留90分钟\n已检查的营业、路程和重叠条件下，候选安排可行；未检查/UNKNOWN资料不代表已验证。\n待网页确认，行程尚未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [
+          {
+            "id": "00000000-0000-4000-8000-000000000001",
+            "before": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 1050,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            },
+            "after": {
+              "id": "00000000-0000-4000-8000-000000000001",
+              "date": "2026-10-14",
+              "notes": "虚构评测资料，不是预订",
+              "place": "合成下午景点",
+              "start": 990,
+              "title": "合成下午景点",
+              "locked": false,
+              "duration": 90,
+              "entityId": "00000000-0000-4000-8000-000000000101",
+              "position": 1
+            }
+          }
+        ],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 2,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 46602,
+        "output": 755,
+        "usageAvailable": true
+      },
+      "modelRequests": 5,
+      "elapsedMs": 10712,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S08",
+      "trialId": "S08-3",
+      "agentRunId": "f2f4ec55-9324-488b-b7de-42266426f134",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "f969a2cc556946a97825ad00a2f46f1f",
+      "agentOutcome": "incomplete",
+      "agentStatus": "done",
+      "grader": {
+        "passed": false,
+        "failures": [
+          "未解释不可行",
+          "未使用路线和停留数值解释"
+        ],
+        "graderVersion": "B1"
+      },
+      "answer": "本轮未完成。未生成修改建议，行程未修改；请澄清或重试。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 79977,
+        "output": 1561,
+        "usageAvailable": true
+      },
+      "modelRequests": 6,
+      "elapsedMs": 18983,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S08",
+      "trialId": "S08-1",
+      "agentRunId": "e03ad6d6-80bb-4c56-839b-0d481054b3bf",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "bb436c50fe15bea96827725acea1c4b1",
+      "agentOutcome": "needs_clarification",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已核对第二天（10月14日，周三）14:00–16:00 的实际安排：\n\n- 景点甲：14:00–15:30（90分钟）\n- 路程：驾车约50公里 / 60分钟（高德当前估计）\n- 景点乙：16:30–18:00（90分钟）\n\n两个景点各自参观满90分钟、且都在14:00–16:00“之间”结束，与1小时车程相互矛盾；在不能缩短任何一方的情况下，无法把两段都压进这2小时。\n\n可选方案：\nA. 保持原时长，但允许整体时段延伸到18:00（即维持现状，无需改动）\nB. 改为上午更早开始，例如10:00–11:30 甲 + 12:30–14:00 乙（两景点均10:00开门，需确认你能接受午餐时间调整）\nC. 将其中一个景点移到其他日期\n\n请告诉我选哪个，我再做预览和提案。\n本轮未生成修改建议，行程未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 17667,
+        "output": 331,
+        "usageAvailable": true
+      },
+      "modelRequests": 2,
+      "elapsedMs": 5374,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S08",
+      "trialId": "S08-2",
+      "agentRunId": "32507d6e-8d91-464f-8b95-81779da06020",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "5fdfa3d8ae7ef2c2bcad0a9a611c62e7",
+      "agentOutcome": "answered",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "已读取第二天（2026-10-14，周三）的权威安排：\n\n- 合成远景点甲：14:00–15:30（90分钟）\n- 合成远景点乙：16:30–18:00（90分钟）\n- 两地车程估计：约60分钟（50公里）\n\n结论：您设定的“下午两点到四点”窗口无法容纳这两个各90分钟的景点。仅参观时间就需要180分钟，超过120分钟；即使忽略路程也不够，再加上60分钟车程后，完整行程实际需要14:00至18:00，且目前刚好衔接、没有额外休息缓冲。两处开放时间均为10:00–22:00，因此不是营业时间限制。\n\n在不缩短任一景点的前提下，可行条件是至少满足其一：\n1. 把该组活动延长为14:00–18:00（保持当前安排即可）；\n2. 将其中一个景点移到当天其他时段或其他日期；\n3. 只保留一个景点在14:00–16:00内。\n\n天气信息目前未知，但不影响上述时长计算。本轮未修改行程。若您希望我提出“把乙移到其他时段/日期”或“只保留一个景点”的具体方案，请告诉我选择哪一项。\n本轮未生成修改建议，行程未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 17699,
+        "output": 419,
+        "usageAvailable": true
+      },
+      "modelRequests": 2,
+      "elapsedMs": 6154,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    },
+    {
+      "scenarioId": "S08",
+      "trialId": "S08-3",
+      "agentRunId": "8176a580-6ae2-4172-ad5f-6a55592dab0b",
+      "provider": "qwen-live",
+      "thinking": false,
+      "graderVersion": "1",
+      "agentContractVersion": "sprint20-v1",
+      "fixtureClock": "2026-10-12T04:00:00.000Z",
+      "traceId": "7ca5b364f3eb2095a9ff484d83bd83b3",
+      "agentOutcome": "needs_clarification",
+      "agentStatus": "done",
+      "grader": {
+        "passed": true,
+        "failures": [],
+        "graderVersion": "B1"
+      },
+      "answer": "第二天（10-14）下午 14:00–16:00 无法同时安排两个相距很远的景点且保持各自 90 分钟不变。\n\n已读取的权威事实：\n- 合成远景点甲：14:00–15:30（90 分钟）\n- 两地驾车路程：约 50 公里、60 分钟\n- 合成远景点乙若紧随其后：最早 16:30 开始，至 18:00 结束\n\n因此两站合计需要 90 + 60 + 90 = **240 分钟纯活动**，再加交通后总跨度为 **300 分钟（5 小时）**；而 14:00–16:00 只有 120 分钟。即使把甲提前到 10:00（营业时间开始），乙也至少要到 13:30 才能开始，仍不可能让两段参观都落在 14:00–16:00 内。\n\n我不会通过缩短停留、删除活动或把 60 分钟路程当作零来制造“可行”结论。请确认你希望：\nA. 保留两项各 90 分钟，但将下午窗口放宽至 14:00–19:00；\nB. 只选其中一个景点在 14:00–16:00；\nC. 改为其他日期/上午时段。\n本轮未生成修改建议，行程未修改。",
+      "diff": {
+        "range": {
+          "before": [
+            "2026-10-13",
+            "2026-10-17"
+          ],
+          "after": [
+            "2026-10-13",
+            "2026-10-17"
+          ]
+        },
+        "activities": [],
+        "added": []
+      },
+      "versions": {
+        "before": 1,
+        "after": 1,
+        "facts": 4,
+        "engine": "1.2.0",
+        "policy": "1.0.0"
+      },
+      "tokens": {
+        "input": 17675,
+        "output": 412,
+        "usageAvailable": true
+      },
+      "modelRequests": 2,
+      "elapsedMs": 6114,
+      "exportStatus": "uploaded",
+      "annotationStatus": "uploaded"
+    }
+  ],
+  "finalRepeat": "S04-S07各3次通过；修复结束验证后S08另3次通过",
+  "quality": {
+    "test": "490 PASS / 2 existing SKIP",
+    "typecheck": "PASS",
+    "lint": "PASS, existing warnings",
+    "build": "PASS"
+  },
+  "realProviders": {
+    "amap": 0,
+    "openMeteo": 0,
+    "webSearch": 0
+  },
+  "userQualitativeAcceptance": "S06轻松程度待用户试用"
+}

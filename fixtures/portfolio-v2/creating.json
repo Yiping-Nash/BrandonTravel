@@ -1,0 +1,97 @@
+{
+  "title": "山西慢游 · 正在创建 · 公开演示版本",
+  "startDate": "2026-10-22",
+  "endDate": "2026-10-27",
+  "activities": [
+    {
+      "title": "北京 → 大同 · 高铁",
+      "notes": "公开演示版本；未预订，交通时刻为展示设定，地点、营业时间与路程尚未核验。",
+      "place": "",
+      "date": "2026-10-22",
+      "start": 643,
+      "duration": 112,
+      "locked": true,
+      "position": 0
+    },
+    {
+      "title": "酒店寄存行李，找点吃的",
+      "notes": "公开演示版本；未预订，交通时刻为展示设定，地点、营业时间与路程尚未核验。",
+      "place": "",
+      "date": "2026-10-22",
+      "start": 810,
+      "duration": 65,
+      "locked": false,
+      "position": 1
+    },
+    {
+      "title": "刀削面晚餐",
+      "notes": "公开演示版本；未预订，交通时刻为展示设定，地点、营业时间与路程尚未核验。",
+      "place": "",
+      "date": "2026-10-22",
+      "start": 1110,
+      "duration": 50,
+      "locked": false,
+      "position": 2
+    },
+    {
+      "title": "平遥古城 → 北京 · 高铁",
+      "notes": "公开演示版本；未预订，交通时刻为展示设定，地点、营业时间与路程尚未核验。",
+      "place": "",
+      "date": "2026-10-27",
+      "start": 926,
+      "duration": 232,
+      "locked": true,
+      "position": 3
+    },
+    {
+      "title": "云冈石窟",
+      "notes": "公开演示版本；未预订，交通时刻为展示设定，地点、营业时间与路程尚未核验。 想放在第二天，但还没决定出发时间。",
+      "place": "",
+      "date": "2026-10-23",
+      "start": null,
+      "duration": 170,
+      "locked": false,
+      "position": 4
+    },
+    {
+      "title": "山西博物院",
+      "notes": "公开演示版本；未预订，交通时刻为展示设定，地点、营业时间与路程尚未核验。 先列进想去清单。",
+      "place": "",
+      "date": null,
+      "start": null,
+      "duration": 135,
+      "locked": false,
+      "position": 5
+    },
+    {
+      "title": "大同古城走走",
+      "notes": "公开演示版本；未预订，交通时刻为展示设定，地点、营业时间与路程尚未核验。",
+      "place": "",
+      "date": null,
+      "start": null,
+      "duration": 100,
+      "locked": false,
+      "position": 6
+    },
+    {
+      "title": "平遥古城慢慢逛",
+      "notes": "公开演示版本；未预订，交通时刻为展示设定，地点、营业时间与路程尚未核验。",
+      "place": "",
+      "date": null,
+      "start": null,
+      "duration": 155,
+      "locked": false,
+      "position": 7
+    },
+    {
+      "title": "备选：古城夜景",
+      "notes": "公开演示版本；未预订，交通时刻为展示设定，地点、营业时间与路程尚未核验。",
+      "place": "",
+      "date": null,
+      "start": null,
+      "duration": 50,
+      "locked": false,
+      "position": 8
+    }
+  ]
+}

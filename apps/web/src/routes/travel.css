@@ -1,0 +1,222 @@
+.travel-app {
+  min-height: 100vh;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  padding: 0 24px 24px;
+}
+.travel-app header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  min-height: 64px;
+  border-bottom: 1px solid hsl(var(--border));
+}
+.travel-app header strong {
+  font-size: 20px;
+}
+.travel-app header span {
+  flex: 1;
+  font-size: 13px;
+  color: hsl(var(--muted-foreground));
+}
+.travel-toolbar,
+.travel-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.travel-heading {
+  justify-content: space-between;
+}
+.travel-heading h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.travel-heading p,
+.travel-app aside > p,
+.travel-app footer {
+  color: hsl(var(--muted-foreground));
+  font-size: 13px;
+}
+.travel-app select {
+  border: 1px solid hsl(var(--border));
+  border-radius: 6px;
+  padding: 8px;
+  max-width: 100%;
+  background: hsl(var(--background));
+}
+.travel-workspace {
+  display: grid;
+  grid-template-columns: 270px minmax(0, 1fr);
+  gap: 24px;
+}
+.travel-workspace h2,
+.travel-proposals h2,
+.travel-day-list h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.travel-workspace aside article,
+.travel-proposals article {
+  border: 1px solid hsl(var(--border));
+  border-radius: 8px;
+  padding: 12px;
+  margin: 12px 0;
+  background: hsl(var(--card));
+}
+.travel-card-title {
+  text-align: left;
+  font-size: 14px;
+  line-height: 20px;
+}
+.travel-workspace article p {
+  font-size: 12px;
+  color: hsl(var(--muted-foreground));
+  margin: 8px 0;
+}
+.travel-drag {
+  font-size: 12px;
+  margin-top: 8px;
+  color: hsl(var(--primary));
+  cursor: grab;
+}
+.travel-grid {
+  height: 640px;
+  border: 1px solid hsl(var(--border));
+  border-radius: 8px;
+  overflow: hidden;
+}
+.travel-grid > div {
+  height: 100%;
+}
+.travel-error {
+  padding: 12px;
+  color: #b42318;
+  background: #fff1f0;
+  border-radius: 6px;
+}
+.travel-conflicts {
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #e6b455;
+  border-radius: 6px;
+}
+.travel-day-list {
+  margin-top: 20px;
+}
+.travel-day-list > button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid hsl(var(--border));
+  font-size: 13px;
+}
+.travel-proposals {
+  margin-top: 24px;
+}
+.travel-diff {
+  background: hsl(var(--muted));
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.travel-form {
+  display: grid;
+  gap: 12px;
+}
+.travel-form label {
+  display: grid;
+  gap: 5px;
+  font-size: 13px;
+}
+.travel-form textarea {
+  min-height: 80px;
+  padding: 8px;
+  border: 1px solid hsl(var(--border));
+  border-radius: 6px;
+}
+.travel-form > div {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.travel-app footer {
+  margin-top: 32px;
+}
+.travel-proposals article > button {
+  margin: 12px 8px 0 0;
+}
+@media (max-width: 767px) {
+  .travel-app {
+    padding: 0 12px 20px;
+  }
+  .travel-app header {
+    gap: 12px;
+  }
+  .travel-app header span {
+    display: none;
+  }
+  .travel-app header strong {
+    flex: 1;
+  }
+  .travel-workspace {
+    display: flex;
+    flex-direction: column;
+  }
+  .travel-workspace aside {
+    max-height: 300px;
+    overflow: auto;
+  }
+  .travel-grid {
+    height: 560px;
+    margin-top: 12px;
+  }
+  .travel-heading h1 {
+    font-size: 20px;
+  }
+  .travel-toolbar {
+    gap: 8px;
+  }
+  .travel-day-list > button {
+    min-height: 44px;
+  }
+  .travel-proposals {
+    margin-top: 24px;
+  }
+}
+
+.travel-workspace > aside {
+  height: 640px;
+  min-height: 640px;
+  max-height: 640px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border: 1px dashed hsl(var(--border));
+  border-radius: 8px;
+  padding: 10px;
+}
+.travel-proposals-history {
+  margin-top: 18px;
+  border-top: 1px solid hsl(var(--border));
+  padding-top: 12px;
+}
+.travel-proposals-history > summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.travel-proposals h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  .travel-workspace > aside {
+    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+  }
+}
