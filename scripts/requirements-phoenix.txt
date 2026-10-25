@@ -1,2 +1,0 @@
-# Windows Python 3.13, isolated project venv only. Primary server version pinned.
-arize-phoenix==20.21.0

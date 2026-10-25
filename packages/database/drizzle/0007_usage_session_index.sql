@@ -1,1 +1,0 @@
-CREATE INDEX IF NOT EXISTS "travel_api_usage_session_idx" ON "travel_api_usage" USING btree ("user_id","session_id","created_at");

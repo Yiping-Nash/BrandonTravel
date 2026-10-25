@@ -1,0 +1,12 @@
+[project]
+name = "brandontravel2"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.115", "uvicorn>=0.34", "pydantic>=2.10", "python-dotenv>=1.0", "httpx>=0.28", "deepagents>=0.4", "langchain-openai>=1.0", "langsmith>=0.4", "tzdata"]
+
+[dependency-groups]
+dev = ["pytest>=8", "pillow"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests", "evaluation"]
