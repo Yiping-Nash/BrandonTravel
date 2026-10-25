@@ -213,7 +213,7 @@ export const KanbanProvider = <
   const [activeCardId, setActiveCardId] = useState<string | null>(null);
 
   const sensors = useSensors(
-    useSensor(MouseSensor),
+    useSensor(MouseSensor, { activationConstraint: { distance: 6 } }),
     useSensor(TouchSensor),
     useSensor(KeyboardSensor)
   );
@@ -247,7 +247,7 @@ export const KanbanProvider = <
       columns[0]?.id;
 
     if (activeColumn !== overColumn) {
-      let newData = [...data];
+      let newData = data.map(item => ({...item}));
       const activeIndex = newData.findIndex((item) => item.id === active.id);
       const overIndex = newData.findIndex((item) => item.id === over.id);
 
@@ -271,7 +271,7 @@ export const KanbanProvider = <
       return;
     }
 
-    let newData = [...data];
+    let newData = data.map(item => ({...item}));
 
     const oldIndex = newData.findIndex((item) => item.id === active.id);
     const newIndex = newData.findIndex((item) => item.id === over.id);

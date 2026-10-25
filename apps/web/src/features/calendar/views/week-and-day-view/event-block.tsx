@@ -1,6 +1,7 @@
+import { parseWall as parseISO } from "@/lib/wall-time";
 import type { VariantProps } from "class-variance-authority";
 import { cva } from "class-variance-authority";
-import { differenceInMinutes, parseISO } from "date-fns";
+import { differenceInMinutes } from "date-fns";
 import type { HTMLAttributes } from "react";
 import { cn } from "@/lib/utils";
 import { useCalendar } from "@/features/calendar/contexts/calendar-context";
@@ -78,6 +79,7 @@ export function EventBlock({ event, className }: IProps) {
         <EventDetailsDialog event={event}>
           <button
             type="button"
+            data-testid={`calendar-event-${event.id}`}
             className={calendarWeekEventCardClasses}
             style={{ height: `${heightInPixels}px` }}
           >

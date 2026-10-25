@@ -1,4 +1,6 @@
-import {addDays, format, isSameDay, parseISO, startOfWeek} from "date-fns";
+import { UTCDate } from "@/lib/wall-time";
+import { parseWall as parseISO } from "@/lib/wall-time";
+import { addDays, format, isSameDay, startOfWeek } from "date-fns";
 import {motion} from "framer-motion";
 import {ScrollArea} from "@/components/ui/scroll-area";
 import {
@@ -21,18 +23,19 @@ import {AlertCircleIcon} from 'lucide-react'
 interface IProps {
     singleDayEvents: IEvent[];
     multiDayEvents: IEvent[];
+    dayOnly?: boolean;
 }
 
-export function CalendarWeekView({singleDayEvents, multiDayEvents}: IProps) {
+export function CalendarWeekView({singleDayEvents, multiDayEvents, dayOnly=false}: IProps) {
     const {selectedDate, use24HourFormat} = useCalendar();
 
-    const weekStart = startOfWeek(selectedDate);
-    const weekDays = Array.from({length: 7}, (_, i) => addDays(weekStart, i));
+    const weekStart = startOfWeek(selectedDate, {weekStartsOn:1});
+    const weekDays = dayOnly ? [selectedDate] : Array.from({length: 7}, (_, i) => addDays(weekStart, i));
     const hours = Array.from({length: 24}, (_, i) => i);
 
     return (
         <motion.div
-            initial="initial"
+            initial={false}
             animate="animate"
             exit="exit"
             variants={fadeIn}
@@ -40,12 +43,12 @@ export function CalendarWeekView({singleDayEvents, multiDayEvents}: IProps) {
         >
             <motion.div
                 className="flex flex-col items-center justify-center border-b p-4 text-sm sm:hidden"
-                initial={{opacity: 0, y: -20}}
+                initial={false}
                 animate={{opacity: 1, y: 0}}
                 transition={transition}
             >
-                <p>Weekly view is not recommended on smaller devices.</p>
-                <p>Please switch to a desktop device or use the daily view instead.</p>
+                <p>时间轴支持横向滚动</p>
+                <p>也可以切换 Day，专注一天。</p>
             </motion.div>
 
             <motion.div
@@ -61,18 +64,18 @@ export function CalendarWeekView({singleDayEvents, multiDayEvents}: IProps) {
                     {/* Week header */}
                     <motion.div
                         className="relative z-20 flex border-b"
-                        initial={{opacity: 0, y: -20}}
+                        initial={false}
                         animate={{opacity: 1, y: 0}}
                         transition={transition}
                     >
                         {/* Time column header - responsive width */}
                         <div className="w-18"></div>
-                        <div className="grid flex-1 grid-cols-7  border-l">
+                        <div className="grid flex-1 border-l" style={{gridTemplateColumns:`repeat(${weekDays.length}, minmax(0,1fr))`}}>
                             {weekDays.map((day, index) => (
                                 <motion.span
                                     key={day.toISOString()}
                                     className="py-1 sm:py-2 text-center text-xs font-medium text-t-quaternary"
-                                    initial={{opacity: 0, y: -10}}
+                                    initial={false}
                                     animate={{opacity: 1, y: 0}}
                                     transition={{delay: index * 0.05, ...transition}}
                                 >
@@ -97,7 +100,7 @@ export function CalendarWeekView({singleDayEvents, multiDayEvents}: IProps) {
 
                 </div>
 
-                <ScrollArea className="h-[736px]" type="always">
+                <ScrollArea className="calendar-scroll h-[540px]" type="always">
                     <div className="flex">
                         {/* Hours column */}
                         <motion.div className="relative w-18" variants={staggerContainer}>
@@ -106,7 +109,7 @@ export function CalendarWeekView({singleDayEvents, multiDayEvents}: IProps) {
                                     key={hour}
                                     className="relative"
                                     style={{height: "96px"}}
-                                    initial={{opacity: 0, x: -20}}
+                                    initial={false}
                                     animate={{opacity: 1, x: 0}}
                                     transition={{delay: index * 0.02, ...transition}}
                                 >
@@ -114,7 +117,7 @@ export function CalendarWeekView({singleDayEvents, multiDayEvents}: IProps) {
                                         {index !== 0 && (
                                             <span className="text-xs text-t-quaternary">
 												{format(
-                                                    new Date().setHours(hour, 0, 0, 0),
+                                                    new UTCDate(2000, 0, 1, hour, 0, 0),
                                                     use24HourFormat ? "HH:00" : "h a",
                                                 )}
 											</span>
@@ -129,7 +132,7 @@ export function CalendarWeekView({singleDayEvents, multiDayEvents}: IProps) {
                             className="relative flex-1 border-l"
                             variants={staggerContainer}
                         >
-                            <div className="grid grid-cols-7 divide-x">
+                            <div className="grid divide-x" style={{gridTemplateColumns:`repeat(${weekDays.length}, minmax(0,1fr))`}}>
                                 {weekDays.map((day, dayIndex) => {
                                     const dayEvents = singleDayEvents.filter(
                                         (event) =>
@@ -142,7 +145,7 @@ export function CalendarWeekView({singleDayEvents, multiDayEvents}: IProps) {
                                         <motion.div
                                             key={day.toISOString()}
                                             className="relative"
-                                            initial={{opacity: 0}}
+                                            initial={false}
                                             animate={{opacity: 1}}
                                             transition={{delay: dayIndex * 0.1, ...transition}}
                                         >
@@ -151,7 +154,7 @@ export function CalendarWeekView({singleDayEvents, multiDayEvents}: IProps) {
                                                     key={hour}
                                                     className="relative"
                                                     style={{height: "96px"}}
-                                                    initial={{opacity: 0}}
+                                                    initial={false}
                                                     animate={{opacity: 1}}
                                                     transition={{delay: index * 0.01, ...transition}}
                                                 >
@@ -204,7 +207,7 @@ export function CalendarWeekView({singleDayEvents, multiDayEvents}: IProps) {
                                 })}
                             </div>
 
-                            <CalendarTimeline/>
+
                         </motion.div>
                     </div>
                 </ScrollArea>

@@ -1,30 +1,6 @@
-import {
-	addDays,
-	addMonths,
-	addWeeks,
-	addYears,
-	differenceInDays,
-	differenceInMinutes,
-	eachDayOfInterval,
-	endOfMonth,
-	endOfWeek,
-	endOfYear,
-	format,
-	isSameDay,
-	isSameMonth,
-	isSameWeek,
-	isSameYear,
-	isValid,
-	parseISO,
-	startOfDay,
-	startOfMonth,
-	startOfWeek,
-	startOfYear,
-	subDays,
-	subMonths,
-	subWeeks,
-	subYears,
-} from "date-fns";
+import { UTCDate } from "@/lib/wall-time";
+import { parseWall as parseISO } from "@/lib/wall-time";
+import { addDays, addMonths, addWeeks, addYears, differenceInDays, differenceInMinutes, eachDayOfInterval, endOfMonth, endOfWeek, endOfYear, format, isSameDay, isSameMonth, isSameWeek, isSameYear, isValid, startOfDay, startOfMonth, startOfWeek, startOfYear, subDays, subMonths, subWeeks, subYears } from "date-fns";
 import { useCalendar } from "@/features/calendar/contexts/calendar-context";
 import type {
 	ICalendarCell,
@@ -150,21 +126,21 @@ export function getCalendarCells(selectedDate: Date): ICalendarCell[] {
 	const year = selectedDate.getFullYear();
 	const month = selectedDate.getMonth();
 
-	const daysInMonth = endOfMonth(selectedDate).getDate(); // Faster than new Date(year, month + 1, 0)
+	const daysInMonth = endOfMonth(selectedDate).getDate(); // Faster than new UTCDate(year, month + 1, 0)
 	const firstDayOfMonth = startOfMonth(selectedDate).getDay();
-	const daysInPrevMonth = endOfMonth(new Date(year, month - 1)).getDate();
+	const daysInPrevMonth = endOfMonth(new UTCDate(year, month - 1)).getDate();
 	const totalDays = firstDayOfMonth + daysInMonth;
 
 	const prevMonthCells = Array.from({ length: firstDayOfMonth }, (_, i) => ({
 		day: daysInPrevMonth - firstDayOfMonth + i + 1,
 		currentMonth: false,
-		date: new Date(year, month - 1, daysInPrevMonth - firstDayOfMonth + i + 1),
+		date: new UTCDate(year, month - 1, daysInPrevMonth - firstDayOfMonth + i + 1),
 	}));
 
 	const currentMonthCells = Array.from({ length: daysInMonth }, (_, i) => ({
 		day: i + 1,
 		currentMonth: true,
-		date: new Date(year, month, i + 1),
+		date: new UTCDate(year, month, i + 1),
 	}));
 
 	const nextMonthCells = Array.from(
@@ -172,7 +148,7 @@ export function getCalendarCells(selectedDate: Date): ICalendarCell[] {
 		(_, i) => ({
 			day: i + 1,
 			currentMonth: false,
-			date: new Date(year, month + 1, i + 1),
+			date: new UTCDate(year, month + 1, i + 1),
 		}),
 	);
 

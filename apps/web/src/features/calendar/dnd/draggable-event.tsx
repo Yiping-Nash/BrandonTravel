@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import type React from "react";
 import type { ReactNode } from "react";
 import { useDragDrop } from "@/features/calendar/contexts/dnd-context";
@@ -24,12 +23,12 @@ export function DraggableEvent({
   };
 
   return (
-    <motion.div
+    <div
       className={`${className || ""} ${isCurrentlyDragged ? "opacity-50 cursor-grabbing" : "cursor-grab"}`}
       draggable
       onClick={(e: React.MouseEvent<HTMLDivElement>) => handleClick(e)}
       onDragStart={(e) => {
-        (e as DragEvent).dataTransfer!.setData(
+        e.dataTransfer.setData(
           "text/plain",
           event.id.toString(),
         );
@@ -40,6 +39,6 @@ export function DraggableEvent({
       }}
     >
       {children}
-    </motion.div>
+    </div>
   );
 }

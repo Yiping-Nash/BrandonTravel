@@ -151,6 +151,11 @@ class ChatRequest(Model):
     sessionId: str | None = None
     mode: Literal["real", "demo"] = "real"
 
+    @field_validator("message", mode="before")
+    @classmethod
+    def trim_message(cls, value):
+        return value.strip() if isinstance(value, str) else value
+
 class AgentOutput(Model):
     reply: str = Field(min_length=1, max_length=16000)
     suggestions: list[SuggestionDraft] = Field(default_factory=list, max_length=8)

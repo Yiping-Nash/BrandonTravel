@@ -1,13 +1,14 @@
+import { UTCDate } from "@/lib/wall-time";
 import { useEffect, useState } from "react";
 import { useCalendar } from "@/features/calendar/contexts/calendar-context";
 import { formatTime } from "@/features/calendar/helpers";
 
 export function CalendarTimeline() {
   const { use24HourFormat } = useCalendar();
-  const [currentTime, setCurrentTime] = useState(new Date());
+  const [currentTime, setCurrentTime] = useState(new UTCDate());
 
   useEffect(() => {
-    const timer = setInterval(() => setCurrentTime(new Date()), 60 * 1000);
+    const timer = setInterval(() => setCurrentTime(new UTCDate()), 60 * 1000);
     return () => clearInterval(timer);
   }, []);
 
