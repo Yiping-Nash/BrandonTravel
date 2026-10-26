@@ -4,91 +4,78 @@
 
 **Plan with structure. Explore with AI. Stay in control.**
 
-[简体中文](README.zh-CN.md) · [Watch the demos](docs/PORTFOLIO_DEMO.md) · [Architecture & evaluation](docs/agent-learning/portfolio-guide.md)
+Build an editable multi-day plan, refine each day with chat and a map, and research new places with evidence. Review AI suggestions and choose what becomes part of your trip.
 
-![BrandonTravel — editable itinerary, contextual conversation and daily map](docs/screenshots/portfolio/hero.png)
+[简体中文](README.zh-CN.md) · [Watch the demos](#three-moments-one-trip) · [Try it](#try-it) · [How it works](#how-it-works) · [Engineering evidence](docs/PORTFOLIO_EVIDENCE.md)
 
-> **A travel plan isn't a one-shot AI answer.** It's a living plan that changes as you discover places, rethink a day, and make decisions. BrandonTravel gives that plan a structured home — with an AI assistant that works *with* the workspace, not instead of it.
+![BrandonTravel workspace: contextual chat, editable daily timeline and map](docs/screenshots/portfolio/hero.png)
+
+## Why BrandonTravel?
+
+Trips change: new discoveries, slower mornings, different needs. A generated itinerary is a starting point; keeping it useful takes ongoing research and adjustment.
+
+BrandonTravel gives that plan a structured workspace. Edit it directly while AI reads the current itinerary, explores options and proposes changes for you to approve.
 
 ## Three moments, one trip
 
-### 01 · Go from an idea to a plan you can edit
+### 01 · From an idea to an editable blueprint
 
-Start with a destination — or just a trip name. Add **where, when and who** when you're ready. Ask Brandon for a multi-day blueprint, review exactly what it proposes to add or change, then make the plan your own in a drag-and-drop Board.
+Start with a name; add **where, when and who** as you decide. Generate a multi-day draft, review its changes and assumptions, then confirm. Drag activities between days or continue by hand.
 
-![Multi-day itinerary board for a Shanxi trip](docs/screenshots/portfolio/board.png)
+![AI blueprint: generate, preview and confirm an editable trip](docs/demos/blueprint.gif)
 
-![Demo: AI blueprint → review → editable itinerary](docs/demos/blueprint.gif)
+<details>
+<summary>Still screenshot & full recording</summary>
 
-[Download the full blueprint recording (WebM)](docs/demos/blueprint.webm)
+![Multi-day Board for a Shanxi trip](docs/screenshots/portfolio/board.png)
 
-### 02 · Make each day workable, not just impressive on paper
+[Download the original recording · WebM, 22s](docs/demos/blueprint.webm)
 
-Open a day to see **conversation, timeline and map together**. Move activities, adjust time windows, inspect location and travel references, and ask Brandon to suggest changes for *this* day. Time overlaps and missing information stay visible instead of being guessed away.
+</details>
 
-![Day planning with a timeline and AMap](docs/screenshots/portfolio/day.png)
+### 02 · Make each day workable
 
-![Demo: daily planning with human + AI](docs/demos/day-planning.gif)
+Use **chat, timeline and map** together. Adjust times and activity order, inspect travel references, or ask Brandon to propose changes for the selected day. Overlaps and missing information stay visible.
 
-[Download the full day-planning recording (WebM)](docs/demos/day-planning.webm)
+![Daily planning: discuss the selected day and review proposed changes](docs/demos/day-planning.gif)
 
-### 03 · Explore new options with evidence, not just confident prose
+<details>
+<summary>Still screenshot & full recording</summary>
 
-Ask a focused question based on your interests and existing itinerary. A dedicated Research Agent uses place data and public sources to propose candidates with **reasons, evidence, trade-offs and unknowns**. Review a candidate, send it to Ideas or a chosen day, and keep editing.
+![Day view with timeline and AMap](docs/screenshots/portfolio/day.png)
 
-![Research result with candidates and supporting evidence](docs/screenshots/portfolio/research.png)
+[Download the original recording · WebM, 9s](docs/demos/day-planning.webm)
 
-![Demo: research → evidence → user-approved adoption](docs/demos/research-adoption.gif)
+</details>
 
-[Download the full research recording (WebM)](docs/demos/research-adoption.webm)
+### 03 · Find new options with evidence
 
-## Built around one source of truth
+Research a question around your preferences and existing trip. Examine candidates with **reasons, sources, trade-offs and unknowns**, then choose what to save to Ideas or a day.
 
-The conversation is not the itinerary. **Trip State** is.
+![Research: inspect evidence, preview adoption and confirm](docs/demos/research-adoption.gif)
 
-```mermaid
-flowchart LR
-    Human[Human: edit & decide] <--> UI[React Trip Workspace]
-    UI --> Main[Deep Agents: Chat & planning]
-    Main -->|complex research| Research[Research Subagent]
-    Main --> Read[Read-only Trip / location tools]
-    Research --> Sources[AMap + public authoritative sources]
-    Research --> Evidence[Evidence-backed candidates]
-    Main --> Proposal[Typed proposal]
-    Evidence --> Proposal
-    Proposal --> Diff[Preview changes]
-    Diff -->|user confirms| Domain[Validated domain commands]
-    Domain --> DB[(SQLite: canonical Trip State)]
-    DB --> UI
-    DB --> Read
-```
+<details>
+<summary>Still screenshot & full recording</summary>
 
-- **Human in control.** Both manual edits and AI proposals ultimately use validated workspace commands. The Agent cannot directly write an itinerary.
-- **Context-aware, not chat-dependent.** The Agent reads the current Trip and selected day, rather than treating old conversation as authoritative state.
-- **Evidence is a separate object.** Source IDs, retrieval times, claims and limitations are retained; a citation is provenance, not automatic proof.
-- **Use the framework, not a homemade agent loop.** Built with Python **Deep Agents / LangChain**, official task delegation and middleware; **LangSmith** supports trace inspection.
+![Research candidates and supporting evidence](docs/screenshots/portfolio/research.png)
 
-## A real engineering prototype — with explicit limits
+[Download the original recording · WebM, 38s](docs/demos/research-adoption.webm)
 
-The current release is a **local, single-user portfolio prototype**, not a production booking service. Three distinct example trips — **Shanxi (heritage), Hangzhou (family), Shanghai (older travellers)** — completed real browser flows covering blueprint, editing, source-backed research, confirmation and refresh. The latest deterministic/Fake-model regression suite reports **332 passing tests**. See the [evidence report](docs/PORTFOLIO_EVIDENCE.md) for actual runs, failures and traces.
+</details>
 
-**What this does not prove:** research quality has **not** received final human sign-off. The recorded research examples are partial and highlight unresolved opening, booking or accessibility information. Research currently covers AMap and selected authoritative public sources, **not Xiaohongshu/community reviews**. The map provides static AMap imagery and route references, not turn-by-turn navigation. There is no production authentication, collaboration, reservation or payment workflow.
+## What makes it different
 
-## Technology & reuse
+- **A plan independent of chat history.** One saved Trip State holds the itinerary across conversations.
+- **Direct control.** Board, Day and Week let you move, schedule and revise the same activities.
+- **Review before AI edits.** Proposals show a diff and require confirmation before updating the itinerary.
+- **Inspectable recommendations.** Candidates retain their sources, reasoning, limitations and unknowns.
+- **Consistent rules.** Every edit uses domain validation; outdated proposals cannot overwrite a newer plan.
 
-| Layer | Implementation |
-|---|---|
-| Product UI | React · TypeScript · Vite · Kibo UI Kanban · adapted Full Calendar |
-| Domain/API | Python · FastAPI · SQLite · versioned Trip commands & validation |
-| Agents | Deep Agents · LangChain · Qwen (chat) · DeepSeek Flash (blueprint/day/research) |
-| Research | AMap place services · Tavily / accessible public sources · typed Evidence |
-| Observability | LangSmith traces · contract, browser and scenario tests |
+## Try it
 
-**Adopt → Adapt → Build:** reusing open-source interaction components and official agent patterns was a deliberate product-engineering choice. [Dependencies & licenses](docs/DEPENDENCIES.md) · [Technical walkthrough](docs/agent-learning/portfolio-guide.md)
+Portfolio 1.0 is available as **recorded walkthroughs and a local single-user app**. [Demo library](docs/demos/README.md) · [Step-by-step trip walkthrough](docs/PORTFOLIO_DEMO.md)
 
-## Try it locally
-
-Requires **Python 3.11+, uv and Node.js 22.12+** (validated on Python 3.13 and Node.js 24). From the repository root on Windows PowerShell:
+Requires **Python 3.11+, uv and Node.js 22.12+** (validated: Python 3.13 / Node.js 24). In the repository root, use Windows PowerShell:
 
 ```powershell
 uv sync --frozen
@@ -98,12 +85,45 @@ if (-not (Test-Path .env)) { Copy-Item .env.example .env }
 powershell -File scripts/dev.ps1
 ```
 
-Open **http://127.0.0.1:5173/**. Live features require the configured model, AMap and Tavily API keys; the app does **not** silently substitute a successful fixture when a provider fails. See [.env.example](.env.example) and the [step-by-step demo](docs/PORTFOLIO_DEMO.md). `?demo=1` is an explicitly read-only UI fixture, not a real Agent run.
+Open **http://127.0.0.1:5173/**. Configure model, AMap, Tavily and LangSmith keys via [.env.example](.env.example). Provider failures surface as errors. `?demo=1` is a labelled, read-only UI fixture, separate from live AI runs.
 
-## For builders & reviewers
+## How it works
 
-[Product and acceptance scope](docs/PORTFOLIO_1_ROADMAP.md) · [Agent implementation guide](docs/agent-learning/portfolio-guide.md) · [Live traces & test evidence](docs/PORTFOLIO_EVIDENCE.md) · [Known limits & human review](docs/agent-learning/human-review.md)
+**Trip State is the authoritative itinerary.** Agents read the current Trip and relevant day context. Main Agent handles chat and planning; a research coordinator delegates source gathering to one Research Subagent through the official Deep Agents `task` tool.
 
-*An independent AI-native product-building project. Product references informed interaction patterns; their proprietary assets and code were not copied. Previous V1 history is preserved in this repository.*
+```mermaid
+flowchart TB
+    UI[Workspace: Board / Day / Week] --> Context[Current Trip and selected day]
+    Trip[(Canonical Trip State: SQLite)] --> Context
+    Context --> Main[Main Agent: chat and planning]
+    Context --> Coordinator[Research coordinator]
+    Coordinator -->|official task| Research[Research Subagent]
+    Research --> Sources[AMap and authoritative public sources]
+    Sources --> Evidence[Evidence and candidates]
+    Main --> Proposal[Typed Proposal]
+    Evidence --> Proposal
+    Proposal --> Diff[Diff preview]
+    Diff -->|user confirms| Domain[Domain Commands and validation]
+    Domain --> Trip
+    Trip --> UI
+```
 
-**License:** V2 original code is [MIT](LICENSE). Third-party notices and the separate licensing of archived V1 code are explained in [NOTICE.md](NOTICE.md).
+Agents have read-only trip/source tools. Selecting a candidate creates a proposal; confirmation validates Trip ownership, context and version before domain commands commit it. Evidence records provenance and uncertainty, not a guarantee of recommendation quality.
+
+Chat, planning and research use separate entry points in one FastAPI app. **Deep Agents / LangChain** handle execution, structured output and delegation; the app enforces permissions, budgets and validation. [Agent walkthrough](docs/agent-learning/portfolio-guide.md) · [Confirmation code](apps/api/db/repository.py)
+
+## Engineering & evaluation
+
+**Built with:** React / TypeScript / Vite; Python / FastAPI / SQLite; Deep Agents / LangChain. Qwen handles chat; DeepSeek Flash handles blueprint, day planning and research. AMap supplies place/map data, Tavily searches public webpages, and LangSmith records traces.
+
+**Adopt → Adapt → Build:** Kibo UI Kanban for Board, [`yassir-jeraidi/full-calendar`](https://github.com/yassir-jeraidi/full-calendar) for Day/Week, official framework and model adapters for Agents. [Versions, sources and licenses](docs/DEPENDENCIES.md)
+
+- **Real product runs:** Shanxi heritage, Hangzhou family and Shanghai older-traveller trips completed browser flows from blank Trip through blueprint, editing, research adoption and refresh recovery. Failures remain documented.
+- **Automated regression:** on 2026-10-26, **332 deterministic/Fake-model tests**, **5 Chrome regressions** and the production build passed. These check contracts and behaviour, not live recommendation quality. [Release review](docs/RELEASE_REVIEW_1_0.md)
+- **AI execution:** [a verified Research Trace](https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/e870c339-03be-495b-b386-3a053d4edc07/r/6940d27e-4b3f-452e-b709-c94997f9b32f?poll=true) shows delegation and source tools (LangSmith account access required). [Run evidence, failures and usage](docs/PORTFOLIO_EVIDENCE.md)
+
+**Limits:** recommendation quality is **Pending human review**. Recorded research is partial: opening, booking and accessibility facts may be unresolved. Sources cover AMap and selected authoritative webpages; maps are static with route references. Community/Xiaohongshu research, long-term personal memory, live navigation, production authentication/collaboration and booking/payment are outside this release.
+
+[Product scope](docs/PORTFOLIO_1_ROADMAP.md) · [Developer learning guide](docs/agent-learning/portfolio-guide.md) · [Human review and limitations](docs/agent-learning/human-review.md)
+
+**License:** V2 original code is [MIT](LICENSE); third-party and V1 terms are preserved in [NOTICE](NOTICE.md). Mindtrip / FloatTrip informed interaction design; [FloatTrip](https://github.com/shouzhuoshouzhuo/FloatTrip) / [TREK](https://github.com/liketrek/TREK) informed this presentation. Their code, branding and media are not reproduced.
