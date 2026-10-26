@@ -1,0 +1,282 @@
+{
+  "date": "2026-10-26",
+  "reviewedReleaseContentCommit": "eec94313891a477d557d07a917c5807c66962828",
+  "python": {
+    "passed": 332,
+    "seconds": 18.05,
+    "kind": "deterministic and fake-model"
+  },
+  "browser": {
+    "passed": 5,
+    "seconds": 15.7,
+    "kind": "real Chrome; no paid model calls"
+  },
+  "build": {
+    "result": "pass",
+    "jsBytesApprox": 583880,
+    "warning": "chunk over 500 kB"
+  },
+  "github": {
+    "pages": [
+      {
+        "label": "en",
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/tree/v2/rebuild",
+        "status": 200,
+        "images": [
+          {
+            "alt": "BrandonTravel — editable itinerary, contextual conversation and daily map",
+            "loaded": true,
+            "src": "/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/screenshots/portfolio/hero.png"
+          },
+          {
+            "alt": "Multi-day itinerary board for a Shanxi trip",
+            "loaded": true,
+            "src": "/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/screenshots/portfolio/board.png"
+          },
+          {
+            "alt": "Demo: AI blueprint → review → editable itinerary",
+            "loaded": true,
+            "src": "/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/demos/blueprint.gif"
+          },
+          {
+            "alt": "Demo: AI blueprint → review → editable itinerary",
+            "loaded": true,
+            "src": "https://github.com/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/demos/blueprint.gif"
+          },
+          {
+            "alt": "Day planning with a timeline and AMap",
+            "loaded": true,
+            "src": "/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/screenshots/portfolio/day.png"
+          },
+          {
+            "alt": "Demo: daily planning with human + AI",
+            "loaded": true,
+            "src": "/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/demos/day-planning.gif"
+          },
+          {
+            "alt": "Demo: daily planning with human + AI",
+            "loaded": true,
+            "src": "https://github.com/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/demos/day-planning.gif"
+          },
+          {
+            "alt": "Research result with candidates and supporting evidence",
+            "loaded": true,
+            "src": "/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/screenshots/portfolio/research.png"
+          },
+          {
+            "alt": "Demo: research → evidence → user-approved adoption",
+            "loaded": true,
+            "src": "/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/demos/research-adoption.gif"
+          },
+          {
+            "alt": "Demo: research → evidence → user-approved adoption",
+            "loaded": true,
+            "src": "https://github.com/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/demos/research-adoption.gif"
+          }
+        ],
+        "architectureFrames": 1,
+        "hasNewNarrative": true,
+        "hasLicense": true
+      },
+      {
+        "label": "zh",
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/README.zh-CN.md",
+        "status": 200,
+        "images": [
+          {
+            "alt": "BrandonTravel：可编辑行程、上下文聊天与单日地图",
+            "loaded": true,
+            "src": "/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/screenshots/portfolio/hero.png"
+          },
+          {
+            "alt": "山西旅行的多日 Kanban 行程",
+            "loaded": true,
+            "src": "/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/screenshots/portfolio/board.png"
+          },
+          {
+            "alt": "演示：AI 蓝图 → 变更预览 → 编辑行程",
+            "loaded": true,
+            "src": "/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/demos/blueprint.gif"
+          },
+          {
+            "alt": "演示：AI 蓝图 → 变更预览 → 编辑行程",
+            "loaded": true,
+            "src": "https://github.com/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/demos/blueprint.gif"
+          },
+          {
+            "alt": "单日时间轴与地图联动",
+            "loaded": true,
+            "src": "/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/screenshots/portfolio/day.png"
+          },
+          {
+            "alt": "演示：人与 AI 协同规划一天",
+            "loaded": true,
+            "src": "/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/demos/day-planning.gif"
+          },
+          {
+            "alt": "演示：人与 AI 协同规划一天",
+            "loaded": true,
+            "src": "https://github.com/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/demos/day-planning.gif"
+          },
+          {
+            "alt": "带来源和候选的研究结果",
+            "loaded": true,
+            "src": "/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/screenshots/portfolio/research.png"
+          },
+          {
+            "alt": "演示：深入研究 → 查看证据 → 确认采纳",
+            "loaded": true,
+            "src": "/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/demos/research-adoption.gif"
+          },
+          {
+            "alt": "演示：深入研究 → 查看证据 → 确认采纳",
+            "loaded": true,
+            "src": "https://github.com/Yiping-Nash/BrandonTravel/raw/v2/rebuild/docs/demos/research-adoption.gif"
+          }
+        ],
+        "architectureFrames": 1,
+        "hasNewNarrative": true,
+        "hasLicense": true
+      },
+      {
+        "file": "blueprint.webm",
+        "status": 200,
+        "bytes": 3452617,
+        "contentType": "audio/webm",
+        "presentation": "GIF inline; original WebM downloadable"
+      },
+      {
+        "file": "day-planning.webm",
+        "status": 200,
+        "bytes": 1571321,
+        "contentType": "audio/webm",
+        "presentation": "GIF inline; original WebM downloadable"
+      },
+      {
+        "file": "research-adoption.webm",
+        "status": 200,
+        "bytes": 5720032,
+        "contentType": "audio/webm",
+        "presentation": "GIF inline; original WebM downloadable"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/README.zh-CN.md",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/PORTFOLIO_DEMO.md",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/agent-learning/portfolio-guide.md",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/screenshots/portfolio/hero.png",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/screenshots/portfolio/board.png",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/demos/blueprint.gif",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/demos/blueprint.webm",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/screenshots/portfolio/day.png",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/demos/day-planning.gif",
+        "status": 429
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/demos/day-planning.webm",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/screenshots/portfolio/research.png",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/demos/research-adoption.gif",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/demos/research-adoption.webm",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/PORTFOLIO_EVIDENCE.md",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/DEPENDENCIES.md",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/.env.example",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/PORTFOLIO_1_ROADMAP.md",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/docs/agent-learning/human-review.md",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/LICENSE",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/NOTICE.md",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/Yiping-Nash/BrandonTravel/blob/v2/rebuild/README.md",
+        "status": 200
+      }
+    ],
+    "diagrams": [
+      {
+        "language": "en",
+        "svgVisible": true,
+        "text": "Human: edit & decide | React Trip Workspace | Deep Agents: Chat & planning | Research Subagent | Read-only Trip / location tools | AMap + public authoritative sources | Evidence-backed candidates | Typed proposal | Preview changes | Validated domain commands | SQLite: canonical Trip State",
+        "syntaxError": false
+      },
+      {
+        "language": "zh",
+        "svgVisible": true,
+        "text": "用户：编辑与决策 | React 工作台 | Deep Agents：聊天与规划 | Research Subagent | 只读行程 / 地点工具 | 高德 + 权威公开来源 | 带证据的候选 | 结构化提案 | 预览变化 | 领域命令与校验 | SQLite：Trip State",
+        "syntaxError": false
+      }
+    ],
+    "transientLimitNote": "One GIF blob HEAD returned429; the same GIF loaded successfully in both rendered READMEs. No broken local target or404 observed."
+  },
+  "security": {
+    "scope": "objects reachable from v2/rebuild HEAD and origin/main before release commit",
+    "blobsScanned": 1865,
+    "configuredSecretsChecked": 6,
+    "findings": [],
+    "browserBundleSecretMatches": []
+  },
+  "publication": {
+    "sourceBodyFieldsOmitted": 325,
+    "historicalResultsSanitized": 29,
+    "originalMetricsAndOutcomesPreserved": true,
+    "rawOriginalsKeptOutsideGit": true,
+    "historyRewritten": false
+  },
+  "independentReview": "No new release blocker after source provenance and public file review",
+  "humanRecommendationReview": "Pending",
+  "cloudCI": "Not configured"
+}
