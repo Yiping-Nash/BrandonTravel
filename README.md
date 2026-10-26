@@ -7,7 +7,7 @@
 <p align="center">Build an editable multi-day plan, refine each day with chat and a map, and research new places with evidence. Review AI suggestions and choose what becomes part of your trip.</p>
 
 <p align="center">
-  <a href="#three-moments-one-trip"><strong>▶ Watch the demos</strong></a> &nbsp; · &nbsp;
+  <a href="#three-moments-one-trip"><strong>▸ Watch the demos</strong></a> &nbsp; · &nbsp;
   <a href="docs/agent-learning/portfolio-guide.md"><strong>Documentation</strong></a>
 </p>
 
@@ -43,7 +43,7 @@ Start with a name; add **where, when and who** as you decide. Generate a multi-d
 </p>
 
 <p align="center">
-  <a href="docs/demos/blueprint.gif">▶ Watch blueprint → confirmation · 22s</a> &nbsp; · &nbsp;
+  <a href="docs/demos/blueprint.gif">▸ Watch blueprint → confirmation · 22s</a> &nbsp; · &nbsp;
   <a href="docs/demos/blueprint.webm">Original recording</a> &nbsp; · &nbsp;
   <a href="docs/screenshots/portfolio/board.png">Full screenshot</a>
 </p>
@@ -71,7 +71,7 @@ Research a question around your preferences and existing trip. Examine candidate
 </p>
 
 <details>
-<summary>▶ Watch research → confirmation · 38s</summary>
+<summary>▸ Watch research → confirmation · 38s</summary>
 
 <p align="center">
   <a href="docs/demos/research-adoption.gif"><img src="docs/demos/research-adoption.gif" alt="Watch research → confirmation · 38s" width="800"></a>

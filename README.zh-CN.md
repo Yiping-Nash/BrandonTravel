@@ -7,7 +7,7 @@
 <p align="center">搭建可编辑的多日蓝图，用对话、时间表和地图细化每一天，围绕当前行程研究新地点、审阅证据。哪些 AI 建议进入正式行程，由你决定。</p>
 
 <p align="center">
-  <a href="#一趟旅行三个重要时刻"><strong>▶ 观看演示</strong></a> &nbsp; · &nbsp;
+  <a href="#一趟旅行三个重要时刻"><strong>▸ 观看演示</strong></a> &nbsp; · &nbsp;
   <a href="docs/agent-learning/portfolio-guide.md"><strong>技术文档</strong></a>
 </p>
 
@@ -43,7 +43,7 @@ BrandonTravel 用结构化工作区承载计划。你直接编辑行程，AI 读
 </p>
 
 <p align="center">
-  <a href="docs/demos/blueprint.gif">▶ 观看蓝图 → 确认 · 22 秒</a> &nbsp; · &nbsp;
+  <a href="docs/demos/blueprint.gif">▸ 观看蓝图 → 确认 · 22 秒</a> &nbsp; · &nbsp;
   <a href="docs/demos/blueprint.webm">原始录屏</a> &nbsp; · &nbsp;
   <a href="docs/screenshots/portfolio/board.png">完整截图</a>
 </p>
@@ -71,7 +71,7 @@ BrandonTravel 用结构化工作区承载计划。你直接编辑行程，AI 读
 </p>
 
 <details>
-<summary>▶ 观看研究 → 确认 · 38 秒</summary>
+<summary>▸ 观看研究 → 确认 · 38 秒</summary>
 
 <p align="center">
   <a href="docs/demos/research-adoption.gif"><img src="docs/demos/research-adoption.gif" alt="观看研究 → 确认 · 38 秒" width="800"></a>
