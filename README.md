@@ -22,16 +22,6 @@
   <a href="docs/screenshots/portfolio/hero.png"><img src="docs/screenshots/readme/workspace-hero.png" alt="An AI-native travel planning workspace" width="960"></a>
 </p>
 
-## An AI-native travel planning workspace
-
-**Plan with structure. Explore with AI. Stay in control.**
-
-Build an editable multi-day plan, refine each day with chat and a map, and research new places with evidence. Review AI suggestions and choose what becomes part of your trip.
-
-[简体中文](README.zh-CN.md) · [Watch the demos](#three-moments-one-trip) · [Try it](#try-it) · [How it works](#how-it-works) · [Engineering evidence](docs/PORTFOLIO_EVIDENCE.md)
-
-![BrandonTravel workspace: contextual chat, editable daily timeline and map](docs/screenshots/portfolio/hero.png)
-
 ## Why BrandonTravel?
 
 Trips change: new discoveries, slower mornings, different needs. A generated itinerary is a starting point; keeping it useful takes ongoing research and adjustment.

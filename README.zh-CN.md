@@ -22,16 +22,6 @@
   <a href="docs/screenshots/portfolio/hero.png"><img src="docs/screenshots/readme/workspace-hero.png" alt="AI 原生旅行规划工作区" width="960"></a>
 </p>
 
-## AI 原生旅行规划工作区
-
-**有条理地安排，用 AI 探索，把决定权留给自己。**
-
-搭建可编辑的多日蓝图，用对话、时间表和地图细化每一天，围绕当前行程研究新地点、审阅证据。哪些 AI 建议进入正式行程，由你决定。
-
-[English](README.md) · [观看演示](#一趟旅行三个重要时刻) · [开始体验](#开始体验) · [工作原理](#工作原理) · [工程证据](docs/PORTFOLIO_EVIDENCE.md)
-
-![BrandonTravel 工作区：上下文聊天、可编辑的单日时间轴与地图](docs/screenshots/portfolio/hero.png)
-
 ## 为什么需要 BrandonTravel？
 
 旅行计划总在变化：发现新的去处、想把早晨留得更松，或同行人的需求不同了。AI 攻略可以作为起点，后续仍要研究、比较和调整。
