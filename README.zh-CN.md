@@ -1,6 +1,28 @@
-# BrandonTravel
+<h1 align="center">BrandonTravel</h1>
 
-### AI 原生旅行规划工作区
+<p align="center"><strong>AI 原生旅行规划工作区</strong></p>
+
+<p align="center"><strong>有条理地安排，用 AI 探索，把决定权留给自己。</strong></p>
+
+<p align="center">搭建可编辑的多日蓝图，用对话、时间表和地图细化每一天，围绕当前行程研究新地点、审阅证据。哪些 AI 建议进入正式行程，由你决定。</p>
+
+<p align="center">
+  <a href="#一趟旅行三个重要时刻"><strong>▶ 观看演示</strong></a> &nbsp; · &nbsp;
+  <a href="docs/agent-learning/portfolio-guide.md"><strong>技术文档</strong></a>
+</p>
+
+<p align="center">
+  <a href="README.md">English</a> &nbsp; · &nbsp;
+  <a href="#开始体验">开始体验</a> &nbsp; · &nbsp;
+  <a href="#工作原理">工作原理</a> &nbsp; · &nbsp;
+  <a href="docs/PORTFOLIO_EVIDENCE.md">工程证据</a>
+</p>
+
+<p align="center">
+  <a href="docs/screenshots/portfolio/hero.png"><img src="docs/screenshots/readme/workspace-hero.png" alt="AI 原生旅行规划工作区" width="960"></a>
+</p>
+
+## AI 原生旅行规划工作区
 
 **有条理地安排，用 AI 探索，把决定权留给自己。**
 
@@ -18,48 +40,57 @@ BrandonTravel 用结构化工作区承载计划。你直接编辑行程，AI 读
 
 ## 一趟旅行，三个重要时刻
 
+<p align="center">
+  <a href="docs/screenshots/readme/product-overview.png"><img src="docs/screenshots/readme/product-overview.png" alt="Board、Day、Research：真实工作区中的三项核心能力" width="960"></a>
+</p>
+
 ### 01 · 从模糊想法到可编辑的多日蓝图
 
 先起名称，再逐步补充 **去哪、何时、和谁**。生成多日初稿，预览变更和假设后确认；随后跨日拖动活动，或继续手工安排。
 
-![AI 蓝图：生成、预览并确认可编辑的旅行计划](docs/demos/blueprint.gif)
+<p align="center">
+  <a href="docs/screenshots/portfolio/board.png"><img src="docs/screenshots/readme/board-detail.png" alt="多日看板：跨日期编辑与安排活动" width="800"></a>
+</p>
 
-<details>
-<summary>查看静态截图与完整录屏</summary>
-
-![山西旅行的多日看板](docs/screenshots/portfolio/board.png)
-
-[下载原始录屏 · WebM，22 秒](docs/demos/blueprint.webm)
-
-</details>
+<p align="center">
+  <a href="docs/demos/blueprint.gif">▶ 观看蓝图 → 确认 · 22 秒</a> &nbsp; · &nbsp;
+  <a href="docs/demos/blueprint.webm">原始录屏</a> &nbsp; · &nbsp;
+  <a href="docs/screenshots/portfolio/board.png">完整截图</a>
+</p>
 
 ### 02 · 把每一天安排得更可执行
 
 结合 **对话、时间轴与地图** 调整活动顺序和时间、查看移动参考，或请 Brandon 为选中日期提出修改方案。时间重叠和信息缺口会保留可见。
 
-![单日规划：讨论选中日期并审阅修改方案](docs/demos/day-planning.gif)
+<p align="center">
+  <a href="docs/demos/day-planning.gif"><img src="docs/demos/day-planning.gif" alt="打开单日规划 GIF · 9 秒" width="800"></a>
+</p>
 
-<details>
-<summary>查看静态截图与完整录屏</summary>
-
-![单日时间轴与高德地图](docs/screenshots/portfolio/day.png)
-
-[下载原始录屏 · WebM，9 秒](docs/demos/day-planning.webm)
-
-</details>
+<p align="center">
+  <a href="docs/demos/day-planning.gif">打开单日规划 GIF · 9 秒</a> &nbsp; · &nbsp;
+  <a href="docs/demos/day-planning.webm">原始录屏</a> &nbsp; · &nbsp;
+  <a href="docs/screenshots/portfolio/day.png">完整截图</a>
+</p>
 
 ### 03 · 有依据地探索新选择
 
 结合偏好和已有行程提出研究问题，审阅候选的 **推荐理由、来源、取舍和未知信息**，再决定保存到 Ideas 或某一天。
 
-![深入研究：审阅证据、预览采纳并确认](docs/demos/research-adoption.gif)
+<p align="center">
+  <a href="docs/screenshots/portfolio/research.png"><img src="docs/screenshots/readme/research-detail.png" alt="研究候选：来源证据、未知信息与用户确认采纳" width="800"></a>
+</p>
 
 <details>
-<summary>查看静态截图与完整录屏</summary>
+<summary>▶ 观看研究 → 确认 · 38 秒</summary>
 
-![研究候选及支持证据](docs/screenshots/portfolio/research.png)
+<p align="center">
+  <a href="docs/demos/research-adoption.gif"><img src="docs/demos/research-adoption.gif" alt="观看研究 → 确认 · 38 秒" width="800"></a>
+</p>
 
-[下载原始录屏 · WebM，38 秒](docs/demos/research-adoption.webm)
+<p align="center">
+  <a href="docs/demos/research-adoption.webm">原始录屏</a> &nbsp; · &nbsp;
+  <a href="docs/screenshots/portfolio/research.png">完整截图</a>
+</p>
 
 </details>
 

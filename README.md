@@ -1,6 +1,28 @@
-# BrandonTravel
+<h1 align="center">BrandonTravel</h1>
 
-### An AI-native travel planning workspace
+<p align="center"><strong>An AI-native travel planning workspace</strong></p>
+
+<p align="center"><strong>Plan with structure. Explore with AI. Stay in control.</strong></p>
+
+<p align="center">Build an editable multi-day plan, refine each day with chat and a map, and research new places with evidence. Review AI suggestions and choose what becomes part of your trip.</p>
+
+<p align="center">
+  <a href="#three-moments-one-trip"><strong>▶ Watch the demos</strong></a> &nbsp; · &nbsp;
+  <a href="docs/agent-learning/portfolio-guide.md"><strong>Documentation</strong></a>
+</p>
+
+<p align="center">
+  <a href="README.zh-CN.md">简体中文</a> &nbsp; · &nbsp;
+  <a href="#try-it">Try it</a> &nbsp; · &nbsp;
+  <a href="#how-it-works">How it works</a> &nbsp; · &nbsp;
+  <a href="docs/PORTFOLIO_EVIDENCE.md">Engineering evidence</a>
+</p>
+
+<p align="center">
+  <a href="docs/screenshots/portfolio/hero.png"><img src="docs/screenshots/readme/workspace-hero.png" alt="An AI-native travel planning workspace" width="960"></a>
+</p>
+
+## An AI-native travel planning workspace
 
 **Plan with structure. Explore with AI. Stay in control.**
 
@@ -18,48 +40,57 @@ BrandonTravel gives that plan a structured workspace. Edit it directly while AI 
 
 ## Three moments, one trip
 
+<p align="center">
+  <a href="docs/screenshots/readme/product-overview.png"><img src="docs/screenshots/readme/product-overview.png" alt="Board, Day and Research: three connected parts of the real BrandonTravel workspace" width="960"></a>
+</p>
+
 ### 01 · From an idea to an editable blueprint
 
 Start with a name; add **where, when and who** as you decide. Generate a multi-day draft, review its changes and assumptions, then confirm. Drag activities between days or continue by hand.
 
-![AI blueprint: generate, preview and confirm an editable trip](docs/demos/blueprint.gif)
+<p align="center">
+  <a href="docs/screenshots/portfolio/board.png"><img src="docs/screenshots/readme/board-detail.png" alt="Multi-day Board: editable activities across dates" width="800"></a>
+</p>
 
-<details>
-<summary>Still screenshot & full recording</summary>
-
-![Multi-day Board for a Shanxi trip](docs/screenshots/portfolio/board.png)
-
-[Download the original recording · WebM, 22s](docs/demos/blueprint.webm)
-
-</details>
+<p align="center">
+  <a href="docs/demos/blueprint.gif">▶ Watch blueprint → confirmation · 22s</a> &nbsp; · &nbsp;
+  <a href="docs/demos/blueprint.webm">Original recording</a> &nbsp; · &nbsp;
+  <a href="docs/screenshots/portfolio/board.png">Full screenshot</a>
+</p>
 
 ### 02 · Make each day workable
 
 Use **chat, timeline and map** together. Adjust times and activity order, inspect travel references, or ask Brandon to propose changes for the selected day. Overlaps and missing information stay visible.
 
-![Daily planning: discuss the selected day and review proposed changes](docs/demos/day-planning.gif)
+<p align="center">
+  <a href="docs/demos/day-planning.gif"><img src="docs/demos/day-planning.gif" alt="Open daily-planning GIF · 9s" width="800"></a>
+</p>
 
-<details>
-<summary>Still screenshot & full recording</summary>
-
-![Day view with timeline and AMap](docs/screenshots/portfolio/day.png)
-
-[Download the original recording · WebM, 9s](docs/demos/day-planning.webm)
-
-</details>
+<p align="center">
+  <a href="docs/demos/day-planning.gif">Open daily-planning GIF · 9s</a> &nbsp; · &nbsp;
+  <a href="docs/demos/day-planning.webm">Original recording</a> &nbsp; · &nbsp;
+  <a href="docs/screenshots/portfolio/day.png">Full screenshot</a>
+</p>
 
 ### 03 · Find new options with evidence
 
 Research a question around your preferences and existing trip. Examine candidates with **reasons, sources, trade-offs and unknowns**, then choose what to save to Ideas or a day.
 
-![Research: inspect evidence, preview adoption and confirm](docs/demos/research-adoption.gif)
+<p align="center">
+  <a href="docs/screenshots/portfolio/research.png"><img src="docs/screenshots/readme/research-detail.png" alt="Research candidate: source evidence, unknowns and user-approved adoption" width="800"></a>
+</p>
 
 <details>
-<summary>Still screenshot & full recording</summary>
+<summary>▶ Watch research → confirmation · 38s</summary>
 
-![Research candidates and supporting evidence](docs/screenshots/portfolio/research.png)
+<p align="center">
+  <a href="docs/demos/research-adoption.gif"><img src="docs/demos/research-adoption.gif" alt="Watch research → confirmation · 38s" width="800"></a>
+</p>
 
-[Download the original recording · WebM, 38s](docs/demos/research-adoption.webm)
+<p align="center">
+  <a href="docs/demos/research-adoption.webm">Original recording</a> &nbsp; · &nbsp;
+  <a href="docs/screenshots/portfolio/research.png">Full screenshot</a>
+</p>
 
 </details>
 
