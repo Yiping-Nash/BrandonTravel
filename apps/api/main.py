@@ -18,6 +18,8 @@ load_dotenv(ROOT / '.env')
 from apps.api.db.repository import Repository
 from apps.api.domain.errors import DomainError
 from apps.api.routes.workspace import create_router
+from apps.api.routes.portfolio import create_router as create_portfolio_router
+from apps.api.routes.maps import create_router as create_map_router
 from apps.api.agent.service import AgentError, run_chat
 from apps.api.agent.places import search_places
 from packages.contracts import ChatMessage, ChatRequest, ChatResponse, ChatSession, SuggestionDraft
@@ -72,6 +74,8 @@ def create_app(database_path: str | None = None) -> FastAPI:
         return {'status':'ok','capabilities':{'agent':configured('DASHSCOPE_API_KEY'),'poi':configured('AMAP_WEB_SERVICE_KEY'),'tracing':configured('LANGSMITH_API_KEY') and os.getenv('LANGSMITH_TRACING','false').lower()=='true'},'model':os.getenv('AGENT_MODEL','qwen3.8-flash')}
 
     app.include_router(create_router(repo))
+    app.include_router(create_portfolio_router(repo))
+    app.include_router(create_map_router(repo))
 
     @app.get('/api/places')
     async def places(query: str = Query(min_length=1,max_length=200), city: str = Query(min_length=1,max_length=200)):

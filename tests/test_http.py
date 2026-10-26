@@ -27,8 +27,11 @@ def test_crud_contract_and_readback(client):
     assert client.get(f"/api/trips/{s['trip']['id']}").json()==newer
 
 def test_validation_and_origin(client):
-    assert client.post('/api/trips',json={}).status_code==422
-    invalid=client.post('/api/trips',json={}).json()
+    # Portfolio permits an intentionally incomplete Trip; malformed dates remain invalid.
+    draft=client.post('/api/trips',json={})
+    assert draft.status_code==201 and draft.json()['trip']['startDate'] is None
+    assert client.post('/api/trips',json={'startDate':'not-a-date'}).status_code==422
+    invalid=client.post('/api/trips',json={'startDate':'not-a-date'}).json()
     assert invalid['error']['code']=='VALIDATION_ERROR'
     r=client.post('/api/trips',json={},headers={'origin':'https://evil.example'})
     assert r.status_code==403

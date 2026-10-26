@@ -1,0 +1,357 @@
+{
+  "runId": "5dbdaa9b-7053-41cd-82fa-4aabe0c3c65e",
+  "taskId": "r1-v1:hangzhou:0:2026-11-02",
+  "status": "Pass",
+  "batch": "smoke",
+  "architecture": "A",
+  "mode": "direct",
+  "llmMode": "live",
+  "toolMode": "live",
+  "contextHash": "abc712cd8b07b8a485345f8581162bf009189d62a7f676af049b4ad5bb0dda9e",
+  "humanReview": "Pending",
+  "proposedResult": {
+    "summary": "只读分析第一天（11月2日·杭州）：共3项安排，其中2项已定时段、1项未定时；午休已明确保留。整体不算太满，但需注意未定活动的落位。",
+    "candidates": [],
+    "claims": [
+      {
+        "text": "第一天（2026-11-02）共有3项安排：湖畔短程散步、午休、找一处草地玩耍；另有3条未采纳的 idea（阅读当地历史并写旅行笔记、备用室内休息安排、遇到喜欢的地方多停一会），均不计入当天活动。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:4c7cf2aae190b67dd5277ddd"
+        ]
+      },
+      {
+        "text": "已定时段：湖畔短程散步 09:30–10:30（1小时）；午休 12:30–14:30（2小时，已明确列入安排）。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:4c7cf2aae190b67dd5277ddd"
+        ]
+      },
+      {
+        "text": "未定时安排：找一处草地玩耍（无 startAt/endAt），但按行程规则仍属于当天已确认安排，不是可自由删减的备选。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:4c7cf2aae190b67dd5277ddd"
+        ]
+      },
+      {
+        "text": "除午休外的主要活动为2项（散步＋草地玩耍），恰好等于偏好上限“每天最多两个主要活动”，因此强度不算超载，前提是草地玩耍不排在12:30–14:30午休时段内。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:4c7cf2aae190b67dd5277ddd"
+        ]
+      },
+      {
+        "text": "10:30–12:30有2小时空档（含午餐），午休后14:30之后全天空闲，草地玩耍建议放在14:30后或上午空档，均可保留完整2小时午休。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:4c7cf2aae190b67dd5277ddd"
+        ]
+      }
+    ],
+    "limitations": [
+      "未做任何外部搜索，无法核实各活动的实际营业时间、预约或天气影响。",
+      "所有条目均为人工合成评测数据，不代表真实购票或预约状态。",
+      "草地玩耍时长未知，若超过约2.5小时或需跨午休前后往返较远地点，可能压缩休息与用餐缓冲。"
+    ],
+    "coverage": [
+      "Trip snapshot（get_trip_snapshot，仅读取，未搜索地点或网页）"
+    ],
+    "status": "complete"
+  },
+  "result": {
+    "summary": "只读分析第一天（11月2日·杭州）：共3项安排，其中2项已定时段、1项未定时；午休已明确保留。整体不算太满，但需注意未定活动的落位。",
+    "candidates": [],
+    "claims": [
+      {
+        "text": "第一天（2026-11-02）共有3项安排：湖畔短程散步、午休、找一处草地玩耍；另有3条未采纳的 idea（阅读当地历史并写旅行笔记、备用室内休息安排、遇到喜欢的地方多停一会），均不计入当天活动。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:4c7cf2aae190b67dd5277ddd"
+        ]
+      },
+      {
+        "text": "已定时段：湖畔短程散步 09:30–10:30（1小时）；午休 12:30–14:30（2小时，已明确列入安排）。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:4c7cf2aae190b67dd5277ddd"
+        ]
+      },
+      {
+        "text": "未定时安排：找一处草地玩耍（无 startAt/endAt），但按行程规则仍属于当天已确认安排，不是可自由删减的备选。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:4c7cf2aae190b67dd5277ddd"
+        ]
+      },
+      {
+        "text": "除午休外的主要活动为2项（散步＋草地玩耍），恰好等于偏好上限“每天最多两个主要活动”，因此强度不算超载，前提是草地玩耍不排在12:30–14:30午休时段内。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:4c7cf2aae190b67dd5277ddd"
+        ]
+      },
+      {
+        "text": "10:30–12:30有2小时空档（含午餐），午休后14:30之后全天空闲，草地玩耍建议放在14:30后或上午空档，均可保留完整2小时午休。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:4c7cf2aae190b67dd5277ddd"
+        ]
+      }
+    ],
+    "limitations": [
+      "未做任何外部搜索，无法核实各活动的实际营业时间、预约或天气影响。",
+      "所有条目均为人工合成评测数据，不代表真实购票或预约状态。",
+      "草地玩耍时长未知，若超过约2.5小时或需跨午休前后往返较远地点，可能压缩休息与用餐缓冲。"
+    ],
+    "coverage": [
+      "Trip snapshot（get_trip_snapshot，仅读取，未搜索地点或网页）"
+    ],
+    "status": "complete"
+  },
+  "seconds": 12.617,
+  "modelRequests": 2,
+  "inputTokens": 8248,
+  "outputTokens": 671,
+  "usageRequests": 2,
+  "schemaRepairs": 0,
+  "deniedTools": [],
+  "toolCalls": [
+    "get_trip_snapshot"
+  ],
+  "sourceEvents": [
+    {
+      "tool": "get_trip_snapshot",
+      "status": "OK",
+      "mode": "live"
+    }
+  ],
+  "sourceCounts": {
+    "amap": 0,
+    "web": 0,
+    "extract": 0,
+    "credits": 0
+  },
+  "evidence": [
+    {
+      "id": "ev:4c7cf2aae190b67dd5277ddd",
+      "sourceType": "snapshot",
+      "url": null,
+      "providerId": null,
+      "title": "Synthetic evaluation Trip snapshot",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:55:00.988458+00:00",
+      "publishedAt": null,
+      "excerpt": "{\"version\": 10, \"trip\": {\"title\": \"合成评测 · 亲子慢游\", \"destination\": \"杭州\", \"startDate\": \"2026-11-02\", \"endDate\": \"2026-11-06\", \"timezone\": \"Asia/Shanghai\", \"preferences\": \"两位成人与一名六岁孩子，喜欢公园和轻松体验。午休不可少，每天最多两个主要活动。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, \"ideas\": [{\"title\": \"阅读当地历史并写旅行笔记\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-i0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"备用室内休息安排\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-i1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"遇到喜欢的地方多停一会\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-i2\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}], \"activities\": [{\"title\": \"湖畔短程散步\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T09:30\", \"endAt\": \"2026-11-02T10:30\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a0-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"午休\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T12:30\", \"endAt\": \"2026-11-02T14:30\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a0-1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"找一处草地玩耍\", \"date\": \"2026-11-02\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a0-2\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 2, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"自然博物馆探索\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T10:00\", \"endAt\": \"2026-11-03T11:30\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a1-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"午休\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T13:00\", \"endAt\": \"2026-11-03T15:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a1-1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"亲子手工体验\", \"date\": \"2026-11-04\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a2-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"自由晚餐\", \"date\": \"2026-11-04\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a2-1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"公园野餐\", \"date\": \"2026-11-05\", \"startAt\": \"2026-11-05T11:00\", \"endAt\": \"2026-11-05T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a3-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"慢慢收拾与返程\", \"date\": \"2026-11-06\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a4-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}]}",
+      "contentHash": "c2c4c30b3d0ed010bf3cf95a6d37242c9d2d55f776322fe349eea6d3027ec3bf",
+      "verification": "snapshot",
+      "place": null,
+      "commercialStatus": "unknown"
+    }
+  ],
+  "noWorkspaceWrites": true,
+  "contextUnchanged": true,
+  "createdAt": "2026-10-25T20:55:12.821397+00:00",
+  "brief": {
+    "snapshot": {
+      "version": 10,
+      "trip": {
+        "title": "合成评测 · 亲子慢游",
+        "destination": "杭州",
+        "startDate": "2026-11-02",
+        "endDate": "2026-11-06",
+        "timezone": "Asia/Shanghai",
+        "preferences": "两位成人与一名六岁孩子，喜欢公园和轻松体验。午休不可少，每天最多两个主要活动。",
+        "id": "fixture-r1-v1-hangzhou-2026-11-02",
+        "createdAt": "2026-11-02T00:00:00Z",
+        "updatedAt": "2026-11-02T00:00:00Z"
+      },
+      "ideas": [
+        {
+          "title": "阅读当地历史并写旅行笔记",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-i0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "备用室内休息安排",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-i1",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "遇到喜欢的地方多停一会",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-i2",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "activities": [
+        {
+          "title": "湖畔短程散步",
+          "date": "2026-11-02",
+          "startAt": "2026-11-02T09:30",
+          "endAt": "2026-11-02T10:30",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a0-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "午休",
+          "date": "2026-11-02",
+          "startAt": "2026-11-02T12:30",
+          "endAt": "2026-11-02T14:30",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a0-1",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "找一处草地玩耍",
+          "date": "2026-11-02",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a0-2",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 2,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "自然博物馆探索",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T10:00",
+          "endAt": "2026-11-03T11:30",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a1-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "午休",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T13:00",
+          "endAt": "2026-11-03T15:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a1-1",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "亲子手工体验",
+          "date": "2026-11-04",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a2-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "自由晚餐",
+          "date": "2026-11-04",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a2-1",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "公园野餐",
+          "date": "2026-11-05",
+          "startAt": "2026-11-05T11:00",
+          "endAt": "2026-11-05T12:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a3-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "慢慢收拾与返程",
+          "date": "2026-11-06",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a4-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "suggestions": []
+    },
+    "question": "只读第一天：是否可能太满？列出活动数量、已确定时段与未定时安排，并尊重孩子午休。无需搜索，不要修改。",
+    "taskId": "r1-v1:hangzhou:0:2026-11-02",
+    "mode": "direct",
+    "contextHash": "abc712cd8b07b8a485345f8581162bf009189d62a7f676af049b4ad5bb0dda9e"
+  },
+  "versions": {
+    "deepagents": "0.7.32",
+    "langchain": "1.4.7",
+    "langgraph": "1.2.17",
+    "langsmith": "0.14.12",
+    "langchain-openai": "1.7.2",
+    "tavily-python": "0.8.5"
+  },
+  "commit": "e2c373267a869569d0c0f4f6d66f441301541f25",
+  "sourceFingerprint": "5d48bbf33cfed83ba52763d9b1b6e8367dc154930db2225e8c7abdf390566818",
+  "traceId": "5dbdaa9b-7053-41cd-82fa-4aabe0c3c65e",
+  "traceRunId": "5dbdaa9b-7053-41cd-82fa-4aabe0c3c65e",
+  "knownUsageCostCny": 0.00841,
+  "costCompleteness": "complete_usage",
+  "modelListPriceEstimateCny": 0.00841,
+  "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
+  "traceVerified": false,
+  "totalSeconds": 26.789
+}

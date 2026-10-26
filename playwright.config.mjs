@@ -6,7 +6,7 @@ export default defineConfig({
   workers: 1,
   reporter: [['list'], ['json', { outputFile: 'test-results/browser-results.json' }]],
   use: {
-    baseURL: 'http://127.0.0.1:5173',
+    baseURL: process.env.PORTFOLIO_URL || 'http://127.0.0.1:5173',
     browserName: 'chromium',
     channel: 'chrome',
     viewport: { width: 1512, height: 982 },

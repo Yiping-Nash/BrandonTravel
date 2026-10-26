@@ -90,6 +90,126 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/trips/{trip_id}/proposals": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Proposals */
+        get: operations["proposals_api_trips__trip_id__proposals_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/trips/{trip_id}/proposals/generate": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Generate */
+        post: operations["generate_api_trips__trip_id__proposals_generate_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/trips/{trip_id}/research-runs": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Runs */
+        get: operations["runs_api_trips__trip_id__research_runs_get"];
+        put?: never;
+        /** Research Start */
+        post: operations["research_start_api_trips__trip_id__research_runs_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/trips/{trip_id}/research-runs/{run_id}/cancel": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Research Cancel */
+        post: operations["research_cancel_api_trips__trip_id__research_runs__run_id__cancel_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/trips/{trip_id}/research-runs/{run_id}/proposal": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Research Proposal */
+        post: operations["research_proposal_api_trips__trip_id__research_runs__run_id__proposal_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/trips/{trip_id}/suggestions/{suggestion_id}/proposal": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Suggestion Proposal */
+        post: operations["suggestion_proposal_api_trips__trip_id__suggestions__suggestion_id__proposal_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/trips/{trip_id}/day-context": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Day Context */
+        get: operations["day_context_api_trips__trip_id__day_context_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
 }
 export type webhooks = Record<string, never>;
 export interface components {
@@ -262,7 +382,63 @@ export interface components {
             /** Expectedversion */
             expectedVersion: number;
             /** Command */
-            command: components["schemas"]["AddIdea"] | components["schemas"]["DeleteIdea"] | components["schemas"]["AddActivity"] | components["schemas"]["UpdateActivity"] | components["schemas"]["RemoveActivity"] | components["schemas"]["MoveActivity"] | components["schemas"]["AdoptIdea"] | components["schemas"]["AdoptSuggestion"] | components["schemas"]["DismissSuggestion"] | components["schemas"]["SetPreferences"];
+            command: components["schemas"]["AddIdea"] | components["schemas"]["DeleteIdea"] | components["schemas"]["AddActivity"] | components["schemas"]["UpdateActivity"] | components["schemas"]["RemoveActivity"] | components["schemas"]["MoveActivity"] | components["schemas"]["AdoptIdea"] | components["schemas"]["AdoptSuggestion"] | components["schemas"]["DismissSuggestion"] | components["schemas"]["SetPreferences"] | components["schemas"]["UpdateTrip"] | components["schemas"]["ConfirmProposal"] | components["schemas"]["DismissProposal"];
+        };
+        /** ConfirmProposal */
+        ConfirmProposal: {
+            /**
+             * @description discriminator enum property added by openapi-typescript
+             * @enum {string}
+             */
+            type: "confirmProposal";
+            /** Proposalid */
+            proposalId: string;
+        };
+        /** DayCheck */
+        DayCheck: {
+            /** Code */
+            code: string;
+            /**
+             * Severity
+             * @enum {string}
+             */
+            severity: "info" | "warning";
+            /** Message */
+            message: string;
+            /** Activityids */
+            activityIds?: string[];
+        };
+        /** DayContext */
+        DayContext: {
+            /**
+             * Date
+             * Format: date
+             */
+            date: string;
+            /** Checks */
+            checks: components["schemas"]["DayCheck"][];
+            /** Routes */
+            routes: components["schemas"]["DayRoute"][];
+        };
+        /** DayRoute */
+        DayRoute: {
+            /** Fromactivityid */
+            fromActivityId: string;
+            /** Toactivityid */
+            toActivityId: string;
+            /** Distancemeters */
+            distanceMeters?: number | null;
+            /** Durationminutes */
+            durationMinutes?: number | null;
+            /**
+             * Source
+             * @enum {string}
+             */
+            source: "amap" | "straight_line";
+            /** Mapurl */
+            mapUrl?: string | null;
+            /** Note */
+            note: string;
         };
         /** DeleteIdea */
         DeleteIdea: {
@@ -273,6 +449,16 @@ export interface components {
             type: "deleteIdea";
             /** Ideaid */
             ideaId: string;
+        };
+        /** DismissProposal */
+        DismissProposal: {
+            /**
+             * @description discriminator enum property added by openapi-typescript
+             * @enum {string}
+             */
+            type: "dismissProposal";
+            /** Proposalid */
+            proposalId: string;
         };
         /** DismissSuggestion */
         DismissSuggestion: {
@@ -370,6 +556,62 @@ export interface components {
             /** Longitude */
             longitude?: number | null;
         };
+        /** PlanRequest */
+        PlanRequest: {
+            /**
+             * Kind
+             * @default blueprint
+             * @enum {string}
+             */
+            kind: "blueprint" | "day" | "changes";
+            /**
+             * Message
+             * @default 请根据当前旅行与偏好提出结构化安排
+             */
+            message: string;
+            /** Date */
+            date?: string | null;
+            /** Requestid */
+            requestId: string;
+        };
+        /** Proposal */
+        Proposal: {
+            /**
+             * Kind
+             * @enum {string}
+             */
+            kind: "blueprint" | "day" | "changes" | "research";
+            /** Title */
+            title: string;
+            /** Summary */
+            summary: string;
+            /** Actions */
+            actions: (components["schemas"]["AddIdea"] | components["schemas"]["AddActivity"] | components["schemas"]["UpdateActivity"] | components["schemas"]["RemoveActivity"])[];
+            /** Assumptions */
+            assumptions?: string[];
+            /** Evidencerefs */
+            evidenceRefs?: string[];
+            /** Id */
+            id: string;
+            /** Tripid */
+            tripId: string;
+            /** Contexthash */
+            contextHash: string;
+            /**
+             * Status
+             * @default proposed
+             * @enum {string}
+             */
+            status: "proposed" | "accepted" | "dismissed";
+            /** Createdat */
+            createdAt: string;
+            /** Traceurl */
+            traceUrl?: string | null;
+            /** Researchrunid */
+            researchRunId?: string | null;
+            /** Candidateindex */
+            candidateIndex?: number | null;
+        };
         /** RemoveActivity */
         RemoveActivity: {
             /**
@@ -379,6 +621,59 @@ export interface components {
             type: "removeActivity";
             /** Activityid */
             activityId: string;
+        };
+        /** ResearchAdopt */
+        ResearchAdopt: {
+            /** Candidateindex */
+            candidateIndex: number;
+            /**
+             * Target
+             * @enum {string}
+             */
+            target: "idea" | "activity";
+            /** Date */
+            date?: string | null;
+        };
+        /** ResearchRun */
+        ResearchRun: {
+            /** Id */
+            id: string;
+            /** Tripid */
+            tripId: string;
+            /** Question */
+            question: string;
+            /** Contexthash */
+            contextHash: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "queued" | "running" | "completed" | "partial" | "failed" | "cancelled";
+            /** Createdat */
+            createdAt: string;
+            /** Updatedat */
+            updatedAt: string;
+            /** Result */
+            result?: {
+                [key: string]: unknown;
+            } | null;
+            /** Evidence */
+            evidence?: {
+                [key: string]: unknown;
+            }[];
+            /** Traceurl */
+            traceUrl?: string | null;
+            /** Error */
+            error?: string | null;
+            /** Toolcalls */
+            toolCalls?: string[];
+        };
+        /** ResearchStart */
+        ResearchStart: {
+            /** Question */
+            question: string;
+            /** Requestid */
+            requestId: string;
         };
         /** SetPreferences */
         SetPreferences: {
@@ -418,22 +713,37 @@ export interface components {
              */
             status: "proposed" | "accepted" | "dismissed";
         };
+        /** SuggestionPreview */
+        SuggestionPreview: {
+            /**
+             * Target
+             * @enum {string}
+             */
+            target: "idea" | "activity";
+            /** Date */
+            date?: string | null;
+        };
         /** Trip */
         Trip: {
-            /** Title */
+            /**
+             * Title
+             * @default 新的旅行
+             */
             title: string;
-            /** Destination */
+            /**
+             * Destination
+             * @default
+             */
             destination: string;
+            /** Startdate */
+            startDate?: string | null;
+            /** Enddate */
+            endDate?: string | null;
             /**
-             * Startdate
-             * Format: date
+             * Companions
+             * @default
              */
-            startDate: string;
-            /**
-             * Enddate
-             * Format: date
-             */
-            endDate: string;
+            companions: string;
             /**
              * Timezone
              * @default Asia/Shanghai
@@ -453,20 +763,25 @@ export interface components {
         };
         /** TripCreate */
         TripCreate: {
-            /** Title */
+            /**
+             * Title
+             * @default 新的旅行
+             */
             title: string;
-            /** Destination */
+            /**
+             * Destination
+             * @default
+             */
             destination: string;
+            /** Startdate */
+            startDate?: string | null;
+            /** Enddate */
+            endDate?: string | null;
             /**
-             * Startdate
-             * Format: date
+             * Companions
+             * @default
              */
-            startDate: string;
-            /**
-             * Enddate
-             * Format: date
-             */
-            endDate: string;
+            companions: string;
             /**
              * Timezone
              * @default Asia/Shanghai
@@ -500,6 +815,15 @@ export interface components {
             /** Activityid */
             activityId: string;
             activity: components["schemas"]["ActivityInput"];
+        };
+        /** UpdateTrip */
+        UpdateTrip: {
+            /**
+             * @description discriminator enum property added by openapi-typescript
+             * @enum {string}
+             */
+            type: "updateTrip";
+            trip: components["schemas"]["TripCreate"];
         };
         /** ValidationError */
         ValidationError: {
@@ -695,6 +1019,275 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["ChatSession"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    proposals_api_trips__trip_id__proposals_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                trip_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Proposal"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    generate_api_trips__trip_id__proposals_generate_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                trip_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["PlanRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Proposal"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    runs_api_trips__trip_id__research_runs_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                trip_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ResearchRun"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    research_start_api_trips__trip_id__research_runs_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                trip_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ResearchStart"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            202: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ResearchRun"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    research_cancel_api_trips__trip_id__research_runs__run_id__cancel_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                trip_id: string;
+                run_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ResearchRun"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    research_proposal_api_trips__trip_id__research_runs__run_id__proposal_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                trip_id: string;
+                run_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ResearchAdopt"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Proposal"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    suggestion_proposal_api_trips__trip_id__suggestions__suggestion_id__proposal_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                trip_id: string;
+                suggestion_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["SuggestionPreview"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Proposal"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    day_context_api_trips__trip_id__day_context_get: {
+        parameters: {
+            query: {
+                date: string;
+            };
+            header?: never;
+            path: {
+                trip_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DayContext"];
                 };
             };
             /** @description Validation Error */

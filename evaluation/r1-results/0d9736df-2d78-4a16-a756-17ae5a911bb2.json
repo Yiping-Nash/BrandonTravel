@@ -1,0 +1,1126 @@
+{
+  "runId": "0d9736df-2d78-4a16-a756-17ae5a911bb2",
+  "taskId": "r1-v1:chengdu:1:2026-11-02",
+  "status": "Pass",
+  "batch": "smoke",
+  "architecture": "B",
+  "mode": "research",
+  "llmMode": "live",
+  "toolMode": "live",
+  "contextHash": "1f9e87d2efd3d5a78cf670f641710036ccd818e0be11a47e6187d906707f5b3b",
+  "humanReview": "Pending",
+  "mainSelection": {
+    "useResearchResult": true,
+    "explanation": "研究完成：给出大龙燚火锅（太古里店）与陈麻婆豆腐（总店）两个候选，均按高德地点事实／网页体验／我的推断三层标注，并单列推广证据与「未标推广不等于非广告」限制；同时点明不吃辣锅底与非辣菜清单、总店营业时间等关键缺口。仅为候选，未改动行程、未做任何预约。"
+  },
+  "proposedResult": {
+    "summary": "围绕“一餐内兼顾完全不吃辣与很喜欢辣 + 全组不早起 + 适合慢慢聊天”，给出两个成都餐饮候选，全部为研究候选，未做任何预约或行程修改。\n\n候选A：大龙燚火锅（太古里店，东大街下东大街段166号二层，高德POI ev:3ec14a6d0b91624cda60b656）。火锅的分格/三拼锅底结构最契合“辣与不辣同桌”的硬约束；Trip.com详情页显示11:00开门、营业至次日02:00，与不早起节奏兼容，更适合放在11-04 18:00–20:00朋友聚餐。风险：品牌以“辣”为魂，具体非辣锅底品名缺证；人气高、晚市可能排队，久坐聊天无正面证据。\n\n候选B：陈麻婆豆腐（总店，东华门街51号，高德POI ev:d6d764f9b5fff342fd34cf2b）。中华老字号川菜点菜馆，点菜制天然便于辣/不辣分盘共享，位置在市中心骡马市一带，与11-03“街区慢逛”顺路。关键缺口：招牌麻婆豆腐本身讲究“麻、辣”，非辣菜清单在本次已查来源中没有逐条证据；已获得的11:00–21:00营业时间来自2019年青华路店，不适用于总店，故11-03 11:00入座可行性属未核验状态。\n\n证据分层已按要求标注：高德仅提供名称/地址/坐标（评分、人均、营业时间、电话多为“高德未提供/无法核验”）；网页侧体验来自Trip.com点评（2020–2021）、大众点评搜索摘录、新浪攻略稿、Michelin Guide与YouTube探店（2019），时效普遍偏旧且部分指向其他门店；推断部分单独标记。推广/广告：两候选来源均“未见推广标识”，但未标注推广不等于",
+    "candidates": [
+      {
+        "title": "候选A：大龙燚火锅（太古里店）— 川味牛油火锅，靠三拼/多格锅底兼顾不吃辣",
+        "rationale": "对应行程11-02「火锅候选研究」与11-04 18:00–20:00「朋友聚餐」。火锅是最容易在一餐内同时满足完全不吃辣与很喜欢辣的品类（分格/三拼锅底）；大龙燚太古里店位于春熙路/太古里商圈，第三方页面显示11:00开门、营业至次日凌晨，与全组不早起节奏兼容。所有信息仅为候选研究，未做任何预约或预订确认。",
+        "preferenceMatches": [
+          "当地美食：成都代表性川味火锅",
+          "兼顾不吃辣与喜辣：三拼/多格锅底有用户点评支持",
+          "不早起友好：第三方页面显示11:00起营业至次日凌晨",
+          "聊天久坐：点评称店面宽敞、环境气派（无安静程度证据）"
+        ],
+        "tradeoffs": [
+          "品牌以辣为核心卖点，不吃辣一方依赖是否有清汤/三拼锅底，需电话确认",
+          "热门商圈连锁人气店，晚市大概率排队，未必适合长时间慢聊",
+          "公开点评多为2020–2021年，时效不明；高德侧未提供营业时间与电话",
+          "若安排在11-03 11:00，正好卡在开门时刻，出餐与服务状态存疑",
+          "官网与品牌社媒属自我宣传，不能当中立口碑使用"
+        ],
+        "claims": [
+          {
+            "text": "【高德地点事实】POI名称：大龙燚火锅(太古里店)；地址：东大街下东大街段166号二层；坐标30.650983/104.080731（高德providerId B0FFHIF7PC，检索于2026-10-25）。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:3ec14a6d0b91624cda60b656"
+            ]
+          },
+          {
+            "text": "【地图/平台侧补充，非高德字段】大众点评移动页搜索摘录显示：评分4.7、人均¥90、类目“春熙路商圈 四川火锅”，菜品关键词含三拼奔吃锅、手工现炸酥肉、麻辣牛肉、精品千层肚、草香鲜毛肚、手工嫩牛肉。高德本次返回字段中未包含评分、人均、营业时间、电话——这些属“高德未提供/无法核验”。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:d8a732e2366dd2c6f2bfe61a"
+            ]
+          },
+          {
+            "text": "【网页体验·营业时段】Trip.com餐厅详情页（页面提取）显示“Open | 11:00-Next day 02:00”，即当日11:00起营业至次日02:00；并给出电话+86 28 61190606，地址与高德一致，总评4.4/5、127条点评。该页无明确发布日期，时效不确定。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180"
+            ]
+          },
+          {
+            "text": "【网页体验·锅底与辣度】同页用户点评（发布于2020-05-10）称“three-piece pot base is good”（三拼锅底不错），并描述麻辣牛肉铺满辣椒；2021-10-19点评称毛肚、摆盘、分量与服务好。可见存在多格/三拼锅底形态，但没有任何来源明确写出清汤/菌汤/番茄等不辣锅底的具体品名与价格。",
+            "kind": "experience",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180"
+            ]
+          },
+          {
+            "text": "【网页体验·排队与预约】同页2020-01-02点评提到“在上海吃大龙燚要排队、人很多，来成都即使排队也要吃”，说明品牌热门、高峰排队常态；2021-10-19点评提到“周五约了邻居一起来”，属自发约定，不构成官方订座渠道证据。是否支持线上取号/预约：各来源均未提供，无法核验。",
+            "kind": "experience",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180"
+            ]
+          },
+          {
+            "text": "【网页体验·环境】点评描述“店内干净整洁、非常宽敞”“招牌和室内环境很气派，虽在二层但不影响氛围”（2020-05-10、2021-10-19）。均为空间大/装修好的描述，无任何来源直接评价噪音水平或是否适合长时间慢聊。",
+            "kind": "experience",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180"
+            ]
+          },
+          {
+            "text": "【网页体验·品牌口径】大龙燚官网（页面提取）自述“以‘辣’为魂”“秘制锅底”，全球400余家门店，设有“锅底”栏目与客服400-005-2166；官网文本未列出具体鸳鸯锅/清汤锅参数。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:72d77ddb644c4e086c08dc9a"
+            ]
+          },
+          {
+            "text": "【我的推断·时段适配】11-04朋友聚餐18:00–20:00与该店11:00–次日02:00明显兼容，是更稳妥时段；11-03早午餐11:00恰等于其开门时间，理论可入座但卡在开门时刻，需电话确认当日实际开门时间与午市菜单供应，风险中等。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180",
+              "ev:72d77ddb644c4e086c08dc9a"
+            ]
+          },
+          {
+            "text": "【我的推断·口味兼顾】三拼/多格锅底形态有用户点评支持，对“一位完全不吃辣+一位很喜欢辣”结构性友好；但不吃辣者具体能点什么锅底与菜品缺乏明确来源，须到店前电话核实清汤/菌汤类锅底是否存在及是否额外收费。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180",
+              "ev:acb9ab17afc757d213af3714"
+            ]
+          },
+          {
+            "text": "【我的推断·风险点】①品牌重辣且人气高，晚市可能排队，与“坐得住慢慢聊”预期冲突；②火锅用餐时长常超2小时，可能挤压18:00–20:00窗口；③第三方评分不一致（点评4.7 vs Trip.com 4.4），且点评样本多为2020–2021年，现状可能与当时不同。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180",
+              "ev:d8a732e2366dd2c6f2bfe61a"
+            ]
+          },
+          {
+            "text": "【推广/广告证据】未发现任何来源带明确“广告/赞助/合作”标识：Trip.com为聚合点评页、大龙燚官网本身即品牌自有宣传阵地（天然商业属性）、Instagram账号为品牌海外分店运营号。官网与社媒内容属自我宣传，不应视为中立体验评价。限制声明：某来源未标注推广，也不能据此断定它不是广告，只能说“未见推广标识”；搜索引擎排序与平台推荐位本身可能含竞价成分，无法核验。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180",
+              "ev:72d77ddb644c4e086c08dc9a",
+              "ev:acb9ab17afc757d213af3714"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-04",
+        "placeEvidenceRef": "ev:3ec14a6d0b91624cda60b656"
+      },
+      {
+        "title": "候选B：陈麻婆豆腐（总店，东华门街51号）— 老字号川菜点菜馆，需先核实非辣菜",
+        "rationale": "对应行程11-02「找一家面馆」的探索意向与11-03 11:00–12:30「早午餐」（作为川菜馆替代方案）。选它是因为它是高德可直接命中的老字号川菜总店，点菜制比纯重辣火锅更易在同一桌分流辣与不辣的菜；短板也很明确：非辣菜缺少逐条来源证据，总店营业时间未取得。",
+        "preferenceMatches": [
+          "当地美食：中华老字号川菜，地方与历史辨识度高",
+          "喜辣者：招牌麻婆豆腐等麻辣本位菜（维基佐证其麻辣特色）",
+          "不早起友好：中餐热炒午晚市均可，无需赶早（总店确切开门时间未核验）",
+          "位置顺路：市中心骡马市/东华门一带，与11-03「街区慢逛」相邻"
+        ],
+        "tradeoffs": [
+          "招牌菜本身麻辣，不吃辣者能否点齐一桌没有明确来源支持，是本候选最大不确定性",
+          "已获得的11:00–21:00营业时间来自2019年青华路店视频描述，不适用于总店",
+          "高德未提供总店评分/人均/营业时间/电话；第三方人均60–80元的出处未标注推广属性",
+          "同名多店容易走错，需按“东华门街51号”核对",
+          "11-03 11:00入座可行性未经核验，建议改到11:30之后或直接用于11-04晚餐"
+        ],
+        "claims": [
+          {
+            "text": "【高德地点事实】POI名称：陈麻婆豆腐(总店)；地址：东华门街51号（骡马市地铁站E口步行440米）；坐标30.664435/104.069202（高德providerId B0FFLBBUPJ，检索于2026-10-25）。高德未返回评分、人均、营业时间、电话、类目等字段——均属“高德未提供/无法核验”。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:d6d764f9b5fff342fd34cf2b"
+            ]
+          },
+          {
+            "text": "【网页体验·身份资质】百度百科“陈麻婆”词条（检索于2026-10-25，标注最近更新2026-09-22）称其为“中华老字号川菜馆”，引用含商务部老字号数字博物馆、腾讯网（2021-05-09）、Tripadvisor（2025-05-20）；目录含“菜品特色/经营现状/推荐菜”，但摘录未展开具体菜单与非辣菜清单。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:bbae09dedb575ed9b513746e"
+            ]
+          },
+          {
+            "text": "【网页体验·价格与门店分布】新浪财经文章（搜索摘录，日期线索不明确，疑为近期攻略稿）称：总店在青羊区东华门街51号，骡马市店在西玉龙街197号；招牌麻婆豆腐小份22–24元，人均60–80元，“10来道菜约500多元”，并称性价比在非遗老字号里突出。该来源未标注推广与否，时效不确定。",
+            "kind": "experience",
+            "evidenceRefs": [
+              "ev:2e3f1def1a3efc6f23b44b50"
+            ]
+          },
+          {
+            "text": "【网页体验·营业时段（注意指向另一门店）】YouTube探店视频《窮L遊記·四川篇#02 陳麻婆豆腐》（发布于2019-03-06）描述栏给出的是“陈麻婆豆腐旗舰店（青华路店）”：青华路10号附10-12号，电话028-87317216，营业时间周一至周日11:00–21:00。这是青华路店2019年信息，不能直接等同于东华门街51号总店；总店营业时间在本次已查来源中未获得明确数据。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:1372ecb7b1edb38bfd50f693"
+            ]
+          },
+          {
+            "text": "【网页体验·环境与认可度】米其林指南网页收录“陈麻婆豆腐（青华路）”条目，含开胃菜、主菜与多张室内照片，“设施与服务”下列出“可接受信用卡”；摘录中未出现关于噪音、是否适合久坐、是否需要预约或排队的文字。同为青华路店信息，非总店。",
+            "kind": "experience",
+            "evidenceRefs": [
+              "ev:d3f6e92f1da287ff794165e5"
+            ]
+          },
+          {
+            "text": "【网页体验·菜品辣度常识】维基百科“麻婆豆腐”词条：此菜讲究麻、辣、鲜、烫、嫩、捆、酥等特色，清代同治元年（1862年）由陈兴盛饭铺老板娘陈刘氏所创。即招牌菜本身对完全不吃辣者并不友好。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:9df8895cb9ea7a2181c9dc20"
+            ]
+          },
+          {
+            "text": "【我的推断·非辣选项缺口】任务要求“川菜馆但必须有明确的非辣菜品选择”。目前仅有间接线索（百科设“推荐菜”章节但摘录未展开；维基仅证明招牌菜麻辣），没有任何来源逐条列出总店的非辣菜（如甜烧白、开水白菜、不辣汤菜等）。因此“非辣菜是否充足”处于未证实状态，必须电话或看当日菜单核实，不能凭老字号印象假定。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:9df8895cb9ea7a2181c9dc20",
+              "ev:bbae09dedb575ed9b513746e"
+            ]
+          },
+          {
+            "text": "【我的推断·时段适配】若沿用同类门店常见的11:00开门规律（2019年青华路店），11-03 11:00早午餐理论可行但同样卡在开门时刻，且总店当日开门时间未经核验，风险高于候选A；11-04 18:00–20:00晚餐与一般川菜馆营业时段兼容度较高。中式热炒一餐通常比火锅短，对2小时窗口更友好，也更容易让不吃辣者与喜辣者分别点菜同桌共享。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:1372ecb7b1edb38bfd50f693",
+              "ev:2e3f1def1a3efc6f23b44b50"
+            ]
+          },
+          {
+            "text": "【我的推断·风险点】①同名多店易混（东华门街51号 vs 青华路10号附10-12号 vs 西玉龙街197号），导航与点评信息可能指向不同门店，务必按地址核对；②招牌菜以麻辣为本位，若非辣菜不足会直接违背“一餐内兼顾”的硬约束；③老字号游客与本地客混合，高峰可能嘈杂翻台快，是否适合久坐聊天无正面证据。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:2e3f1def1a3efc6f23b44b50",
+              "ev:d3f6e92f1da287ff794165e5"
+            ]
+          },
+          {
+            "text": "【推广/广告证据】未发现明确标注“广告/赞助/合作”的来源：新浪系“怎么选/FAQ”式攻略稿形态接近内容营销或SEO聚合文，但页面未标注推广属性；YouTube探店频道为个人游记、描述含频道社交链接与CC背景音乐署名，未见商业标签但也未声明非商业；Michelin Guide为榜单媒体条目，本身具有榜单商业生态。限制声明：未标注推广不等于不是广告/软文/达人合作/推荐位，只能写“未见推广标识”，无法据此断定其中立性。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:2e3f1def1a3efc6f23b44b50",
+              "ev:1372ecb7b1edb38bfd50f693",
+              "ev:d3f6e92f1da287ff794165e5"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-03",
+        "placeEvidenceRef": "ev:d6d764f9b5fff342fd34cf2b"
+      }
+    ],
+    "claims": [],
+    "limitations": [
+      "高德本次仅返回POI名称/地址/坐标，未返回评分、人均、营业时间、电话、排队或预约政策，相关字段一律标注“高德未提供/无法核验”。",
+      "大众点评店铺页read_pages失败（failedCount=1），仅得到搜索摘录片段，未能核对完整营业时间、预约方式与最新评价。",
+      "两候选的用户体验点评集中在2020–2021年（Trip.com）与2019年（YouTube），2026-11的真实营业状况、菜单与辣度设置均未核验。",
+      "陈麻婆豆腐总店（东华门街51号）的营业时间、电话、非辣菜清单在本次已查来源中均无明确数据；11:00–21:00属青华路店2019年信息，不可迁移。",
+      "未找到任何来源逐条列出大龙燚太古里店的清汤/菌汤/番茄等非辣锅底品名与价格，仅有“三拼锅底”这一间接用户描述。",
+      "噪音水平、是否适合长时间聊天、是否需要预约或取号、晚市排队时长，均无一手可靠来源。",
+      "推广判定限制：所有来源均未见明确推广标识，但“未见标识”不等于“不是广告/软文/达人合作/竞价排名或推荐位”；品牌官网与社媒属自我宣传，新浪系攻略稿与榜单媒体条目亦具潜在商业属性，无法核验。",
+      "本结果为纯研究建议，未创建、修改或确认任何行程项，也未做任何预约；候选≠已预订，营业时间与辣度需到店前电话核实。最终去哪家不由我替用户决定。"
+    ],
+    "coverage": [
+      "trip_snapshot",
+      "search_places(amap POI：名称/地址/坐标，共4条POI证据)",
+      "web_search(4次：大龙燚点评与官网、陈麻婆总店信息与攻略、深夜营业与排队攻略)",
+      "read_pages(尝试3个URL，成功2个：大龙燚官网、Trip.com餐厅详情；大众点评移动页读取失败 failedCount=1)",
+      "brand_official_site(大龙燚官网页面提取)",
+      "third_party_review_platform(Trip.com用户点评、大众点评搜索摘录、Michelin Guide条目摘录)",
+      "encyclopedia_and_news(百度百科、维基百科、新浪财经攻略稿)",
+      "video_content(YouTube探店频道描述，2019年)"
+    ],
+    "status": "partial"
+  },
+  "result": {
+    "summary": "围绕“一餐内兼顾完全不吃辣与很喜欢辣 + 全组不早起 + 适合慢慢聊天”，给出两个成都餐饮候选，全部为研究候选，未做任何预约或行程修改。\n\n候选A：大龙燚火锅（太古里店，东大街下东大街段166号二层，高德POI ev:3ec14a6d0b91624cda60b656）。火锅的分格/三拼锅底结构最契合“辣与不辣同桌”的硬约束；Trip.com详情页显示11:00开门、营业至次日02:00，与不早起节奏兼容，更适合放在11-04 18:00–20:00朋友聚餐。风险：品牌以“辣”为魂，具体非辣锅底品名缺证；人气高、晚市可能排队，久坐聊天无正面证据。\n\n候选B：陈麻婆豆腐（总店，东华门街51号，高德POI ev:d6d764f9b5fff342fd34cf2b）。中华老字号川菜点菜馆，点菜制天然便于辣/不辣分盘共享，位置在市中心骡马市一带，与11-03“街区慢逛”顺路。关键缺口：招牌麻婆豆腐本身讲究“麻、辣”，非辣菜清单在本次已查来源中没有逐条证据；已获得的11:00–21:00营业时间来自2019年青华路店，不适用于总店，故11-03 11:00入座可行性属未核验状态。\n\n证据分层已按要求标注：高德仅提供名称/地址/坐标（评分、人均、营业时间、电话多为“高德未提供/无法核验”）；网页侧体验来自Trip.com点评（2020–2021）、大众点评搜索摘录、新浪攻略稿、Michelin Guide与YouTube探店（2019），时效普遍偏旧且部分指向其他门店；推断部分单独标记。推广/广告：两候选来源均“未见推广标识”，但未标注推广不等于",
+    "candidates": [
+      {
+        "title": "候选A：大龙燚火锅（太古里店）— 川味牛油火锅，靠三拼/多格锅底兼顾不吃辣",
+        "rationale": "对应行程11-02「火锅候选研究」与11-04 18:00–20:00「朋友聚餐」。火锅是最容易在一餐内同时满足完全不吃辣与很喜欢辣的品类（分格/三拼锅底）；大龙燚太古里店位于春熙路/太古里商圈，第三方页面显示11:00开门、营业至次日凌晨，与全组不早起节奏兼容。所有信息仅为候选研究，未做任何预约或预订确认。",
+        "preferenceMatches": [
+          "当地美食：成都代表性川味火锅",
+          "兼顾不吃辣与喜辣：三拼/多格锅底有用户点评支持",
+          "不早起友好：第三方页面显示11:00起营业至次日凌晨",
+          "聊天久坐：点评称店面宽敞、环境气派（无安静程度证据）"
+        ],
+        "tradeoffs": [
+          "品牌以辣为核心卖点，不吃辣一方依赖是否有清汤/三拼锅底，需电话确认",
+          "热门商圈连锁人气店，晚市大概率排队，未必适合长时间慢聊",
+          "公开点评多为2020–2021年，时效不明；高德侧未提供营业时间与电话",
+          "若安排在11-03 11:00，正好卡在开门时刻，出餐与服务状态存疑",
+          "官网与品牌社媒属自我宣传，不能当中立口碑使用"
+        ],
+        "claims": [
+          {
+            "text": "【高德地点事实】POI名称：大龙燚火锅(太古里店)；地址：东大街下东大街段166号二层；坐标30.650983/104.080731（高德providerId B0FFHIF7PC，检索于2026-10-25）。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:3ec14a6d0b91624cda60b656"
+            ]
+          },
+          {
+            "text": "【地图/平台侧补充，非高德字段】大众点评移动页搜索摘录显示：评分4.7、人均¥90、类目“春熙路商圈 四川火锅”，菜品关键词含三拼奔吃锅、手工现炸酥肉、麻辣牛肉、精品千层肚、草香鲜毛肚、手工嫩牛肉。高德本次返回字段中未包含评分、人均、营业时间、电话——这些属“高德未提供/无法核验”。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:d8a732e2366dd2c6f2bfe61a"
+            ]
+          },
+          {
+            "text": "【网页体验·营业时段】Trip.com餐厅详情页（页面提取）显示“Open | 11:00-Next day 02:00”，即当日11:00起营业至次日02:00；并给出电话+86 28 61190606，地址与高德一致，总评4.4/5、127条点评。该页无明确发布日期，时效不确定。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180"
+            ]
+          },
+          {
+            "text": "【网页体验·锅底与辣度】同页用户点评（发布于2020-05-10）称“three-piece pot base is good”（三拼锅底不错），并描述麻辣牛肉铺满辣椒；2021-10-19点评称毛肚、摆盘、分量与服务好。可见存在多格/三拼锅底形态，但没有任何来源明确写出清汤/菌汤/番茄等不辣锅底的具体品名与价格。",
+            "kind": "experience",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180"
+            ]
+          },
+          {
+            "text": "【网页体验·排队与预约】同页2020-01-02点评提到“在上海吃大龙燚要排队、人很多，来成都即使排队也要吃”，说明品牌热门、高峰排队常态；2021-10-19点评提到“周五约了邻居一起来”，属自发约定，不构成官方订座渠道证据。是否支持线上取号/预约：各来源均未提供，无法核验。",
+            "kind": "experience",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180"
+            ]
+          },
+          {
+            "text": "【网页体验·环境】点评描述“店内干净整洁、非常宽敞”“招牌和室内环境很气派，虽在二层但不影响氛围”（2020-05-10、2021-10-19）。均为空间大/装修好的描述，无任何来源直接评价噪音水平或是否适合长时间慢聊。",
+            "kind": "experience",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180"
+            ]
+          },
+          {
+            "text": "【网页体验·品牌口径】大龙燚官网（页面提取）自述“以‘辣’为魂”“秘制锅底”，全球400余家门店，设有“锅底”栏目与客服400-005-2166；官网文本未列出具体鸳鸯锅/清汤锅参数。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:72d77ddb644c4e086c08dc9a"
+            ]
+          },
+          {
+            "text": "【我的推断·时段适配】11-04朋友聚餐18:00–20:00与该店11:00–次日02:00明显兼容，是更稳妥时段；11-03早午餐11:00恰等于其开门时间，理论可入座但卡在开门时刻，需电话确认当日实际开门时间与午市菜单供应，风险中等。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180",
+              "ev:72d77ddb644c4e086c08dc9a"
+            ]
+          },
+          {
+            "text": "【我的推断·口味兼顾】三拼/多格锅底形态有用户点评支持，对“一位完全不吃辣+一位很喜欢辣”结构性友好；但不吃辣者具体能点什么锅底与菜品缺乏明确来源，须到店前电话核实清汤/菌汤类锅底是否存在及是否额外收费。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180",
+              "ev:acb9ab17afc757d213af3714"
+            ]
+          },
+          {
+            "text": "【我的推断·风险点】①品牌重辣且人气高，晚市可能排队，与“坐得住慢慢聊”预期冲突；②火锅用餐时长常超2小时，可能挤压18:00–20:00窗口；③第三方评分不一致（点评4.7 vs Trip.com 4.4），且点评样本多为2020–2021年，现状可能与当时不同。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180",
+              "ev:d8a732e2366dd2c6f2bfe61a"
+            ]
+          },
+          {
+            "text": "【推广/广告证据】未发现任何来源带明确“广告/赞助/合作”标识：Trip.com为聚合点评页、大龙燚官网本身即品牌自有宣传阵地（天然商业属性）、Instagram账号为品牌海外分店运营号。官网与社媒内容属自我宣传，不应视为中立体验评价。限制声明：某来源未标注推广，也不能据此断定它不是广告，只能说“未见推广标识”；搜索引擎排序与平台推荐位本身可能含竞价成分，无法核验。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:2b1b0f85b59673b4cfc19180",
+              "ev:72d77ddb644c4e086c08dc9a",
+              "ev:acb9ab17afc757d213af3714"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-04",
+        "placeEvidenceRef": "ev:3ec14a6d0b91624cda60b656"
+      },
+      {
+        "title": "候选B：陈麻婆豆腐（总店，东华门街51号）— 老字号川菜点菜馆，需先核实非辣菜",
+        "rationale": "对应行程11-02「找一家面馆」的探索意向与11-03 11:00–12:30「早午餐」（作为川菜馆替代方案）。选它是因为它是高德可直接命中的老字号川菜总店，点菜制比纯重辣火锅更易在同一桌分流辣与不辣的菜；短板也很明确：非辣菜缺少逐条来源证据，总店营业时间未取得。",
+        "preferenceMatches": [
+          "当地美食：中华老字号川菜，地方与历史辨识度高",
+          "喜辣者：招牌麻婆豆腐等麻辣本位菜（维基佐证其麻辣特色）",
+          "不早起友好：中餐热炒午晚市均可，无需赶早（总店确切开门时间未核验）",
+          "位置顺路：市中心骡马市/东华门一带，与11-03「街区慢逛」相邻"
+        ],
+        "tradeoffs": [
+          "招牌菜本身麻辣，不吃辣者能否点齐一桌没有明确来源支持，是本候选最大不确定性",
+          "已获得的11:00–21:00营业时间来自2019年青华路店视频描述，不适用于总店",
+          "高德未提供总店评分/人均/营业时间/电话；第三方人均60–80元的出处未标注推广属性",
+          "同名多店容易走错，需按“东华门街51号”核对",
+          "11-03 11:00入座可行性未经核验，建议改到11:30之后或直接用于11-04晚餐"
+        ],
+        "claims": [
+          {
+            "text": "【高德地点事实】POI名称：陈麻婆豆腐(总店)；地址：东华门街51号（骡马市地铁站E口步行440米）；坐标30.664435/104.069202（高德providerId B0FFLBBUPJ，检索于2026-10-25）。高德未返回评分、人均、营业时间、电话、类目等字段——均属“高德未提供/无法核验”。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:d6d764f9b5fff342fd34cf2b"
+            ]
+          },
+          {
+            "text": "【网页体验·身份资质】百度百科“陈麻婆”词条（检索于2026-10-25，标注最近更新2026-09-22）称其为“中华老字号川菜馆”，引用含商务部老字号数字博物馆、腾讯网（2021-05-09）、Tripadvisor（2025-05-20）；目录含“菜品特色/经营现状/推荐菜”，但摘录未展开具体菜单与非辣菜清单。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:bbae09dedb575ed9b513746e"
+            ]
+          },
+          {
+            "text": "【网页体验·价格与门店分布】新浪财经文章（搜索摘录，日期线索不明确，疑为近期攻略稿）称：总店在青羊区东华门街51号，骡马市店在西玉龙街197号；招牌麻婆豆腐小份22–24元，人均60–80元，“10来道菜约500多元”，并称性价比在非遗老字号里突出。该来源未标注推广与否，时效不确定。",
+            "kind": "experience",
+            "evidenceRefs": [
+              "ev:2e3f1def1a3efc6f23b44b50"
+            ]
+          },
+          {
+            "text": "【网页体验·营业时段（注意指向另一门店）】YouTube探店视频《窮L遊記·四川篇#02 陳麻婆豆腐》（发布于2019-03-06）描述栏给出的是“陈麻婆豆腐旗舰店（青华路店）”：青华路10号附10-12号，电话028-87317216，营业时间周一至周日11:00–21:00。这是青华路店2019年信息，不能直接等同于东华门街51号总店；总店营业时间在本次已查来源中未获得明确数据。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:1372ecb7b1edb38bfd50f693"
+            ]
+          },
+          {
+            "text": "【网页体验·环境与认可度】米其林指南网页收录“陈麻婆豆腐（青华路）”条目，含开胃菜、主菜与多张室内照片，“设施与服务”下列出“可接受信用卡”；摘录中未出现关于噪音、是否适合久坐、是否需要预约或排队的文字。同为青华路店信息，非总店。",
+            "kind": "experience",
+            "evidenceRefs": [
+              "ev:d3f6e92f1da287ff794165e5"
+            ]
+          },
+          {
+            "text": "【网页体验·菜品辣度常识】维基百科“麻婆豆腐”词条：此菜讲究麻、辣、鲜、烫、嫩、捆、酥等特色，清代同治元年（1862年）由陈兴盛饭铺老板娘陈刘氏所创。即招牌菜本身对完全不吃辣者并不友好。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:9df8895cb9ea7a2181c9dc20"
+            ]
+          },
+          {
+            "text": "【我的推断·非辣选项缺口】任务要求“川菜馆但必须有明确的非辣菜品选择”。目前仅有间接线索（百科设“推荐菜”章节但摘录未展开；维基仅证明招牌菜麻辣），没有任何来源逐条列出总店的非辣菜（如甜烧白、开水白菜、不辣汤菜等）。因此“非辣菜是否充足”处于未证实状态，必须电话或看当日菜单核实，不能凭老字号印象假定。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:9df8895cb9ea7a2181c9dc20",
+              "ev:bbae09dedb575ed9b513746e"
+            ]
+          },
+          {
+            "text": "【我的推断·时段适配】若沿用同类门店常见的11:00开门规律（2019年青华路店），11-03 11:00早午餐理论可行但同样卡在开门时刻，且总店当日开门时间未经核验，风险高于候选A；11-04 18:00–20:00晚餐与一般川菜馆营业时段兼容度较高。中式热炒一餐通常比火锅短，对2小时窗口更友好，也更容易让不吃辣者与喜辣者分别点菜同桌共享。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:1372ecb7b1edb38bfd50f693",
+              "ev:2e3f1def1a3efc6f23b44b50"
+            ]
+          },
+          {
+            "text": "【我的推断·风险点】①同名多店易混（东华门街51号 vs 青华路10号附10-12号 vs 西玉龙街197号），导航与点评信息可能指向不同门店，务必按地址核对；②招牌菜以麻辣为本位，若非辣菜不足会直接违背“一餐内兼顾”的硬约束；③老字号游客与本地客混合，高峰可能嘈杂翻台快，是否适合久坐聊天无正面证据。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:2e3f1def1a3efc6f23b44b50",
+              "ev:d3f6e92f1da287ff794165e5"
+            ]
+          },
+          {
+            "text": "【推广/广告证据】未发现明确标注“广告/赞助/合作”的来源：新浪系“怎么选/FAQ”式攻略稿形态接近内容营销或SEO聚合文，但页面未标注推广属性；YouTube探店频道为个人游记、描述含频道社交链接与CC背景音乐署名，未见商业标签但也未声明非商业；Michelin Guide为榜单媒体条目，本身具有榜单商业生态。限制声明：未标注推广不等于不是广告/软文/达人合作/推荐位，只能写“未见推广标识”，无法据此断定其中立性。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:2e3f1def1a3efc6f23b44b50",
+              "ev:1372ecb7b1edb38bfd50f693",
+              "ev:d3f6e92f1da287ff794165e5"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-03",
+        "placeEvidenceRef": "ev:d6d764f9b5fff342fd34cf2b"
+      }
+    ],
+    "claims": [],
+    "limitations": [
+      "高德本次仅返回POI名称/地址/坐标，未返回评分、人均、营业时间、电话、排队或预约政策，相关字段一律标注“高德未提供/无法核验”。",
+      "大众点评店铺页read_pages失败（failedCount=1），仅得到搜索摘录片段，未能核对完整营业时间、预约方式与最新评价。",
+      "两候选的用户体验点评集中在2020–2021年（Trip.com）与2019年（YouTube），2026-11的真实营业状况、菜单与辣度设置均未核验。",
+      "陈麻婆豆腐总店（东华门街51号）的营业时间、电话、非辣菜清单在本次已查来源中均无明确数据；11:00–21:00属青华路店2019年信息，不可迁移。",
+      "未找到任何来源逐条列出大龙燚太古里店的清汤/菌汤/番茄等非辣锅底品名与价格，仅有“三拼锅底”这一间接用户描述。",
+      "噪音水平、是否适合长时间聊天、是否需要预约或取号、晚市排队时长，均无一手可靠来源。",
+      "推广判定限制：所有来源均未见明确推广标识，但“未见标识”不等于“不是广告/软文/达人合作/竞价排名或推荐位”；品牌官网与社媒属自我宣传，新浪系攻略稿与榜单媒体条目亦具潜在商业属性，无法核验。",
+      "本结果为纯研究建议，未创建、修改或确认任何行程项，也未做任何预约；候选≠已预订，营业时间与辣度需到店前电话核实。最终去哪家不由我替用户决定。"
+    ],
+    "coverage": [
+      "trip_snapshot",
+      "search_places(amap POI：名称/地址/坐标，共4条POI证据)",
+      "web_search(4次：大龙燚点评与官网、陈麻婆总店信息与攻略、深夜营业与排队攻略)",
+      "read_pages(尝试3个URL，成功2个：大龙燚官网、Trip.com餐厅详情；大众点评移动页读取失败 failedCount=1)",
+      "brand_official_site(大龙燚官网页面提取)",
+      "third_party_review_platform(Trip.com用户点评、大众点评搜索摘录、Michelin Guide条目摘录)",
+      "encyclopedia_and_news(百度百科、维基百科、新浪财经攻略稿)",
+      "video_content(YouTube探店频道描述，2019年)"
+    ],
+    "status": "partial"
+  },
+  "seconds": 176.135,
+  "modelRequests": 10,
+  "inputTokens": 100704,
+  "outputTokens": 10901,
+  "usageRequests": 10,
+  "schemaRepairs": 1,
+  "toolCalls": [
+    "get_trip_snapshot",
+    "task",
+    "get_trip_snapshot",
+    "search_places",
+    "search_places",
+    "web_search",
+    "read_pages",
+    "web_search",
+    "web_search",
+    "web_search"
+  ],
+  "sourceEvents": [
+    {
+      "tool": "get_trip_snapshot",
+      "status": "OK",
+      "mode": "live"
+    },
+    {
+      "tool": "get_trip_snapshot",
+      "status": "OK",
+      "mode": "live"
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "live",
+      "results": 3
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "live",
+      "results": 1
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    },
+    {
+      "tool": "read_pages",
+      "status": "PARTIAL",
+      "mode": "live",
+      "results": 2,
+      "requested": 3
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    }
+  ],
+  "sourceCounts": {
+    "amap": 2,
+    "web": 4,
+    "extract": 3,
+    "credits": 5
+  },
+  "evidence": [
+    {
+      "id": "ev:a1842ae2020ad8eeb9af9993",
+      "sourceType": "snapshot",
+      "url": null,
+      "providerId": null,
+      "title": "Synthetic evaluation Trip snapshot",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:41:51.870610+00:00",
+      "publishedAt": null,
+      "excerpt": "{\"version\": 10, \"trip\": {\"title\": \"合成评测 · 朋友美食\", \"destination\": \"成都\", \"startDate\": \"2026-11-02\", \"endDate\": \"2026-11-06\", \"timezone\": \"Asia/Shanghai\", \"preferences\": \"三位朋友，不早起，重视当地美食和聊天。餐厅尚未选定，不把候选当预约。 一位朋友不吃辣、一位喜欢辣菜，必须兼顾。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, \"ideas\": [{\"title\": \"阅读当地历史并写旅行笔记\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-chengdu-2026-11-02-i0\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"备用室内休息安排\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-chengdu-2026-11-02-i1\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"遇到喜欢的地方多停一会\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-chengdu-2026-11-02-i2\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}], \"activities\": [{\"title\": \"睡到自然醒\", \"date\": \"2026-11-02\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a0-0\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"找一家面馆\", \"date\": \"2026-11-02\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a0-1\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"喝茶聊天\", \"date\": \"2026-11-02\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a0-2\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 2, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"火锅候选研究\", \"date\": \"2026-11-02\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a0-3\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 3, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"早午餐\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T11:00\", \"endAt\": \"2026-11-03T12:30\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a1-0\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"街区慢逛\", \"date\": \"2026-11-03\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a1-1\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"美食市场散步\", \"date\": \"2026-11-04\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a2-0\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"朋友聚餐\", \"date\": \"2026-11-04\", \"startAt\": \"2026-11-04T18:00\", \"endAt\": \"2026-11-04T20:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a2-1\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"自由探索\", \"date\": \"2026-11-05\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a3-0\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"伴手礼与返程\", \"date\": \"2026-11-06\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a4-0\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}]}",
+      "contentHash": "f540abe8be0e2fe0bd495a746e77a564fb4b6d2d728b4ba5270e0f336b7893d7",
+      "verification": "snapshot",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:3ec14a6d0b91624cda60b656",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0FFHIF7PC",
+      "title": "大龙燚火锅(太古里店)",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:42:07.780552+00:00",
+      "publishedAt": null,
+      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0FFHIF7PC\",\"name\":\"大龙燚火锅(太古里店)\",\"address\":\"东大街下东大街段166号二层\",\"latitude\":30.650983,\"longitude\":104.080731}",
+      "contentHash": "01cf1675535ff1127840d5f67c74c449af90a2b738865b055c6870f81c9203fb",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0FFHIF7PC",
+        "name": "大龙燚火锅(太古里店)",
+        "address": "东大街下东大街段166号二层",
+        "latitude": 30.650983,
+        "longitude": 104.080731
+      },
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:eb54e1ee13f5b71766e6f7fd",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0FFF4O5PV",
+      "title": "大龙燚火锅(科华总店)",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:42:07.780621+00:00",
+      "publishedAt": null,
+      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0FFF4O5PV\",\"name\":\"大龙燚火锅(科华总店)\",\"address\":\"科院路5号(川大望江校区地铁站C口步行320米)\",\"latitude\":30.625961,\"longitude\":104.07182}",
+      "contentHash": "03617b94eb276cc02ec2f399659c18c4f128fbc392aaf8ca697434ad87354273",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0FFF4O5PV",
+        "name": "大龙燚火锅(科华总店)",
+        "address": "科院路5号(川大望江校区地铁站C口步行320米)",
+        "latitude": 30.625961,
+        "longitude": 104.07182
+      },
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:db57074e2e66040aa2fdd4d5",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0FFGEW4S8",
+      "title": "小龙坎火锅(盐市口店)",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:42:07.780661+00:00",
+      "publishedAt": null,
+      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0FFGEW4S8\",\"name\":\"小龙坎火锅(盐市口店)\",\"address\":\"大业路47号\",\"latitude\":30.653622,\"longitude\":104.069499}",
+      "contentHash": "cdb544963ded1c385a75bb19ff9d7328315d743d12ad8da568778c0e9d9b61fe",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0FFGEW4S8",
+        "name": "小龙坎火锅(盐市口店)",
+        "address": "大业路47号",
+        "latitude": 30.653622,
+        "longitude": 104.069499
+      },
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:d6d764f9b5fff342fd34cf2b",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0FFLBBUPJ",
+      "title": "陈麻婆豆腐(总店)",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:42:10.402347+00:00",
+      "publishedAt": null,
+      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0FFLBBUPJ\",\"name\":\"陈麻婆豆腐(总店)\",\"address\":\"东华门街51号(骡马市地铁站E口步行440米)\",\"latitude\":30.664435,\"longitude\":104.069202}",
+      "contentHash": "1d5b0b095ec02fd4acba9630f973801c636dcad9ec3d0e40e361eadf4049ccec",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0FFLBBUPJ",
+        "name": "陈麻婆豆腐(总店)",
+        "address": "东华门街51号(骡马市地铁站E口步行440米)",
+        "latitude": 30.664435,
+        "longitude": 104.069202
+      },
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:189b1654b086fdc57c091a1b",
+      "sourceType": "web",
+      "url": "https://ae.trip.com/restaurant/china/chengdu/detail/restaurant-31556786",
+      "providerId": null,
+      "title": "2026 大龙燚火锅(太古里店) (Chunxi Road Commercial Area, Chengdu) - Restaurant reviews, menu & contact | Trip.com",
+      "publisher": "ae.trip.com",
+      "retrievedAt": "2026-10-25T20:42:14.200545+00:00",
+      "publishedAt": null,
+      "excerpt": "大龙燚火锅(太古里店) user photo大龙燚火锅(太古里店) user photo大龙燚火锅(太古里店) user photo\n\n  Reviewed on Oct 19, 2021\n\n  󰀶󰥉Helpful\n user-icon\n\n  annakeanu\n\n  4.0/5\n\n  Excellent\n\n  󱨥Original text\n\n  The environment in the store is clean and tidy, the store is very spacious, the service attitude is very good, the three-piece pot base is good, the spicy beef is covered with chili peppers, and the taste is very good. The loving shrimp is smooth, chewy and refreshing, and the shrimp meat is very substantial. [...] 大龙燚火锅(太古里店) user photo大龙燚火锅(太古里店) user photo大龙燚火锅(太古里店) user photo\n\n  Reviewed on May 10, 2020\n\n  󰀶󰥉Helpful\n user-icon\n\n  320\\\\\\43\n\n  5.0/5\n\n  Outstanding\n\n  󱨥Original text\n\n  In Shanghai, you need to queue up for Dalongyi Hotpot, and there are a lot of people. When you come to Chengdu, you have to go to the origin of Dalongyi Hotpot even if you have to queue up. I recommend the shrimp paste! Spicy beef, the hotpot is so delicious! [...] 4.4/5\n\nExcellent\n\n127 reviews\n\nSome reviews may have been translated by Google Translate\n\nAll (127)\n\nLatest\n\nPhoto reviews(4)\n\nPositive reviews(9)\n\n user-icon\n\n  CD云上\n\n  4.0/5\n\n  Excellent\n\n  󱨥Original text",
+      "contentHash": "239a3a52f2f21843919060c906629858e985fb5d632593955978db529e0b65cc",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:d8a732e2366dd2c6f2bfe61a",
+      "sourceType": "web",
+      "url": "http://m.dianping.com/shop/75141698?msource=applemaps",
+      "providerId": null,
+      "title": "【大龙燚火锅(太古里店)】电话_地址_价格_营业时间_春熙路 ...",
+      "publisher": "m.dianping.com",
+      "retrievedAt": "2026-10-25T20:42:14.200632+00:00",
+      "publishedAt": null,
+      "excerpt": "大龙燚火锅(太古里店)...... 4.7. ¥90/人. 春熙路商圈四川火锅. 春熙路商圈 ... 三拼奔吃锅. 手工现炸酥肉. 麻辣牛肉. 精品千层肚. 草香鲜毛肚. 手工嫩牛肉.",
+      "contentHash": "35a5c1d483b5d308b9b2f306c6f83893a0fcedb4f802c0ac4486808b64113c5b",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:74e9120a4602a078a3d3aef8",
+      "sourceType": "web",
+      "url": "https://www.dalongyi.com",
+      "providerId": null,
+      "title": "【大龙燚官网】十大知名连锁火锅|餐饮品牌排行_加盟条件|费用",
+      "publisher": "www.dalongyi.com",
+      "retrievedAt": "2026-10-25T20:42:14.200688+00:00",
+      "publishedAt": null,
+      "excerpt": "为全球门店提供服务\n\n大龙燚品牌\n\n成都大龙燚餐饮管理有限公司是经营地道川味火锅的大型全球性餐饮服务企业，总部位于成都，旗下大龙燚火锅于2013年从成都玉林拉开传奇序幕，以“辣”为魂，匠心经营，其秘制锅底和招牌食材俘获无数好吃客。2017年大龙燚代表川味火锅首次登上美国纽约时代广场纳斯达克广告大屏，全面打响海外市场，大龙燚弘扬着火锅文化，将“成都辣”聚焦于口味，将“中国辣”聚焦于传播文化，在全球拥有400余家品牌门店，践行着“让世界爱上成都味”的品牌理想。大龙燚，已成为餐饮行业新名片。\n\n400+\n\n在全球拥有品牌门店数\n\n10000+\n\n在全球合作门店数\n\n\n\n了解大龙燚品牌\n\n大龙燚品牌\n\n\n\n点击查看详细\n\nMarketing\n\n品牌营销\n\n全媒体矩阵  \n 共享百亿流量\n\n\n\n了解更多\n\n我在成都看到龙！大龙燚1500架无人机上演科技“游龙秀”！\n\n\n\n集合团战，火锅开涮！大龙燚火锅✖英雄联盟主题快闪店，，落地成都大龙燚火锅太古里hoyo店\n\n\n\n双“9”相遇 宠粉献礼 快来打卡新闻火锅主题店\n\n [...] \n\n吃的管够！”经历了几天居家生活后，很多成都人开始思考：如何吃得更好。\n\n\n\n逛吃新姿势，火锅巴士真巴适\n\n\n\nMarketing\n\n品牌营销\n\n全媒体矩阵、共享百亿流量\n\n\n\n点击查看详细 support\n\n加盟大龙燚\n\n36项服务支持，全程定点帮扶  \n助您无忧开店，省心经营\n\n\n\n点击查看详细 超级供应链\n\n\n\n点击查看详细 大龙燚美食\n\n\n\n点击查看详细\n\nHeadlines\n\n了解最新大龙燚资讯\n\n大龙燚头条\n\n\n\n了解更多\n\n2023-08-11\n\n大龙燚品牌十周年庆典今日正式启幕，烟火人间，以辣为本，大龙燚第10年，等您开启\n\n2013-2023， 从玉林17张台单店到全球300家门店 我们匠心打造非遗锅底，创新研发大众菜品 竭尽全力还火锅本来的样子\n\n09\n\n2023-08\n\n4000人背着“显眼包”免费吃火锅，成都值得常来！\n\n时隔6年， 大龙燚火锅再次感恩回馈全城！ 4000人背着“显眼包”免费吃火锅 成都值得再来！大龙燚值得常来！ #大龙燚再次全城免单\n\n 查看详情 19\n\n2023-07\n\n大龙燚火锅上新啦 [...] 大龙燚品牌\n  + 品牌介绍\n  + 品牌荣誉\n  + 发展历程\n  + 品牌文化\n  + 门店形象\n  + 门店人气\n 大龙燚美食\n  + 锅底\n  + 特色刷菜\n  + 特色小吃甜品\n  + 预包装产品\n  + 大龙燚周边\n 加盟大龙燚 \n  + 支持体系\n  + 加盟优势\n  + 加盟流程\n  + 加盟申请\n 超级供应链\n  + 供应链介绍\n 新闻动态\n  + 公司新闻\n  + 行业新闻\n  + 营销推广\n 联系我们\n  + 联系我们\n \n\n 400-005-2",
+      "contentHash": "19be1c0d051379934755775de7adbf02019c524c19c019b002198d7933326ea4",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:5d9fa5909dcd3f5df25247c7",
+      "sourceType": "web",
+      "url": "https://www.instagram.com/dalongyi_la",
+      "providerId": null,
+      "title": "大龍燚火鍋 Dalongyi LA (@dalongyi_la) • Instagram photos and videos",
+      "publisher": "www.instagram.com",
+      "retrievedAt": "2026-10-25T20:42:14.200740+00:00",
+      "publishedAt": null,
+      "excerpt": "Photo by 大龍燚火鍋 Dalongyi LA on October 26, 2019.\n\nPhoto by 大龍燚火鍋 Dalongyi LA on October 22, 2019.\n\nPhoto by 大龍燚火鍋 Dalongyi LA on October 18, 2019.\n\nPhoto by 大龍燚火鍋 Dalongyi LA on September 28, 2019.\n\nPhoto by 大龍燚火鍋 Dalongyi LA on September 24, 2019.\n\nVideo by 大龍燚火鍋 Dalongyi LA on September 07, 2019.\n\nVideo by 大龍燚火鍋 Dalongyi LA on September 07, 2019.\n\nShow more posts from dalongyi\\_la [...] Log In\n\nSign Up\n\n## dalongyi\\_la\n\n 335 followers\n 15 following\n\n大龍燚火鍋 Dalongyi LA\n\nAuthentic Chengdu Hot Pot   \n“讓世界爰上成都味”  \nLet the world fall in love with Chengdu Taste  \n250 W. Valley Blvd #L   \nSan Gabriel\n\n...\n\nmore\n\nwww.dalongyi.com\n\nPhoto by 大龍燚火鍋 Dalongyi LA on December 22, 2019.\n\nPhoto by 大龍燚火鍋 Dalongyi LA on December 01, 2019.\n\nPhoto by 大龍燚火鍋 Dalongyi LA on November 28, 2019.\n\nPhoto by 大龍燚火鍋 Dalongyi LA on November 20, 2019.\n\nPhoto by 大龍燚火鍋 Dalongyi LA on October 29, 2019.",
+      "contentHash": "9a90834712344d49586eb042ff3443cd8e9954c072cdfe0aa3e3af948f3bbfc8",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:1372ecb7b1edb38bfd50f693",
+      "sourceType": "web",
+      "url": "https://www.youtube.com/watch?v=wNqE5-Tl6eU",
+      "providerId": null,
+      "title": "[窮L遊記·四川篇] #02 陳麻婆豆腐｜要食最正宗嘅麻婆豆腐 當然要去發明佢嘅餐廳！",
+      "publisher": "www.youtube.com",
+      "retrievedAt": "2026-10-25T20:42:21.178620+00:00",
+      "publishedAt": null,
+      "excerpt": "# [窮L遊記·四川篇] #02 陳麻婆豆腐｜要食最正宗嘅麻婆豆腐 當然要去發明佢嘅餐廳！\n## Channel: 西DorSi偽中產生活態度\n364K subscribers\n568 likes\n\n### Description\n33,989 views\nPosted: 2019-03-06\n陳麻婆豆腐旗艦店(青華路店) \n地址： 青華路10號附10-12號\n電話：028-87317216\n營業時間：週一至週日11:00 -21：00 \n• • • • • • • • • • • • • • • • • • •\nFacebook:   / saidorsi  \nInstagram:   / saidorsi  \nBilibili: \n• • • • • • • • • • • • • • • • • • •\nPACIFIC SUN by Nicolai Heidlas Music   / nicolai-heidlas  \nCreative Commons — Attribution 3.0 Unported— CC BY 3.0",
+      "contentHash": "1629c99db375c48fca23b7194c4f3abe2c1b47a2b042a7bced21ae6ca11f5e9c",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:bbae09dedb575ed9b513746e",
+      "sourceType": "web",
+      "url": "https://baike.baidu.com/item/%E9%99%88%E9%BA%BB%E5%A9%86/14305066",
+      "providerId": null,
+      "title": "陈麻婆",
+      "publisher": "baike.baidu.com",
+      "retrievedAt": "2026-10-25T20:42:21.178692+00:00",
+      "publishedAt": null,
+      "excerpt": "播报讨论上传视频\n\n中华老字号川菜馆\n\n．腾讯网．2021-05-09\n   2 老成都美食排行榜．腾讯网．2019-10-16\n   3．Tripadvisor猫途鹰．2025-05-20\n   8．中华人民共和国商务部老字号数字博物馆\n   10[]( 枢纽成都丨莱茵河畔涮火锅!上百家川菜品牌在海外开分店．红星新闻\n   11[]( 成都青羊非遗美食加速\"闯\"海外 向世界递上川菜文化名片．中央广电总台国际在线\n\n展开全部\n\nImage 7\n\n陈麻婆的概述图（1张）\n\n词条统计\n\n浏览次数：\n\n编辑次数：19次历史版本\n\n最近更新：\n\n碱基序\n\n（2026-09-22）\n\n1 历史沿革2 菜品特色3 分店布局4 荣誉认证5 经营现状6 推荐菜\n\nImage 8: 图片\n\n陈麻婆\n\n选择朗读音色\n\nImage 9: 成熟女声\n\n成熟女声\n\nImage 10: 成熟男声\n\n成熟男声\n\nImage 11: 磁性男声\n\n磁性男声\n\nImage 12: 年轻女声\n\n年轻女声\n\nImage 13: 情感男声\n\n情感男声\n\n0\n\n0\n\n2x\n\n1.5x\n\n1.25x\n\n1x\n\n0.75x [...] 网页新闻贴吧知道网盘图片视频地图文库资讯采购百科\n\n百度首页\n\n登录\n\n注册\n\nImage 1: 百度百科\n\n进入词条 全站搜索国际版帮助\n\nImage 2: 百度百科\n\n进入词条 全站搜索国际版帮助\n\n播报 编辑讨论收藏 赞\n\n登录\n\n首页\n\n历史上的今天\n\n百科冷知识\n\n图解百科\n\n秒懂百科\n\n懂啦\n\n秒懂本尊答\n\n秒懂大师说\n\n秒懂看瓦特\n\n秒懂五千年\n\n秒懂全视界\n\n特色百科\n\n动态百科\n\n数字博物馆\n\n非遗百科\n\n艺术百科\n\n科学百科\n\n知识专题加入百科\n\n新人成长\n\n进阶成长\n\n任务广场\n\n百科团队\n\n校园团\n\n分类达人团\n\n热词团\n\n繁星团\n\n蝌蚪团\n\n权威合作\n\n合作模式\n\n常见问题\n\n联系方式\n\n个人中心\n\nImage 3: 订阅更新\n\n订阅更新\n\n0 有用+1\n\n0\n\n# 陈麻婆\n\n播报讨论上传视频\n\n中华老字号川菜馆 [...] 1.25x\n\n1x\n\n0.75x\n\n0.5x\n\nAudio 1Audio 2\n\n分享到微信朋友圈\n\n打开微信“扫一扫”即可将网页分享至朋友圈\n\n新手上路\n\n成长任务编辑入门编辑规则本人编辑Image 14: new\n\n我有疑问\n\n内容质疑在线客服官方贴吧意见反馈\n\n投诉建议\n\n举报不良信息未通过词条申诉投诉侵权信息封禁查询与解封\n\n©2026 Baidu使用百度前必读|百科协议|隐私政策|百度百科合作平台|京ICP证030173号Image 15\n\n京公网安备11000002000001号\n\n订阅词条 0人已订阅\n\n可以前往 个人中心-订阅词条 查看所有已订阅词条\n\n词条内容更新\n\n当词条有内容变更时，将通过短信和百科站内信通",
+      "contentHash": "d428249c8baecd866bf0fefeaee416618dcd37a0f4ae2abf3618ed94a9cfc273",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:d3f6e92f1da287ff794165e5",
+      "sourceType": "web",
+      "url": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/chen-mapo-tofu-qinghua-road",
+      "providerId": null,
+      "title": "陈麻婆豆腐 (青华路) – Chengdu - a MICHELIN Guide Restaurant",
+      "publisher": "guide.michelin.com",
+      "retrievedAt": "2026-10-25T20:42:21.178745+00:00",
+      "publishedAt": null,
+      "excerpt": "### 新加坡欣赏滨海湾美景餐厅首选\n\n开胃菜 - 陈麻婆豆腐 (青华路)\n开胃菜 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n开胃菜 - 陈麻婆豆腐 (青华路)\n照片 - 陈麻婆豆腐 (青华路)\n主菜 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n主菜 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n主菜 - 陈麻婆豆腐 (青华路)\n主菜 - 陈麻婆豆腐 (青华路)\n室外 - 陈麻婆豆腐 (青华路)\n主菜 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n\n## 设施与服务\n\n可接受信用卡\n\n#### 搶先獲得米其林指南最新消息\n\n#### 關注我們\n\n#### 關注我們\n\n#### 米其林指南 [...] 照片 1 / 30 - Hotel Indigo Chengdu Financial City\n\n### Hotel Indigo Chengdu Financial City\n\n## 探索更多：\n\n### 新加坡必吃肉骨茶推荐\n\n### 新加坡米其林推荐品尝鸡饭的好去处\n\n### 新加坡庆祝特殊节日与场合的最佳餐厅推荐\n\n### 新加坡享用辣味美食不能错过的地点推荐\n\n### 新加坡欣赏滨海湾美景餐厅首选 [...] #### 米其林指南\n\n#### The Michelin Group\n\n#### 米其林指南 榜单\n\n##### 显示设置\n\n通过轻松调整领土和货币的显示设置，轻松定制您的体验\n\n##### 想留下评价吗？\n\n前往“我的清单”下的“已造访”列表，然后点击“评价”按钮留下您的意见\n\nClose\nclose\n\n#### \n\n#### 筛选：\n\n#### 您想评价这家商户吗？\n\n为了分享您的体验，《米其林指南》需要您同意使用 Cookie。请注意，只要拒绝 Cookie，评价功能将无法使用。",
+      "contentHash": "9782ce6910f73f9c8b29340707c2cce1a6769cd0535cfddb374df68a7423daa4",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:9df8895cb9ea7a2181c9dc20",
+      "sourceType": "web",
+      "url": "https://zh.wikipedia.org/zh-hans/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90",
+      "providerId": null,
+      "title": "麻婆豆腐 - 维基百科，自由的百科全书",
+      "publisher": "zh.wikipedia.org",
+      "retrievedAt": "2026-10-25T20:42:21.178797+00:00",
+      "publishedAt": null,
+      "excerpt": "## 历史\n\n[编辑]\n\n此菜在清代同治元年（1862年），由成都市北郊万福桥一家名为“陈兴盛饭铺”的小餐馆老板娘陈刘氏所创。因为陈刘氏脸上有麻点，人称陈麻婆，她发明的这种烧豆腐就被称为“陈麻婆豆腐”。后来因为这道菜大受欢迎，食客多不知其原始店名，而称之为“陈麻婆豆腐店”。该店与包席菜馆“正兴园”、“锺汤圆”等店家齐名。由于陈兴盛饭铺本是乡间小铺，早期店内并未准备牛肉和菜油等食材，食客必须自行先到肉铺割肉、到油铺打油，然后将食材交给饭铺的师傅来料理。稍后店铺生意兴旺，才开始由伙计代客到街上打油买肉。清代《锦城竹枝词百咏》中收录有一首描述本菜的诗：“麻婆豆腐尚传名，豆腐烘来味最精。万福桥边帘影动，合沽春酒醉先生。”\n\n在中国文化大革命时期，此菜由于破四旧而一度被改名“麻辣豆腐”，至今仍有人用此称呼。\n\n## 流传与变化\n\n[编辑]\n\n\n\n美国旧金山中华街一家中餐馆的麻婆豆腐\n\n .jpg)\n\n加入豆豉和白菜的扬州做法\n\n \n\n日式麻婆豆腐配清淡小菜的套餐\n\n \n\n将豆腐绞碎的麻婆豆腐汤羹做法\n\n 四川主题\n icon饮食主题 [...] 在日本，最初是由四川宜宾出身的厨师陈建民 \"陈建民 (厨师)\")将本菜传入，并针对日本人的口味稍作变化。日本式的麻婆豆腐主要是不用花椒（或只用少量），而另外使用蚝油和绍兴酒，甚且有使用甜面酱或八丁味噌为酱料者。近年来日本也流行使用花椒的正宗四川口味，称为“四川麻婆豆腐”或“陈麻婆豆腐”。\n\n最常见的快餐版本为麻婆豆腐盖饭。现有的其他变化组合吃法还有：麻婆豆腐面（分干拌及酱汁较多两种）、麻婆豆腐包子、炸麻婆豆腐饼，还有少见之以热麻婆豆腐拌凉面等。\n\n## 参考资料\n\n[编辑]\n\n1. ^ “中国菜”首次向世界发布：含34个菜系340道经典名菜\\_政务\\_澎湃新闻-The Paper. www.thepaper.cn.  [2019-08-31]. （原始内容存档于2020-09-08）.\n2. ^ 林晰. 「陳麻婆豆腐」改「麻婆豆腐」. 文汇报 (香港). 2006-10-02  [2020-11-16]. （原始内容存档于2008-04-02） （中文（香港））.\n3. ^ 灣仔老闆娘家常飯推$8麻婆豆腐飯 網民：有頂爛市效果／平過買白飯！.\n\n### 参考文献\n\n[编辑] [...] 四川主题\n icon饮食主题\n\n麻婆豆腐广受欢迎，流传各地，做法也有许多不同。最大的改变之一，是陈兴盛饭铺自己所调整，亦即将材料的牛肉改为猪肉，以便不吃牛肉的食客也能品尝，但若干老食客对此改变评价不一。该店后来又改回专用牛肉，但以猪肉为料的做法也已广为各地厨师和食客接受。其次则是增加了豆瓣酱，乃至于公认以郫县豆瓣最佳。当代麻婆豆腐讲究麻、辣、鲜、烫、嫩、捆（豆腐完整不烂）、酥（牛肉末酥香）等特色。此外，也有使用猪脑或牛脑代替豆腐的变化做法，制作",
+      "contentHash": "c803fbb651f442914e8b21dea8fc5ceaec56e7c44560c87aec042fdce54cf7ff",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:72d77ddb644c4e086c08dc9a",
+      "sourceType": "web",
+      "url": "https://www.dalongyi.com",
+      "providerId": null,
+      "title": "www.dalongyi.com",
+      "publisher": "www.dalongyi.com",
+      "retrievedAt": "2026-10-25T20:42:22.065212+00:00",
+      "publishedAt": null,
+      "excerpt": "大龙燚品牌\n+ 品牌介绍\n+ 品牌荣誉\n+ 发展历程\n+ 品牌文化\n+ 门店形象\n+ 门店人气\n 大龙燚美食\n+ 锅底\n+ 特色刷菜\n+ 特色小吃甜品\n+ 预包装产品\n+ 大龙燚周边\n 加盟大龙燚 \n+ 支持体系\n+ 加盟优势\n+ 加盟流程\n+ 加盟申请\n 超级供应链\n+ 供应链介绍\n 新闻动态\n+ 公司新闻\n+ 行业新闻\n+ 营销推广\n 联系我们\n+ 联系我们\n \n 400-005-2166\n\n 首页\n 大龙燚品牌\n 大龙燚美食\n 加盟大龙燚 \n 超级供应链\n 新闻动态\n 联系我们\n400-005-2166\n\n\n\n\n\n拨打电话\n400-005-2166\n\n海外加盟咨询请留微信号码\n提交\n\n海外加盟咨询\n姓名\n微信/邮箱\n开店城市\n提交\n\n\n播放完整视频\n\ndalongyan brand\nbrand\n为全球门店提供服务\n大龙燚品牌\n成都大龙燚餐饮管理有限公司是经营地道川味火锅的大型全球性餐饮服务企业，总部位于成都，旗下大龙燚火锅于2013年从成都玉林拉开传奇序幕，以“辣”为魂，匠心经营，其秘制锅底和招牌食材俘获无数好吃客。2017年大龙燚代表川味火锅首次登上美国纽约时代广场纳斯达克广告大屏，全面打响海外市场，大龙燚弘扬着火锅文化，将“成都辣”聚焦于口味，将“中国辣”聚焦于传播文化，在全球拥有400余家品牌门店，践行着“让世界爱上成都味”的品牌理想。大龙燚，已成为餐饮行业新名片。\n400+\n在全球拥有品牌门店数\n10000+\n在全球合作门店数\n\n了解大龙燚品牌\n\n大龙燚品牌\n\n点击查看详细\n\nMarketing\n品牌营销\n全媒体矩阵  \n共享百亿流量\n\n了解更多\n我在成都看到龙！大龙燚1500架无人机上演科技“游龙秀”！\n\n集合团战，火锅开涮！大龙燚火锅✖英雄联盟主题快闪店，，落地成都大龙燚火锅太古里hoyo店\n\n双“9”相遇 宠粉献礼 快来打卡新闻火锅主题店\n\n吃的管够！”经历了几天居家生活后，很多成都人开始思考：如何吃得更好。\n\n逛吃新姿势，火锅巴士真巴适\n\nMarketing\n品牌营销\n全媒体矩阵、共享百亿流量\n\n点击查看详细 support\n加盟大龙燚\n36项服务支持，全程定点帮扶  \n助您无忧开店，省心经营\n\n点击查看详细 超级供应链\n\n点击查看详细 大龙燚美食\n\n点击查看详细\nHeadlines\n了解最新大龙燚资讯\n大龙燚头条\n\n了解更多\n2023-08-11\n大龙燚品牌十周年庆典今日正式启幕，烟火人间，以辣为本，大龙燚第10年，等您开启\n2013-2023， 从玉林17张台单店到全球300家门店 我们匠心打造非遗锅底，创新研发大众菜品 竭尽全力还火锅本来的样子\n09\n2023-08\n4000人背着“显眼包”免费吃火锅，成都值得常来！\n时隔6年， 大龙燚火锅再次感恩回馈全城！ 4000人背着“显眼包”免费吃火锅 成都值得再来！大龙燚值得常来！ #大龙燚再次全城免单\n 查看详情 19\n2023-07\n大龙燚火锅上新啦\n大龙燚火锅菜品上新啦，💚毛肚界的显眼包『椒麻草香鲜毛肚』 💚鲜毛肚！蘸酱吃！更酥麻！ 🔥『火焰虾豆花』『橙皮鲜牛肉丸』\n 查看详情 13\n2023-07\n大龙燚火锅荣膺2023中国餐饮金饕奖【十大最受欢迎火锅品牌】！用心做品质火锅，让更多人品尝四川火辣滋味！\n大龙燚火锅荣膺2023中国餐饮金饕奖【十大最受欢迎火锅品牌】\n 查看详情\n\n了解更多\napplication\n400-005-2166\n\n提交",
+      "contentHash": "aa7f964ed4cce1cd90de07b1338100b1a14e0614213d1778e523b59b38c9855c",
+      "verification": "page_extract",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:2b1b0f85b59673b4cfc19180",
+      "sourceType": "web",
+      "url": "https://ae.trip.com/restaurant/china/chengdu/detail/restaurant-31556786",
+      "providerId": null,
+      "title": "ae.trip.com",
+      "publisher": "ae.trip.com",
+      "retrievedAt": "2026-10-25T20:42:22.065284+00:00",
+      "publishedAt": null,
+      "excerpt": "Travel guides\nChengdu Restaurants\n大龙燚火锅(太古里店)\n4.4/5\nGreat\n127 reviews\n|Hotpot|$\n大龙燚火锅(太古里店)\n󰀰151\n大龙燚火锅(太古里店)\nInterior\n大龙燚火锅(太古里店)\nDishes\n大龙燚火锅(太古里店)\nDessert\nOverview\nDishes\nReviews\n\nOpen|11:00-Next day02:00\nShow more\n󱨱\n+862861190606\n󱀬\n东大街下东大街段166号二层\nPopular dishes\nAI Translated\nShow all\n\nHandmade Crispy Fried Pork\n手工現炸酥肉\n\nFresh Beef Tripe\n草香鮮毛肚\n\nShrimp and Tofu Pudding\n福貴雙全蝦豆腐花\n\nFresh Pengxian Goose Intestines\n現捅彭縣鮮鵝腸\n\nReviews\n󱶞Write a review\n4.4/5\nExcellent\n127 reviews\nSome reviews may have been translated by Google Translate\nAll (127)\nLatest\nPhoto reviews(4)\nPositive reviews(9)\n user-icon\nCD云上\n4.0/5\nExcellent\n󱨥Original text\n[On Friday, I made an appointment with some good neighbors to come to this shop opposite my house [snicker][snicker] It's my first time to come here even though it's so close hahaha, the signboard and interior environment are very grand (although it's on the second floor, it doesn't affect the atmosphere haha) I'm very satisfied with the dishes, the presentation, portion and quality are all great [strong] I especially like the buffalo 🐃 fresh tripe (I personally ate several large pieces [silly smile]) The service is very thoughtful and enthusiastic, and it deserves to be ranked high in the world of hot pot in this area, I'll come again, for sure [happy]](\n大龙燚火锅(太古里店) user photo大龙燚火锅(太古里店) user photo大龙燚火锅(太古里店) user photo\nReviewed on Oct 19, 2021\n󰀶󰥉Helpful\n user-icon\nannakeanu\n4.0/5\nExcellent\n󱨥Original text\nThe environment in the store is clean and tidy, the store is very spacious, the service attitude is very good, the three-piece pot base is good, the spicy beef is covered with chili peppers, and the taste is very good. The loving shrimp is smooth, chewy and refreshing, and the shrimp meat is very substantial.\n大龙燚火锅(太古里店) user photo大龙燚火锅(太古里店) user photo大龙燚火锅(太古里店) user photo\nReviewed on May 10, 2020\n󰀶󰥉Helpful\n user-icon\n320\\\\\\43\n5.0/5\nOutstanding\n󱨥Original text\nIn Shanghai, you need to queue up for Dalongyi Hotpot, and there are a lot of people. When you come to Chengdu, you have to go to the origin of Dalongyi Hotpot even if you have to queue up. I recommend the shrimp paste! Spicy beef, the hotpot is so delicious!\n大龙燚火锅(太古里店) user photo大龙燚火锅(太古里店) user photo大龙燚火锅(太古里店) user photo大龙燚火锅(太古里店) user photo\n󰀰4\nReviewed on Jan 2, 2020\n󰀶󰥉Helpful\n 1\n 2\n 3\n119 older review has been hidden\nTrip Moments(5)\n\nMiss Cat.\n",
+      "contentHash": "19dc0fc709a5a79d39ae190f56844179b5c3fb8a3b99e76b214f42de3a87fd5f",
+      "verification": "page_extract",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:6a4b746c34a73c4edac408d9",
+      "sourceType": "web",
+      "url": "https://www.instagram.com/reel/CnEmjXZpYcG",
+      "providerId": null,
+      "title": "火到海外！为了这锅汤底，开车4小时才吃上也太值了 ...",
+      "publisher": "www.instagram.com",
+      "retrievedAt": "2026-10-25T20:42:26.329231+00:00",
+      "publishedAt": null,
+      "excerpt": "龙燚麻辣汤底! 这里营业到凌晨3点! 这里营业到凌晨3点! Available at participating 7-Eleven, myNEWS, CU & The Chicken Rice Shop stores nationwide.",
+      "contentHash": "ff6981d86ca3b9e764e068895872d430e04a4aa898ab7997b1f4a5c469e87ae2",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:591e686de2d574cfb937f2fd",
+      "sourceType": "web",
+      "url": "https://www.sina.cn/news/article/comos_niuciqr4817711.html",
+      "providerId": null,
+      "title": "深夜火锅去哪吃？3家营业到凌晨的宝藏店实测推荐+FAQ",
+      "publisher": "www.sina.cn",
+      "retrievedAt": "2026-10-25T20:42:26.329313+00:00",
+      "publishedAt": null,
+      "excerpt": "深夜想吃火锅？别纠结，直接按城市和需求选：成都去巴蜀十八子（营业至22:30，手工牛油锅+茶文化），杭州去黔屿渝·山野火锅（营业至凌晨4点，现炒锅底+",
+      "contentHash": "604ffdebeb0f766a7a5dbb802f1e5a734d6e8df7991c25acf3e343fd8974e786",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:acb9ab17afc757d213af3714",
+      "sourceType": "web",
+      "url": "https://www.dalongyi.com",
+      "providerId": null,
+      "title": "【大龙燚官网】十大知名连锁火锅|餐饮品牌排行_加盟条件|费用",
+      "publisher": "www.dalongyi.com",
+      "retrievedAt": "2026-10-25T20:42:26.329363+00:00",
+      "publishedAt": null,
+      "excerpt": "为全球门店提供服务\n\n大龙燚品牌\n\n成都大龙燚餐饮管理有限公司是经营地道川味火锅的大型全球性餐饮服务企业，总部位于成都，旗下大龙燚火锅于2013年从成都玉林拉开传奇序幕，以“辣”为魂，匠心经营，其秘制锅底和招牌食材俘获无数好吃客。2017年大龙燚代表川味火锅首次登上美国纽约时代广场纳斯达克广告大屏，全面打响海外市场，大龙燚弘扬着火锅文化，将“成都辣”聚焦于口味，将“中国辣”聚焦于传播文化，在全球拥有400余家品牌门店，践行着“让世界爱上成都味”的品牌理想。大龙燚，已成为餐饮行业新名片。\n\n400+\n\n在全球拥有品牌门店数\n\n10000+\n\n在全球合作门店数\n\n\n\n了解大龙燚品牌\n\n大龙燚品牌\n\n\n\n点击查看详细\n\nMarketing\n\n品牌营销\n\n全媒体矩阵  \n 共享百亿流量\n\n\n\n了解更多\n\n我在成都看到龙！大龙燚1500架无人机上演科技“游龙秀”！\n\n\n\n集合团战，火锅开涮！大龙燚火锅✖英雄联盟主题快闪店，，落地成都大龙燚火锅太古里hoyo店\n\n\n\n双“9”相遇 宠粉献礼 快来打卡新闻火锅主题店\n\n [...] \n\n吃的管够！”经历了几天居家生活后，很多成都人开始思考：如何吃得更好。\n\n\n\n逛吃新姿势，火锅巴士真巴适\n\n\n\nMarketing\n\n品牌营销\n\n全媒体矩阵、共享百亿流量\n\n\n\n点击查看详细 support\n\n加盟大龙燚\n\n36项服务支持，全程定点帮扶  \n助您无忧开店，省心经营\n\n\n\n点击查看详细 超级供应链\n\n\n\n点击查看详细 大龙燚美食\n\n\n\n点击查看详细\n\nHeadlines\n\n了解最新大龙燚资讯\n\n大龙燚头条\n\n\n\n了解更多\n\n2023-08-11\n\n大龙燚品牌十周年庆典今日正式启幕，烟火人间，以辣为本，大龙燚第10年，等您开启\n\n2013-2023， 从玉林17张台单店到全球300家门店 我们匠心打造非遗锅底，创新研发大众菜品 竭尽全力还火锅本来的样子\n\n09\n\n2023-08\n\n4000人背着“显眼包”免费吃火锅，成都值得常来！\n\n时隔6年， 大龙燚火锅再次感恩回馈全城！ 4000人背着“显眼包”免费吃火锅 成都值得再来！大龙燚值得常来！ #大龙燚再次全城免单\n\n 查看详情 19\n\n2023-07\n\n大龙燚火锅上新啦 [...] 2023-07\n\n大龙燚火锅上新啦\n\n大龙燚火锅菜品上新啦，💚毛肚界的显眼包『椒麻草香鲜毛肚』 💚鲜毛肚！蘸酱吃！更酥麻！ 🔥『火焰虾豆花』『橙皮鲜牛肉丸』\n\n 查看详情 13\n\n2023-07\n\n大龙燚火锅荣膺2023中国餐饮金饕奖【十大最受欢迎火锅品牌】！用心做品质火锅，让更多人品尝四川火辣滋味！\n\n大龙燚火锅荣膺2023中国餐饮金饕奖【十大最受欢迎火锅品牌】\n\n 查看详情\n\n\n\n了解更多\n\napplication\n\n400-005-2166\n\n\n\n提交",
+      "contentHash": "6b4840b03c7c4911370b55be514b99a575498fcb550bfbb2c58ca7eb68565ebc",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:2559a0b53d9f19bfb107e213",
+      "sourceType": "web",
+      "url": "https://www.dlyhotpot.com/gallery",
+      "providerId": null,
+      "title": "GALLERY | Dalongyi",
+      "publisher": "www.dlyhotpot.com",
+      "retrievedAt": "2026-10-25T20:42:26.329412+00:00",
+      "publishedAt": null,
+      "excerpt": "top of page\n\nLet the world fall in love with Chengdu's flavor!\n\n辣椒-3.png\n\nchilli-power.png\n\nbottom of page",
+      "contentHash": "8f503521f2b2c2d699329a7c5c5845edeab359524f5871db969a972fd536ce80",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:2e3f1def1a3efc6f23b44b50",
+      "sourceType": "web",
+      "url": "https://cj.sina.cn/articles/view/7880068208/1d5b04c7006801vwmq?froms=ggmp",
+      "providerId": null,
+      "title": "麻婆豆腐地道的川菜店怎么选？1862年陈麻婆3个维度说清+ ...",
+      "publisher": "cj.sina.cn",
+      "retrievedAt": "2026-10-25T20:42:26.355069+00:00",
+      "publishedAt": null,
+      "excerpt": "总店在成都市青羊区东华门街51号，骡马市店在西玉龙街197号。招牌麻婆豆腐小份22-24元，人均60-80元，10来道菜约500多元，性价比在非遗老字号里非常能打。",
+      "contentHash": "2da859a1083b1d6bb75ad3051db45d111ae692fa730e9368f5ee7d29a4a8a663",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:6fda30d6b76109eb3cf0ca60",
+      "sourceType": "web",
+      "url": "https://www.youtube.com/watch?v=wNqE5-Tl6eU",
+      "providerId": null,
+      "title": "[窮L遊記·四川篇] #02 陳麻婆豆腐｜要食最正宗嘅麻婆豆腐 當然要去發明佢嘅餐廳！",
+      "publisher": "www.youtube.com",
+      "retrievedAt": "2026-10-25T20:42:26.355174+00:00",
+      "publishedAt": null,
+      "excerpt": "# [窮L遊記·四川篇] #02 陳麻婆豆腐｜要食最正宗嘅麻婆豆腐 當然要去發明佢嘅餐廳！\n## Channel: 西DorSi偽中產生活態度\n364K subscribers\n568 likes\n\n### Description\n33,989 views\nPosted: 2019-03-06\n陳麻婆豆腐旗艦店(青華路店) \n地址： 青華路10號附10-12號\n電話：028-87317216\n營業時間：週一至週日11:00 -21：00 \n• • • • • • • • • • • • • • • • • • •\nFacebook:   / saidorsi  \nInstagram:   / saidorsi  \nBilibili: \n• • • • • • • • • • • • • • • • • • •\nPACIFIC SUN by Nicolai Heidlas Music   / nicolai-heidlas  \nCreative Commons — Attribution 3.0 Unported— CC BY 3.0 [...] Music promoted by Audio Library    • Video  \n\n#四川 #窮遊 #自由行",
+      "contentHash": "ac47046fd2d6e0ead1ca80e12e4d79574e0d321522757660b71e3fbbe3ef9b19",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:3e3235447a5b0b1252930698",
+      "sourceType": "web",
+      "url": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/chen-mapo-tofu-qinghua-road",
+      "providerId": null,
+      "title": "陈麻婆豆腐 (青华路) – Chengdu - a MICHELIN Guide Restaurant",
+      "publisher": "guide.michelin.com",
+      "retrievedAt": "2026-10-25T20:42:26.355220+00:00",
+      "publishedAt": null,
+      "excerpt": "### 新加坡欣赏滨海湾美景餐厅首选\n\n开胃菜 - 陈麻婆豆腐 (青华路)\n开胃菜 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n开胃菜 - 陈麻婆豆腐 (青华路)\n照片 - 陈麻婆豆腐 (青华路)\n主菜 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n主菜 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n主菜 - 陈麻婆豆腐 (青华路)\n主菜 - 陈麻婆豆腐 (青华路)\n室外 - 陈麻婆豆腐 (青华路)\n主菜 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n\n## 设施与服务\n\n可接受信用卡\n\n#### 搶先獲得米其林指南最新消息\n\n#### 關注我們\n\n#### 關注我們\n\n#### 米其林指南 [...] #### 米其林指南\n\n#### The Michelin Group\n\n#### 米其林指南 榜单\n\n##### 显示设置\n\n通过轻松调整领土和货币的显示设置，轻松定制您的体验\n\n##### 想留下评价吗？\n\n前往“我的清单”下的“已造访”列表，然后点击“评价”按钮留下您的意见\n\nClose\nclose\n\n#### \n\n#### 筛选：\n\n#### 您想评价这家商户吗？\n\n为了分享您的体验，《米其林指南》需要您同意使用 Cookie。请注意，只要拒绝 Cookie，评价功能将无法使用。 [...] MICHELIN Guide\n\n## 餐厅\n\n开胃菜 - 陈麻婆豆腐 (青华路)\n开胃菜 - 陈麻婆豆腐 (青华路)\n开胃菜 - 陈麻婆豆腐 (青华路)\n开胃菜 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n室内 - 陈麻婆豆腐 (青华路)\n\n# 陈麻婆豆腐 (青华路)\n\n笔记\n\n曾经到访\n\n保存\n\n收藏\n\nuser\nuser\nuser\n\n# 陈麻婆豆腐 (青华路)\n\n笔记\n\n曾经到访\n\n保存\n\n收藏\n\nuser\nuser\nuser\n\n## 地点\n\n## 附近餐馆\n\n主菜 - 胡二哥药膳蹄花\n\n### 胡二哥药膳蹄花\n\n主菜 - 龙森园 (青羊)\n\n### 龙森园 (青羊)\n\n主菜 - 且芳香\n\n### 且芳香\n\n主菜 - 芙蓉凰\n\n### 芙蓉凰\n\n主菜 - 漫得 (武侯)\n\n### 漫得 (武侯)\n\n主菜 - 玉芝兰\n\n### 玉芝兰\n\n主菜 - 老成都逸城鲜三样面\n\n### 老成都逸城鲜三样面\n\n主菜 - 荣园餐馆\n\n### 荣园餐馆\n\n## 附近的酒店\n\n照片 1 / 5 ",
+      "contentHash": "0be32f88e7e0a8398bad8ca087067717862a0a47997ca7bbac480ec0a4afa0dd",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    }
+  ],
+  "noWorkspaceWrites": true,
+  "contextUnchanged": true,
+  "createdAt": "2026-10-25T20:44:47.506578+00:00",
+  "brief": {
+    "snapshot": {
+      "version": 10,
+      "trip": {
+        "title": "合成评测 · 朋友美食",
+        "destination": "成都",
+        "startDate": "2026-11-02",
+        "endDate": "2026-11-06",
+        "timezone": "Asia/Shanghai",
+        "preferences": "三位朋友，不早起，重视当地美食和聊天。餐厅尚未选定，不把候选当预约。 一位朋友不吃辣、一位喜欢辣菜，必须兼顾。",
+        "id": "fixture-r1-v1-chengdu-2026-11-02",
+        "createdAt": "2026-11-02T00:00:00Z",
+        "updatedAt": "2026-11-02T00:00:00Z"
+      },
+      "ideas": [
+        {
+          "title": "阅读当地历史并写旅行笔记",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-chengdu-2026-11-02-i0",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "备用室内休息安排",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-chengdu-2026-11-02-i1",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "遇到喜欢的地方多停一会",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-chengdu-2026-11-02-i2",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "activities": [
+        {
+          "title": "睡到自然醒",
+          "date": "2026-11-02",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a0-0",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "找一家面馆",
+          "date": "2026-11-02",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a0-1",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "喝茶聊天",
+          "date": "2026-11-02",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a0-2",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 2,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "火锅候选研究",
+          "date": "2026-11-02",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a0-3",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 3,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "早午餐",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T11:00",
+          "endAt": "2026-11-03T12:30",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a1-0",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "街区慢逛",
+          "date": "2026-11-03",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a1-1",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "美食市场散步",
+          "date": "2026-11-04",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a2-0",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "朋友聚餐",
+          "date": "2026-11-04",
+          "startAt": "2026-11-04T18:00",
+          "endAt": "2026-11-04T20:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a2-1",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "自由探索",
+          "date": "2026-11-05",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a3-0",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "伴手礼与返程",
+          "date": "2026-11-06",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a4-0",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "suggestions": []
+    },
+    "question": "三位朋友一位不吃辣、一位喜欢辣菜。研究两个成都餐饮候选，兼顾不同口味和不早起偏好。区分高德地点事实、网页体验和你的推断；明确推广证据，不能保证未标推广就是非广告。",
+    "taskId": "r1-v1:chengdu:1:2026-11-02",
+    "mode": "research",
+    "contextHash": "1f9e87d2efd3d5a78cf670f641710036ccd818e0be11a47e6187d906707f5b3b"
+  },
+  "versions": {
+    "deepagents": "0.7.32",
+    "langchain": "1.4.7",
+    "langgraph": "1.2.17",
+    "langsmith": "0.14.12",
+    "langchain-openai": "1.7.2",
+    "tavily-python": "0.8.5"
+  },
+  "commit": "e2c373267a869569d0c0f4f6d66f441301541f25",
+  "sourceFingerprint": "e833d8aab9bda9cd5e7a09a3fdc85769f44fc395d013775ca3c8de84fac74f7e",
+  "traceId": "0d9736df-2d78-4a16-a756-17ae5a911bb2",
+  "traceRunId": "0d9736df-2d78-4a16-a756-17ae5a911bb2",
+  "knownUsageCostCny": 0.109996,
+  "costCompleteness": "complete_usage",
+  "modelListPriceEstimateCny": 0.109996,
+  "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
+  "traceVerified": true,
+  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/0d9736df-2d78-4a16-a756-17ae5a911bb2?poll=true"
+}

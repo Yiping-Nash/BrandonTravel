@@ -1,0 +1,359 @@
+[
+  {
+    "id": "01a17502-0bfc-774a-afaa-b332969bbe60",
+    "name": "ChatDeepSeek",
+    "offeredTools": [
+      "task",
+      "get_trip_snapshot",
+      "ResearchSelection"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "get_trip_snapshot",
+            "argTypes": {}
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17502-1155-714a-ad9f-6daa98f28f4e",
+    "name": "ChatDeepSeek",
+    "offeredTools": [
+      "task",
+      "get_trip_snapshot",
+      "ResearchSelection"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "task",
+            "argTypes": {
+              "description": "str",
+              "subagent_type": "str"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17502-1bce-72bb-86d5-db3786033f67",
+    "name": "ChatDeepSeek",
+    "offeredTools": [
+      "write_todos",
+      "get_trip_snapshot",
+      "search_places",
+      "web_search",
+      "read_pages",
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "get_trip_snapshot",
+            "argTypes": {}
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17502-1f94-7670-9fd2-0293740d1f3b",
+    "name": "ChatDeepSeek",
+    "offeredTools": [
+      "write_todos",
+      "get_trip_snapshot",
+      "search_places",
+      "web_search",
+      "read_pages",
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "write_todos",
+            "argTypes": {
+              "todos": "list"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17502-2469-7391-abd0-c5be6afe7ad7",
+    "name": "ChatDeepSeek",
+    "offeredTools": [
+      "write_todos",
+      "get_trip_snapshot",
+      "search_places",
+      "web_search",
+      "read_pages",
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "search_places",
+            "argTypes": {
+              "query": "str"
+            }
+          },
+          {
+            "name": "search_places",
+            "argTypes": {
+              "query": "str"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17502-2951-735a-91a8-17f0a603078c",
+    "name": "ChatDeepSeek",
+    "offeredTools": [
+      "write_todos",
+      "get_trip_snapshot",
+      "search_places",
+      "web_search",
+      "read_pages",
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "web_search",
+            "argTypes": {
+              "query": "str"
+            }
+          },
+          {
+            "name": "web_search",
+            "argTypes": {
+              "query": "str"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17502-2d16-7695-b637-fcc0bed45dbb",
+    "name": "ChatDeepSeek",
+    "offeredTools": [
+      "write_todos",
+      "get_trip_snapshot",
+      "search_places",
+      "web_search",
+      "read_pages",
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "read_pages",
+            "argTypes": {
+              "evidence_id": "str"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17502-316d-76c6-8b87-b1f1ac3c24c6",
+    "name": "ChatDeepSeek",
+    "offeredTools": [
+      "write_todos",
+      "get_trip_snapshot",
+      "search_places",
+      "web_search",
+      "read_pages",
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "web_search",
+            "argTypes": {
+              "query": "str"
+            }
+          },
+          {
+            "name": "web_search",
+            "argTypes": {
+              "query": "str"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17502-36a1-7521-b015-f63855aba751",
+    "name": "ChatDeepSeek",
+    "offeredTools": [
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "write_todos",
+            "argTypes": {
+              "todos": "list"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17502-3d1c-774e-aee1-510b6d3eb299",
+    "name": "ChatDeepSeek",
+    "offeredTools": [
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [],
+        "invalidToolCalls": [
+          {
+            "name": "ResearchResult",
+            "argsLength": 874,
+            "argsSuffix": ", \"limitations\": [\"地点搜索与网页搜索均返回固定测试数据，无真实上海景点 POI 或官网信息\", \"无法核实任何候选地的无障碍设施、台阶、卫生间等关键信息\", \"未能获取上海博物馆、豫园等地的官方无障碍说明页面\"], \"coverage\": [\"地点搜索（POI）\", \"网页搜索\", \"页面提取\"]}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "01a17502-4d55-7192-ae06-9ccc70192766",
+    "name": "ChatDeepSeek",
+    "offeredTools": [
+      "ResearchSelection"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "ResearchSelection",
+            "argTypes": {
+              "explanation": "str",
+              "useResearchResult": "bool"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  }
+]

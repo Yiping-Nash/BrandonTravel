@@ -2,7 +2,7 @@
 name = "brandontravel2"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = ["fastapi>=0.115", "uvicorn>=0.34", "pydantic>=2.10", "python-dotenv>=1.0", "httpx>=0.28", "deepagents>=0.4", "langchain-openai>=1.0", "langsmith>=0.4", "tzdata"]
+dependencies = ["fastapi>=0.115", "uvicorn>=0.34", "pydantic>=2.10", "python-dotenv>=1.0", "httpx>=0.28", "deepagents==0.7.32", "langchain==1.4.7", "langgraph==1.2.17", "langchain-openai==1.7.2", "langchain-deepseek==1.1.1", "langchain-anthropic==1.7.6", "langsmith==0.14.12", "tavily-python==0.8.5", "tzdata"]
 
 [dependency-groups]
 dev = ["pytest>=8", "pillow"]
@@ -10,3 +10,13 @@ dev = ["pytest>=8", "pillow"]
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["tests", "evaluation"]
+
+# Only this official distribution uses a mirror: files.pythonhosted.org failed TLS
+# on the development host. uv.lock retains artifact hashes for reproducibility.
+[[tool.uv.index]]
+name = "aliyun-deepseek"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+explicit = true
+
+[tool.uv.sources]
+langchain-deepseek = { index = "aliyun-deepseek" }

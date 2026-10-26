@@ -1,0 +1,121 @@
+[
+  {
+    "runId": "bd90bfe8-0291-4328-87ef-ab664f35514a",
+    "verified": true,
+    "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/e870c339-03be-495b-b386-3a053d4edc07/r/bd90bfe8-0291-4328-87ef-ab664f35514a?poll=true",
+    "nodeCount": 66,
+    "modelRuns": [
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek"
+    ],
+    "toolRuns": [
+      "get_trip_snapshot",
+      "get_day_context",
+      "get_day_context",
+      "get_day_context",
+      "search_places",
+      "search_places",
+      "search_places"
+    ],
+    "noSecretsFound": true,
+    "latencySeconds": 12.305257
+  },
+  {
+    "runId": "6940d27e-4b3f-452e-b709-c94997f9b32f",
+    "verified": true,
+    "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/e870c339-03be-495b-b386-3a053d4edc07/r/6940d27e-4b3f-452e-b709-c94997f9b32f?poll=true",
+    "nodeCount": 122,
+    "modelRuns": [
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek"
+    ],
+    "toolRuns": [
+      "get_trip_snapshot",
+      "task",
+      "get_trip_snapshot",
+      "search_places",
+      "web_search",
+      "web_search",
+      "read_pages"
+    ],
+    "noSecretsFound": true,
+    "latencySeconds": 28.426731
+  },
+  {
+    "runId": "ded248cf-480c-4e12-8730-3c6799416587",
+    "verified": true,
+    "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/e870c339-03be-495b-b386-3a053d4edc07/r/ded248cf-480c-4e12-8730-3c6799416587?poll=true",
+    "nodeCount": 32,
+    "modelRuns": [
+      "ChatDeepSeek",
+      "ChatDeepSeek"
+    ],
+    "toolRuns": [
+      "get_trip_snapshot",
+      "get_day_context"
+    ],
+    "noSecretsFound": true,
+    "latencySeconds": 4.459049
+  },
+  {
+    "runId": "b75c9b15-e95f-4137-baf1-25846e1c924b",
+    "verified": true,
+    "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/e870c339-03be-495b-b386-3a053d4edc07/r/b75c9b15-e95f-4137-baf1-25846e1c924b?poll=true",
+    "nodeCount": 122,
+    "modelRuns": [
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek"
+    ],
+    "toolRuns": [
+      "get_trip_snapshot",
+      "task",
+      "get_trip_snapshot",
+      "search_places",
+      "web_search",
+      "web_search",
+      "read_pages"
+    ],
+    "noSecretsFound": true,
+    "latencySeconds": 27.823695
+  },
+  {
+    "runId": "3e5a73b1-1602-47f9-880a-b626c7e1d63b",
+    "verified": true,
+    "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/e870c339-03be-495b-b386-3a053d4edc07/r/3e5a73b1-1602-47f9-880a-b626c7e1d63b?poll=true",
+    "nodeCount": 122,
+    "modelRuns": [
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek",
+      "ChatDeepSeek"
+    ],
+    "toolRuns": [
+      "get_trip_snapshot",
+      "task",
+      "get_trip_snapshot",
+      "search_places",
+      "web_search",
+      "web_search",
+      "read_pages"
+    ],
+    "noSecretsFound": true,
+    "latencySeconds": 26.544718
+  }
+]

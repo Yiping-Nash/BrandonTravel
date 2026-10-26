@@ -7,13 +7,16 @@
 | DASHSCOPE_API_KEY | 阿里云百炼 / Model Studio API Key，真实 Qwen 调用 | 真实 Agent 必需 |
 | AGENT_MODEL | 默认 `qwen3.8-flash` | 已填 |
 | AGENT_BASE_URL | 默认北京地域 `https://dashscope.aliyuncs.com/compatible-mode/v1`；必须与 Key 地域匹配 | 已填，可按控制台修改 |
-| AMAP_WEB_SERVICE_KEY | 高德开放平台 → 应用 → 添加 Key → **Web 服务**，后端搜索 POI | 真实地点工具必需 |
+| AMAP_WEB_SERVICE_KEY | 高德开放平台 → 应用 → 添加 Key → **Web 服务**，后端搜索 POI、静态地图和驾车路线 | 地点与地图必需 |
+| DEEPSEEK_API_KEY | DeepSeek 官方 API，LangChain ChatDeepSeek 适配 | 默认 Portfolio 规划和研究必需 |
+| PORTFOLIO_MODEL | 默认 `deepseek-flash`；显式 profile，不自动换模型 | 蓝图、单日方案、Research 共用 |
+| TAVILY_API_KEY | Tavily 官方搜索与页面提取 | 真实 Research 必需 |
 | LANGSMITH_API_KEY | LangSmith → Settings → API Keys | 可核查 Trace 必需 |
 | LANGSMITH_PROJECT | `BrandonTravel2` | 已填 |
 | LANGSMITH_ENDPOINT | `https://api.smith.langchain.com`，如账号使用 EU 则使用对应端点 | 已填 |
 | LANGSMITH_WORKSPACE_ID | 多 workspace API Key 时填写目标 workspace ID | 按账号需要 |
 
-不需要 OpenAI Key。地图地点外链使用高德公开 URI，不将 Web 服务 Key 放入浏览器。若后续加入嵌入式 JS 地图，应另建 JavaScript API Key 和安全配置；不是当前真实 POI + Agent 闭环的前提。
+不需要 OpenAI Key。Day 使用服务端代理的高德真实静态地图，支持缩放和活动定位；需要连续交互导航时打开高德链接。Web 服务 Key 不进入浏览器，无需另建 JavaScript API Key。路线是高德驾车参考，最多缓存30分钟，不代表其他出行方式或现场实际耗时。
 
 模型参考：https://help.aliyun.com/en/model-studio/qwen3-8-flash 。按账号控制台的当前地域可用性为准；模型不支持或额度错误会原样分类为上游错误，不擅自换模型。
 

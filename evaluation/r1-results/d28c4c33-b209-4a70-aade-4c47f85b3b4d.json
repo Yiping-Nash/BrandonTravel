@@ -1,0 +1,382 @@
+{
+  "runId": "d28c4c33-b209-4a70-aade-4c47f85b3b4d",
+  "taskId": "r1-v1:shanghai_seniors:1:2026-11-02",
+  "status": "Fail",
+  "batch": "model-compatibility",
+  "architecture": "B",
+  "mode": "research",
+  "llmMode": "live",
+  "toolMode": "fixture",
+  "contextHash": "4a9b4dd607d113bf689b70e9a351e8151c0c6b8e70b6e4bee258499272ec42ac",
+  "humanReview": "Pending",
+  "errorType": "RuntimeError",
+  "errorCode": "MODEL_BUDGET_EXCEEDED",
+  "seconds": 26.471,
+  "modelRequests": 12,
+  "inputTokens": 66434,
+  "outputTokens": 840,
+  "usageRequests": 12,
+  "schemaRepairs": 0,
+  "deniedTools": [],
+  "modelToolCalls": [
+    "get_trip_snapshot",
+    "task",
+    "get_trip_snapshot",
+    "write_todos",
+    "search_places",
+    "search_places",
+    "search_places",
+    "write_todos",
+    "web_search",
+    "web_search",
+    "read_pages",
+    "write_todos"
+  ],
+  "malformedToolCallCount": 0,
+  "toolErrors": [],
+  "runtimeLimits": {
+    "modelRequests": 12,
+    "inputBytes": 40000,
+    "maxOutputTokens": 5000,
+    "taskSeconds": 180
+  },
+  "toolCalls": [
+    "get_trip_snapshot",
+    "task",
+    "get_trip_snapshot",
+    "write_todos",
+    "search_places",
+    "search_places",
+    "search_places",
+    "write_todos",
+    "web_search",
+    "web_search",
+    "read_pages",
+    "write_todos"
+  ],
+  "sourceEvents": [
+    {
+      "tool": "get_trip_snapshot",
+      "status": "OK",
+      "mode": "fixture"
+    },
+    {
+      "tool": "get_trip_snapshot",
+      "status": "OK",
+      "mode": "fixture"
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "fixture",
+      "results": 1
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "fixture",
+      "results": 1
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "fixture",
+      "results": 1
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "fixture",
+      "results": 1
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "fixture",
+      "results": 1
+    },
+    {
+      "tool": "read_pages",
+      "status": "OK",
+      "mode": "fixture",
+      "results": 1,
+      "requested": 1
+    }
+  ],
+  "sourceCounts": {
+    "amap": 3,
+    "web": 2,
+    "extract": 1,
+    "credits": 3
+  },
+  "evidence": [
+    {
+      "id": "ev:1d8d69701f1c13117252874d",
+      "sourceType": "snapshot",
+      "url": null,
+      "providerId": null,
+      "title": "Synthetic evaluation Trip snapshot",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:48:29.533116+00:00",
+      "publishedAt": null,
+      "excerpt": "{\"version\": 10, \"trip\": {\"title\": \"合成评测 · 上海长者出行\", \"destination\": \"上海\", \"startDate\": \"2026-11-02\", \"endDate\": \"2026-11-06\", \"timezone\": \"Asia/Shanghai\", \"preferences\": \"两位七十岁长者与一位成人，连续步行尽量不超过三十分钟；需要坐下休息、少台阶和便捷卫生间。无障碍设施必须有证据，未知不等于没有或具备。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, \"ideas\": [{\"title\": \"阅读当地历史并写旅行笔记\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-i0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"备用室内休息安排\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-i1\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"遇到喜欢的地方多停一会\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-i2\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}], \"activities\": [{\"title\": \"抵达与酒店休息\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T10:00\", \"endAt\": \"2026-11-02T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a0-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"午休\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T13:00\", \"endAt\": \"2026-11-02T15:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a0-1\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"滨江短程散步\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T09:30\", \"endAt\": \"2026-11-03T10:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a1-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"坐下休息\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T10:00\", \"endAt\": \"2026-11-03T11:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a1-1\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"午休\", \"date\": \"2026-11-04\", \"startAt\": \"2026-11-04T13:00\", \"endAt\": \"2026-11-04T15:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a2-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"家人聚餐\", \"date\": \"2026-11-05\", \"startAt\": \"2026-11-05T12:00\", \"endAt\": \"2026-11-05T13:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a3-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"返程\", \"date\": \"2026-11-06\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a4-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}]}",
+      "contentHash": "c714107f0e3829ff6cfd73b36b1a9637f3e49dfef681967b2e44276f50a1c9bf",
+      "verification": "snapshot",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:b0ae0b4d25c17fcdeda09fd3",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "fixture-poi",
+      "title": "测试公园（固定数据）",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:48:40.830641+00:00",
+      "publishedAt": null,
+      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"fixture-poi\",\"name\":\"测试公园（固定数据）\",\"address\":\"测试地址\",\"latitude\":null,\"longitude\":null}",
+      "contentHash": "0df4c3365c12dc38702b9ffb0d94f66f514e09580b87433253db7f1b7e95ea07",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "fixture-poi",
+        "name": "测试公园（固定数据）",
+        "address": "测试地址",
+        "latitude": null,
+        "longitude": null
+      },
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:2e2ef71b14799eea5d273d32",
+      "sourceType": "web",
+      "url": "https://example.org/fixture",
+      "providerId": null,
+      "title": "固定测试资料",
+      "publisher": "example.org",
+      "retrievedAt": "2026-10-25T21:48:48.501652+00:00",
+      "publishedAt": null,
+      "excerpt": "这是测试资料，不是实时景点信息。开放和无障碍情况需另行核实。",
+      "contentHash": "4fec1740e55019a2fec3210048a4c760208794a8794bafd0812fef5b2e643d22",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown"
+    },
+    {
+      "id": "ev:57274d6e5ad4368e232c4d57",
+      "sourceType": "web",
+      "url": "https://example.org/fixture",
+      "providerId": null,
+      "title": "example.org",
+      "publisher": "example.org",
+      "retrievedAt": "2026-10-25T21:48:51.948346+00:00",
+      "publishedAt": null,
+      "excerpt": "固定网页回放，仅用于框架测试；不能当作实时旅行证据。",
+      "contentHash": "579e17b9c3cf20d0c78ea94f0f3e7535329645918ef818de7a60cb476b1d2ffc",
+      "verification": "page_extract",
+      "place": null,
+      "commercialStatus": "unknown"
+    }
+  ],
+  "noWorkspaceWrites": true,
+  "contextUnchanged": true,
+  "createdAt": "2026-10-25T21:48:54.946317+00:00",
+  "brief": {
+    "snapshot": {
+      "version": 10,
+      "trip": {
+        "title": "合成评测 · 上海长者出行",
+        "destination": "上海",
+        "startDate": "2026-11-02",
+        "endDate": "2026-11-06",
+        "timezone": "Asia/Shanghai",
+        "preferences": "两位七十岁长者与一位成人，连续步行尽量不超过三十分钟；需要坐下休息、少台阶和便捷卫生间。无障碍设施必须有证据，未知不等于没有或具备。",
+        "id": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+        "createdAt": "2026-11-02T00:00:00Z",
+        "updatedAt": "2026-11-02T00:00:00Z"
+      },
+      "ideas": [
+        {
+          "title": "阅读当地历史并写旅行笔记",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-i0",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "备用室内休息安排",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-i1",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "遇到喜欢的地方多停一会",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-i2",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "activities": [
+        {
+          "title": "抵达与酒店休息",
+          "date": "2026-11-02",
+          "startAt": "2026-11-02T10:00",
+          "endAt": "2026-11-02T12:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-a0-0",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "午休",
+          "date": "2026-11-02",
+          "startAt": "2026-11-02T13:00",
+          "endAt": "2026-11-02T15:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-a0-1",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "滨江短程散步",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T09:30",
+          "endAt": "2026-11-03T10:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-a1-0",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "坐下休息",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T10:00",
+          "endAt": "2026-11-03T11:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-a1-1",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "午休",
+          "date": "2026-11-04",
+          "startAt": "2026-11-04T13:00",
+          "endAt": "2026-11-04T15:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-a2-0",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "家人聚餐",
+          "date": "2026-11-05",
+          "startAt": "2026-11-05T12:00",
+          "endAt": "2026-11-05T13:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-a3-0",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "返程",
+          "date": "2026-11-06",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-a4-0",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "suggestions": []
+    },
+    "question": "研究两个适合上海长者出行的候选，需要少步行、坐下休息和便捷卫生间。用地点与网页证据支持建议；无障碍和台阶信息没有可靠来源时必须写未知。",
+    "taskId": "r1-v1:shanghai_seniors:1:2026-11-02",
+    "mode": "research",
+    "contextHash": "4a9b4dd607d113bf689b70e9a351e8151c0c6b8e70b6e4bee258499272ec42ac"
+  },
+  "versions": {
+    "deepagents": "0.7.32",
+    "langchain": "1.4.7",
+    "langgraph": "1.2.17",
+    "langsmith": "0.14.12",
+    "langchain-openai": "1.7.2",
+    "langchain-deepseek": "1.1.1",
+    "langchain-anthropic": "1.7.6",
+    "tavily-python": "0.8.5"
+  },
+  "commit": "e2c373267a869569d0c0f4f6d66f441301541f25",
+  "sourceFingerprint": "3b4a1335096c2409870a7c78515fee0e07d2f6adc404da68a34baefb63266ae5",
+  "traceId": "d28c4c33-b209-4a70-aade-4c47f85b3b4d",
+  "traceRunId": "d28c4c33-b209-4a70-aade-4c47f85b3b4d",
+  "knownUsageCostCny": null,
+  "costCompleteness": "complete_usage",
+  "modelListPriceEstimateCny": null,
+  "priceBasis": "Candidate budget rates; conservative conversion/peak/cache-write ceiling, not invoice or comparable list-price estimate.",
+  "candidate": {
+    "name": "qwen-plus",
+    "provider": "dashscope",
+    "harnessProvider": "openai",
+    "model": "qwen3.7-plus",
+    "adapter": "langchain_openai.ChatOpenAI",
+    "modelEnv": "QWEN_COMPARISON_MODEL",
+    "apiKeyEnv": "DASHSCOPE_API_KEY",
+    "baseUrlEnv": "AGENT_BASE_URL",
+    "defaultBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "inputCnyPerMillion": 3.0,
+    "outputCnyPerMillion": 12.0,
+    "pricingBasis": "Upper budget rates for supported Beijing/Singapore endpoints and input below 256K tokens; not an invoice.",
+    "budgetRatesOnly": true,
+    "streaming": true,
+    "maxTokens": 5000,
+    "timeoutSeconds": 75,
+    "maxRetries": 0,
+    "liveCompatibility": "Not Run by this module"
+  },
+  "pilotCashReservationCny": 35,
+  "conservativeKnownUsageCostCny": 0.209382,
+  "traceVerified": false,
+  "totalSeconds": 41.664
+}

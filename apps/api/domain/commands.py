@@ -2,7 +2,7 @@ from datetime import date, datetime, timezone
 from uuid import uuid4
 from zoneinfo import ZoneInfo
 
-from packages.contracts import Activity, ActivityInput, CommandBody, Idea, IdeaInput, TripSnapshot
+from packages.contracts import Activity, ActivityInput, CommandBody, Idea, IdeaInput, Trip, TripSnapshot
 from apps.api.domain.errors import DomainError
 
 
@@ -20,6 +20,8 @@ def require_text(value: str, name: str = "标题") -> None:
 
 
 def require_date(snapshot: TripSnapshot, day: date) -> None:
+    if snapshot.trip.startDate is None or snapshot.trip.endDate is None:
+        raise DomainError(422, "TRIP_DATES_REQUIRED", "请先补全旅行起止日期，再安排活动。")
     if not snapshot.trip.startDate <= day <= snapshot.trip.endDate:
         raise DomainError(422, "DATE_OUTSIDE_TRIP", "活动日期必须在旅行起止日期之内。")
 
@@ -147,6 +149,18 @@ def apply_command(snapshot: TripSnapshot, command: CommandBody) -> None:
             suggestion.status = "dismissed"
         case "setPreferences":
             snapshot.trip.preferences = command.preferences
+        case "updateTrip":
+            value = command.trip
+            require_text(value.title)
+            if snapshot.activities and (value.startDate is None or value.endDate is None or
+                    any(not value.startDate <= a.date <= value.endDate for a in snapshot.activities)):
+                raise DomainError(409, "TRIP_DATE_CONFLICT", "新日期范围不能排除已有活动，请先调整这些活动。")
+            snapshot.trip = Trip(**{**value.model_dump(), "destination": value.destination.strip()},
+                                 id=snapshot.trip.id, createdAt=snapshot.trip.createdAt, updatedAt=stamp)
+            # Existing wall times remain wall times; reject newly invalid DST times
+            # rather than silently converting or deleting user arrangements.
+            for activity in snapshot.activities:
+                validate_activity(snapshot, ActivityInput.model_validate(activity.model_dump(include=set(ActivityInput.model_fields))))
         case _:
             raise DomainError(422, "UNKNOWN_COMMAND", "不支持的工作区操作。")
     normalize(snapshot)

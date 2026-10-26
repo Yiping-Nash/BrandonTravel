@@ -6,7 +6,11 @@ test('persistent workspace: create, ideas, custom activity, Board drag, Day/Week
   await page.goto('/');
   await page.getByRole('button',{name:'创建旅行',exact:true}).click();
   await page.getByLabel('旅行名称',{exact:true}).fill('浏览器验收 · 杭州');
+  await page.getByRole('dialog').locator('summary').filter({hasText:'Where'}).click();
   await page.getByLabel('目的地',{exact:true}).fill('杭州');
+  await page.getByRole('dialog').locator('summary').filter({hasText:'When'}).click();
+  await page.getByLabel('出发日期').fill('2026-11-02');
+  await page.getByLabel('结束日期').fill('2026-11-06');
   await page.getByRole('dialog').getByRole('button',{name:'创建旅行',exact:true}).click();
   await expect(page.getByTestId('view-board')).toBeVisible();
   const id=new URL(page.url()).searchParams.get('trip');
@@ -16,6 +20,7 @@ test('persistent workspace: create, ideas, custom activity, Board drag, Day/Week
   await page.getByRole('button',{name:'添加 Idea',exact:true}).first().click();
   await page.getByLabel('Idea 标题').fill('慢慢喝一杯茶');
   await page.getByRole('button',{name:'保存 Idea',exact:true}).click();
+  await expect.poll(async()=> (await snapshot()).ideas.length).toBe(1);
   const idea=(await snapshot()).ideas[0];
   await page.getByTestId(`adopt-idea-${idea.id}`).click();
   await page.getByLabel('采纳日期').selectOption('2026-11-03');
@@ -90,7 +95,8 @@ test('real POI and Qwen suggestion: no write before confirmation, trace and pers
   const trace=page.getByRole('link',{name:/查看 LangSmith Trace/});await expect(trace).toBeVisible();
   const traceUrl=await trace.getAttribute('href');
   await page.screenshot({path:'docs/screenshots/checkpoint-2-before-confirm.png',fullPage:true,animations:'disabled'});
-  await page.locator('.suggestion-card').first().getByRole('button',{name:'保存到 Ideas',exact:true}).click();
+  await page.locator('.suggestion-card').first().getByRole('button',{name:'预览保存到 Ideas',exact:true}).click();
+  await page.getByTestId('confirm-proposal').click();
   await expect(page.locator('.suggestion-card').first()).toContainText('已采纳');
   await expect.poll(async()=> (await snapshot()).ideas.length).toBe(before.ideas.length+1);
   const sessions=await(await page.request.get(`/api/trips/${id}/sessions`)).json();

@@ -41,7 +41,7 @@ test('Shanghai civil times ignore browser New York DST',async({browser,request})
   const out=await(await request.post(`/api/trips/${s.trip.id}/commands`,{data:{expectedVersion:s.version,command:{type:'addActivity',activity:{title:'三小时活动',date:'2026-03-08',startAt:'2026-03-08T01:00',endAt:'2026-03-08T04:00'}}}})).json();
   const id=out.activities[0].id;
   const context=await browser.newContext({timezoneId:'America/New_York',viewport:{width:1512,height:982}});const page=await context.newPage();
-  await page.goto(`http://127.0.0.1:5173/?trip=${s.trip.id}`);await page.getByTestId('view-day').click();
+  await page.goto(`/?trip=${s.trip.id}`);await page.getByTestId('view-day').click();
   const event=page.getByTestId(`calendar-event-${id}`);
   expect((await event.boundingBox()).height).toBe(280); // 180 civil minutes, not 120 elapsed NY minutes.
   await page.locator('.calendar-scroll [data-radix-scroll-area-viewport]').evaluate(el=>el.scrollTop=0);

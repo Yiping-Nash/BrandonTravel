@@ -16,10 +16,11 @@ class Place(Model):
     longitude: float | None = Field(default=None, ge=-180, le=180)
 
 class TripCreate(Model):
-    title: str = Field(min_length=1, max_length=200)
-    destination: str = Field(min_length=1, max_length=200)
-    startDate: Date
-    endDate: Date
+    title: str = Field(default="新的旅行", min_length=1, max_length=200)
+    destination: str = Field(default="", max_length=200)
+    startDate: Date | None = None
+    endDate: Date | None = None
+    companions: str = Field(default="", max_length=500)
     timezone: str = "Asia/Shanghai"
     preferences: str = Field(default="", max_length=4000)
 
@@ -32,7 +33,7 @@ class TripCreate(Model):
 
     @model_validator(mode="after")
     def date_range(self):
-        if not 0 <= (self.endDate - self.startDate).days <= 60:
+        if self.startDate and self.endDate and not 0 <= (self.endDate - self.startDate).days <= 60:
             raise ValueError("Trip must last 1–61 days")
         return self
 
@@ -141,10 +142,102 @@ class SetPreferences(Model):
     type: Literal["setPreferences"]
     preferences: str = Field(max_length=4000)
 
-CommandBody = Annotated[AddIdea | DeleteIdea | AddActivity | UpdateActivity | RemoveActivity | MoveActivity | AdoptIdea | AdoptSuggestion | DismissSuggestion | SetPreferences, Field(discriminator="type")]
+class UpdateTrip(Model):
+    type: Literal["updateTrip"]
+    trip: TripCreate
+
+class ConfirmProposal(Model):
+    type: Literal["confirmProposal"]
+    proposalId: str
+
+class DismissProposal(Model):
+    type: Literal["dismissProposal"]
+    proposalId: str
+
+CommandBody = Annotated[AddIdea | DeleteIdea | AddActivity | UpdateActivity | RemoveActivity | MoveActivity | AdoptIdea | AdoptSuggestion | DismissSuggestion | SetPreferences | UpdateTrip | ConfirmProposal | DismissProposal, Field(discriminator="type")]
 class Command(Model):
     expectedVersion: int = Field(ge=1)
     command: CommandBody
+
+# Proposals are persisted beside a Trip, not a second authoritative itinerary.
+ProposalAction = Annotated[AddIdea | AddActivity | UpdateActivity | RemoveActivity, Field(discriminator="type")]
+
+class ProposalDraft(Model):
+    kind: Literal["blueprint", "day", "changes", "research"]
+    title: str = Field(min_length=1, max_length=200)
+    summary: str = Field(min_length=1, max_length=4000)
+    actions: list[ProposalAction] = Field(min_length=1, max_length=40)
+    assumptions: list[str] = Field(default_factory=list, max_length=20)
+    evidenceRefs: list[str] = Field(default_factory=list, max_length=40)
+
+class Proposal(ProposalDraft):
+    id: str
+    tripId: str
+    contextHash: str
+    status: Literal["proposed", "accepted", "dismissed"] = "proposed"
+    createdAt: str
+    traceUrl: str | None = None
+    researchRunId: str | None = None
+    candidateIndex: int | None = None
+
+class PlanRequest(Model):
+    kind: Literal["blueprint", "day", "changes"] = "blueprint"
+    message: str = Field(default="请根据当前旅行与偏好提出结构化安排", min_length=1, max_length=8000)
+    date: Date | None = None
+    requestId: str = Field(min_length=1, max_length=160)
+
+class PlanGeneration(Model):
+    proposal: ProposalDraft
+    traceUrl: str | None = None
+    toolCalls: list[str] = Field(default_factory=list)
+
+class ResearchStart(Model):
+    question: str = Field(min_length=1, max_length=8000)
+    requestId: str = Field(min_length=1, max_length=160)
+
+class ResearchAdopt(Model):
+    candidateIndex: int = Field(ge=0)
+    target: Literal["idea", "activity"]
+    date: Date | None = None
+
+class SuggestionPreview(Model):
+    target: Literal["idea", "activity"]
+    date: Date | None = None
+
+class ResearchRun(Model):
+    id: str
+    tripId: str
+    question: str
+    contextHash: str
+    status: Literal["queued", "running", "completed", "partial", "failed", "cancelled"]
+    createdAt: str
+    updatedAt: str
+    # Validated by the existing typed R1 ResearchResult/Evidence before persistence.
+    result: dict | None = None
+    evidence: list[dict] = Field(default_factory=list)
+    traceUrl: str | None = None
+    error: str | None = None
+    toolCalls: list[str] = Field(default_factory=list)
+
+class DayCheck(Model):
+    code: str
+    severity: Literal["info", "warning"]
+    message: str
+    activityIds: list[str] = Field(default_factory=list)
+
+class DayRoute(Model):
+    fromActivityId: str
+    toActivityId: str
+    distanceMeters: float | None = None
+    durationMinutes: float | None = None
+    source: Literal["amap", "straight_line"]
+    mapUrl: str | None = None
+    note: str
+
+class DayContext(Model):
+    date: Date
+    checks: list[DayCheck]
+    routes: list[DayRoute]
 
 class ChatRequest(Model):
     message: str = Field(min_length=1, max_length=8000)

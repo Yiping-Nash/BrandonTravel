@@ -242,6 +242,400 @@
           }
         }
       }
+    },
+    "/api/trips/{trip_id}/proposals": {
+      "get": {
+        "summary": "Proposals",
+        "operationId": "proposals_api_trips__trip_id__proposals_get",
+        "parameters": [
+          {
+            "name": "trip_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Trip Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Proposal"
+                  },
+                  "title": "Response Proposals Api Trips  Trip Id  Proposals Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/trips/{trip_id}/proposals/generate": {
+      "post": {
+        "summary": "Generate",
+        "operationId": "generate_api_trips__trip_id__proposals_generate_post",
+        "parameters": [
+          {
+            "name": "trip_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Trip Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlanRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Proposal"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/trips/{trip_id}/research-runs": {
+      "get": {
+        "summary": "Runs",
+        "operationId": "runs_api_trips__trip_id__research_runs_get",
+        "parameters": [
+          {
+            "name": "trip_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Trip Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ResearchRun"
+                  },
+                  "title": "Response Runs Api Trips  Trip Id  Research Runs Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Research Start",
+        "operationId": "research_start_api_trips__trip_id__research_runs_post",
+        "parameters": [
+          {
+            "name": "trip_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Trip Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResearchStart"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResearchRun"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/trips/{trip_id}/research-runs/{run_id}/cancel": {
+      "post": {
+        "summary": "Research Cancel",
+        "operationId": "research_cancel_api_trips__trip_id__research_runs__run_id__cancel_post",
+        "parameters": [
+          {
+            "name": "trip_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Trip Id"
+            }
+          },
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResearchRun"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/trips/{trip_id}/research-runs/{run_id}/proposal": {
+      "post": {
+        "summary": "Research Proposal",
+        "operationId": "research_proposal_api_trips__trip_id__research_runs__run_id__proposal_post",
+        "parameters": [
+          {
+            "name": "trip_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Trip Id"
+            }
+          },
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResearchAdopt"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Proposal"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/trips/{trip_id}/suggestions/{suggestion_id}/proposal": {
+      "post": {
+        "summary": "Suggestion Proposal",
+        "operationId": "suggestion_proposal_api_trips__trip_id__suggestions__suggestion_id__proposal_post",
+        "parameters": [
+          {
+            "name": "trip_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Trip Id"
+            }
+          },
+          {
+            "name": "suggestion_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Suggestion Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SuggestionPreview"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Proposal"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/trips/{trip_id}/day-context": {
+      "get": {
+        "summary": "Day Context",
+        "operationId": "day_context_api_trips__trip_id__day_context_get",
+        "parameters": [
+          {
+            "name": "trip_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Trip Id"
+            }
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Date"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DayContext"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -729,6 +1123,15 @@
               },
               {
                 "$ref": "#/components/schemas/SetPreferences"
+              },
+              {
+                "$ref": "#/components/schemas/UpdateTrip"
+              },
+              {
+                "$ref": "#/components/schemas/ConfirmProposal"
+              },
+              {
+                "$ref": "#/components/schemas/DismissProposal"
               }
             ],
             "title": "Command",
@@ -739,12 +1142,15 @@
                 "addIdea": "#/components/schemas/AddIdea",
                 "adoptIdea": "#/components/schemas/AdoptIdea",
                 "adoptSuggestion": "#/components/schemas/AdoptSuggestion",
+                "confirmProposal": "#/components/schemas/ConfirmProposal",
                 "deleteIdea": "#/components/schemas/DeleteIdea",
+                "dismissProposal": "#/components/schemas/DismissProposal",
                 "dismissSuggestion": "#/components/schemas/DismissSuggestion",
                 "moveActivity": "#/components/schemas/MoveActivity",
                 "removeActivity": "#/components/schemas/RemoveActivity",
                 "setPreferences": "#/components/schemas/SetPreferences",
-                "updateActivity": "#/components/schemas/UpdateActivity"
+                "updateActivity": "#/components/schemas/UpdateActivity",
+                "updateTrip": "#/components/schemas/UpdateTrip"
               }
             }
           }
@@ -756,6 +1162,158 @@
           "command"
         ],
         "title": "Command"
+      },
+      "ConfirmProposal": {
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "confirmProposal",
+            "title": "Type"
+          },
+          "proposalId": {
+            "type": "string",
+            "title": "Proposalid"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "type",
+          "proposalId"
+        ],
+        "title": "ConfirmProposal"
+      },
+      "DayCheck": {
+        "properties": {
+          "code": {
+            "type": "string",
+            "title": "Code"
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "info",
+              "warning"
+            ],
+            "title": "Severity"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          },
+          "activityIds": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Activityids"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "code",
+          "severity",
+          "message"
+        ],
+        "title": "DayCheck"
+      },
+      "DayContext": {
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date",
+            "title": "Date"
+          },
+          "checks": {
+            "items": {
+              "$ref": "#/components/schemas/DayCheck"
+            },
+            "type": "array",
+            "title": "Checks"
+          },
+          "routes": {
+            "items": {
+              "$ref": "#/components/schemas/DayRoute"
+            },
+            "type": "array",
+            "title": "Routes"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "date",
+          "checks",
+          "routes"
+        ],
+        "title": "DayContext"
+      },
+      "DayRoute": {
+        "properties": {
+          "fromActivityId": {
+            "type": "string",
+            "title": "Fromactivityid"
+          },
+          "toActivityId": {
+            "type": "string",
+            "title": "Toactivityid"
+          },
+          "distanceMeters": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Distancemeters"
+          },
+          "durationMinutes": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Durationminutes"
+          },
+          "source": {
+            "type": "string",
+            "enum": [
+              "amap",
+              "straight_line"
+            ],
+            "title": "Source"
+          },
+          "mapUrl": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Mapurl"
+          },
+          "note": {
+            "type": "string",
+            "title": "Note"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "fromActivityId",
+          "toActivityId",
+          "source",
+          "note"
+        ],
+        "title": "DayRoute"
       },
       "DeleteIdea": {
         "properties": {
@@ -776,6 +1334,26 @@
           "ideaId"
         ],
         "title": "DeleteIdea"
+      },
+      "DismissProposal": {
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "dismissProposal",
+            "title": "Type"
+          },
+          "proposalId": {
+            "type": "string",
+            "title": "Proposalid"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "type",
+          "proposalId"
+        ],
+        "title": "DismissProposal"
       },
       "DismissSuggestion": {
         "properties": {
@@ -1031,6 +1609,196 @@
         ],
         "title": "Place"
       },
+      "PlanRequest": {
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "blueprint",
+              "day",
+              "changes"
+            ],
+            "title": "Kind",
+            "default": "blueprint"
+          },
+          "message": {
+            "type": "string",
+            "maxLength": 8000,
+            "minLength": 1,
+            "title": "Message",
+            "default": "\u8bf7\u6839\u636e\u5f53\u524d\u65c5\u884c\u4e0e\u504f\u597d\u63d0\u51fa\u7ed3\u6784\u5316\u5b89\u6392"
+          },
+          "date": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Date"
+          },
+          "requestId": {
+            "type": "string",
+            "maxLength": 160,
+            "minLength": 1,
+            "title": "Requestid"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "requestId"
+        ],
+        "title": "PlanRequest"
+      },
+      "Proposal": {
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "blueprint",
+              "day",
+              "changes",
+              "research"
+            ],
+            "title": "Kind"
+          },
+          "title": {
+            "type": "string",
+            "maxLength": 200,
+            "minLength": 1,
+            "title": "Title"
+          },
+          "summary": {
+            "type": "string",
+            "maxLength": 4000,
+            "minLength": 1,
+            "title": "Summary"
+          },
+          "actions": {
+            "items": {
+              "oneOf": [
+                {
+                  "$ref": "#/components/schemas/AddIdea"
+                },
+                {
+                  "$ref": "#/components/schemas/AddActivity"
+                },
+                {
+                  "$ref": "#/components/schemas/UpdateActivity"
+                },
+                {
+                  "$ref": "#/components/schemas/RemoveActivity"
+                }
+              ],
+              "discriminator": {
+                "propertyName": "type",
+                "mapping": {
+                  "addActivity": "#/components/schemas/AddActivity",
+                  "addIdea": "#/components/schemas/AddIdea",
+                  "removeActivity": "#/components/schemas/RemoveActivity",
+                  "updateActivity": "#/components/schemas/UpdateActivity"
+                }
+              }
+            },
+            "type": "array",
+            "maxItems": 40,
+            "minItems": 1,
+            "title": "Actions"
+          },
+          "assumptions": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "maxItems": 20,
+            "title": "Assumptions"
+          },
+          "evidenceRefs": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "maxItems": 40,
+            "title": "Evidencerefs"
+          },
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "tripId": {
+            "type": "string",
+            "title": "Tripid"
+          },
+          "contextHash": {
+            "type": "string",
+            "title": "Contexthash"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "proposed",
+              "accepted",
+              "dismissed"
+            ],
+            "title": "Status",
+            "default": "proposed"
+          },
+          "createdAt": {
+            "type": "string",
+            "title": "Createdat"
+          },
+          "traceUrl": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Traceurl"
+          },
+          "researchRunId": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Researchrunid"
+          },
+          "candidateIndex": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Candidateindex"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "kind",
+          "title",
+          "summary",
+          "actions",
+          "id",
+          "tripId",
+          "contextHash",
+          "createdAt"
+        ],
+        "title": "Proposal"
+      },
       "RemoveActivity": {
         "properties": {
           "type": {
@@ -1050,6 +1818,166 @@
           "activityId"
         ],
         "title": "RemoveActivity"
+      },
+      "ResearchAdopt": {
+        "properties": {
+          "candidateIndex": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Candidateindex"
+          },
+          "target": {
+            "type": "string",
+            "enum": [
+              "idea",
+              "activity"
+            ],
+            "title": "Target"
+          },
+          "date": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Date"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "candidateIndex",
+          "target"
+        ],
+        "title": "ResearchAdopt"
+      },
+      "ResearchRun": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "tripId": {
+            "type": "string",
+            "title": "Tripid"
+          },
+          "question": {
+            "type": "string",
+            "title": "Question"
+          },
+          "contextHash": {
+            "type": "string",
+            "title": "Contexthash"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "queued",
+              "running",
+              "completed",
+              "partial",
+              "failed",
+              "cancelled"
+            ],
+            "title": "Status"
+          },
+          "createdAt": {
+            "type": "string",
+            "title": "Createdat"
+          },
+          "updatedAt": {
+            "type": "string",
+            "title": "Updatedat"
+          },
+          "result": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Result"
+          },
+          "evidence": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Evidence"
+          },
+          "traceUrl": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Traceurl"
+          },
+          "error": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Error"
+          },
+          "toolCalls": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Toolcalls"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "tripId",
+          "question",
+          "contextHash",
+          "status",
+          "createdAt",
+          "updatedAt"
+        ],
+        "title": "ResearchRun"
+      },
+      "ResearchStart": {
+        "properties": {
+          "question": {
+            "type": "string",
+            "maxLength": 8000,
+            "minLength": 1,
+            "title": "Question"
+          },
+          "requestId": {
+            "type": "string",
+            "maxLength": 160,
+            "minLength": 1,
+            "title": "Requestid"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "question",
+          "requestId"
+        ],
+        "title": "ResearchStart"
       },
       "SetPreferences": {
         "properties": {
@@ -1154,29 +2082,80 @@
         ],
         "title": "Suggestion"
       },
+      "SuggestionPreview": {
+        "properties": {
+          "target": {
+            "type": "string",
+            "enum": [
+              "idea",
+              "activity"
+            ],
+            "title": "Target"
+          },
+          "date": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Date"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "target"
+        ],
+        "title": "SuggestionPreview"
+      },
       "Trip": {
         "properties": {
           "title": {
             "type": "string",
             "maxLength": 200,
             "minLength": 1,
-            "title": "Title"
+            "title": "Title",
+            "default": "\u65b0\u7684\u65c5\u884c"
           },
           "destination": {
             "type": "string",
             "maxLength": 200,
-            "minLength": 1,
-            "title": "Destination"
+            "title": "Destination",
+            "default": ""
           },
           "startDate": {
-            "type": "string",
-            "format": "date",
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
             "title": "Startdate"
           },
           "endDate": {
-            "type": "string",
-            "format": "date",
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
             "title": "Enddate"
+          },
+          "companions": {
+            "type": "string",
+            "maxLength": 500,
+            "title": "Companions",
+            "default": ""
           },
           "timezone": {
             "type": "string",
@@ -1205,10 +2184,6 @@
         "additionalProperties": false,
         "type": "object",
         "required": [
-          "title",
-          "destination",
-          "startDate",
-          "endDate",
           "id",
           "createdAt",
           "updatedAt"
@@ -1221,23 +2196,44 @@
             "type": "string",
             "maxLength": 200,
             "minLength": 1,
-            "title": "Title"
+            "title": "Title",
+            "default": "\u65b0\u7684\u65c5\u884c"
           },
           "destination": {
             "type": "string",
             "maxLength": 200,
-            "minLength": 1,
-            "title": "Destination"
+            "title": "Destination",
+            "default": ""
           },
           "startDate": {
-            "type": "string",
-            "format": "date",
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
             "title": "Startdate"
           },
           "endDate": {
-            "type": "string",
-            "format": "date",
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
             "title": "Enddate"
+          },
+          "companions": {
+            "type": "string",
+            "maxLength": 500,
+            "title": "Companions",
+            "default": ""
           },
           "timezone": {
             "type": "string",
@@ -1253,12 +2249,6 @@
         },
         "additionalProperties": false,
         "type": "object",
-        "required": [
-          "title",
-          "destination",
-          "startDate",
-          "endDate"
-        ],
         "title": "TripCreate"
       },
       "TripSnapshot": {
@@ -1324,6 +2314,25 @@
           "activity"
         ],
         "title": "UpdateActivity"
+      },
+      "UpdateTrip": {
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "updateTrip",
+            "title": "Type"
+          },
+          "trip": {
+            "$ref": "#/components/schemas/TripCreate"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "type",
+          "trip"
+        ],
+        "title": "UpdateTrip"
       },
       "ValidationError": {
         "properties": {

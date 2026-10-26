@@ -1,0 +1,43 @@
+{
+  "kind": "read-only model-list/authentication check; no inference",
+  "results": [
+    {
+      "provider": "DeepSeek",
+      "keyPresent": true,
+      "expectedModels": [
+        "deepseek-flash",
+        "deepseek-v4-pro"
+      ],
+      "httpStatus": 200,
+      "modelListed": {
+        "deepseek-flash": true,
+        "deepseek-v4-pro": true
+      },
+      "status": "Pass"
+    },
+    {
+      "provider": "Anthropic",
+      "route": "direct",
+      "keyPresent": true,
+      "expectedModels": [
+        "claude-sonnet-5-5"
+      ],
+      "httpStatus": 403,
+      "status": "Blocked"
+    },
+    {
+      "provider": "Qwen",
+      "keyPresent": true,
+      "expectedModels": [
+        "qwen3.8-flash",
+        "qwen3.7-plus"
+      ],
+      "httpStatus": 200,
+      "modelListed": {
+        "qwen3.8-flash": true,
+        "qwen3.7-plus": true
+      },
+      "status": "Pass"
+    }
+  ]
+}

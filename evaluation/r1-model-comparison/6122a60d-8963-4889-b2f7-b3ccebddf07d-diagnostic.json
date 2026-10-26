@@ -1,0 +1,373 @@
+[
+  {
+    "id": "01a17501-81fc-769b-9113-f4eaa8c8ea50",
+    "name": "ChatOpenAI",
+    "offeredTools": [
+      "task",
+      "get_trip_snapshot",
+      "ResearchSelection"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "get_trip_snapshot",
+            "argTypes": {}
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17501-8763-74a5-bf94-8ed97349102b",
+    "name": "ChatOpenAI",
+    "offeredTools": [
+      "task",
+      "get_trip_snapshot",
+      "ResearchSelection"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "task",
+            "argTypes": {
+              "description": "str",
+              "subagent_type": "str"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17501-98c9-768b-8415-3d4d5048e265",
+    "name": "ChatOpenAI",
+    "offeredTools": [
+      "write_todos",
+      "get_trip_snapshot",
+      "search_places",
+      "web_search",
+      "read_pages",
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "get_trip_snapshot",
+            "argTypes": {}
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17501-9ddb-7700-b180-630771462085",
+    "name": "ChatOpenAI",
+    "offeredTools": [
+      "write_todos",
+      "get_trip_snapshot",
+      "search_places",
+      "web_search",
+      "read_pages",
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "write_todos",
+            "argTypes": {
+              "todos": "list"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17501-a959-7489-9815-54f824a52bec",
+    "name": "ChatOpenAI",
+    "offeredTools": [
+      "write_todos",
+      "get_trip_snapshot",
+      "search_places",
+      "web_search",
+      "read_pages",
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "search_places",
+            "argTypes": {
+              "query": "str"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17501-ae51-76d5-9fe1-b0933afa39ff",
+    "name": "ChatOpenAI",
+    "offeredTools": [
+      "write_todos",
+      "get_trip_snapshot",
+      "search_places",
+      "web_search",
+      "read_pages",
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "search_places",
+            "argTypes": {
+              "query": "str"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17501-b882-73ac-ab57-4fb76b388af5",
+    "name": "ChatOpenAI",
+    "offeredTools": [
+      "write_todos",
+      "get_trip_snapshot",
+      "search_places",
+      "web_search",
+      "read_pages",
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "search_places",
+            "argTypes": {
+              "query": "str"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17501-be60-74e9-a658-c33488ba46c5",
+    "name": "ChatOpenAI",
+    "offeredTools": [
+      "write_todos",
+      "get_trip_snapshot",
+      "web_search",
+      "read_pages",
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "write_todos",
+            "argTypes": {
+              "todos": "list"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17501-cc23-71a4-92b6-03d7da66c40f",
+    "name": "ChatOpenAI",
+    "offeredTools": [
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "web_search",
+            "argTypes": {
+              "query": "str"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17501-d313-7092-87a7-9de299258d09",
+    "name": "ChatOpenAI",
+    "offeredTools": [
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "web_search",
+            "argTypes": {
+              "query": "str"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17501-d91b-7277-91ba-90d5333faf23",
+    "name": "ChatOpenAI",
+    "offeredTools": [
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "write_todos",
+            "argTypes": {
+              "todos": "str"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  },
+  {
+    "id": "01a17501-e392-7567-aa5e-b966406fab06",
+    "name": "ChatOpenAI",
+    "offeredTools": [
+      "ResearchResult"
+    ],
+    "outputKeys": [
+      "generations",
+      "llm_output",
+      "run",
+      "type"
+    ],
+    "errorPresent": false,
+    "messages": [
+      {
+        "finishReason": "tool_calls",
+        "toolCalls": [
+          {
+            "name": "ResearchResult",
+            "argTypes": {
+              "summary": "str",
+              "candidates": "list",
+              "claims": "list",
+              "limitations": "list",
+              "coverage": "list",
+              "status": "str"
+            }
+          }
+        ],
+        "invalidToolCalls": []
+      }
+    ]
+  }
+]
