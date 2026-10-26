@@ -1,0 +1,13 @@
+{
+  "batchId": "63fe83f1-7896-42f9-bbb3-d8919bc061a6",
+  "command": "demo",
+  "planned": 1,
+  "completed": [
+    {
+      "runId": "79518db8-e7f4-41d8-b17b-61a9f22e37e2",
+      "status": "Pass"
+    }
+  ],
+  "notRun": [],
+  "sourceFingerprint": "29ac89890af14a42d4b8a241c0b0f51d56fd1a8c33c98a67bc4659d28f63f978"
+}

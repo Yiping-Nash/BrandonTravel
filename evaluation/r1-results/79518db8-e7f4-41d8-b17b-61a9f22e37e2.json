@@ -1,0 +1,999 @@
+{
+  "runId": "79518db8-e7f4-41d8-b17b-61a9f22e37e2",
+  "taskId": "r1-v1:shanghai_seniors:1:2026-11-02",
+  "status": "Pass",
+  "batch": "demo",
+  "architecture": "A",
+  "mode": "research",
+  "llmMode": "live",
+  "toolMode": "live",
+  "contextHash": "4a9b4dd607d113bf689b70e9a351e8151c0c6b8e70b6e4bee258499272ec42ac",
+  "humanReview": "Pending",
+  "proposedResult": {
+    "summary": "给出两个室内、有官方无障碍证据的候选：上海世博会博物馆（逐层无障碍电梯、4处无障碍卫生间、服务中心休息点、散客免预约）与上海博物馆人民广场馆（无障碍服务与轮椅租借、各层卫生间与扶梯）。台阶数量与座椅密度均无量化来源，标记为未知。",
+    "candidates": [
+      {
+        "title": "上海世博会博物馆（黄浦区蒙自路818号）— 室内半日参观",
+        "rationale": "官网明确列出无障碍电梯、绿色通道、4处无障碍卫生间与游客服务中心休息点；散客无需预约，周二至周日9:00-17:00，16:15停止入馆。",
+        "preferenceMatches": [
+          "室内平层动线，逐层无障碍电梯减少步行与爬梯",
+          "官方列明4处无障碍卫生间与服务中心休息点",
+          "散客免预约，可随时缩短或延长停留"
+        ],
+        "tradeoffs": [
+          "周一闭馆，需避开11-02/11-06前后周一安排",
+          "台阶数量与座椅分布密度官网未量化，未知"
+        ],
+        "claims": [
+          {
+            "text": "官网“无障碍服务”页写明：出入口设无障碍绿色通道，设有4处无障碍卫生间，每一层都设有位于展厅内的无障碍电梯，并设“休息点”，位于游客服务中心；服务热线021-23132818（9:00-16:00，周一休息）。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:549222c728b77dfb88fb69bd",
+              "ev:a8a5d54ad02b7d29e558d45f"
+            ]
+          },
+          {
+            "text": "开放信息：周二至周日9:00-17:00，16:15停止入馆，周一闭馆（国定节假日逢周一另行公告）；地址上海市黄浦区蒙自路818号（近龙华东路）；散客参观无需预约。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:1d29d943151a2a5a15fc5479",
+              "ev:ce5352d8cdbb325d8e04897a"
+            ]
+          },
+          {
+            "text": "该地点适合“少步行+坐下休息+便捷卫生间”的组合需求，属推断：官网仅逐项列出设施类型，未提供各楼层步行距离、座椅数量或从入口到电梯的实际步数。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:549222c728b77dfb88fb69bd"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-04",
+        "placeEvidenceRef": null
+      },
+      {
+        "title": "上海博物馆人民广场馆（黄浦区人民大道201号）— 室内观展并租用轮椅",
+        "rationale": "官网服务项目含无障碍服务与婴儿车、轮椅租借，1楼标注无障碍措施，各层均有男女卫生间与自动扶梯；地铁1/2/8号线人民广场站直达。",
+        "preferenceMatches": [
+          "可现场租借轮椅，直接降低连续步行强度",
+          "每层设男女卫生间，1楼有无障碍措施",
+          "室内观展，茶室/餐厅可坐下休息"
+        ],
+        "tradeoffs": [
+          "双休日与高峰期间需预约入馆",
+          "2楼以上仅标注扶梯与楼梯，电梯情况未说明"
+        ],
+        "claims": [
+          {
+            "text": "官网“人民广场馆·服务”页列出服务项目包含无障碍服务、智能终端、语音导览、婴儿车与轮椅、寄物服务、咨询服务；馆内设施表中1楼含男卫生间、女卫生间、无障碍措施、自动扶梯、楼梯、服务台、影视中心、寄物处、书店、商店、餐厅，2楼含男女卫生间、自动扶梯、楼梯、直饮水、茶室，3/4楼含男女卫生间、自动扶梯、楼梯。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:0a0600da64808971411abf7f"
+            ]
+          },
+          {
+            "text": "开放信息：除国定假日外每周一闭馆，9:00~17:00，16:00后停止入场；双休日、国定节假日及参观高峰期间需预约入馆；请从南门（近武胜路）入馆；轨道一、二、八线可达，距上海火车站约3公里。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:0a0600da64808971411abf7f"
+            ]
+          },
+          {
+            "text": "POI 记录确认地点为“上海博物馆(人民广场馆)”，地址人民大道201号，坐标31.228231/121.47548；POI 只验证地点资料，不验证开放、预约、体验或交通时间。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:66c28aa3b7b0adf7c852c782"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-05",
+        "placeEvidenceRef": "ev:66c28aa3b7b0adf7c852c782"
+      }
+    ],
+    "claims": [
+      {
+        "text": "行程为2026-11-02至11-06（周一至周五），偏好要求连续步行尽量不超过三十分钟、需要坐下休息、少台阶和便捷卫生间，且无障碍设施必须有证据、未知不等于没有或具备。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:1d8d69701f1c13117252874d"
+        ]
+      },
+      {
+        "text": "11-03上午已安排“滨江短程散步”（09:30-10:00）与“坐下休息”（10:00-11:00），11-04下午已有午休（13:00-15:00），11-05中午已安排家人聚餐（12:00-13:00）；建议的新活动应避开这些时段，未定时活动仍属当天安排。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:1d8d69701f1c13117252874d"
+        ]
+      },
+      {
+        "text": "两个候选均为室内场馆，可与既有户外散步和午休互补；但两者都在周一闭馆，因此不能放在11-02（周一）或11-06（周五以外的判断需按当日核对，11-06为周五不受影响）。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:0a0600da64808971411abf7f",
+          "ev:1d29d943151a2a5a15fc5479"
+        ]
+      },
+      {
+        "text": "关于台阶数量、无障碍坡道坡度、轮椅席位、休息座椅密度、馆内实际步行距离，本次检索到的官网摘录均未给出量化数据，视为未知，需在出行前致电场馆确认。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:549222c728b77dfb88fb69bd",
+          "ev:0a0600da64808971411abf7f"
+        ]
+      }
+    ],
+    "limitations": [
+      "第二次 read_pages（世博会博物馆无障碍服务详情页）与随后的 search_places 因工具权限不可用（PERMISSION_DENIED）而失败，因此该馆的无障碍细节仅依据搜索摘录，未经整页核验。",
+      "未能取得 POI 证据支持世博会博物馆的具体坐标/地点条目，故其 placeEvidenceRef 为空。",
+      "两个候选的台阶高度与数量、无障碍坡道、轮椅席位、休息座椅数量与间距、馆内单程步行距离均无可靠来源，状态为未知。",
+      "搜索摘录不等于完整官网规则；开放时间与预约政策以出行前官网或电话复核为准，本 Trip 为合成评测数据，不代表真实购票或预约已核验。",
+      "未查证实时人流、临时闭馆公告、周边地铁无障碍电梯可用性，也未查证餐厅与茶室的座位适老程度。",
+      "未做户外公园类候选的多源核验：针对“世纪公园”等的地点搜索返回结果为上海站卫生间等无关条目，无法支撑公园类建议。"
+    ],
+    "coverage": [
+      "trip_snapshot",
+      "poi_search",
+      "web_search",
+      "web_page_extract"
+    ],
+    "status": "partial"
+  },
+  "result": {
+    "summary": "给出两个室内、有官方无障碍证据的候选：上海世博会博物馆（逐层无障碍电梯、4处无障碍卫生间、服务中心休息点、散客免预约）与上海博物馆人民广场馆（无障碍服务与轮椅租借、各层卫生间与扶梯）。台阶数量与座椅密度均无量化来源，标记为未知。",
+    "candidates": [
+      {
+        "title": "上海世博会博物馆（黄浦区蒙自路818号）— 室内半日参观",
+        "rationale": "官网明确列出无障碍电梯、绿色通道、4处无障碍卫生间与游客服务中心休息点；散客无需预约，周二至周日9:00-17:00，16:15停止入馆。",
+        "preferenceMatches": [
+          "室内平层动线，逐层无障碍电梯减少步行与爬梯",
+          "官方列明4处无障碍卫生间与服务中心休息点",
+          "散客免预约，可随时缩短或延长停留"
+        ],
+        "tradeoffs": [
+          "周一闭馆，需避开11-02/11-06前后周一安排",
+          "台阶数量与座椅分布密度官网未量化，未知"
+        ],
+        "claims": [
+          {
+            "text": "官网“无障碍服务”页写明：出入口设无障碍绿色通道，设有4处无障碍卫生间，每一层都设有位于展厅内的无障碍电梯，并设“休息点”，位于游客服务中心；服务热线021-23132818（9:00-16:00，周一休息）。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:549222c728b77dfb88fb69bd",
+              "ev:a8a5d54ad02b7d29e558d45f"
+            ]
+          },
+          {
+            "text": "开放信息：周二至周日9:00-17:00，16:15停止入馆，周一闭馆（国定节假日逢周一另行公告）；地址上海市黄浦区蒙自路818号（近龙华东路）；散客参观无需预约。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:1d29d943151a2a5a15fc5479",
+              "ev:ce5352d8cdbb325d8e04897a"
+            ]
+          },
+          {
+            "text": "该地点适合“少步行+坐下休息+便捷卫生间”的组合需求，属推断：官网仅逐项列出设施类型，未提供各楼层步行距离、座椅数量或从入口到电梯的实际步数。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:549222c728b77dfb88fb69bd"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-04",
+        "placeEvidenceRef": null
+      },
+      {
+        "title": "上海博物馆人民广场馆（黄浦区人民大道201号）— 室内观展并租用轮椅",
+        "rationale": "官网服务项目含无障碍服务与婴儿车、轮椅租借，1楼标注无障碍措施，各层均有男女卫生间与自动扶梯；地铁1/2/8号线人民广场站直达。",
+        "preferenceMatches": [
+          "可现场租借轮椅，直接降低连续步行强度",
+          "每层设男女卫生间，1楼有无障碍措施",
+          "室内观展，茶室/餐厅可坐下休息"
+        ],
+        "tradeoffs": [
+          "双休日与高峰期间需预约入馆",
+          "2楼以上仅标注扶梯与楼梯，电梯情况未说明"
+        ],
+        "claims": [
+          {
+            "text": "官网“人民广场馆·服务”页列出服务项目包含无障碍服务、智能终端、语音导览、婴儿车与轮椅、寄物服务、咨询服务；馆内设施表中1楼含男卫生间、女卫生间、无障碍措施、自动扶梯、楼梯、服务台、影视中心、寄物处、书店、商店、餐厅，2楼含男女卫生间、自动扶梯、楼梯、直饮水、茶室，3/4楼含男女卫生间、自动扶梯、楼梯。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:0a0600da64808971411abf7f"
+            ]
+          },
+          {
+            "text": "开放信息：除国定假日外每周一闭馆，9:00~17:00，16:00后停止入场；双休日、国定节假日及参观高峰期间需预约入馆；请从南门（近武胜路）入馆；轨道一、二、八线可达，距上海火车站约3公里。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:0a0600da64808971411abf7f"
+            ]
+          },
+          {
+            "text": "POI 记录确认地点为“上海博物馆(人民广场馆)”，地址人民大道201号，坐标31.228231/121.47548；POI 只验证地点资料，不验证开放、预约、体验或交通时间。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:66c28aa3b7b0adf7c852c782"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-05",
+        "placeEvidenceRef": "ev:66c28aa3b7b0adf7c852c782"
+      }
+    ],
+    "claims": [
+      {
+        "text": "行程为2026-11-02至11-06（周一至周五），偏好要求连续步行尽量不超过三十分钟、需要坐下休息、少台阶和便捷卫生间，且无障碍设施必须有证据、未知不等于没有或具备。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:1d8d69701f1c13117252874d"
+        ]
+      },
+      {
+        "text": "11-03上午已安排“滨江短程散步”（09:30-10:00）与“坐下休息”（10:00-11:00），11-04下午已有午休（13:00-15:00），11-05中午已安排家人聚餐（12:00-13:00）；建议的新活动应避开这些时段，未定时活动仍属当天安排。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:1d8d69701f1c13117252874d"
+        ]
+      },
+      {
+        "text": "两个候选均为室内场馆，可与既有户外散步和午休互补；但两者都在周一闭馆，因此不能放在11-02（周一）或11-06（周五以外的判断需按当日核对，11-06为周五不受影响）。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:0a0600da64808971411abf7f",
+          "ev:1d29d943151a2a5a15fc5479"
+        ]
+      },
+      {
+        "text": "关于台阶数量、无障碍坡道坡度、轮椅席位、休息座椅密度、馆内实际步行距离，本次检索到的官网摘录均未给出量化数据，视为未知，需在出行前致电场馆确认。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:549222c728b77dfb88fb69bd",
+          "ev:0a0600da64808971411abf7f"
+        ]
+      }
+    ],
+    "limitations": [
+      "第二次 read_pages（世博会博物馆无障碍服务详情页）与随后的 search_places 因工具权限不可用（PERMISSION_DENIED）而失败，因此该馆的无障碍细节仅依据搜索摘录，未经整页核验。",
+      "未能取得 POI 证据支持世博会博物馆的具体坐标/地点条目，故其 placeEvidenceRef 为空。",
+      "两个候选的台阶高度与数量、无障碍坡道、轮椅席位、休息座椅数量与间距、馆内单程步行距离均无可靠来源，状态为未知。",
+      "搜索摘录不等于完整官网规则；开放时间与预约政策以出行前官网或电话复核为准，本 Trip 为合成评测数据，不代表真实购票或预约已核验。",
+      "未查证实时人流、临时闭馆公告、周边地铁无障碍电梯可用性，也未查证餐厅与茶室的座位适老程度。",
+      "未做户外公园类候选的多源核验：针对“世纪公园”等的地点搜索返回结果为上海站卫生间等无关条目，无法支撑公园类建议。"
+    ],
+    "coverage": [
+      "trip_snapshot",
+      "poi_search",
+      "web_search",
+      "web_page_extract"
+    ],
+    "status": "partial"
+  },
+  "seconds": 51.473,
+  "modelRequests": 8,
+  "inputTokens": 94156,
+  "outputTokens": 2430,
+  "usageRequests": 8,
+  "schemaRepairs": 0,
+  "deniedTools": [
+    "read_pages",
+    "search_places"
+  ],
+  "toolCalls": [
+    "get_trip_snapshot",
+    "search_places",
+    "search_places",
+    "search_places",
+    "search_places",
+    "web_search",
+    "web_search",
+    "read_pages",
+    "web_search",
+    "read_pages",
+    "web_search"
+  ],
+  "sourceEvents": [
+    {
+      "tool": "get_trip_snapshot",
+      "status": "OK",
+      "mode": "live"
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "live",
+      "results": 3
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "live",
+      "results": 0
+    },
+    {
+      "tool": "amap",
+      "status": "BUDGET_EXCEEDED",
+      "mode": "live"
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "live",
+      "results": 3
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    },
+    {
+      "tool": "read_pages",
+      "status": "OK",
+      "mode": "live",
+      "results": 1,
+      "requested": 1
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    },
+    {
+      "tool": "read_pages",
+      "status": "PARTIAL",
+      "mode": "live",
+      "results": 0,
+      "requested": 1
+    }
+  ],
+  "sourceCounts": {
+    "amap": 3,
+    "web": 4,
+    "extract": 2,
+    "credits": 6
+  },
+  "evidence": [
+    {
+      "id": "ev:1d8d69701f1c13117252874d",
+      "sourceType": "snapshot",
+      "url": null,
+      "providerId": null,
+      "title": "Synthetic evaluation Trip snapshot",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:09:07.776448+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "c714107f0e3829ff6cfd73b36b1a9637f3e49dfef681967b2e44276f50a1c9bf",
+      "verification": "snapshot",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "c714107f0e3829ff6cfd73b36b1a9637f3e49dfef681967b2e44276f50a1c9bf",
+      "excerptCharacters": 3944
+    },
+    {
+      "id": "ev:6a2549017067df0195d95a16",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0FFG3WDY5",
+      "title": "卫生间(上海站)",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:09:10.046377+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "f15acc630af8355a2ee238b2c8af04f1e83b1860801cf35c37c0fe67eec90afc",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0FFG3WDY5",
+        "name": "卫生间(上海站)",
+        "address": "秣陵路303号上海站2F层",
+        "latitude": 31.250528,
+        "longitude": 121.45691
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "f15acc630af8355a2ee238b2c8af04f1e83b1860801cf35c37c0fe67eec90afc",
+      "excerptCharacters": 132
+    },
+    {
+      "id": "ev:9b2e95a54f0ac45d91138db9",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0FFGPM8BS",
+      "title": "卫生间(上海站)",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:09:10.046441+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "8af7a4d589aa2c043284177d6b8d4eb95b8d26a1dc00f78080b601ed409c0436",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0FFGPM8BS",
+        "name": "卫生间(上海站)",
+        "address": "秣陵路303号上海站2F层",
+        "latitude": 31.249781,
+        "longitude": 121.455362
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "8af7a4d589aa2c043284177d6b8d4eb95b8d26a1dc00f78080b601ed409c0436",
+      "excerptCharacters": 133
+    },
+    {
+      "id": "ev:3588c2241f802ce388d1e233",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0FFGPM8BZ",
+      "title": "卫生间(上海站)",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:09:10.046470+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "77c2fc51b5b760f7e524e4f0c6908217ecae88cfb9a556454738d204f02f4ebf",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0FFGPM8BZ",
+        "name": "卫生间(上海站)",
+        "address": "秣陵路303号上海站2F层",
+        "latitude": 31.249819,
+        "longitude": 121.456049
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "77c2fc51b5b760f7e524e4f0c6908217ecae88cfb9a556454738d204f02f4ebf",
+      "excerptCharacters": 133
+    },
+    {
+      "id": "ev:66c28aa3b7b0adf7c852c782",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B001535BBC",
+      "title": "上海博物馆(人民广场馆)",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:09:12.158453+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "c8674fe8edbaec57b006045dcd797c38084e78580b52ce01c1a6fd194b05c85e",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B001535BBC",
+        "name": "上海博物馆(人民广场馆)",
+        "address": "人民大道201号",
+        "latitude": 31.228231,
+        "longitude": 121.47548
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "c8674fe8edbaec57b006045dcd797c38084e78580b52ce01c1a6fd194b05c85e",
+      "excerptCharacters": 131
+    },
+    {
+      "id": "ev:7ba286d852f618ac64298f1a",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B00156NVZG",
+      "title": "上海自然博物馆",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:09:12.158516+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "01d5875a031057653de229b102cb4796ae4c203d44880882518aa585375cfef6",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B00156NVZG",
+        "name": "上海自然博物馆",
+        "address": "北京西路510号",
+        "latitude": 31.235021,
+        "longitude": 121.462672
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "01d5875a031057653de229b102cb4796ae4c203d44880882518aa585375cfef6",
+      "excerptCharacters": 127
+    },
+    {
+      "id": "ev:b5a6374fe1e170f7b6325667",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0FFIFP90V",
+      "title": "上海博物馆(东馆)",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:09:12.158546+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "94ee38d60fd948e0723a575b1f7a0d3c7c43ad245c19835f61c274b0cc57f88f",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0FFIFP90V",
+        "name": "上海博物馆(东馆)",
+        "address": "世纪大道1952号(上海科技馆地铁站8号口步行480米)",
+        "latitude": 31.219913,
+        "longitude": 121.538745
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "94ee38d60fd948e0723a575b1f7a0d3c7c43ad245c19835f61c274b0cc57f88f",
+      "excerptCharacters": 149
+    },
+    {
+      "id": "ev:b0f38be7407a0c575816796e",
+      "sourceType": "web",
+      "url": "https://www.shanghaidisneyresort.com/zh-cn/experience/guest-service/services-for-guests-with-disabilities",
+      "providerId": null,
+      "title": "无障碍服务咨询 | 上海迪士尼度假区",
+      "publisher": "www.shanghaidisneyresort.com",
+      "retrievedAt": "2026-10-25T21:09:18.608629+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "56b7b897c9b472d73cc6a71d7c31fd71fe464c785325d274e81cf10494653717",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "56b7b897c9b472d73cc6a71d7c31fd71fe464c785325d274e81cf10494653717",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:b29b845acc1a80c7e41a4df5",
+      "sourceType": "web",
+      "url": "https://www.shhuangpu.gov.cn/xw/001009/20240520/772d79ae-a74b-4d17-8749-2a5027fb64aa.html",
+      "providerId": null,
+      "title": "公厕的无障碍设施，如何管理更精细",
+      "publisher": "www.shhuangpu.gov.cn",
+      "retrievedAt": "2026-10-25T21:09:18.608732+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "8096d11364a204c250b474db4e8e2fd036f30673bd4d31322502d0e6c825b601",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "8096d11364a204c250b474db4e8e2fd036f30673bd4d31322502d0e6c825b601",
+      "excerptCharacters": 57
+    },
+    {
+      "id": "ev:1ebfb838d700712c300db698",
+      "sourceType": "web",
+      "url": "https://www.news.cn/20251114/906e726cc4404c3381a2d6e67ca7e476/c.html",
+      "providerId": null,
+      "title": "美观与智慧并存上海“小厕所”里的城市“大民生”",
+      "publisher": "www.news.cn",
+      "retrievedAt": "2026-10-25T21:09:18.608782+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "5a1e969cdf034687ffecca8fc3fe7a952486e0ff9bb85e08532ec62dee870c2f",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "5a1e969cdf034687ffecca8fc3fe7a952486e0ff9bb85e08532ec62dee870c2f",
+      "excerptCharacters": 72
+    },
+    {
+      "id": "ev:44d136633c216d3421dcb1db",
+      "sourceType": "web",
+      "url": "https://www.savaria.cn",
+      "providerId": null,
+      "title": "全球无障碍通行解决方案引领者-萨瓦瑞亚集团中国官网丨Savaria",
+      "publisher": "www.savaria.cn",
+      "retrievedAt": "2026-10-25T21:09:18.608832+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "939a59854beee115fc8b7c2b2f5e152c870d1c9601caedc4eddd42736272151f",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "939a59854beee115fc8b7c2b2f5e152c870d1c9601caedc4eddd42736272151f",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:569a998998dfce7fed7d7e7a",
+      "sourceType": "web",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/service/visit-west-1",
+      "providerId": null,
+      "title": "上海博物馆",
+      "publisher": "www.shanghaimuseum.net",
+      "retrievedAt": "2026-10-25T21:09:20.495693+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "6ee14ea4dae17884c93ed659a100af20025567f3e8bd037f292724d4f59b539a",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "6ee14ea4dae17884c93ed659a100af20025567f3e8bd037f292724d4f59b539a",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:8de0ec8e657e57efeb3eac53",
+      "sourceType": "web",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/CI00166332",
+      "providerId": null,
+      "title": "上海博物馆",
+      "publisher": "www.shanghaimuseum.net",
+      "retrievedAt": "2026-10-25T21:09:20.495808+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "a489d7203167a494fcbc137fbe1ca9e05ac7e527f9f7624b1abc545e0c485067",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "a489d7203167a494fcbc137fbe1ca9e05ac7e527f9f7624b1abc545e0c485067",
+      "excerptCharacters": 632
+    },
+    {
+      "id": "ev:3e5afb650243f8c71da0329a",
+      "sourceType": "web",
+      "url": "https://www.shanghai.gov.cn/gwk/search/content/3ef7361a666546998990153976c00c91",
+      "providerId": null,
+      "title": "上海市松江区人民政府办公室关于印发《松江区无障碍环境建设发展规划（2023-2035年）》的通知",
+      "publisher": "www.shanghai.gov.cn",
+      "retrievedAt": "2026-10-25T21:09:20.495887+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "9058745ed6f3b9fc04ed3f42c98d258c061ae64615f1404a7a1e040e7ab5fd01",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "9058745ed6f3b9fc04ed3f42c98d258c061ae64615f1404a7a1e040e7ab5fd01",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:7bffd697bd58b33257368cd5",
+      "sourceType": "web",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/CI00000291",
+      "providerId": null,
+      "title": "上海博物馆",
+      "publisher": "www.shanghaimuseum.net",
+      "retrievedAt": "2026-10-25T21:09:20.495939+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "fb9463999ba3c188904eed10a17087d6934bb5f513dcb91b93bba899492ee513",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "fb9463999ba3c188904eed10a17087d6934bb5f513dcb91b93bba899492ee513",
+      "excerptCharacters": 1065
+    },
+    {
+      "id": "ev:0a0600da64808971411abf7f",
+      "sourceType": "web",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/service/visit-west-1",
+      "providerId": null,
+      "title": "www.shanghaimuseum.net",
+      "publisher": "www.shanghaimuseum.net",
+      "retrievedAt": "2026-10-25T21:09:23.404395+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "9cee7d7c88faa061c74a32a7ca8553a53cb57b1e04df5b119e0814d8632a4bfa",
+      "verification": "page_extract",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "9cee7d7c88faa061c74a32a7ca8553a53cb57b1e04df5b119e0814d8632a4bfa",
+      "excerptCharacters": 1840
+    },
+    {
+      "id": "ev:e777c8fa83ec3866fd1815f1",
+      "sourceType": "web",
+      "url": "https://cn.tripadvisor.com/Attractions-g308272-Activities-c49-Shanghai.html",
+      "providerId": null,
+      "title": "上海市 10 大博物馆 - Tripadvisor",
+      "publisher": "cn.tripadvisor.com",
+      "retrievedAt": "2026-10-25T21:09:24.620050+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "a252b610b82471e4bf56aec2a2f0a224e7bd3fa6c9c06cb4ad196703b0ced599",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "a252b610b82471e4bf56aec2a2f0a224e7bd3fa6c9c06cb4ad196703b0ced599",
+      "excerptCharacters": 935
+    },
+    {
+      "id": "ev:a8a5d54ad02b7d29e558d45f",
+      "sourceType": "web",
+      "url": "https://www.expo-museum.cn/sbbwg/n281/n282/n321/n494/index.html",
+      "providerId": null,
+      "title": "无障碍服务",
+      "publisher": "www.expo-museum.cn",
+      "retrievedAt": "2026-10-25T21:09:24.620145+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "9eb47616059851fde07976691a5218aba81cbbae6a4c9805b18683f1584d25c6",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "9eb47616059851fde07976691a5218aba81cbbae6a4c9805b18683f1584d25c6",
+      "excerptCharacters": 79
+    },
+    {
+      "id": "ev:a93b35aba622e4ab1725473d",
+      "sourceType": "web",
+      "url": "https://www.gbwindows.net/ow-content/uploads/download/gfbzdown/6.1.1%E6%9D%A1/%E6%97%A0%E9%9A%9C%E7%A2%8D%E8%AE%BE%E8%AE%A1/GB50763-2012%20%E6%97%A0%E9%9A%9C%E7%A2%8D%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83.pdf",
+      "providerId": null,
+      "title": "《无障碍设计规范》GB50763-2012（1 ...",
+      "publisher": "www.gbwindows.net",
+      "retrievedAt": "2026-10-25T21:09:24.620219+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "976426763e566e374b059747036787ab7d8cdef148bfd3a407759b323695be81",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "976426763e566e374b059747036787ab7d8cdef148bfd3a407759b323695be81",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:2655b2b328e242b3406be2ca",
+      "sourceType": "web",
+      "url": "https://www.royalcare.nyc/blog/nyc-museum-guide-for-seniors-and-caregivers",
+      "providerId": null,
+      "title": "年纽约博物馆指南：这些博物馆适合老年人游览 - Royal Care",
+      "publisher": "www.royalcare.nyc",
+      "retrievedAt": "2026-10-25T21:09:24.620283+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "c30eac2005932996e5999c4a81ad152fb418238456cb9d07fec938924fd12cbb",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "c30eac2005932996e5999c4a81ad152fb418238456cb9d07fec938924fd12cbb",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:1d29d943151a2a5a15fc5479",
+      "sourceType": "web",
+      "url": "https://www.expo-museum.cn",
+      "providerId": null,
+      "title": "上海世博会博物馆",
+      "publisher": "www.expo-museum.cn",
+      "retrievedAt": "2026-10-25T21:09:27.911429+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "f2d177825d792f72c1db30283ebdec0b54417afe3381ce159c701b88002e8134",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "f2d177825d792f72c1db30283ebdec0b54417afe3381ce159c701b88002e8134",
+      "excerptCharacters": 743
+    },
+    {
+      "id": "ev:c19406feea85591924c616f3",
+      "sourceType": "web",
+      "url": "https://www.expo-museum.cn/sbbwg/n75/n260/n262/index.html",
+      "providerId": null,
+      "title": "上海世博会博物馆官方网站world expo museum",
+      "publisher": "www.expo-museum.cn",
+      "retrievedAt": "2026-10-25T21:09:27.911556+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "4784fdfe8c11aefc4251176c9bc12c4e3868d675c1a5bdbe1039ab8fb7522ca5",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "4784fdfe8c11aefc4251176c9bc12c4e3868d675c1a5bdbe1039ab8fb7522ca5",
+      "excerptCharacters": 102
+    },
+    {
+      "id": "ev:549222c728b77dfb88fb69bd",
+      "sourceType": "web",
+      "url": "https://www.expo-museum.cn/sbbwg/n281/n282/n321/n494/index.html",
+      "providerId": null,
+      "title": "无障碍服务",
+      "publisher": "www.expo-museum.cn",
+      "retrievedAt": "2026-10-25T21:09:27.911598+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "c26d0f8204e0b72e91e07236abfd90dc5b903bd1a3aff27c1fd3a78b3bfbe7bc",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "c26d0f8204e0b72e91e07236abfd90dc5b903bd1a3aff27c1fd3a78b3bfbe7bc",
+      "excerptCharacters": 80
+    },
+    {
+      "id": "ev:ce5352d8cdbb325d8e04897a",
+      "sourceType": "web",
+      "url": "http://www.expo-museum.org/sbbwg/n281/n282/n321/index.html",
+      "providerId": null,
+      "title": "参观指南",
+      "publisher": "www.expo-museum.org",
+      "retrievedAt": "2026-10-25T21:09:27.911641+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "8c516c63d77a392306b070e8936087a5103b2d823d8e4985259c64b344868290",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "8c516c63d77a392306b070e8936087a5103b2d823d8e4985259c64b344868290",
+      "excerptCharacters": 85
+    }
+  ],
+  "noWorkspaceWrites": true,
+  "contextUnchanged": true,
+  "createdAt": "2026-10-25T21:09:58.451890+00:00",
+  "brief": {
+    "snapshot": {
+      "version": 10,
+      "trip": {
+        "title": "合成评测 · 上海长者出行",
+        "destination": "上海",
+        "startDate": "2026-11-02",
+        "endDate": "2026-11-06",
+        "timezone": "Asia/Shanghai",
+        "preferences": "两位七十岁长者与一位成人，连续步行尽量不超过三十分钟；需要坐下休息、少台阶和便捷卫生间。无障碍设施必须有证据，未知不等于没有或具备。",
+        "id": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+        "createdAt": "2026-11-02T00:00:00Z",
+        "updatedAt": "2026-11-02T00:00:00Z"
+      },
+      "ideas": [
+        {
+          "title": "阅读当地历史并写旅行笔记",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-i0",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "备用室内休息安排",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-i1",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "遇到喜欢的地方多停一会",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-i2",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "activities": [
+        {
+          "title": "抵达与酒店休息",
+          "date": "2026-11-02",
+          "startAt": "2026-11-02T10:00",
+          "endAt": "2026-11-02T12:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-a0-0",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "午休",
+          "date": "2026-11-02",
+          "startAt": "2026-11-02T13:00",
+          "endAt": "2026-11-02T15:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-a0-1",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "滨江短程散步",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T09:30",
+          "endAt": "2026-11-03T10:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-a1-0",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "坐下休息",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T10:00",
+          "endAt": "2026-11-03T11:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-a1-1",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "午休",
+          "date": "2026-11-04",
+          "startAt": "2026-11-04T13:00",
+          "endAt": "2026-11-04T15:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-a2-0",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "家人聚餐",
+          "date": "2026-11-05",
+          "startAt": "2026-11-05T12:00",
+          "endAt": "2026-11-05T13:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-a3-0",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "返程",
+          "date": "2026-11-06",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanghai_seniors-2026-11-02-a4-0",
+          "tripId": "fixture-r1-v1-shanghai_seniors-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "suggestions": []
+    },
+    "question": "研究两个适合上海长者出行的候选，需要少步行、坐下休息和便捷卫生间。用地点与网页证据支持建议；无障碍和台阶信息没有可靠来源时必须写未知。",
+    "taskId": "r1-v1:shanghai_seniors:1:2026-11-02",
+    "mode": "research",
+    "contextHash": "4a9b4dd607d113bf689b70e9a351e8151c0c6b8e70b6e4bee258499272ec42ac"
+  },
+  "versions": {
+    "deepagents": "0.7.32",
+    "langchain": "1.4.7",
+    "langgraph": "1.2.17",
+    "langsmith": "0.14.12",
+    "langchain-openai": "1.7.2",
+    "tavily-python": "0.8.5"
+  },
+  "commit": "e2c373267a869569d0c0f4f6d66f441301541f25",
+  "sourceFingerprint": "29ac89890af14a42d4b8a241c0b0f51d56fd1a8c33c98a67bc4659d28f63f978",
+  "traceId": "79518db8-e7f4-41d8-b17b-61a9f22e37e2",
+  "traceRunId": "79518db8-e7f4-41d8-b17b-61a9f22e37e2",
+  "knownUsageCostCny": 0.081886,
+  "costCompleteness": "complete_usage",
+  "modelListPriceEstimateCny": 0.081886,
+  "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
+  "traceVerified": false,
+  "totalSeconds": 60.365,
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
+}

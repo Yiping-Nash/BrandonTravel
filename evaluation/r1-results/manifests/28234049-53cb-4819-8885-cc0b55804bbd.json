@@ -1,0 +1,42 @@
+{
+  "batchId": "28234049-53cb-4819-8885-cc0b55804bbd",
+  "command": "smoke",
+  "planned": 6,
+  "completed": [
+    {
+      "runId": "dcf967da-d932-4aa0-bc65-063604a24b50",
+      "status": "Fail"
+    },
+    {
+      "runId": "83c7072c-752f-4a51-98dd-f40e5cd379d7",
+      "status": "Fail"
+    }
+  ],
+  "notRun": [
+    {
+      "taskId": "r1-v1:chengdu:1:2026-11-02",
+      "architecture": "B",
+      "status": "Not Run",
+      "reason": "batch_circuit_breaker"
+    },
+    {
+      "taskId": "r1-v1:beijing:1:2026-11-02",
+      "architecture": "B",
+      "status": "Not Run",
+      "reason": "batch_circuit_breaker"
+    },
+    {
+      "taskId": "r1-v1:shanghai_seniors:1:2026-11-02",
+      "architecture": "B",
+      "status": "Not Run",
+      "reason": "batch_circuit_breaker"
+    },
+    {
+      "taskId": "r1-v1:xian:1:2026-11-02",
+      "architecture": "B",
+      "status": "Not Run",
+      "reason": "batch_circuit_breaker"
+    }
+  ],
+  "sourceFingerprint": "66b6f130c23fc972048803913acca3740fb153827ee8e4419e5d02b0d069c9e9"
+}

@@ -1,0 +1,33 @@
+{
+  "batchId": "3aed4d12-1822-4686-8945-5a0b9d5c1b8e",
+  "command": "smoke",
+  "planned": 6,
+  "completed": [
+    {
+      "runId": "21140a33-2f24-4cd6-a38b-44a4df4133cc",
+      "status": "Pass"
+    },
+    {
+      "runId": "200e8d1c-8da8-41b9-b5d8-b146be604aab",
+      "status": "Pass"
+    },
+    {
+      "runId": "0d9736df-2d78-4a16-a756-17ae5a911bb2",
+      "status": "Pass"
+    },
+    {
+      "runId": "ff755a3d-d50a-4be1-8c93-8eb39d8f135f",
+      "status": "Fail"
+    },
+    {
+      "runId": "3551b37b-d510-41a7-917c-40b0eedb3690",
+      "status": "Fail"
+    },
+    {
+      "runId": "2e01d503-273b-4dea-817e-62e98de9d49b",
+      "status": "Fail"
+    }
+  ],
+  "notRun": [],
+  "sourceFingerprint": "e833d8aab9bda9cd5e7a09a3fdc85769f44fc395d013775ca3c8de84fac74f7e"
+}

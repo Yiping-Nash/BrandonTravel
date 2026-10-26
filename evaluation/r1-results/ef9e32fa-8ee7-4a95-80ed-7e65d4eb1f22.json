@@ -1,0 +1,318 @@
+{
+  "runId": "ef9e32fa-8ee7-4a95-80ed-7e65d4eb1f22",
+  "taskId": "r1-v1:shanxi:0:2026-11-02",
+  "status": "Pass",
+  "batch": "smoke",
+  "architecture": "A",
+  "mode": "direct",
+  "llmMode": "live",
+  "toolMode": "live",
+  "contextHash": "1410233e58615ac1ee582a4caf3511eebdfe21ed1a93d8ed02748861b3d27bd4",
+  "humanReview": "Pending",
+  "proposedResult": {
+    "summary": "第二天（2026-11-03）共两项已安排活动，均有确定起止时间：晋祠建筑观察 10:00–12:00、整理照片 18:00–19:00；其余时段未占用。数据为合成评测行程，不代表真实预约或营业信息已核验。",
+    "candidates": [],
+    "claims": [
+      {
+        "text": "旅行第2天为 2026-11-03（行程起始日 2026-11-02，太原，Asia/Shanghai）。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:d810bf790d35f10596fa7889"
+        ]
+      },
+      {
+        "text": "当天已安排「晋祠建筑观察」，时间确定：2026-11-03 10:00–12:00。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:d810bf790d35f10596fa7889"
+        ]
+      },
+      {
+        "text": "当天已安排「整理照片」，时间确定：2026-11-03 18:00–19:00。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:d810bf790d35f10596fa7889"
+        ]
+      },
+      {
+        "text": "除上述两项外，11-03 没有其他活动条目；12:00–18:00 与 19:00 之后在日程上为空档（推断，非已确认的机动安排）。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:d810bf790d35f10596fa7889"
+        ]
+      },
+      {
+        "text": "两项活动的地点字段均为空，笔记注明为人工合成评测数据，用户确认的是安排本身，不代表购票、预约或营业时间已核验。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:d810bf790d35f10596fa7889"
+        ]
+      }
+    ],
+    "limitations": [
+      "按用户要求未做任何检索，因此晋祠及整理照片的实际开放时间、门票与预约要求未核实。",
+      "两项活动均无绑定地点/POI 证据，无法判断集合地点与到达方式。",
+      "空档时段的用途未在行程中记录，需用户自行确认。"
+    ],
+    "coverage": [
+      "trip_snapshot"
+    ],
+    "status": "complete"
+  },
+  "result": {
+    "summary": "第二天（2026-11-03）共两项已安排活动，均有确定起止时间：晋祠建筑观察 10:00–12:00、整理照片 18:00–19:00；其余时段未占用。数据为合成评测行程，不代表真实预约或营业信息已核验。",
+    "candidates": [],
+    "claims": [
+      {
+        "text": "旅行第2天为 2026-11-03（行程起始日 2026-11-02，太原，Asia/Shanghai）。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:d810bf790d35f10596fa7889"
+        ]
+      },
+      {
+        "text": "当天已安排「晋祠建筑观察」，时间确定：2026-11-03 10:00–12:00。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:d810bf790d35f10596fa7889"
+        ]
+      },
+      {
+        "text": "当天已安排「整理照片」，时间确定：2026-11-03 18:00–19:00。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:d810bf790d35f10596fa7889"
+        ]
+      },
+      {
+        "text": "除上述两项外，11-03 没有其他活动条目；12:00–18:00 与 19:00 之后在日程上为空档（推断，非已确认的机动安排）。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:d810bf790d35f10596fa7889"
+        ]
+      },
+      {
+        "text": "两项活动的地点字段均为空，笔记注明为人工合成评测数据，用户确认的是安排本身，不代表购票、预约或营业时间已核验。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:d810bf790d35f10596fa7889"
+        ]
+      }
+    ],
+    "limitations": [
+      "按用户要求未做任何检索，因此晋祠及整理照片的实际开放时间、门票与预约要求未核实。",
+      "两项活动均无绑定地点/POI 证据，无法判断集合地点与到达方式。",
+      "空档时段的用途未在行程中记录，需用户自行确认。"
+    ],
+    "coverage": [
+      "trip_snapshot"
+    ],
+    "status": "complete"
+  },
+  "seconds": 11.023,
+  "modelRequests": 2,
+  "inputTokens": 7606,
+  "outputTokens": 634,
+  "usageRequests": 2,
+  "schemaRepairs": 0,
+  "deniedTools": [],
+  "toolCalls": [
+    "get_trip_snapshot"
+  ],
+  "sourceEvents": [
+    {
+      "tool": "get_trip_snapshot",
+      "status": "OK",
+      "mode": "live"
+    }
+  ],
+  "sourceCounts": {
+    "amap": 0,
+    "web": 0,
+    "extract": 0,
+    "credits": 0
+  },
+  "evidence": [
+    {
+      "id": "ev:d810bf790d35f10596fa7889",
+      "sourceType": "snapshot",
+      "url": null,
+      "providerId": null,
+      "title": "Synthetic evaluation Trip snapshot",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:55:01.024833+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "1c97a1d53eb08434c428408e88524041f7bbff8650179867bf7d6ec85ff3e9f6",
+      "verification": "snapshot",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "1c97a1d53eb08434c428408e88524041f7bbff8650179867bf7d6ec85ff3e9f6",
+      "excerptCharacters": 3297
+    }
+  ],
+  "noWorkspaceWrites": true,
+  "contextUnchanged": true,
+  "createdAt": "2026-10-25T20:55:11.124611+00:00",
+  "brief": {
+    "snapshot": {
+      "version": 10,
+      "trip": {
+        "title": "合成评测 · 山西古建筑摄影",
+        "destination": "太原",
+        "startDate": "2026-11-02",
+        "endDate": "2026-11-06",
+        "timezone": "Asia/Shanghai",
+        "preferences": "独自摄影，关注木构古建和细节，优先太原及晋中可达地点。每天最多两个主要地点，不夜间驾车，不把跨城交通时长当已知。",
+        "id": "fixture-r1-v1-shanxi-2026-11-02",
+        "createdAt": "2026-11-02T00:00:00Z",
+        "updatedAt": "2026-11-02T00:00:00Z"
+      },
+      "ideas": [
+        {
+          "title": "阅读当地历史并写旅行笔记",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-shanxi-2026-11-02-i0",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "备用室内休息安排",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-shanxi-2026-11-02-i1",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "遇到喜欢的地方多停一会",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-shanxi-2026-11-02-i2",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "activities": [
+        {
+          "title": "抵达太原与整理摄影设备",
+          "date": "2026-11-02",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanxi-2026-11-02-a0-0",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "晋祠建筑观察",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T10:00",
+          "endAt": "2026-11-03T12:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanxi-2026-11-02-a1-0",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "整理照片",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T18:00",
+          "endAt": "2026-11-03T19:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanxi-2026-11-02-a1-1",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "休息与阅读古建资料",
+          "date": "2026-11-04",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanxi-2026-11-02-a2-0",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "保留摄影机动时间",
+          "date": "2026-11-05",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanxi-2026-11-02-a3-0",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "返程",
+          "date": "2026-11-06",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanxi-2026-11-02-a4-0",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "suggestions": []
+    },
+    "question": "只读当前旅行：第二天已有几个安排，哪些时间已确定？不要检索，也不要修改。",
+    "taskId": "r1-v1:shanxi:0:2026-11-02",
+    "mode": "direct",
+    "contextHash": "1410233e58615ac1ee582a4caf3511eebdfe21ed1a93d8ed02748861b3d27bd4"
+  },
+  "versions": {
+    "deepagents": "0.7.32",
+    "langchain": "1.4.7",
+    "langgraph": "1.2.17",
+    "langsmith": "0.14.12",
+    "langchain-openai": "1.7.2",
+    "tavily-python": "0.8.5"
+  },
+  "commit": "e2c373267a869569d0c0f4f6d66f441301541f25",
+  "sourceFingerprint": "5d48bbf33cfed83ba52763d9b1b6e8367dc154930db2225e8c7abdf390566818",
+  "traceId": "ef9e32fa-8ee7-4a95-80ed-7e65d4eb1f22",
+  "traceRunId": "ef9e32fa-8ee7-4a95-80ed-7e65d4eb1f22",
+  "knownUsageCostCny": 0.007797,
+  "costCompleteness": "complete_usage",
+  "modelListPriceEstimateCny": 0.007797,
+  "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
+  "traceVerified": false,
+  "totalSeconds": 23.061,
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
+}

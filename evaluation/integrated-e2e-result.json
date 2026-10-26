@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "time": "2026-10-25T17:38:04.870241+00:00",
+  "tripId": "d7091e31-04ba-4cdd-9131-b67039a88f5b",
+  "tripUrl": "http://127.0.0.1:5173/?trip=d7091e31-04ba-4cdd-9131-b67039a88f5b",
+  "steps": [
+    "create trip and read back",
+    "manual idea and custom untimed activities persist",
+    "real AMap POI saved as idea",
+    "adopt idea, reorder/move, set time, move back with local time preserved",
+    "real Qwen reads latest snapshot and calls POI; proposed suggestions do not mutate ideas/activities",
+    "explicit adoption persists once; duplicate adoption rejected"
+  ],
+  "snapshotVersion": 12,
+  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/3a521293-3d96-4fce-ae8b-2aa904540ffc/r/01a17423-b017-704d-b66d-8ddff77abc54?poll=true",
+  "toolCalls": [
+    "get_trip_snapshot",
+    "search_places",
+    "search_places"
+  ],
+  "response": {
+    "sessionId": "0f5004b2-8382-485c-96de-a985aa479226",
+    "reply": "先说结论：第一天（11/2）从\"已排时间\"看并不满，但从\"任务量\"看偏紧。\n\n依据最新行程（snapshot:10）的规则汇总：\n- 11/2 共 3 个活动，其中只有 1 个有时间段：湖边散步 09:00–11:00（120 分钟）；\"午餐与自由活动\"\"安顿行李\"都未定时间。没有检测到时间重叠。\n- 也就是说，日程表上只锁定了 2 小时；但抵达日还压着两件无时间的任务（安顿行李、午餐），加上 arrival/入住本身的不确定性，体感会比数字更满。\n- 11/3 目前只有 1 个无时间活动：\"找一家安静茶馆\"（来自 Ideas）。所以把龙井茶馆安排在 11/3 上午/下午，不会和任何已锁定时间冲突——这是最稳妥的落点，而不是塞进第一天。\n\n关于地点：我用高德实际搜索了龙井一带的茶馆（两次查询，仅返回名称/地址/坐标，不含营业时间等信息）。在龙井村候选里，我推荐「隐桂茶空间」（龙井村67号），理由是它位于龙井村内、靠近你已加入 Ideas 的西湖风景名胜区方向，适合步行+品茶的兴趣组合。是否真的\"安静\"我无法验证。\n\n注意：以上都只是候选建议，我不会写入或保存任何东西——只有你点击采纳才会进入行程。",
+    "suggestions": [
+      {
+        "kind": "activity",
+        "title": "11/3 去龙井村的「隐桂茶空间」喝茶（填补第一天之后的空档）",
+        "rationale": "第一天 11/2 唯一锁定时间是 09:00–11:00 湖边散步，另有两件未定时间任务（安顿行李、午餐），不宜再加安排；而 11/3 只有一个无时间的『找一家安静茶馆』，正好落地。该店在龙井村 67 号，与你已收藏的西湖风景名胜区同片区，符合偏好里的散步+茶。建议保持半天弹性，不要填满。",
+        "proposedDate": "2026-11-03",
+        "place": {
+          "provider": "amap",
+          "providerId": "B0JG2A2ZCR",
+          "name": "隐桂茶空间",
+          "address": "龙井村67号",
+          "latitude": 30.219317,
+          "longitude": 120.108509
+        },
+        "evidenceRefs": [
+          "amap:B0JG2A2ZCR",
+          "snapshot:10"
+        ],
+        "id": "d83dbf43-f09e-40d5-9fea-365d083ee765",
+        "tripId": "d7091e31-04ba-4cdd-9131-b67039a88f5b",
+        "status": "proposed"
+      },
+      {
+        "kind": "idea",
+        "title": "备选：龙井村一带的其他茶馆（若首选满座或不合口味）",
+        "rationale": "同一批搜索结果里还有多家龙井村茶馆可作 Plan B，避免到时无处入座：龙井壹号·二十年传承（龙井村1号）、珊英茶楼（龙井村166号）、一香园茶荘（龙井村18号）、嘉福茶庄（龙井村149号，十八棵御茶附近）。同样只安排半天，保留自由时间。",
+        "proposedDate": "2026-11-03",
+        "place": {
+          "provider": "amap",
+          "providerId": "B0LASC0BL4",
+          "name": "龙井壹号·二十年传承",
+          "address": "龙井村1号",
+          "latitude": 30.221145,
+          "longitude": 120.1111
+        },
+        "evidenceRefs": [
+          "amap:B0LASC0BL4",
+          "amap:B023B1AH55",
+          "amap:B0FFF4T0S8",
+          "amap:B023B17WQ4",
+          "snapshot:10"
+        ],
+        "id": "028753a0-9558-44aa-92de-cb745154d881",
+        "tripId": "d7091e31-04ba-4cdd-9131-b67039a88f5b",
+        "status": "proposed"
+      }
+    ],
+    "uncertainty": [
+      "交通时长未验证：从住宿地/西湖到龙井村的车程、公交或打车时间未知；龙井村周边是否有停车限制也不清楚。",
+      "营业时间未验证：高德结果只提供名称/地址/坐标，不含开放时间，需电话或官方渠道确认。",
+      "预约与最低消费未验证：是否需要订位、是否有茶位费/人均最低消费、是否强制购茶，均未知。",
+      "现场人流与\"安静\"程度未验证：11 月初秋假前后周末客流、店铺是否以卖茶为主（导购嘈杂）无法判断。",
+      "第一天拥挤度只是基于已录入时间的规则汇总：两个未定时间活动不能当作已有时间；实际体验时长（散步多久、午餐多久）未核实。",
+      "龙井村各候选店的口碑、价格、茶品真伪与品质未验证；本次搜索不是评价或资质数据。",
+      "天气与 11/2 抵达班次（到达时间、能否提前寄存行李）未在行程中记录，会影响第一天可行性。"
+    ],
+    "mode": "real",
+    "snapshotVersion": 10,
+    "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/3a521293-3d96-4fce-ae8b-2aa904540ffc/r/01a17423-b017-704d-b66d-8ddff77abc54?poll=true",
+    "toolCalls": [
+      "get_trip_snapshot",
+      "search_places",
+      "search_places"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "b59e06f6-b265-41d3-bf76-fcd739243256",
+  "createdAt": "2026-10-25T21:38:39.262400+00:00",
+  "sourceFingerprint": "8a9f530f0c58c65fb243ed86e4111184df922b09c30dfaf4e72a38499ba2a2b6",
+  "architecture": "B",
+  "taskId": "r1-v1:shanghai_seniors:1:2026-11-02",
+  "contextHash": "4a9b4dd607d113bf689b70e9a351e8151c0c6b8e70b6e4bee258499272ec42ac",
+  "toolMode": "fixture",
+  "llmMode": "live",
+  "limits": {
+    "modelRequests": 12,
+    "maxOutputTokens": 5000,
+    "inputBytes": 40000,
+    "taskSeconds": 180,
+    "cashReservationCny": 35
+  },
+  "planned": [
+    "qwen-flash",
+    "deepseek-flash",
+    "qwen-plus",
+    "deepseek-pro"
+  ],
+  "completed": [
+    {
+      "profile": "qwen-flash",
+      "runId": "f3e5f376-799c-4055-a111-bdd07505541b",
+      "status": "Fail",
+      "categories": [
+        "bounded_noncompletion_needs_diagnosis"
+      ]
+    },
+    {
+      "profile": "deepseek-flash",
+      "runId": "83e35bfa-e4b5-4b4b-9ff5-5a76bb12d091",
+      "status": "Pass",
+      "categories": []
+    },
+    {
+      "profile": "qwen-plus",
+      "runId": "6122a60d-8963-4889-b2f7-b3ccebddf07d",
+      "status": "Fail",
+      "categories": [
+        "tool_protocol",
+        "bounded_noncompletion_needs_diagnosis"
+      ]
+    },
+    {
+      "profile": "deepseek-pro",
+      "runId": "13adfca1-9ea9-4e5c-a6db-dfcb7819f028",
+      "status": "Fail",
+      "categories": [
+        "tool_protocol"
+      ]
+    }
+  ],
+  "notRun": [],
+  "humanReview": "Pending",
+  "note": "Compatibility isolation only; fixed non-real sources cannot pass real travel research acceptance."
+}

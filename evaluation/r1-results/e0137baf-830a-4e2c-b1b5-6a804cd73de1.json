@@ -1,0 +1,905 @@
+{
+  "runId": "e0137baf-830a-4e2c-b1b5-6a804cd73de1",
+  "taskId": "r1-v1:hangzhou:1:2026-11-02",
+  "status": "Pass",
+  "batch": "demo",
+  "architecture": "A",
+  "mode": "research",
+  "llmMode": "live",
+  "toolMode": "live",
+  "contextHash": "abc712cd8b07b8a485345f8581162bf009189d62a7f676af049b4ad5bb0dda9e",
+  "humanReview": "Pending",
+  "proposedResult": {
+    "summary": "围绕“两位成人 + 6 岁孩子、每天最多两个主要活动、必须保留午休”的偏好，从杭州公园/遗址类地点筛出两个候选并完成地点与官网核对：1）良渚古城遗址公园（余杭瓶窑）——开放时间与预约渠道已在良渚博物院官网公告页核对（09:00–17:00，16:00 后停止入园，官方微信公众号/小程序/支付宝小程序预约）；儿童免票、60/30 元票价与每日 3000 人限流细则来自 2020 年浙江在线转载的售票规则，2026-11 适用性待核。2）太子湾公园（西湖南山路）——地点由 POI 核验，免费与旺季预约制、“一进两出”单循环、禁止铺地垫搭帐篷等信息来自政府媒体转载页面全文提取，另有百科与 OTA 二手佐证且存在地址不一致；未找到可核对 2026-11 规则的官方页面。两者均可压缩为半天内的单一主活动，与 Trip 中 11-02、11-03 已有的午休时段兼容。“适合 6 岁孩子”的判断全部标注为推断并与事实分开。",
+    "candidates": [
+      {
+        "title": "良渚古城遗址公园（余杭瓶窑）— 建议占 11月3日上午一个主活动",
+        "rationale": "世界遗产属性的郊野遗址公园，空间开阔、动线以观光车加短步行组成，适合安排在上午一个主活动内完成，之后回到既定 13:00–15:00 午休。地点已由 POI 核验，开放时间与预约渠道已在官网公告页核对。",
+        "preferenceMatches": [
+          "公园型、节奏轻松的户外场所，契合“喜欢公园和轻松体验”",
+          "可只安排半天（09:30–12:00）后回住处午休，符合“每天最多两个主要活动、午休不可少”",
+          "园内提供观光车（票价见证据），可减少 6 岁孩子步行距离（推断）",
+          "开阔草地与水系景观可承接 Trip 中“找一处草地玩耍”的意向（推断，非官方指定区域）"
+        ],
+        "tradeoffs": [
+          "距市中心较远（余杭瓶窑），单程交通时间会挤占慢游节奏；本次未查证交通耗时",
+          "需实名预约且有每日限流，规则来自 2020 年报道，2026-11 的名额、票价与是否仍需预约未确认",
+          "园区面积大，若不加选择地逛完会超过“一个主活动”的时长，需要主动压缩为 2–2.5 小时",
+          "秋季周末人流可能较多（推断，无当日数据）"
+        ],
+        "claims": [
+          {
+            "text": "POI 核验：良渚古城遗址公园位于杭州市余杭区瓶窑镇凤都路与104国道辅路交叉口西北200米（坐标 30.389549, 119.991005），高德来源。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:d670d4d1a7f07237e5911b7b"
+            ]
+          },
+          {
+            "text": "良渚博物院官网公告页（lzmuseum.cn）明确：良渚古城遗址公园开放时间 09:00–17:00，16:00 后停止入园；门票通过“良渚古城”官方微信公众号、微信小程序及支付宝小程序预约；咨询电话 0571-85855300 / 0571-88530030。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:f345bfbce622da8bb664fe81",
+              "ev:78d9922c71d67d7e49ce69a9"
+            ]
+          },
+          {
+            "text": "浙江在线转载的公园售票与预约规则（2020-05 发布）：实名制预约参访，每日预约入园人数上限 3000 人；个人需提前 1–7 天在官方微信公众号/支付宝小程序线上预约；6 周岁及以下有成年人监护的儿童为免费票，6–18 周岁半价 30 元，全价票 60 元；观光车另计（全程 20 元/单次 10 元）。该规则年份较早，2026-11-03 的适用性未复核。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:a470e0537cdd74cf33cdc8e0"
+            ]
+          },
+          {
+            "text": "官网公告（2023-07-30 起）：原南入口只入不出，新南出口位于 P2 停车场北部只出不进。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:f345bfbce622da8bb664fe81"
+            ]
+          },
+          {
+            "text": "适合 6 岁孩子的判断属推断：第三方亲子/攻略类页面把该园描述为开阔遗址公园并建议预留约 3 小时，园区以观光车+步行路线为主；这些不是官方体验承诺，也未见官方针对学龄儿童的专门导览或设施说明。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:257a60c452b59bb1fe8c3aa9",
+              "ev:ce632754a0d0bfdd7905bc26"
+            ]
+          },
+          {
+            "text": "行程匹配：Trip 中 2026-11-03 已安排“自然博物馆探索”10:00–11:30 与“午休”13:00–15:00，本候选作为上午主活动可在 12:00 前结束，符合每天最多两个主要活动且保留午休。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:4c7cf2aae190b67dd5277ddd"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-03",
+        "placeEvidenceRef": "ev:d670d4d1a7f07237e5911b7b"
+      },
+      {
+        "title": "太子湾公园（西湖南山路）— 建议作为 11月2日的轻量第二活动",
+        "rationale": "位于西湖南线的免费城市公园，离 11月2日已安排的“湖畔短程散步”很近，可作为同日第二个轻量主活动，时长可控在 60–90 分钟内，不影响 12:30–14:30 的午休。",
+        "preferenceMatches": [
+          "典型的城市公园体验，契合“喜欢公园和轻松体验”",
+          "紧邻西湖，可与 11-02 已安排的“湖畔短程散步”串联，减少长途移动",
+          "短时（60–90 分钟）即可走完一段主园路，便于在 12:30 前赶回午休",
+          "免费入园（多源记载），预算压力小"
+        ],
+        "tradeoffs": [
+          "关键缺口：未找到公园官方页面核验 2026-11 的开放时间与是否需要预约；现有预约/单循环信息来自 2020 年春季旺季的临时措施，不能推定适用于 11 月工作日",
+          "官方明确要求“不能铺地垫、不能搭帐篷”，因此不适合把它当作 Trip 中“找一处草地玩耍”的野餐/铺垫地点",
+          "地址在不同来源间不一致（南山路1-1号 vs 5-1号），导航前需再确认",
+          "旺季人流高峰在中午前后，若延后可能与午休冲突（推断）"
+        ],
+        "claims": [
+          {
+            "text": "POI 核验：杭州西湖风景名胜区-太子湾公园位于南星街道南山路1-1号（坐标 30.22547, 120.142177），高德来源。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:b587261f6f2cdc0a97b2cecd"
+            ]
+          },
+          {
+            "text": "杭州网（转载杭+新闻，2020-03-06，内容源自西湖风景名胜区管委会公布）：太子湾公园曾在春季旅游旺季实行预约制、免费，经“杭州西湖风景名胜区”“杭州花港”微信公众号或掌上西湖 APP 实名预约；期间实行“一进两出”单循环（北门为入口，西门、东门为出口）；旺季中午及下午人流较多建议错峰；园内不能铺地垫、不能搭帐篷；公交“苏堤”站可乘 4、87、52、31、314、1314 路等到达。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:dff83dfe003004c5f0ae52b1"
+            ]
+          },
+          {
+            "text": "百科类词条记载：太子湾公园免费开放、四季皆可，12 月为红枫最佳观赏期；地址写作南山路1-1号，与 POI 一致。该来源非官方，仅供参考。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:11f6db8570fe93f149c8ae71"
+            ]
+          },
+          {
+            "text": "OTA 页面显示该园“免费开放”“需提前预约”，但同页地址写为“南山路5-1号”，与 POI 的“南山路1-1号”不一致；该来源为商业平台，可靠性低于官方。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:93e40797139599e09d80d9fa"
+            ]
+          },
+          {
+            "text": "对 6 岁孩子的适配属推断：官方信息仅表明其为城市园林公园、步道平缓、有水体与山林景观（第三方点评称附近山不高约 30 分钟可登顶），未见儿童专属设施或亲子项目的官方说明。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:dff83dfe003004c5f0ae52b1",
+              "ev:93e40797139599e09d80d9fa"
+            ]
+          },
+          {
+            "text": "行程匹配：Trip 中 2026-11-02 已有“湖畔短程散步”09:30–10:30 与“午休”12:30–14:30，以及未定时的“找一处草地玩耍”；本候选可作为当天第二个轻量主活动（约 10:45–12:00）或与草地活动合并，不新增第三个主活动。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:4c7cf2aae190b67dd5277ddd"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-02",
+        "placeEvidenceRef": "ev:b587261f6f2cdc0a97b2cecd"
+      }
+    ],
+    "claims": [],
+    "limitations": [
+      "未查到 2026-11 当期官方公告：良渚票价/3000 人限流/儿童免票细则出自 2020 年媒体报道，太子湾预约制与单循环出自 2020 年春季旺季措施，均可能已变更",
+      "太子湾公园无可用的官方站点页面，仅有政府媒体转载与 OTA/百科二手信息；2026 年是否免费、是否需预约无法确证",
+      "两处均未核实无障碍与儿童推车通行、园内餐饮与卫生间分布，也未核实 11 月花期/秋色（红枫最佳期为 12 月，据百科类来源）",
+      "未查证住宿位置与两地交通耗时，无法量化慢游下的实际通勤成本",
+      "Trip 中的“自然博物馆探索”未能在本轮地点搜索中定位到具体场馆 POI，故未做证据核验",
+      "本结果为研究建议，未执行保存、预约或采纳操作"
+    ],
+    "coverage": [
+      "trip_snapshot",
+      "poi_search（两轮：亲子公园/湿地、自然博物馆）",
+      "web_search（良渚古城遗址公园开放与儿童票；太子湾公园开放与预约）",
+      "read_pages（lzmuseum.cn 官网公告页全文；hangzhou.com.cn 太子湾预约制公告全文）"
+    ],
+    "status": "complete"
+  },
+  "result": {
+    "summary": "围绕“两位成人 + 6 岁孩子、每天最多两个主要活动、必须保留午休”的偏好，从杭州公园/遗址类地点筛出两个候选并完成地点与官网核对：1）良渚古城遗址公园（余杭瓶窑）——开放时间与预约渠道已在良渚博物院官网公告页核对（09:00–17:00，16:00 后停止入园，官方微信公众号/小程序/支付宝小程序预约）；儿童免票、60/30 元票价与每日 3000 人限流细则来自 2020 年浙江在线转载的售票规则，2026-11 适用性待核。2）太子湾公园（西湖南山路）——地点由 POI 核验，免费与旺季预约制、“一进两出”单循环、禁止铺地垫搭帐篷等信息来自政府媒体转载页面全文提取，另有百科与 OTA 二手佐证且存在地址不一致；未找到可核对 2026-11 规则的官方页面。两者均可压缩为半天内的单一主活动，与 Trip 中 11-02、11-03 已有的午休时段兼容。“适合 6 岁孩子”的判断全部标注为推断并与事实分开。",
+    "candidates": [
+      {
+        "title": "良渚古城遗址公园（余杭瓶窑）— 建议占 11月3日上午一个主活动",
+        "rationale": "世界遗产属性的郊野遗址公园，空间开阔、动线以观光车加短步行组成，适合安排在上午一个主活动内完成，之后回到既定 13:00–15:00 午休。地点已由 POI 核验，开放时间与预约渠道已在官网公告页核对。",
+        "preferenceMatches": [
+          "公园型、节奏轻松的户外场所，契合“喜欢公园和轻松体验”",
+          "可只安排半天（09:30–12:00）后回住处午休，符合“每天最多两个主要活动、午休不可少”",
+          "园内提供观光车（票价见证据），可减少 6 岁孩子步行距离（推断）",
+          "开阔草地与水系景观可承接 Trip 中“找一处草地玩耍”的意向（推断，非官方指定区域）"
+        ],
+        "tradeoffs": [
+          "距市中心较远（余杭瓶窑），单程交通时间会挤占慢游节奏；本次未查证交通耗时",
+          "需实名预约且有每日限流，规则来自 2020 年报道，2026-11 的名额、票价与是否仍需预约未确认",
+          "园区面积大，若不加选择地逛完会超过“一个主活动”的时长，需要主动压缩为 2–2.5 小时",
+          "秋季周末人流可能较多（推断，无当日数据）"
+        ],
+        "claims": [
+          {
+            "text": "POI 核验：良渚古城遗址公园位于杭州市余杭区瓶窑镇凤都路与104国道辅路交叉口西北200米（坐标 30.389549, 119.991005），高德来源。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:d670d4d1a7f07237e5911b7b"
+            ]
+          },
+          {
+            "text": "良渚博物院官网公告页（lzmuseum.cn）明确：良渚古城遗址公园开放时间 09:00–17:00，16:00 后停止入园；门票通过“良渚古城”官方微信公众号、微信小程序及支付宝小程序预约；咨询电话 0571-85855300 / 0571-88530030。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:f345bfbce622da8bb664fe81",
+              "ev:78d9922c71d67d7e49ce69a9"
+            ]
+          },
+          {
+            "text": "浙江在线转载的公园售票与预约规则（2020-05 发布）：实名制预约参访，每日预约入园人数上限 3000 人；个人需提前 1–7 天在官方微信公众号/支付宝小程序线上预约；6 周岁及以下有成年人监护的儿童为免费票，6–18 周岁半价 30 元，全价票 60 元；观光车另计（全程 20 元/单次 10 元）。该规则年份较早，2026-11-03 的适用性未复核。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:a470e0537cdd74cf33cdc8e0"
+            ]
+          },
+          {
+            "text": "官网公告（2023-07-30 起）：原南入口只入不出，新南出口位于 P2 停车场北部只出不进。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:f345bfbce622da8bb664fe81"
+            ]
+          },
+          {
+            "text": "适合 6 岁孩子的判断属推断：第三方亲子/攻略类页面把该园描述为开阔遗址公园并建议预留约 3 小时，园区以观光车+步行路线为主；这些不是官方体验承诺，也未见官方针对学龄儿童的专门导览或设施说明。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:257a60c452b59bb1fe8c3aa9",
+              "ev:ce632754a0d0bfdd7905bc26"
+            ]
+          },
+          {
+            "text": "行程匹配：Trip 中 2026-11-03 已安排“自然博物馆探索”10:00–11:30 与“午休”13:00–15:00，本候选作为上午主活动可在 12:00 前结束，符合每天最多两个主要活动且保留午休。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:4c7cf2aae190b67dd5277ddd"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-03",
+        "placeEvidenceRef": "ev:d670d4d1a7f07237e5911b7b"
+      },
+      {
+        "title": "太子湾公园（西湖南山路）— 建议作为 11月2日的轻量第二活动",
+        "rationale": "位于西湖南线的免费城市公园，离 11月2日已安排的“湖畔短程散步”很近，可作为同日第二个轻量主活动，时长可控在 60–90 分钟内，不影响 12:30–14:30 的午休。",
+        "preferenceMatches": [
+          "典型的城市公园体验，契合“喜欢公园和轻松体验”",
+          "紧邻西湖，可与 11-02 已安排的“湖畔短程散步”串联，减少长途移动",
+          "短时（60–90 分钟）即可走完一段主园路，便于在 12:30 前赶回午休",
+          "免费入园（多源记载），预算压力小"
+        ],
+        "tradeoffs": [
+          "关键缺口：未找到公园官方页面核验 2026-11 的开放时间与是否需要预约；现有预约/单循环信息来自 2020 年春季旺季的临时措施，不能推定适用于 11 月工作日",
+          "官方明确要求“不能铺地垫、不能搭帐篷”，因此不适合把它当作 Trip 中“找一处草地玩耍”的野餐/铺垫地点",
+          "地址在不同来源间不一致（南山路1-1号 vs 5-1号），导航前需再确认",
+          "旺季人流高峰在中午前后，若延后可能与午休冲突（推断）"
+        ],
+        "claims": [
+          {
+            "text": "POI 核验：杭州西湖风景名胜区-太子湾公园位于南星街道南山路1-1号（坐标 30.22547, 120.142177），高德来源。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:b587261f6f2cdc0a97b2cecd"
+            ]
+          },
+          {
+            "text": "杭州网（转载杭+新闻，2020-03-06，内容源自西湖风景名胜区管委会公布）：太子湾公园曾在春季旅游旺季实行预约制、免费，经“杭州西湖风景名胜区”“杭州花港”微信公众号或掌上西湖 APP 实名预约；期间实行“一进两出”单循环（北门为入口，西门、东门为出口）；旺季中午及下午人流较多建议错峰；园内不能铺地垫、不能搭帐篷；公交“苏堤”站可乘 4、87、52、31、314、1314 路等到达。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:dff83dfe003004c5f0ae52b1"
+            ]
+          },
+          {
+            "text": "百科类词条记载：太子湾公园免费开放、四季皆可，12 月为红枫最佳观赏期；地址写作南山路1-1号，与 POI 一致。该来源非官方，仅供参考。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:11f6db8570fe93f149c8ae71"
+            ]
+          },
+          {
+            "text": "OTA 页面显示该园“免费开放”“需提前预约”，但同页地址写为“南山路5-1号”，与 POI 的“南山路1-1号”不一致；该来源为商业平台，可靠性低于官方。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:93e40797139599e09d80d9fa"
+            ]
+          },
+          {
+            "text": "对 6 岁孩子的适配属推断：官方信息仅表明其为城市园林公园、步道平缓、有水体与山林景观（第三方点评称附近山不高约 30 分钟可登顶），未见儿童专属设施或亲子项目的官方说明。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:dff83dfe003004c5f0ae52b1",
+              "ev:93e40797139599e09d80d9fa"
+            ]
+          },
+          {
+            "text": "行程匹配：Trip 中 2026-11-02 已有“湖畔短程散步”09:30–10:30 与“午休”12:30–14:30，以及未定时的“找一处草地玩耍”；本候选可作为当天第二个轻量主活动（约 10:45–12:00）或与草地活动合并，不新增第三个主活动。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:4c7cf2aae190b67dd5277ddd"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-02",
+        "placeEvidenceRef": "ev:b587261f6f2cdc0a97b2cecd"
+      }
+    ],
+    "claims": [],
+    "limitations": [
+      "未查到 2026-11 当期官方公告：良渚票价/3000 人限流/儿童免票细则出自 2020 年媒体报道，太子湾预约制与单循环出自 2020 年春季旺季措施，均可能已变更",
+      "太子湾公园无可用的官方站点页面，仅有政府媒体转载与 OTA/百科二手信息；2026 年是否免费、是否需预约无法确证",
+      "两处均未核实无障碍与儿童推车通行、园内餐饮与卫生间分布，也未核实 11 月花期/秋色（红枫最佳期为 12 月，据百科类来源）",
+      "未查证住宿位置与两地交通耗时，无法量化慢游下的实际通勤成本",
+      "Trip 中的“自然博物馆探索”未能在本轮地点搜索中定位到具体场馆 POI，故未做证据核验",
+      "本结果为研究建议，未执行保存、预约或采纳操作"
+    ],
+    "coverage": [
+      "trip_snapshot",
+      "poi_search（两轮：亲子公园/湿地、自然博物馆）",
+      "web_search（良渚古城遗址公园开放与儿童票；太子湾公园开放与预约）",
+      "read_pages（lzmuseum.cn 官网公告页全文；hangzhou.com.cn 太子湾预约制公告全文）"
+    ],
+    "status": "complete"
+  },
+  "seconds": 91.132,
+  "modelRequests": 8,
+  "inputTokens": 85060,
+  "outputTokens": 5828,
+  "usageRequests": 8,
+  "schemaRepairs": 1,
+  "toolCalls": [
+    "get_trip_snapshot",
+    "search_places",
+    "search_places",
+    "web_search",
+    "web_search",
+    "read_pages"
+  ],
+  "sourceEvents": [
+    {
+      "tool": "get_trip_snapshot",
+      "status": "OK",
+      "mode": "live"
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "live",
+      "results": 3
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "live",
+      "results": 3
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    },
+    {
+      "tool": "read_pages",
+      "status": "OK",
+      "mode": "live",
+      "results": 2,
+      "requested": 2
+    }
+  ],
+  "sourceCounts": {
+    "amap": 2,
+    "web": 2,
+    "extract": 2,
+    "credits": 3
+  },
+  "evidence": [
+    {
+      "id": "ev:4c7cf2aae190b67dd5277ddd",
+      "sourceType": "snapshot",
+      "url": null,
+      "providerId": null,
+      "title": "Synthetic evaluation Trip snapshot",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:29:06.664710+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "c2c4c30b3d0ed010bf3cf95a6d37242c9d2d55f776322fe349eea6d3027ec3bf",
+      "verification": "snapshot",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "c2c4c30b3d0ed010bf3cf95a6d37242c9d2d55f776322fe349eea6d3027ec3bf",
+      "excerptCharacters": 4403
+    },
+    {
+      "id": "ev:77a760e332f1f677078ba2bf",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0FFIBMXP0",
+      "title": "青山湖绿道",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:29:08.089491+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "620b29beda0c22de0d6f62421499fb2a6a5b31491e950551a2dcfd30bf69928e",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0FFIBMXP0",
+        "name": "青山湖绿道",
+        "address": "锦城街道望湖路与青山湖绿道交叉口南80米",
+        "latitude": 30.229892,
+        "longitude": 119.740856
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "620b29beda0c22de0d6f62421499fb2a6a5b31491e950551a2dcfd30bf69928e",
+      "excerptCharacters": 137
+    },
+    {
+      "id": "ev:d670d4d1a7f07237e5911b7b",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B023B14O96",
+      "title": "良渚古城遗址公园",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:29:08.089557+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "9a04ea48db520529fe6bc4fd01b9b40bf52e1474a90d0fc10b3074ed22773bbc",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B023B14O96",
+        "name": "良渚古城遗址公园",
+        "address": "瓶窑镇凤都路与104国道辅路交叉口西北200米",
+        "latitude": 30.389549,
+        "longitude": 119.991005
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "9a04ea48db520529fe6bc4fd01b9b40bf52e1474a90d0fc10b3074ed22773bbc",
+      "excerptCharacters": 143
+    },
+    {
+      "id": "ev:b587261f6f2cdc0a97b2cecd",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B023B02074",
+      "title": "杭州西湖风景名胜区-太子湾公园",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:29:08.089591+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "ed6d71bfba5d3adb56781ff00c1ec1a8accfd6922e5d86803aeaa332b1e673a0",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B023B02074",
+        "name": "杭州西湖风景名胜区-太子湾公园",
+        "address": "南星街道南山路1-1号",
+        "latitude": 30.22547,
+        "longitude": 120.142177
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "ed6d71bfba5d3adb56781ff00c1ec1a8accfd6922e5d86803aeaa332b1e673a0",
+      "excerptCharacters": 137
+    },
+    {
+      "id": "ev:b8e922d287e199a95419a257",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0FFFYF0GP",
+      "title": "千岛湖风景区",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:29:09.479823+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "9c5690333b8fd111f08759dbdccc75c7179d721f97026fd78479f0ac59460d0c",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0FFFYF0GP",
+        "name": "千岛湖风景区",
+        "address": "千岛湖镇",
+        "latitude": 29.545082,
+        "longitude": 119.055172
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "9c5690333b8fd111f08759dbdccc75c7179d721f97026fd78479f0ac59460d0c",
+      "excerptCharacters": 122
+    },
+    {
+      "id": "ev:656f3cbb73a43ef0051365f0",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0FFG97H9P",
+      "title": "京杭大运河杭州景区",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:29:09.479879+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "b737dbb5c92d14f086ed2d910aa69f0dc4abd41d5a1fed69b1a39dfdb3d4220d",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0FFG97H9P",
+        "name": "京杭大运河杭州景区",
+        "address": "环城北路226号武林门码头",
+        "latitude": 30.302955,
+        "longitude": 120.141908
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "b737dbb5c92d14f086ed2d910aa69f0dc4abd41d5a1fed69b1a39dfdb3d4220d",
+      "excerptCharacters": 134
+    },
+    {
+      "id": "ev:5e2a2f5e6108e84f0e84809c",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B023B1BGM6",
+      "title": "拱宸桥",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:29:09.479911+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "cd47b8842a006d261c463d4d8e4283c0c0e0e1378835f3b35b4314c5d9c10d9b",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B023B1BGM6",
+        "name": "拱宸桥",
+        "address": "桥弄街1号",
+        "latitude": 30.318101,
+        "longitude": 120.139844
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "cd47b8842a006d261c463d4d8e4283c0c0e0e1378835f3b35b4314c5d9c10d9b",
+      "excerptCharacters": 120
+    },
+    {
+      "id": "ev:78d9922c71d67d7e49ce69a9",
+      "sourceType": "web",
+      "url": "https://www.lzmuseum.cn/ZuiXinGongGao/2023394132395.html",
+      "providerId": null,
+      "title": "温馨提醒 | 良渚古城遗址公园再升级，明日南门出口将优化调整-良渚博物院",
+      "publisher": "www.lzmuseum.cn",
+      "retrievedAt": "2026-10-25T20:29:17.879149+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "6211e87eeaed24f837d1a4c82857f68af863e6b73ab4fe267b8840c995ed239f",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "6211e87eeaed24f837d1a4c82857f68af863e6b73ab4fe267b8840c995ed239f",
+      "excerptCharacters": 898
+    },
+    {
+      "id": "ev:257a60c452b59bb1fe8c3aa9",
+      "sourceType": "web",
+      "url": "http://www.leixiaobao.com/poi/280.html",
+      "providerId": null,
+      "title": "良渚古城遗址公园-游玩攻略/预订价格/官方电话/地址/开放时间-杭州遛娃",
+      "publisher": "www.leixiaobao.com",
+      "retrievedAt": "2026-10-25T20:29:17.879285+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "1dee9f44227a115f5af8241829d3d02b0f0479d7d687138fa9b726047492c821",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "1dee9f44227a115f5af8241829d3d02b0f0479d7d687138fa9b726047492c821",
+      "excerptCharacters": 514
+    },
+    {
+      "id": "ev:a470e0537cdd74cf33cdc8e0",
+      "sourceType": "web",
+      "url": "https://hangzhou.zjol.com.cn/jrsd/bwzg/202005/t20200514_11962860.shtml",
+      "providerId": null,
+      "title": "良渚古城遗址公园调整售票规则 5月19日起杭州人免费入园-浙江在线杭州在线网站",
+      "publisher": "hangzhou.zjol.com.cn",
+      "retrievedAt": "2026-10-25T20:29:17.879399+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "53377c1c5de6f584b5c148b8e356fcc5f355a0afdb4be2712dfcefd4476f1d56",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "53377c1c5de6f584b5c148b8e356fcc5f355a0afdb4be2712dfcefd4476f1d56",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:ce632754a0d0bfdd7905bc26",
+      "sourceType": "web",
+      "url": "https://www.wingontravel.com/discovery/content/liangzhu-ancient-city-hangzhou.html",
+      "providerId": null,
+      "title": "穿越5000年文明｜杭州良渚古城遺址親子遊全攻略",
+      "publisher": "www.wingontravel.com",
+      "retrievedAt": "2026-10-25T20:29:17.879475+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "72393aa79893d06e743c81d156aa6b6fe97b115b876efc466f0caa0355b88c10",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "72393aa79893d06e743c81d156aa6b6fe97b115b876efc466f0caa0355b88c10",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:90f066051c7ae6533451e0d1",
+      "sourceType": "web",
+      "url": "https://hwyst.hangzhou.com.cn/mtld/content/2020-03/06/content_7690003_0.htm",
+      "providerId": null,
+      "title": "太子湾公园实行预约制 怎么约？怎么玩？最详细的攻略在这里！_杭州网",
+      "publisher": "hwyst.hangzhou.com.cn",
+      "retrievedAt": "2026-10-25T20:29:20.584213+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "4b722be4c1a0f1d1009d8d1a2d0f5c2e6dd38542856f9a62e89f4031a88e2729",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "4b722be4c1a0f1d1009d8d1a2d0f5c2e6dd38542856f9a62e89f4031a88e2729",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:8305ad599a80c7c6ca9e27ff",
+      "sourceType": "web",
+      "url": "https://m.hz.bendibao.com/tour/142157.shtm",
+      "providerId": null,
+      "title": "杭州太子湾公园预约上午只能上午去吗？- 杭州本地宝",
+      "publisher": "m.hz.bendibao.com",
+      "retrievedAt": "2026-10-25T20:29:20.584298+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "1539766a95000283d8903c661b4b18f0ac3270cc95b4d4416cc1280fb354ace9",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "1539766a95000283d8903c661b4b18f0ac3270cc95b4d4416cc1280fb354ace9",
+      "excerptCharacters": 434
+    },
+    {
+      "id": "ev:93e40797139599e09d80d9fa",
+      "sourceType": "web",
+      "url": "https://gs.ctrip.com/html5/you/sight/hangzhou14/18128.html",
+      "providerId": null,
+      "title": "杭州西湖风景区-太子湾公园游玩攻略",
+      "publisher": "gs.ctrip.com",
+      "retrievedAt": "2026-10-25T20:29:20.584350+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "a49d2cf70e50c7d0b6725f7b29454d5dfdfd91f982358eb402631cec5f814e09",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "a49d2cf70e50c7d0b6725f7b29454d5dfdfd91f982358eb402631cec5f814e09",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:11f6db8570fe93f149c8ae71",
+      "sourceType": "web",
+      "url": "https://baike.baidu.com/item/%E5%A4%AA%E5%AD%90%E6%B9%BE%E5%85%AC%E5%9B%AD/5928373",
+      "providerId": null,
+      "title": "太子湾公园",
+      "publisher": "baike.baidu.com",
+      "retrievedAt": "2026-10-25T20:29:20.584399+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "02da56ecd654d2170a44e3bce4aefee6ea8ddcf4e734c627bc00e1bc9a581596",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "02da56ecd654d2170a44e3bce4aefee6ea8ddcf4e734c627bc00e1bc9a581596",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:f345bfbce622da8bb664fe81",
+      "sourceType": "web",
+      "url": "https://www.lzmuseum.cn/ZuiXinGongGao/2023394132395.html",
+      "providerId": null,
+      "title": "www.lzmuseum.cn",
+      "publisher": "www.lzmuseum.cn",
+      "retrievedAt": "2026-10-25T20:29:24.954191+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "06d6791cf583542300bf45ce5936209d59bb2a384fb26f709f672e4e3b4be152",
+      "verification": "page_extract",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "06d6791cf583542300bf45ce5936209d59bb2a384fb26f709f672e4e3b4be152",
+      "excerptCharacters": 856
+    },
+    {
+      "id": "ev:dff83dfe003004c5f0ae52b1",
+      "sourceType": "web",
+      "url": "https://hwyst.hangzhou.com.cn/mtld/content/2020-03/06/content_7690003_0.htm",
+      "providerId": null,
+      "title": "hwyst.hangzhou.com.cn",
+      "publisher": "hwyst.hangzhou.com.cn",
+      "retrievedAt": "2026-10-25T20:29:24.954262+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "ba2f962eb70e34ead168fa2169aef72d8530459c8b8fe5cc0429dbf0e1686866",
+      "verification": "page_extract",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "ba2f962eb70e34ead168fa2169aef72d8530459c8b8fe5cc0429dbf0e1686866",
+      "excerptCharacters": 3500
+    }
+  ],
+  "noWorkspaceWrites": true,
+  "contextUnchanged": true,
+  "createdAt": "2026-10-25T20:30:36.477911+00:00",
+  "brief": {
+    "snapshot": {
+      "version": 10,
+      "trip": {
+        "title": "合成评测 · 亲子慢游",
+        "destination": "杭州",
+        "startDate": "2026-11-02",
+        "endDate": "2026-11-06",
+        "timezone": "Asia/Shanghai",
+        "preferences": "两位成人与一名六岁孩子，喜欢公园和轻松体验。午休不可少，每天最多两个主要活动。",
+        "id": "fixture-r1-v1-hangzhou-2026-11-02",
+        "createdAt": "2026-11-02T00:00:00Z",
+        "updatedAt": "2026-11-02T00:00:00Z"
+      },
+      "ideas": [
+        {
+          "title": "阅读当地历史并写旅行笔记",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-i0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "备用室内休息安排",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-i1",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "遇到喜欢的地方多停一会",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-i2",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "activities": [
+        {
+          "title": "湖畔短程散步",
+          "date": "2026-11-02",
+          "startAt": "2026-11-02T09:30",
+          "endAt": "2026-11-02T10:30",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a0-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "午休",
+          "date": "2026-11-02",
+          "startAt": "2026-11-02T12:30",
+          "endAt": "2026-11-02T14:30",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a0-1",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "找一处草地玩耍",
+          "date": "2026-11-02",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a0-2",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 2,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "自然博物馆探索",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T10:00",
+          "endAt": "2026-11-03T11:30",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a1-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "午休",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T13:00",
+          "endAt": "2026-11-03T15:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a1-1",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "亲子手工体验",
+          "date": "2026-11-04",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a2-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "自由晚餐",
+          "date": "2026-11-04",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a2-1",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "公园野餐",
+          "date": "2026-11-05",
+          "startAt": "2026-11-05T11:00",
+          "endAt": "2026-11-05T12:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a3-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "慢慢收拾与返程",
+          "date": "2026-11-06",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a4-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "suggestions": []
+    },
+    "question": "研究两个杭州亲子慢游候选，适合六岁孩子，每天最多两个主要活动，保留午休。核对地点与可获取的官网信息，区分适合孩子的推断和证据事实。",
+    "taskId": "r1-v1:hangzhou:1:2026-11-02",
+    "mode": "research",
+    "contextHash": "abc712cd8b07b8a485345f8581162bf009189d62a7f676af049b4ad5bb0dda9e"
+  },
+  "versions": {
+    "deepagents": "0.7.32",
+    "langchain": "1.4.7",
+    "langgraph": "1.2.17",
+    "langsmith": "0.14.12",
+    "langchain-openai": "1.7.2",
+    "tavily-python": "0.8.5"
+  },
+  "commit": "e2c373267a869569d0c0f4f6d66f441301541f25",
+  "sourceFingerprint": "a6d2ef3d81681331e71ab2f19857be47343bb224775bdad6cfd437601b363398",
+  "traceId": "e0137baf-830a-4e2c-b1b5-6a804cd73de1",
+  "traceRunId": "e0137baf-830a-4e2c-b1b5-6a804cd73de1",
+  "knownUsageCostCny": 0.083784,
+  "costCompleteness": "complete_usage",
+  "modelListPriceEstimateCny": 0.083784,
+  "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
+  "traceVerified": true,
+  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/e0137baf-830a-4e2c-b1b5-6a804cd73de1?poll=true",
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
+}

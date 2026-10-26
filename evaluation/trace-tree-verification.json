@@ -1,0 +1,31 @@
+{
+  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/3a521293-3d96-4fce-ae8b-2aa904540ffc/r/01a17420-9473-707d-b5bc-f5b78a6f2cc0?poll=true",
+  "runCount": 41,
+  "modelRuns": [
+    {
+      "name": "ChatOpenAI",
+      "type": "llm"
+    },
+    {
+      "name": "ChatOpenAI",
+      "type": "llm"
+    },
+    {
+      "name": "ChatOpenAI",
+      "type": "llm"
+    }
+  ],
+  "toolRuns": [
+    {
+      "name": "get_trip_snapshot",
+      "type": "tool"
+    },
+    {
+      "name": "search_places",
+      "type": "tool"
+    }
+  ],
+  "noSecretsFound": true,
+  "allInputsHidden": true,
+  "allOutputsHidden": true
+}

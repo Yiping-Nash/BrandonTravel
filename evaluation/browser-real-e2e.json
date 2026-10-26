@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "tripId": "a33dc90b-6e3a-4910-83ce-3bc583ac30c2",
+  "tripUrl": "http://127.0.0.1:5173/?trip=a33dc90b-6e3a-4910-83ce-3bc583ac30c2",
+  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/3a521293-3d96-4fce-ae8b-2aa904540ffc/r/01a17434-b02f-7247-ac03-d4bd15e84664?poll=true",
+  "toolCalls": [
+    "get_trip_snapshot",
+    "search_places"
+  ],
+  "pageErrors": []
+}

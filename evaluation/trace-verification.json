@@ -1,0 +1,214 @@
+{
+  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/3a521293-3d96-4fce-ae8b-2aa904540ffc/r/01a17420-9473-707d-b5bc-f5b78a6f2cc0?poll=true",
+  "runCount": 41,
+  "secretScanPassed": true,
+  "inputsHidden": true,
+  "outputsHidden": true,
+  "steps": [
+    {
+      "name": "Brandon trip research",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "BrandonTravel2",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "PatchToolCallsMiddleware.before_agent",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "model",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "FilesystemMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "_ParentNotifierMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "SummarizationMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "ToolBoundary.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "AnthropicPromptCachingMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "UnsupportedContentMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "_ToolExclusionMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "ChatOpenAI",
+      "type": "llm",
+      "failed": false
+    },
+    {
+      "name": "tools",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "FilesystemMiddleware.awrap_tool_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "ToolBoundary.awrap_tool_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "_ToolExclusionMiddleware.awrap_tool_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "get_trip_snapshot",
+      "type": "tool",
+      "failed": false
+    },
+    {
+      "name": "model",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "FilesystemMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "_ParentNotifierMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "SummarizationMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "ToolBoundary.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "AnthropicPromptCachingMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "UnsupportedContentMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "_ToolExclusionMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "ChatOpenAI",
+      "type": "llm",
+      "failed": false
+    },
+    {
+      "name": "tools",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "FilesystemMiddleware.awrap_tool_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "ToolBoundary.awrap_tool_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "_ToolExclusionMiddleware.awrap_tool_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "search_places",
+      "type": "tool",
+      "failed": false
+    },
+    {
+      "name": "model",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "FilesystemMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "_ParentNotifierMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "SummarizationMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "ToolBoundary.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "AnthropicPromptCachingMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "UnsupportedContentMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "_ToolExclusionMiddleware.awrap_model_call",
+      "type": "chain",
+      "failed": false
+    },
+    {
+      "name": "ChatOpenAI",
+      "type": "llm",
+      "failed": false
+    },
+    {
+      "name": "_ParentNotifierMiddleware.after_agent",
+      "type": "chain",
+      "failed": false
+    }
+  ]
+}

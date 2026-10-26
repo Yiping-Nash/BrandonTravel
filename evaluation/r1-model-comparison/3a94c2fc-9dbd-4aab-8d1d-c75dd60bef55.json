@@ -1,0 +1,40 @@
+{
+  "id": "3a94c2fc-9dbd-4aab-8d1d-c75dd60bef55",
+  "createdAt": "2026-10-25T21:48:28.184524+00:00",
+  "sourceFingerprint": "3b4a1335096c2409870a7c78515fee0e07d2f6adc404da68a34baefb63266ae5",
+  "architecture": "B",
+  "taskId": "r1-v1:shanghai_seniors:1:2026-11-02",
+  "contextHash": "4a9b4dd607d113bf689b70e9a351e8151c0c6b8e70b6e4bee258499272ec42ac",
+  "toolMode": "fixture",
+  "llmMode": "live",
+  "limits": {
+    "modelRequests": 12,
+    "maxOutputTokens": 5000,
+    "inputBytes": 40000,
+    "taskSeconds": 180,
+    "cashReservationCny": 35
+  },
+  "planned": [
+    "qwen-plus",
+    "deepseek-pro"
+  ],
+  "completed": [
+    {
+      "profile": "qwen-plus",
+      "runId": "d28c4c33-b209-4a70-aade-4c47f85b3b4d",
+      "status": "Fail",
+      "categories": [
+        "bounded_noncompletion_needs_diagnosis"
+      ]
+    },
+    {
+      "profile": "deepseek-pro",
+      "runId": "6ecb7c7f-fa09-43a2-9795-99dd11f9c21b",
+      "status": "Pass",
+      "categories": []
+    }
+  ],
+  "notRun": [],
+  "humanReview": "Pending",
+  "note": "Compatibility isolation only; fixed non-real sources cannot pass real travel research acceptance."
+}

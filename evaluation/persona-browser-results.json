@@ -1,0 +1,50 @@
+[
+  {
+    "persona": "亲子慢游",
+    "tripId": "6bda6434-f17c-4787-822d-6355c90b9f18",
+    "passed": true,
+    "views": [
+      "Board",
+      "Day",
+      "Week"
+    ],
+    "crossWeekPassed": null,
+    "pageErrors": []
+  },
+  {
+    "persona": "密集打卡",
+    "tripId": "969e6f3f-b91e-4e27-9c55-767f62003601",
+    "passed": true,
+    "views": [
+      "Board",
+      "Day",
+      "Week"
+    ],
+    "crossWeekPassed": null,
+    "pageErrors": []
+  },
+  {
+    "persona": "朋友美食",
+    "tripId": "7aa1987f-f2e8-4b64-80fc-ea1c86749a19",
+    "passed": true,
+    "views": [
+      "Board",
+      "Day",
+      "Week"
+    ],
+    "crossWeekPassed": null,
+    "pageErrors": []
+  },
+  {
+    "persona": "跨周文化独旅",
+    "tripId": "035e035e-166a-4bef-bdb6-abd6b9b9d4ba",
+    "passed": true,
+    "views": [
+      "Board",
+      "Day",
+      "Week"
+    ],
+    "crossWeekPassed": true,
+    "pageErrors": []
+  }
+]

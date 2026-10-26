@@ -1,0 +1,903 @@
+{
+  "runId": "f76e27c0-ffe8-4c18-af83-d7b25a69e14c",
+  "taskId": "r1-v1:hangzhou:1:2026-11-02",
+  "status": "Pass",
+  "batch": "demo",
+  "architecture": "C",
+  "mode": "research",
+  "llmMode": "live",
+  "toolMode": "live",
+  "contextHash": "abc712cd8b07b8a485345f8581162bf009189d62a7f676af049b4ad5bb0dda9e",
+  "humanReview": "Pending",
+  "mainSelection": {
+    "useResearchResult": true,
+    "explanation": "研究结果可用：博物馆候选已用官网核实（周二开馆、周一休馆、冬季9:30入场，11-03可行），公园候选仅核实到地址与免费说法、草坪野餐规则明确标注未核验，事实与推断区分清晰。"
+  },
+  "proposedResult": {
+    "summary": "博物馆候选已用官网核实：杭州馆周二开、周一休，冬季9:30–16:00入场，11-03可行、11-02不可行。公园候选仅核实到地址与\"免费\"多源说法，草坪/野餐许可未获官方页面支撑。",
+    "candidates": [
+      {
+        "title": "自然博物馆探索 → 浙江自然博物院（杭州馆）",
+        "rationale": "官网明确周二开馆、周一休馆，冬季9:30入场；11-03周二可行，11-02周一不可行。",
+        "preferenceMatches": [
+          "室内轻松体验，适合雨天备选",
+          "免费基本陈列，节奏可控便于午休"
+        ],
+        "tradeoffs": [
+          "幼童须成人陪同，展厅内禁止饮食",
+          "预约规则两处来源不一致，需电话确认"
+        ],
+        "claims": [
+          {
+            "text": "地点核验：浙江自然博物院（杭州馆），地址为杭州市拱墅区西湖文化广场6号；POI 提供者记录同址（西湖文化广场6号）。交通参考：地铁1/3/19号线西湖文化广场C口。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:705a8e1ff711ef132d3aea6c",
+              "ev:d00df969de032196ddfce008"
+            ]
+          },
+          {
+            "text": "官网参观须知：展馆周二至周日开放，周一休馆（遇国定假日照常开放、顺延休馆）；11月1日—3月31日入馆时间9:30–16:00，17:00闭馆。基本陈列免费，部分临特展需购票。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:95e165d1a83e34c367c3c576"
+            ]
+          },
+          {
+            "text": "关键冲突推断：行程中“自然博物馆探索”安排在2026-11-03（周二），按官网规则周二应开放；但同一行程的2026-11-02为周一，若改到周一参观将闭馆。另需注意第三方公告提到安吉馆在11月3—6日有主题展馆临时关闭，该条不适用于杭州馆，但说明11月初存在临时调整可能。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:95e165d1a83e34c367c3c576",
+              "ev:a068662d539e70a2caaafc2f"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-03",
+        "placeEvidenceRef": "ev:705a8e1ff711ef132d3aea6c"
+      },
+      {
+        "title": "公园野餐 / 找一处草地玩耍 → 太子湾公园（待官方核验）",
+        "rationale": "地址与免费入园有多源支撑，但草坪/野餐许可缺官方证据，只能作候选。",
+        "preferenceMatches": [
+          "符合“喜欢公园”偏好",
+          "免费、可随时缩短行程保午休"
+        ],
+        "tradeoffs": [
+          "草坪野餐规则未核验",
+          "花季人流大，非花期景观一般"
+        ],
+        "claims": [
+          {
+            "text": "地点核验：杭州西湖风景名胜区—太子湾公园，POI 与百科均记录地址为南星街道南山路1-1号（另有旅游资讯页写作南山路5-1号，存在门牌表述差异）。门票信息：百科记载“免费开放，四季皆可”。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:b587261f6f2cdc0a97b2cecd",
+              "ev:cc2b53e1e85c0998757e61fd"
+            ]
+          },
+          {
+            "text": "未能核验项：未获取到公园管理处或政府文旅部门的官方公告页面（检索工具在此步骤被权限限制中断）。现有开放信息与草坪/野餐许可仅来自第三方平台摘录：携程景点页显示“免费开放 / 开放时间 / 达人问答‘可以搭帐篷么’”，易游网描述其为24小时开放免费公园且东门内有大型草坪。这些不是官方规则。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:93e40797139599e09d80d9fa",
+              "ev:8a4aa42951dd7287e8d884c7"
+            ]
+          },
+          {
+            "text": "适配性推断（非证据）：大草坪+平缓步道+免费入园，理论上适合六岁孩子玩耍与短时野餐；但西湖景区对草坪踩踏、搭帐篷、投喂与明火常有管理要求，未经官方核验前不应假定可野餐。建议到达后以园内告示为准，并优先选择允许休憩的硬质铺装区或指定区域。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:8a4aa42951dd7287e8d884c7",
+              "ev:93e40797139599e09d80d9fa"
+            ]
+          }
+        ],
+        "proposedDate": null,
+        "placeEvidenceRef": "ev:b587261f6f2cdc0a97b2cecd"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Trip 约束确认：两位成人+一名6岁孩子，偏好公园与轻松体验；午休不可少；每天最多两个主要活动。11-02 已有湖畔散步(9:30–10:30)与午休(12:30–14:30)，11-03 已有博物馆时段(10:00–11:30)与午休(13:00–15:00)。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:4c7cf2aae190b67dd5277ddd"
+        ]
+      },
+      {
+        "text": "时间适配问题：官网冬季入馆时间为9:30起，而已安排活动写为10:00–11:30，落在开放时段内；17:00闭馆不影响当日安排。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:95e165d1a83e34c367c3c576"
+        ]
+      },
+      {
+        "text": "预约规则存在版本差异：官网须知页称“提前5天（含当日）通过微信公众号实名预约”，而潮新闻转载的博物院公告称杭州馆“工作日散客免预约入馆（每周一休馆）”。2026-11-03为周二（工作日），两种说法结果不同，属未核验风险项，建议出行前致电0571-88212712 / 88050941确认。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:95e165d1a83e34c367c3c576",
+          "ev:a068662d539e70a2caaafc2f"
+        ]
+      },
+      {
+        "text": "儿童相关：官网须知第7条要求“幼童……须由成年人陪同参观”，第9条禁止展厅内饮食、追逐打闹、攀爬躺卧。未满3周岁幼儿无需预约（本例6岁不适用此豁免）。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:95e165d1a83e34c367c3c576"
+        ]
+      },
+      {
+        "text": "展陈内容（第三方教育频道报道，非用户体验数据）：杭州馆设“丰富奇异的生物世界&绿色浙江”“狂野之地”等展区，用场景复原、标本与多媒体呈现热带雨林、珊瑚礁、非洲草原等生态系统。此类具象场景通常对幼儿友好，但“孩子会喜欢”属推断。",
+        "kind": "experience",
+        "evidenceRefs": [
+          "ev:d00df969de032196ddfce008"
+        ]
+      },
+      {
+        "text": "每日两项活动+午休的适配判断：11-03 安排“博物馆(10:00–11:30)+午休(13:00–15:00)”共一项主要活动，符合上限；11-02 已有湖畔散步+草地玩耍两项主要活动加午休，若再加其他主活动将超限。11-05 野餐为单项，符合上限。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:95e165d1a83e34c367c3c576"
+        ]
+      }
+    ],
+    "limitations": [
+      "公园类官方来源缺失：未能获取太子湾公园管理处/西湖景区管委会/杭州园林文物局的官方公告页面；第4轮检索因工具权限被拒（PERMISSION_DENIED）而中断，故草坪野餐、搭帐篷、开放时间、门票的官方规则均未核验。",
+      "备选公园（杭州花圃、西溪湿地、城北体育公园）本次完全未检索到任何证据，无法比较。",
+      "博物馆预约规则存在两处来源冲突（官网须知 vs 博物院公告转载），且摘录均非完整页面快照的最终版；2026年11月的实际执行状态未知。",
+      "所有证据检索时间为 2026-10-25（工具返回 retrievedAt），未见页面自身发布日期（publishedAt 为空），规则可能在出行时已变更。",
+      "儿童教育活动/亲子展厅的具体场次与年龄适配无官方证据，仅有展陈主题描述。",
+      "未核验2026-11-03是否有临时闭馆或特展施工安排。"
+    ],
+    "coverage": [
+      "poi",
+      "web_search",
+      "page_extract_official(zmnh.com)",
+      "trip_snapshot"
+    ],
+    "status": "partial"
+  },
+  "result": {
+    "summary": "博物馆候选已用官网核实：杭州馆周二开、周一休，冬季9:30–16:00入场，11-03可行、11-02不可行。公园候选仅核实到地址与\"免费\"多源说法，草坪/野餐许可未获官方页面支撑。",
+    "candidates": [
+      {
+        "title": "自然博物馆探索 → 浙江自然博物院（杭州馆）",
+        "rationale": "官网明确周二开馆、周一休馆，冬季9:30入场；11-03周二可行，11-02周一不可行。",
+        "preferenceMatches": [
+          "室内轻松体验，适合雨天备选",
+          "免费基本陈列，节奏可控便于午休"
+        ],
+        "tradeoffs": [
+          "幼童须成人陪同，展厅内禁止饮食",
+          "预约规则两处来源不一致，需电话确认"
+        ],
+        "claims": [
+          {
+            "text": "地点核验：浙江自然博物院（杭州馆），地址为杭州市拱墅区西湖文化广场6号；POI 提供者记录同址（西湖文化广场6号）。交通参考：地铁1/3/19号线西湖文化广场C口。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:705a8e1ff711ef132d3aea6c",
+              "ev:d00df969de032196ddfce008"
+            ]
+          },
+          {
+            "text": "官网参观须知：展馆周二至周日开放，周一休馆（遇国定假日照常开放、顺延休馆）；11月1日—3月31日入馆时间9:30–16:00，17:00闭馆。基本陈列免费，部分临特展需购票。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:95e165d1a83e34c367c3c576"
+            ]
+          },
+          {
+            "text": "关键冲突推断：行程中“自然博物馆探索”安排在2026-11-03（周二），按官网规则周二应开放；但同一行程的2026-11-02为周一，若改到周一参观将闭馆。另需注意第三方公告提到安吉馆在11月3—6日有主题展馆临时关闭，该条不适用于杭州馆，但说明11月初存在临时调整可能。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:95e165d1a83e34c367c3c576",
+              "ev:a068662d539e70a2caaafc2f"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-03",
+        "placeEvidenceRef": "ev:705a8e1ff711ef132d3aea6c"
+      },
+      {
+        "title": "公园野餐 / 找一处草地玩耍 → 太子湾公园（待官方核验）",
+        "rationale": "地址与免费入园有多源支撑，但草坪/野餐许可缺官方证据，只能作候选。",
+        "preferenceMatches": [
+          "符合“喜欢公园”偏好",
+          "免费、可随时缩短行程保午休"
+        ],
+        "tradeoffs": [
+          "草坪野餐规则未核验",
+          "花季人流大，非花期景观一般"
+        ],
+        "claims": [
+          {
+            "text": "地点核验：杭州西湖风景名胜区—太子湾公园，POI 与百科均记录地址为南星街道南山路1-1号（另有旅游资讯页写作南山路5-1号，存在门牌表述差异）。门票信息：百科记载“免费开放，四季皆可”。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:b587261f6f2cdc0a97b2cecd",
+              "ev:cc2b53e1e85c0998757e61fd"
+            ]
+          },
+          {
+            "text": "未能核验项：未获取到公园管理处或政府文旅部门的官方公告页面（检索工具在此步骤被权限限制中断）。现有开放信息与草坪/野餐许可仅来自第三方平台摘录：携程景点页显示“免费开放 / 开放时间 / 达人问答‘可以搭帐篷么’”，易游网描述其为24小时开放免费公园且东门内有大型草坪。这些不是官方规则。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:93e40797139599e09d80d9fa",
+              "ev:8a4aa42951dd7287e8d884c7"
+            ]
+          },
+          {
+            "text": "适配性推断（非证据）：大草坪+平缓步道+免费入园，理论上适合六岁孩子玩耍与短时野餐；但西湖景区对草坪踩踏、搭帐篷、投喂与明火常有管理要求，未经官方核验前不应假定可野餐。建议到达后以园内告示为准，并优先选择允许休憩的硬质铺装区或指定区域。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:8a4aa42951dd7287e8d884c7",
+              "ev:93e40797139599e09d80d9fa"
+            ]
+          }
+        ],
+        "proposedDate": null,
+        "placeEvidenceRef": "ev:b587261f6f2cdc0a97b2cecd"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Trip 约束确认：两位成人+一名6岁孩子，偏好公园与轻松体验；午休不可少；每天最多两个主要活动。11-02 已有湖畔散步(9:30–10:30)与午休(12:30–14:30)，11-03 已有博物馆时段(10:00–11:30)与午休(13:00–15:00)。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:4c7cf2aae190b67dd5277ddd"
+        ]
+      },
+      {
+        "text": "时间适配问题：官网冬季入馆时间为9:30起，而已安排活动写为10:00–11:30，落在开放时段内；17:00闭馆不影响当日安排。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:95e165d1a83e34c367c3c576"
+        ]
+      },
+      {
+        "text": "预约规则存在版本差异：官网须知页称“提前5天（含当日）通过微信公众号实名预约”，而潮新闻转载的博物院公告称杭州馆“工作日散客免预约入馆（每周一休馆）”。2026-11-03为周二（工作日），两种说法结果不同，属未核验风险项，建议出行前致电0571-88212712 / 88050941确认。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:95e165d1a83e34c367c3c576",
+          "ev:a068662d539e70a2caaafc2f"
+        ]
+      },
+      {
+        "text": "儿童相关：官网须知第7条要求“幼童……须由成年人陪同参观”，第9条禁止展厅内饮食、追逐打闹、攀爬躺卧。未满3周岁幼儿无需预约（本例6岁不适用此豁免）。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:95e165d1a83e34c367c3c576"
+        ]
+      },
+      {
+        "text": "展陈内容（第三方教育频道报道，非用户体验数据）：杭州馆设“丰富奇异的生物世界&绿色浙江”“狂野之地”等展区，用场景复原、标本与多媒体呈现热带雨林、珊瑚礁、非洲草原等生态系统。此类具象场景通常对幼儿友好，但“孩子会喜欢”属推断。",
+        "kind": "experience",
+        "evidenceRefs": [
+          "ev:d00df969de032196ddfce008"
+        ]
+      },
+      {
+        "text": "每日两项活动+午休的适配判断：11-03 安排“博物馆(10:00–11:30)+午休(13:00–15:00)”共一项主要活动，符合上限；11-02 已有湖畔散步+草地玩耍两项主要活动加午休，若再加其他主活动将超限。11-05 野餐为单项，符合上限。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:95e165d1a83e34c367c3c576"
+        ]
+      }
+    ],
+    "limitations": [
+      "公园类官方来源缺失：未能获取太子湾公园管理处/西湖景区管委会/杭州园林文物局的官方公告页面；第4轮检索因工具权限被拒（PERMISSION_DENIED）而中断，故草坪野餐、搭帐篷、开放时间、门票的官方规则均未核验。",
+      "备选公园（杭州花圃、西溪湿地、城北体育公园）本次完全未检索到任何证据，无法比较。",
+      "博物馆预约规则存在两处来源冲突（官网须知 vs 博物院公告转载），且摘录均非完整页面快照的最终版；2026年11月的实际执行状态未知。",
+      "所有证据检索时间为 2026-10-25（工具返回 retrievedAt），未见页面自身发布日期（publishedAt 为空），规则可能在出行时已变更。",
+      "儿童教育活动/亲子展厅的具体场次与年龄适配无官方证据，仅有展陈主题描述。",
+      "未核验2026-11-03是否有临时闭馆或特展施工安排。"
+    ],
+    "coverage": [
+      "poi",
+      "web_search",
+      "page_extract_official(zmnh.com)",
+      "trip_snapshot"
+    ],
+    "status": "partial"
+  },
+  "seconds": 75.06,
+  "modelRequests": 11,
+  "inputTokens": 100751,
+  "outputTokens": 3349,
+  "usageRequests": 11,
+  "schemaRepairs": 0,
+  "deniedTools": [
+    "web_search"
+  ],
+  "toolCalls": [
+    "get_trip_snapshot",
+    "task",
+    "get_trip_snapshot",
+    "read_file",
+    "write_todos",
+    "web_search",
+    "search_places",
+    "web_search",
+    "search_places",
+    "read_pages",
+    "web_search"
+  ],
+  "sourceEvents": [
+    {
+      "tool": "get_trip_snapshot",
+      "status": "OK",
+      "mode": "live"
+    },
+    {
+      "tool": "get_trip_snapshot",
+      "status": "OK",
+      "mode": "live"
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "live",
+      "results": 3
+    },
+    {
+      "tool": "web_search",
+      "status": "ERROR",
+      "mode": "live",
+      "errorType": "ConnectError"
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "live",
+      "results": 3
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    },
+    {
+      "tool": "read_pages",
+      "status": "OK",
+      "mode": "live",
+      "results": 1,
+      "requested": 1
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    }
+  ],
+  "sourceCounts": {
+    "amap": 2,
+    "web": 3,
+    "extract": 1,
+    "credits": 4
+  },
+  "evidence": [
+    {
+      "id": "ev:4c7cf2aae190b67dd5277ddd",
+      "sourceType": "snapshot",
+      "url": null,
+      "providerId": null,
+      "title": "Synthetic evaluation Trip snapshot",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:11:08.262508+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "c2c4c30b3d0ed010bf3cf95a6d37242c9d2d55f776322fe349eea6d3027ec3bf",
+      "verification": "snapshot",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "c2c4c30b3d0ed010bf3cf95a6d37242c9d2d55f776322fe349eea6d3027ec3bf",
+      "excerptCharacters": 4403
+    },
+    {
+      "id": "ev:705a8e1ff711ef132d3aea6c",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B023B15DKJ",
+      "title": "浙江自然博物院",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:11:22.498316+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "9a2a717353149f95e399d22a93b725f74f165a758d2a4536bb4976bb3128e4a0",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B023B15DKJ",
+        "name": "浙江自然博物院",
+        "address": "西湖文化广场6号",
+        "latitude": 30.276814,
+        "longitude": 120.164581
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "9a2a717353149f95e399d22a93b725f74f165a758d2a4536bb4976bb3128e4a0",
+      "excerptCharacters": 127
+    },
+    {
+      "id": "ev:89ae9202d42a0c9779d13ead",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B023B089X6",
+      "title": "西湖博物馆",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:11:22.498380+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "d266a379e1e35cc8fa016e5c9a5b0801feb0432d8dbe9ffd429dcf55b3621c9f",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B023B089X6",
+        "name": "西湖博物馆",
+        "address": "南山路89号",
+        "latitude": 30.241739,
+        "longitude": 120.157449
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "d266a379e1e35cc8fa016e5c9a5b0801feb0432d8dbe9ffd429dcf55b3621c9f",
+      "excerptCharacters": 123
+    },
+    {
+      "id": "ev:4e23424de8d3c2711b3ef3dd",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B023B0BIT8",
+      "title": "西湖文化广场",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:11:22.498426+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "0997837d554556bbac1c69c41edbcec5fb9ff21195d956feb222f46508cf8264",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B023B0BIT8",
+        "name": "西湖文化广场",
+        "address": "环城北路47号",
+        "latitude": 30.276652,
+        "longitude": 120.163755
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "0997837d554556bbac1c69c41edbcec5fb9ff21195d956feb222f46508cf8264",
+      "excerptCharacters": 125
+    },
+    {
+      "id": "ev:b587261f6f2cdc0a97b2cecd",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B023B02074",
+      "title": "杭州西湖风景名胜区-太子湾公园",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:11:29.147650+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "ed6d71bfba5d3adb56781ff00c1ec1a8accfd6922e5d86803aeaa332b1e673a0",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B023B02074",
+        "name": "杭州西湖风景名胜区-太子湾公园",
+        "address": "南星街道南山路1-1号",
+        "latitude": 30.22547,
+        "longitude": 120.142177
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "ed6d71bfba5d3adb56781ff00c1ec1a8accfd6922e5d86803aeaa332b1e673a0",
+      "excerptCharacters": 137
+    },
+    {
+      "id": "ev:4262c9bb16bdb12e42323847",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B023B09DUS",
+      "title": "太子湾公园-九曜山",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:11:29.147705+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "468c63e0f610057006938441eb61869b3a22e0a1798d1506f7d747f970d2a771",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B023B09DUS",
+        "name": "太子湾公园-九曜山",
+        "address": "虎跑路(近太子湾公园)",
+        "latitude": 30.2203,
+        "longitude": 120.14184
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "468c63e0f610057006938441eb61869b3a22e0a1798d1506f7d747f970d2a771",
+      "excerptCharacters": 129
+    },
+    {
+      "id": "ev:b0e58887b20918c3a84fa62e",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B023B17X5O",
+      "title": "太子湾公园-迎宾亭(南山路)",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T21:11:29.147736+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "eeaf07b43c032020e82b589f0dcabf2a864cd995a1ea3e48e1c56491828586b5",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B023B17X5O",
+        "name": "太子湾公园-迎宾亭(南山路)",
+        "address": "西湖街道南山路1-1号太子湾公园北门内",
+        "latitude": 30.227695,
+        "longitude": 120.143845
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "eeaf07b43c032020e82b589f0dcabf2a864cd995a1ea3e48e1c56491828586b5",
+      "excerptCharacters": 145
+    },
+    {
+      "id": "ev:ff3aa807fa65bb49d54f80b6",
+      "sourceType": "web",
+      "url": "https://www.zmnh.com/henryhtml/service_reference.html",
+      "providerId": null,
+      "title": "浙江自然博物院",
+      "publisher": "www.zmnh.com",
+      "retrievedAt": "2026-10-25T21:11:36.773376+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "b8fad9c1864780601554425450f304d77fb28f671545fbb778ef4c9d9b9c819c",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "b8fad9c1864780601554425450f304d77fb28f671545fbb778ef4c9d9b9c819c",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:a068662d539e70a2caaafc2f",
+      "sourceType": "web",
+      "url": "https://tidenews.com.cn/tmh_news.html?id=69048944e71f4b0001262252",
+      "providerId": null,
+      "title": "浙江自然博物院参观入场时间调整及临时闭馆公告 - 潮新闻",
+      "publisher": "tidenews.com.cn",
+      "retrievedAt": "2026-10-25T21:11:36.773486+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "1d4351e8c4e14bb50314ded147833d8d22a962f6690c7aaeae0a691041b004d5",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "1d4351e8c4e14bb50314ded147833d8d22a962f6690c7aaeae0a691041b004d5",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:d00df969de032196ddfce008",
+      "sourceType": "web",
+      "url": "https://edu.hangzhou.com.cn/2024rdzt/zdagzyjd/content/content_8764458.html?k=1",
+      "providerId": null,
+      "title": "浙江自然博物院：近30万件珍贵馆藏讲述人与自然的故事--走读杭州百个爱国主义教育基地-教育频道-杭州网",
+      "publisher": "edu.hangzhou.com.cn",
+      "retrievedAt": "2026-10-25T21:11:36.773575+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "ddc19a0fe0e8c926dca98daca3dfc94761d309ce3c6106c120be2e46fcd7b63d",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "ddc19a0fe0e8c926dca98daca3dfc94761d309ce3c6106c120be2e46fcd7b63d",
+      "excerptCharacters": 1154
+    },
+    {
+      "id": "ev:e68d71e0ea7f80535fb94001",
+      "sourceType": "web",
+      "url": "https://www.bw10000.com/article/293",
+      "providerId": null,
+      "title": "浙江自然博物院安吉馆参观指南",
+      "publisher": "www.bw10000.com",
+      "retrievedAt": "2026-10-25T21:11:36.773643+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "151877bff30b985fb639ecadd4efd277f2a002e979fee0f0634b6f7d1fbc114a",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "151877bff30b985fb639ecadd4efd277f2a002e979fee0f0634b6f7d1fbc114a",
+      "excerptCharacters": 918
+    },
+    {
+      "id": "ev:95e165d1a83e34c367c3c576",
+      "sourceType": "web",
+      "url": "https://www.zmnh.com/henryhtml/service_reference.html",
+      "providerId": null,
+      "title": "www.zmnh.com",
+      "publisher": "www.zmnh.com",
+      "retrievedAt": "2026-10-25T21:11:39.890227+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "1722abb4008efafc879f594b1bc8e6626827618773b0e53f3faf078a38f111b4",
+      "verification": "page_extract",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "1722abb4008efafc879f594b1bc8e6626827618773b0e53f3faf078a38f111b4",
+      "excerptCharacters": 1592
+    },
+    {
+      "id": "ev:d5157b965c4a6e63f77adf5d",
+      "sourceType": "web",
+      "url": "https://www.facebook.com/spicylawyer1777/videos/%E5%A4%AA%E5%AD%90%E6%B9%BE%E5%85%AC%E5%9B%AD-%E4%BD%8D%E4%BA%8E%E4%B8%AD%E5%9B%BD%E6%B5%99%E6%B1%9F%E7%9C%81%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E6%99%AF%E5%8C%BA%E5%8D%97%E4%BE%A7%E6%98%AF%E4%B8%80%E5%BA%A7%E4%BB%A5%E8%8A%B1%E5%8D%89%E8%A7%82%E8%B5%8F%E5%92%8C%E8%87%AA%E7%84%B6%E6%99%AF%E8%A7%82%E4%B8%BA%E4%B8%BB%E7%9A%84%E5%85%AC%E5%9B%AD%E8%BF%99%E9%87%8C%E4%BB%A5%E6%98%A5%E5%A4%A9%E7%9A%84%E9%83%81%E9%87%91%E9%A6%99%E8%8A%B1%E6%B5%B7%E5%92%8C%E6%A8%B1%E8%8A%B1%E7%9B%9B%E6%99%AF%E6%9C%80%E4%B8%BA%E8%91%97%E5%90%8D%E6%98%AF%E6%9D%AD%E5%B7%9E%E5%B8%82%E6%B0%91%E5%92%8C%E6%B8%B8%E5%AE%A2%E8%B5%8F%E8%8A%B1%E6%8B%8D%E7%85%A7%E4%BC%91%E9%97%B2%E7%9A%84%E7%83%AD%E9%97%A8%E5%9C%B0%E7%82%B9%E5%A4%AA/1839139620209821",
+      "providerId": null,
+      "title": "57 reactions · 6 comments | #太子湾公园 位于中国浙江省杭州市西湖景区南侧，是一座以花卉观赏和自然景观为主的公园。这里以春天的郁金香花海和樱花盛景最为著名，是杭州市民和游客赏花、拍照、休闲的热门地点。\n\n太子湾公园亮点\n\n1. #郁金香花海（3-4月）：每年春天，公园都会举办郁金香花展，种植大量来自荷兰的郁金香，色彩斑斓，吸引大量游客前来观赏。\n\n2. 樱花季（3月下旬）：园内种植了众多樱花树，春天时樱花烂漫，与郁金香相映成趣，成为杭城春季赏花胜地之一。\n\n3. 欧式园林风格：公园内有小桥流水、草坪、湖泊，以及欧式亭台，环境优美，适合散步、野餐、拍照。\n\n4. 太子",
+      "publisher": "www.facebook.com",
+      "retrievedAt": "2026-10-25T21:11:44.464589+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "f98ae9353f3c20f5b2182bac92ba8e2123ff16c11e22d59e7208db1cff129e02",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "f98ae9353f3c20f5b2182bac92ba8e2123ff16c11e22d59e7208db1cff129e02",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:93e40797139599e09d80d9fa",
+      "sourceType": "web",
+      "url": "https://gs.ctrip.com/html5/you/sight/hangzhou14/18128.html",
+      "providerId": null,
+      "title": "杭州西湖风景区-太子湾公园游玩攻略",
+      "publisher": "gs.ctrip.com",
+      "retrievedAt": "2026-10-25T21:11:44.464702+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "a49d2cf70e50c7d0b6725f7b29454d5dfdfd91f982358eb402631cec5f814e09",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "a49d2cf70e50c7d0b6725f7b29454d5dfdfd91f982358eb402631cec5f814e09",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:8a4aa42951dd7287e8d884c7",
+      "sourceType": "web",
+      "url": "https://vacation.eztravel.com.tw/sight/plc0000076811/prince-bay-park-%E5%A4%AA%E5%AD%90%E7%81%A3%E5%85%AC%E5%9C%92",
+      "providerId": null,
+      "title": "太子灣公園旅遊指南 | 熱門景點資訊、交通地圖 | ezTravel易遊網",
+      "publisher": "vacation.eztravel.com.tw",
+      "retrievedAt": "2026-10-25T21:11:44.464783+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "f2d2a254705f0c257abaca6b9a65373e1a4045cafd4e219870b5a799180f984d",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "f2d2a254705f0c257abaca6b9a65373e1a4045cafd4e219870b5a799180f984d",
+      "excerptCharacters": 779
+    },
+    {
+      "id": "ev:cc2b53e1e85c0998757e61fd",
+      "sourceType": "web",
+      "url": "https://baike.baidu.com/item/%E5%A4%AA%E5%AD%90%E6%B9%BE%E5%85%AC%E5%9B%AD/5928373",
+      "providerId": null,
+      "title": "太子湾公园",
+      "publisher": "baike.baidu.com",
+      "retrievedAt": "2026-10-25T21:11:44.464841+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "75e76388ec114ca5c5456bfebc9b29b8156f65ddc7a12832e8bc242f6e475b62",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "75e76388ec114ca5c5456bfebc9b29b8156f65ddc7a12832e8bc242f6e475b62",
+      "excerptCharacters": 307
+    }
+  ],
+  "noWorkspaceWrites": true,
+  "contextUnchanged": true,
+  "createdAt": "2026-10-25T21:12:22.350875+00:00",
+  "brief": {
+    "snapshot": {
+      "version": 10,
+      "trip": {
+        "title": "合成评测 · 亲子慢游",
+        "destination": "杭州",
+        "startDate": "2026-11-02",
+        "endDate": "2026-11-06",
+        "timezone": "Asia/Shanghai",
+        "preferences": "两位成人与一名六岁孩子，喜欢公园和轻松体验。午休不可少，每天最多两个主要活动。",
+        "id": "fixture-r1-v1-hangzhou-2026-11-02",
+        "createdAt": "2026-11-02T00:00:00Z",
+        "updatedAt": "2026-11-02T00:00:00Z"
+      },
+      "ideas": [
+        {
+          "title": "阅读当地历史并写旅行笔记",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-i0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "备用室内休息安排",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-i1",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "遇到喜欢的地方多停一会",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-i2",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "activities": [
+        {
+          "title": "湖畔短程散步",
+          "date": "2026-11-02",
+          "startAt": "2026-11-02T09:30",
+          "endAt": "2026-11-02T10:30",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a0-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "午休",
+          "date": "2026-11-02",
+          "startAt": "2026-11-02T12:30",
+          "endAt": "2026-11-02T14:30",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a0-1",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "找一处草地玩耍",
+          "date": "2026-11-02",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a0-2",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 2,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "自然博物馆探索",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T10:00",
+          "endAt": "2026-11-03T11:30",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a1-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "午休",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T13:00",
+          "endAt": "2026-11-03T15:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a1-1",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "亲子手工体验",
+          "date": "2026-11-04",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a2-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "自由晚餐",
+          "date": "2026-11-04",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a2-1",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "公园野餐",
+          "date": "2026-11-05",
+          "startAt": "2026-11-05T11:00",
+          "endAt": "2026-11-05T12:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a3-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "慢慢收拾与返程",
+          "date": "2026-11-06",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-hangzhou-2026-11-02-a4-0",
+          "tripId": "fixture-r1-v1-hangzhou-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "suggestions": []
+    },
+    "question": "研究两个杭州亲子慢游候选，适合六岁孩子，每天最多两个主要活动，保留午休。核对地点与可获取的官网信息，区分适合孩子的推断和证据事实。",
+    "taskId": "r1-v1:hangzhou:1:2026-11-02",
+    "mode": "research",
+    "contextHash": "abc712cd8b07b8a485345f8581162bf009189d62a7f676af049b4ad5bb0dda9e"
+  },
+  "versions": {
+    "deepagents": "0.7.32",
+    "langchain": "1.4.7",
+    "langgraph": "1.2.17",
+    "langsmith": "0.14.12",
+    "langchain-openai": "1.7.2",
+    "tavily-python": "0.8.5"
+  },
+  "commit": "e2c373267a869569d0c0f4f6d66f441301541f25",
+  "sourceFingerprint": "29ac89890af14a42d4b8a241c0b0f51d56fd1a8c33c98a67bc4659d28f63f978",
+  "traceId": "f76e27c0-ffe8-4c18-af83-d7b25a69e14c",
+  "traceRunId": "f76e27c0-ffe8-4c18-af83-d7b25a69e14c",
+  "knownUsageCostCny": 0.089643,
+  "costCompleteness": "complete_usage",
+  "modelListPriceEstimateCny": 0.089643,
+  "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
+  "traceVerified": false,
+  "totalSeconds": 82.77,
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
+}

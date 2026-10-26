@@ -1,0 +1,797 @@
+{
+  "runId": "79315639-cd5e-4500-b228-2d6c20cb9597",
+  "taskId": "r1-v1:chengdu:1:2026-11-02",
+  "status": "Pass",
+  "batch": "smoke",
+  "architecture": "A",
+  "mode": "research",
+  "llmMode": "live",
+  "toolMode": "live",
+  "contextHash": "1f9e87d2efd3d5a78cf670f641710036ccd818e0be11a47e6187d906707f5b3b",
+  "humanReview": "Pending",
+  "proposedResult": {
+    "summary": "依据Trip（不早起、一辣一不辣、重美食聊天）研究两个成都火锅候选：翠孃孃老火锅春熙路老店（午市11点起、鸳鸯锅+番茄温和菜）与五里关火锅奎星楼店（美食街顺路、可错峰午吃）。高德只证地点事实，体验多来自带推广倾向的文章并已逐项标注；未标推广不等于非广告。均为建议，未预约。",
+    "candidates": [
+      {
+        "title": "翠孃孃老火锅（春熙路老店）— 市井鸳鸯锅，午晚两市都合适",
+        "rationale": "春熙路旁社区老火锅，午市11点开门到凌晨，鸳鸯锅和番茄温和菜可同桌兼顾两种辣度口味。",
+        "preferenceMatches": [
+          "午市/晚市皆宜，无需早起",
+          "鸳鸯锅兼顾不吃辣与爱辣",
+          "市井热闹氛围利于聊天"
+        ],
+        "tradeoffs": [
+          "推广软文多，口碑需再核",
+          "热门店可能排队，未核实",
+          "人均约85-95元"
+        ],
+        "claims": [
+          {
+            "text": "高德POI：翠孃孃老火锅(春熙路老店)，锦江区永兴巷15号附1号（熊猫邮局旁50米），坐标30.661312/104.078075。POI仅验证地点资料，不验证营业、预约或体验。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:81630c5de9aefb1dcf9cd9f4"
+            ]
+          },
+          {
+            "text": "网页体验：文章称营业时间11:00至次日01:00、人均约85-90元、孃孃帮点菜涮煮的市井氛围；大众点评摘录显示4.4分、约¥95/人，推荐菜含鸳鸯锅（菌汤+麻辣）、手打番茄嫩肉片等适合不吃辣者的温和菜。两文均带明显推广口吻（榜单背书、口碑叙事），不能视为中立评价；未标推广也不等于非广告。",
+            "kind": "experience",
+            "evidenceRefs": [
+              "ev:a8971164fc36df4814c2ce48",
+              "ev:ed87a052cbd1916300fbc52c"
+            ]
+          },
+          {
+            "text": "推断：午市11:00开门契合不早起偏好，也正好覆盖11-03已定11:00-12:30早午餐时段；鸳鸯锅加番茄类菜品可让吃辣与不吃辣同桌各取所需。排队与订座规则未核实。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:a8971164fc36df4814c2ce48"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-04",
+        "placeEvidenceRef": "ev:81630c5de9aefb1dcf9cd9f4"
+      },
+      {
+        "title": "五里关火锅（奎星楼店）— 本地美食街排队王，错峰午吃更稳",
+        "rationale": "奎星楼美食街的热门火锅，营业时间长、可错峰午吃，适合不早起又想吃地道辣锅的组合。",
+        "preferenceMatches": [
+          "午市可避开排队，不必早起",
+          "紧邻奎星楼/宽窄巷子，顺路慢逛",
+          "辣度口碑好，适合爱辣朋友"
+        ],
+        "tradeoffs": [
+          "晚市排队风险高",
+          "不吃辣的锅底选择未证实",
+          "凌晨营业等信息来自旧帖"
+        ],
+        "claims": [
+          {
+            "text": "高德POI：五里关火锅(奎星楼店)，青羊区长顺中街99号，坐标30.667604/104.055896；高德官网地点页另载电话19113431373。均只验证地点信息，不含营业与体验。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:28de6d6bb332e5c3e1b90e95",
+              "ev:3a2adc43fe67c923a221577d"
+            ]
+          },
+          {
+            "text": "网页体验：Dealmoon用户帖称其位于本地美食街奎星楼、\"逛完宽窄巷子正好溜达过来\"、营业到凌晨4点、缺点是排队太久（旧帖，时效不明）；携程评论称中午去不排队有空位、锅底辣度刚好、菜品新鲜、吃完身上味小。搜狐对比文称\"日排队2000+号、好评10万条\"，该文为多品牌打分式内容，明显含推广成分，数据不可当官方事实。",
+            "kind": "experience",
+            "evidenceRefs": [
+              "ev:0718d1eac100c80d638a9a7d",
+              "ev:fe2b24d72c332b973fadc5d3",
+              "ev:4159016dfcc38f8d729b1356"
+            ]
+          },
+          {
+            "text": "推断：靠近奎星楼/宽窄巷子片区，适合11-03\"街区慢逛\"后就近就餐；有午市不排队的实例，说明错峰午吃比晚市稳妥。但是否提供清汤/鸳鸯等不辣锅底无明确证据，不吃辣朋友的需求建议电话确认。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:fe2b24d72c332b973fadc5d3"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-03",
+        "placeEvidenceRef": "ev:28de6d6bb332e5c3e1b90e95"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Trip快照：成都2026-11-02至11-06，三位朋友、不早起、重视美食和聊天，一位不吃辣、一位喜欢辣菜；餐厅尚未选定，本结果仅为研究建议不构成预约。已定活动含11-03早午餐11:00-12:30、11-04朋友聚餐18:00-20:00。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:a1842ae2020ad8eeb9af9993"
+        ]
+      },
+      {
+        "text": "同品牌存在多家门店记录：高德POI为\"春熙路老店(永兴巷15号附1号)\"，大众点评另有\"春熙路店(永兴巷)\"和\"春熙路分店(纯阳观街)\"条目，且摘录显示\"休息中APP内查看商户信息\"，具体门店与实时状态需在App内核验。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:81630c5de9aefb1dcf9cd9f4",
+          "ev:ed87a052cbd1916300fbc52c",
+          "ev:193d021355b087abc5d35846"
+        ]
+      },
+      {
+        "text": "推广证据披露：本次两家正面描述主要来源为①单一品牌软文式文章（华声在线文旅频道，全文提取）、②多品牌对比评测（搜狐）、③社区分享帖（Dealmoon），三者commercialStatus均为unknown，无法判定是否为广告；搜索排名与\"上榜\"说法不等于官方或非商业背书。相对独立的体验证据仅携程一条短评。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:a8971164fc36df4814c2ce48",
+          "ev:4159016dfcc38f8d729b1356",
+          "ev:0718d1eac100c80d638a9a7d",
+          "ev:fe2b24d72c332b973fadc5d3"
+        ]
+      }
+    ],
+    "limitations": [
+      "两家均未核实实时营业状态、是否需预约/取号及排队时长；POI与搜索摘录不验证开放与预约规则。",
+      "五里关是否供应清汤/鸳鸯等不辣锅底无明确证据，不吃辣朋友的可行性需电话（高德页载19113431373）确认。",
+      "关键价格与营业信息（人均85-90、11:00-次日01:00、凌晨4点营业）来自带推广倾向的文章或旧帖，未经官方渠道核验，时效不明。",
+      "所有来源commercialStatus为unknown，无法断言任何内容不是广告；点评\"休息中\"含义（营业时段外或停业）不明。",
+      "未查询交通时间与从住宿出发的距离，未做菜单级核对。",
+      "Trip为合成评测数据，候选仅为建议，不代表已预约或已采纳。"
+    ],
+    "coverage": [
+      "AMap地点搜索（POI名称/地址/坐标，3条）",
+      "AMap官网地点页摘录（电话字段）",
+      "大众点评移动端搜索摘录（评分/人均/推荐菜）",
+      "携程美食页用户评论摘录",
+      "Dealmoon用户帖摘录",
+      "搜狐多品牌对比评测摘录",
+      "华声在线文旅频道单品牌文章全文提取",
+      "Trip快照"
+    ],
+    "status": "partial"
+  },
+  "result": {
+    "summary": "依据Trip（不早起、一辣一不辣、重美食聊天）研究两个成都火锅候选：翠孃孃老火锅春熙路老店（午市11点起、鸳鸯锅+番茄温和菜）与五里关火锅奎星楼店（美食街顺路、可错峰午吃）。高德只证地点事实，体验多来自带推广倾向的文章并已逐项标注；未标推广不等于非广告。均为建议，未预约。",
+    "candidates": [
+      {
+        "title": "翠孃孃老火锅（春熙路老店）— 市井鸳鸯锅，午晚两市都合适",
+        "rationale": "春熙路旁社区老火锅，午市11点开门到凌晨，鸳鸯锅和番茄温和菜可同桌兼顾两种辣度口味。",
+        "preferenceMatches": [
+          "午市/晚市皆宜，无需早起",
+          "鸳鸯锅兼顾不吃辣与爱辣",
+          "市井热闹氛围利于聊天"
+        ],
+        "tradeoffs": [
+          "推广软文多，口碑需再核",
+          "热门店可能排队，未核实",
+          "人均约85-95元"
+        ],
+        "claims": [
+          {
+            "text": "高德POI：翠孃孃老火锅(春熙路老店)，锦江区永兴巷15号附1号（熊猫邮局旁50米），坐标30.661312/104.078075。POI仅验证地点资料，不验证营业、预约或体验。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:81630c5de9aefb1dcf9cd9f4"
+            ]
+          },
+          {
+            "text": "网页体验：文章称营业时间11:00至次日01:00、人均约85-90元、孃孃帮点菜涮煮的市井氛围；大众点评摘录显示4.4分、约¥95/人，推荐菜含鸳鸯锅（菌汤+麻辣）、手打番茄嫩肉片等适合不吃辣者的温和菜。两文均带明显推广口吻（榜单背书、口碑叙事），不能视为中立评价；未标推广也不等于非广告。",
+            "kind": "experience",
+            "evidenceRefs": [
+              "ev:a8971164fc36df4814c2ce48",
+              "ev:ed87a052cbd1916300fbc52c"
+            ]
+          },
+          {
+            "text": "推断：午市11:00开门契合不早起偏好，也正好覆盖11-03已定11:00-12:30早午餐时段；鸳鸯锅加番茄类菜品可让吃辣与不吃辣同桌各取所需。排队与订座规则未核实。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:a8971164fc36df4814c2ce48"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-04",
+        "placeEvidenceRef": "ev:81630c5de9aefb1dcf9cd9f4"
+      },
+      {
+        "title": "五里关火锅（奎星楼店）— 本地美食街排队王，错峰午吃更稳",
+        "rationale": "奎星楼美食街的热门火锅，营业时间长、可错峰午吃，适合不早起又想吃地道辣锅的组合。",
+        "preferenceMatches": [
+          "午市可避开排队，不必早起",
+          "紧邻奎星楼/宽窄巷子，顺路慢逛",
+          "辣度口碑好，适合爱辣朋友"
+        ],
+        "tradeoffs": [
+          "晚市排队风险高",
+          "不吃辣的锅底选择未证实",
+          "凌晨营业等信息来自旧帖"
+        ],
+        "claims": [
+          {
+            "text": "高德POI：五里关火锅(奎星楼店)，青羊区长顺中街99号，坐标30.667604/104.055896；高德官网地点页另载电话19113431373。均只验证地点信息，不含营业与体验。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:28de6d6bb332e5c3e1b90e95",
+              "ev:3a2adc43fe67c923a221577d"
+            ]
+          },
+          {
+            "text": "网页体验：Dealmoon用户帖称其位于本地美食街奎星楼、\"逛完宽窄巷子正好溜达过来\"、营业到凌晨4点、缺点是排队太久（旧帖，时效不明）；携程评论称中午去不排队有空位、锅底辣度刚好、菜品新鲜、吃完身上味小。搜狐对比文称\"日排队2000+号、好评10万条\"，该文为多品牌打分式内容，明显含推广成分，数据不可当官方事实。",
+            "kind": "experience",
+            "evidenceRefs": [
+              "ev:0718d1eac100c80d638a9a7d",
+              "ev:fe2b24d72c332b973fadc5d3",
+              "ev:4159016dfcc38f8d729b1356"
+            ]
+          },
+          {
+            "text": "推断：靠近奎星楼/宽窄巷子片区，适合11-03\"街区慢逛\"后就近就餐；有午市不排队的实例，说明错峰午吃比晚市稳妥。但是否提供清汤/鸳鸯等不辣锅底无明确证据，不吃辣朋友的需求建议电话确认。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:fe2b24d72c332b973fadc5d3"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-03",
+        "placeEvidenceRef": "ev:28de6d6bb332e5c3e1b90e95"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Trip快照：成都2026-11-02至11-06，三位朋友、不早起、重视美食和聊天，一位不吃辣、一位喜欢辣菜；餐厅尚未选定，本结果仅为研究建议不构成预约。已定活动含11-03早午餐11:00-12:30、11-04朋友聚餐18:00-20:00。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:a1842ae2020ad8eeb9af9993"
+        ]
+      },
+      {
+        "text": "同品牌存在多家门店记录：高德POI为\"春熙路老店(永兴巷15号附1号)\"，大众点评另有\"春熙路店(永兴巷)\"和\"春熙路分店(纯阳观街)\"条目，且摘录显示\"休息中APP内查看商户信息\"，具体门店与实时状态需在App内核验。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:81630c5de9aefb1dcf9cd9f4",
+          "ev:ed87a052cbd1916300fbc52c",
+          "ev:193d021355b087abc5d35846"
+        ]
+      },
+      {
+        "text": "推广证据披露：本次两家正面描述主要来源为①单一品牌软文式文章（华声在线文旅频道，全文提取）、②多品牌对比评测（搜狐）、③社区分享帖（Dealmoon），三者commercialStatus均为unknown，无法判定是否为广告；搜索排名与\"上榜\"说法不等于官方或非商业背书。相对独立的体验证据仅携程一条短评。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:a8971164fc36df4814c2ce48",
+          "ev:4159016dfcc38f8d729b1356",
+          "ev:0718d1eac100c80d638a9a7d",
+          "ev:fe2b24d72c332b973fadc5d3"
+        ]
+      }
+    ],
+    "limitations": [
+      "两家均未核实实时营业状态、是否需预约/取号及排队时长；POI与搜索摘录不验证开放与预约规则。",
+      "五里关是否供应清汤/鸳鸯等不辣锅底无明确证据，不吃辣朋友的可行性需电话（高德页载19113431373）确认。",
+      "关键价格与营业信息（人均85-90、11:00-次日01:00、凌晨4点营业）来自带推广倾向的文章或旧帖，未经官方渠道核验，时效不明。",
+      "所有来源commercialStatus为unknown，无法断言任何内容不是广告；点评\"休息中\"含义（营业时段外或停业）不明。",
+      "未查询交通时间与从住宿出发的距离，未做菜单级核对。",
+      "Trip为合成评测数据，候选仅为建议，不代表已预约或已采纳。"
+    ],
+    "coverage": [
+      "AMap地点搜索（POI名称/地址/坐标，3条）",
+      "AMap官网地点页摘录（电话字段）",
+      "大众点评移动端搜索摘录（评分/人均/推荐菜）",
+      "携程美食页用户评论摘录",
+      "Dealmoon用户帖摘录",
+      "搜狐多品牌对比评测摘录",
+      "华声在线文旅频道单品牌文章全文提取",
+      "Trip快照"
+    ],
+    "status": "partial"
+  },
+  "seconds": 89.001,
+  "modelRequests": 6,
+  "inputTokens": 56192,
+  "outputTokens": 4561,
+  "usageRequests": 6,
+  "schemaRepairs": 1,
+  "deniedTools": [],
+  "toolCalls": [
+    "get_trip_snapshot",
+    "search_places",
+    "web_search",
+    "web_search",
+    "read_pages"
+  ],
+  "sourceEvents": [
+    {
+      "tool": "get_trip_snapshot",
+      "status": "OK",
+      "mode": "live"
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "live",
+      "results": 3
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    },
+    {
+      "tool": "read_pages",
+      "status": "OK",
+      "mode": "live",
+      "results": 1,
+      "requested": 1
+    }
+  ],
+  "sourceCounts": {
+    "amap": 1,
+    "web": 2,
+    "extract": 1,
+    "credits": 3
+  },
+  "evidence": [
+    {
+      "id": "ev:a1842ae2020ad8eeb9af9993",
+      "sourceType": "snapshot",
+      "url": null,
+      "providerId": null,
+      "title": "Synthetic evaluation Trip snapshot",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:55:27.773939+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "f540abe8be0e2fe0bd495a746e77a564fb4b6d2d728b4ba5270e0f336b7893d7",
+      "verification": "snapshot",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "f540abe8be0e2fe0bd495a746e77a564fb4b6d2d728b4ba5270e0f336b7893d7",
+      "excerptCharacters": 4643
+    },
+    {
+      "id": "ev:81630c5de9aefb1dcf9cd9f4",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0KRORQOAQ",
+      "title": "翠孃孃老火锅(春熙路老店)",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:55:30.042482+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "7575b0eabaf158ff44fb5c7d35ccdc47ac57feee0253808670325104a3c97069",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0KRORQOAQ",
+        "name": "翠孃孃老火锅(春熙路老店)",
+        "address": "永兴巷15号附1号(熊猫邮局旁50米)",
+        "latitude": 30.661312,
+        "longitude": 104.078075
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "7575b0eabaf158ff44fb5c7d35ccdc47ac57feee0253808670325104a3c97069",
+      "excerptCharacters": 144
+    },
+    {
+      "id": "ev:ff7cc2310d27c6c991fa4619",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0LRFM6QGW",
+      "title": "天星正源火锅(海椒市店)",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:55:30.042535+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "f790c177594cbfacf161f22445c8a565e529bbc52ad4fce90fa5269c33ed3b99",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0LRFM6QGW",
+        "name": "天星正源火锅(海椒市店)",
+        "address": "海椒市街10-12号",
+        "latitude": 30.638695,
+        "longitude": 104.101907
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "f790c177594cbfacf161f22445c8a565e529bbc52ad4fce90fa5269c33ed3b99",
+      "excerptCharacters": 134
+    },
+    {
+      "id": "ev:28de6d6bb332e5c3e1b90e95",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0IU1L7PUU",
+      "title": "五里关火锅(奎星楼店)",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:55:30.042562+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "6b03ac799f28ab8bbb5d03595abcc6769a65bf196a50eb85c3ecbbb64630a215",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0IU1L7PUU",
+        "name": "五里关火锅(奎星楼店)",
+        "address": "长顺中街99号",
+        "latitude": 30.667604,
+        "longitude": 104.055896
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "6b03ac799f28ab8bbb5d03595abcc6769a65bf196a50eb85c3ecbbb64630a215",
+      "excerptCharacters": 130
+    },
+    {
+      "id": "ev:193d021355b087abc5d35846",
+      "sourceType": "web",
+      "url": "http://m.dianping.com/shop/1038342405?msource=applemaps",
+      "providerId": null,
+      "title": "【翠孃孃老火锅(春熙路分店)】电话_地址_价格_营业时间_书院街商圈重庆火锅团购 - [undefined] - 大众点评网",
+      "publisher": "m.dianping.com",
+      "retrievedAt": "2026-10-25T20:55:39.749262+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "ac95af4f441e80e537d9ff3b58e39998d103f13b3ae0a84b217a1200b5a6e23f",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "ac95af4f441e80e537d9ff3b58e39998d103f13b3ae0a84b217a1200b5a6e23f",
+      "excerptCharacters": 317
+    },
+    {
+      "id": "ev:ed87a052cbd1916300fbc52c",
+      "sourceType": "web",
+      "url": "http://m.dianping.com/shop/9256339?msource=applemaps",
+      "providerId": null,
+      "title": "【翠孃孃老火锅(春熙路店)】电话_地址_价格_营业时间_书院街商圈重庆火锅团购 - [undefined] - 大众点评网",
+      "publisher": "m.dianping.com",
+      "retrievedAt": "2026-10-25T20:55:39.749340+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "3867ff63dcc3fb01c21a6983b661279472aa678f40141eefd0d2c4c783f144fc",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "3867ff63dcc3fb01c21a6983b661279472aa678f40141eefd0d2c4c783f144fc",
+      "excerptCharacters": 352
+    },
+    {
+      "id": "ev:4159016dfcc38f8d729b1356",
+      "sourceType": "web",
+      "url": "https://www.sohu.com/a/991289607_122509615",
+      "providerId": null,
+      "title": "避开游客店！春熙路地道成都火锅评测与推荐，重庆火锅/火锅店/美食/川渝火锅/老火锅/特色美食/火锅，成都火锅品牌分析_孃孃_服务_岳富贵",
+      "publisher": "www.sohu.com",
+      "retrievedAt": "2026-10-25T20:55:39.749398+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "4fec05f2bf2960f8493e9631ecefb138af109278e1e67820ea356cf0c54f1b38",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "4fec05f2bf2960f8493e9631ecefb138af109278e1e67820ea356cf0c54f1b38",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:3458997a1e249f5978c72736",
+      "sourceType": "web",
+      "url": "https://travel.voc.com.cn/news/202610/33989698.html",
+      "providerId": null,
+      "title": "别再乱找春熙路火锅！永兴巷翠孃孃，本地人私藏十余年社区老火锅 - 娱乐 - 华声文旅 - 华声在线",
+      "publisher": "travel.voc.com.cn",
+      "retrievedAt": "2026-10-25T20:55:39.749462+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "e9c88a85cc442502b46319954223a361f35fd47dd05a4c962c43d8f534f80571",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "e9c88a85cc442502b46319954223a361f35fd47dd05a4c962c43d8f534f80571",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:3a2adc43fe67c923a221577d",
+      "sourceType": "web",
+      "url": "https://www.amap.com/place/B0IU1L7PUU",
+      "providerId": null,
+      "title": "五里关火锅(奎星楼店) - 成都市青羊区- 餐饮服务;中餐厅",
+      "publisher": "www.amap.com",
+      "retrievedAt": "2026-10-25T20:55:40.588711+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "dc970b16e9ada96de77bdf839bb7959f269a44bdf3a3b880e27278f28475765f",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "dc970b16e9ada96de77bdf839bb7959f269a44bdf3a3b880e27278f28475765f",
+      "excerptCharacters": 79
+    },
+    {
+      "id": "ev:0718d1eac100c80d638a9a7d",
+      "sourceType": "web",
+      "url": "https://www.dealmoon.com/post/2504400",
+      "providerId": null,
+      "title": "深夜美食放毒：推荐成都排队王五里关火锅 - Dealmoon",
+      "publisher": "www.dealmoon.com",
+      "retrievedAt": "2026-10-25T20:55:40.588828+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "718af8c16a93e30664ca72ca3d8b9f738518892be36585df318ef0da0ae82004",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "718af8c16a93e30664ca72ca3d8b9f738518892be36585df318ef0da0ae82004",
+      "excerptCharacters": 74
+    },
+    {
+      "id": "ev:fe2b24d72c332b973fadc5d3",
+      "sourceType": "web",
+      "url": "https://you.ctrip.com/food/104/134078617.html",
+      "providerId": null,
+      "title": "五里关火锅(奎星楼店)",
+      "publisher": "you.ctrip.com",
+      "retrievedAt": "2026-10-25T20:55:40.588893+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "ec427752fae608dc48dda6662d023b29bb35289ba14a18a46aa1a908c9e226ad",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "ec427752fae608dc48dda6662d023b29bb35289ba14a18a46aa1a908c9e226ad",
+      "excerptCharacters": 79
+    },
+    {
+      "id": "ev:03a7414be5bbdf1887512475",
+      "sourceType": "web",
+      "url": "https://www.youtube.com/watch?v=9C4kIbZydmc",
+      "providerId": null,
+      "title": "緊挨著寬窄巷子、成都出名的美食街：奎星樓街。滿街全是各種美食餐館。我在名店冒椒火辣串串店吃串喝啤酒，7毛錢一個簽子。成都|四川|chengdufood|奎星樓街|窮游|美食街|中國旅游|成都寬窄巷子",
+      "publisher": "www.youtube.com",
+      "retrievedAt": "2026-10-25T20:55:40.588948+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "a87cf9f3516d8c1e6b00259b3863fc7956d81068de9c3ee184e07b0cd0a8f63d",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "a87cf9f3516d8c1e6b00259b3863fc7956d81068de9c3ee184e07b0cd0a8f63d",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:a8971164fc36df4814c2ce48",
+      "sourceType": "web",
+      "url": "https://travel.voc.com.cn/news/202610/33989698.html",
+      "providerId": null,
+      "title": "travel.voc.com.cn",
+      "publisher": "travel.voc.com.cn",
+      "retrievedAt": "2026-10-25T20:55:43.583381+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "80596a03286f1a6fcb464f67cb3cfacfd0239ec2de706cafe3c8a45fab29994c",
+      "verification": "page_extract",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "80596a03286f1a6fcb464f67cb3cfacfd0239ec2de706cafe3c8a45fab29994c",
+      "excerptCharacters": 2174
+    }
+  ],
+  "noWorkspaceWrites": true,
+  "contextUnchanged": true,
+  "createdAt": "2026-10-25T20:56:55.969788+00:00",
+  "brief": {
+    "snapshot": {
+      "version": 10,
+      "trip": {
+        "title": "合成评测 · 朋友美食",
+        "destination": "成都",
+        "startDate": "2026-11-02",
+        "endDate": "2026-11-06",
+        "timezone": "Asia/Shanghai",
+        "preferences": "三位朋友，不早起，重视当地美食和聊天。餐厅尚未选定，不把候选当预约。 一位朋友不吃辣、一位喜欢辣菜，必须兼顾。",
+        "id": "fixture-r1-v1-chengdu-2026-11-02",
+        "createdAt": "2026-11-02T00:00:00Z",
+        "updatedAt": "2026-11-02T00:00:00Z"
+      },
+      "ideas": [
+        {
+          "title": "阅读当地历史并写旅行笔记",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-chengdu-2026-11-02-i0",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "备用室内休息安排",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-chengdu-2026-11-02-i1",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "遇到喜欢的地方多停一会",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-chengdu-2026-11-02-i2",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "activities": [
+        {
+          "title": "睡到自然醒",
+          "date": "2026-11-02",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a0-0",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "找一家面馆",
+          "date": "2026-11-02",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a0-1",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "喝茶聊天",
+          "date": "2026-11-02",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a0-2",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 2,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "火锅候选研究",
+          "date": "2026-11-02",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a0-3",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 3,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "早午餐",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T11:00",
+          "endAt": "2026-11-03T12:30",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a1-0",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "街区慢逛",
+          "date": "2026-11-03",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a1-1",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "美食市场散步",
+          "date": "2026-11-04",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a2-0",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "朋友聚餐",
+          "date": "2026-11-04",
+          "startAt": "2026-11-04T18:00",
+          "endAt": "2026-11-04T20:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a2-1",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "自由探索",
+          "date": "2026-11-05",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a3-0",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "伴手礼与返程",
+          "date": "2026-11-06",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-chengdu-2026-11-02-a4-0",
+          "tripId": "fixture-r1-v1-chengdu-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "suggestions": []
+    },
+    "question": "三位朋友一位不吃辣、一位喜欢辣菜。研究两个成都餐饮候选，兼顾不同口味和不早起偏好。区分高德地点事实、网页体验和你的推断；明确推广证据，不能保证未标推广就是非广告。",
+    "taskId": "r1-v1:chengdu:1:2026-11-02",
+    "mode": "research",
+    "contextHash": "1f9e87d2efd3d5a78cf670f641710036ccd818e0be11a47e6187d906707f5b3b"
+  },
+  "versions": {
+    "deepagents": "0.7.32",
+    "langchain": "1.4.7",
+    "langgraph": "1.2.17",
+    "langsmith": "0.14.12",
+    "langchain-openai": "1.7.2",
+    "tavily-python": "0.8.5"
+  },
+  "commit": "e2c373267a869569d0c0f4f6d66f441301541f25",
+  "sourceFingerprint": "5d48bbf33cfed83ba52763d9b1b6e8367dc154930db2225e8c7abdf390566818",
+  "traceId": "79315639-cd5e-4500-b228-2d6c20cb9597",
+  "traceRunId": "79315639-cd5e-4500-b228-2d6c20cb9597",
+  "knownUsageCostCny": 0.057268,
+  "costCompleteness": "complete_usage",
+  "modelListPriceEstimateCny": 0.057268,
+  "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
+  "traceVerified": true,
+  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/79315639-cd5e-4500-b228-2d6c20cb9597?poll=true",
+  "totalSeconds": 91.762,
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
+}

@@ -1,0 +1,239 @@
+{
+  "runId": "dcf967da-d932-4aa0-bc65-063604a24b50",
+  "taskId": "r1-v1:shanxi:0:2026-11-02",
+  "status": "Fail",
+  "batch": "smoke",
+  "architecture": "B",
+  "mode": "direct",
+  "llmMode": "live",
+  "toolMode": "live",
+  "contextHash": "1410233e58615ac1ee582a4caf3511eebdfe21ed1a93d8ed02748861b3d27bd4",
+  "humanReview": "Pending",
+  "errorType": "StructuredOutputValidationError",
+  "finishReason": "tool_calls",
+  "schemaErrors": [
+    {
+      "loc": [
+        "preferenceMatches"
+      ],
+      "type": "extra_forbidden"
+    },
+    {
+      "loc": [
+        "proposedDate"
+      ],
+      "type": "extra_forbidden"
+    },
+    {
+      "loc": [
+        "tradeoffs"
+      ],
+      "type": "extra_forbidden"
+    }
+  ],
+  "seconds": 24.287,
+  "modelRequests": 3,
+  "inputTokens": 12929,
+  "outputTokens": 1665,
+  "usageRequests": 3,
+  "schemaRepairs": 1,
+  "toolCalls": [
+    "get_trip_snapshot"
+  ],
+  "sourceEvents": [
+    {
+      "tool": "get_trip_snapshot",
+      "status": "OK",
+      "mode": "live"
+    }
+  ],
+  "sourceCounts": {
+    "amap": 0,
+    "web": 0,
+    "extract": 0,
+    "credits": 0
+  },
+  "evidence": [
+    {
+      "id": "ev:d810bf790d35f10596fa7889",
+      "sourceType": "snapshot",
+      "url": null,
+      "providerId": null,
+      "title": "Synthetic evaluation Trip snapshot",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:36:30.939349+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "1c97a1d53eb08434c428408e88524041f7bbff8650179867bf7d6ec85ff3e9f6",
+      "verification": "snapshot",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "1c97a1d53eb08434c428408e88524041f7bbff8650179867bf7d6ec85ff3e9f6",
+      "excerptCharacters": 3297
+    }
+  ],
+  "noWorkspaceWrites": true,
+  "contextUnchanged": true,
+  "createdAt": "2026-10-25T20:36:54.378421+00:00",
+  "brief": {
+    "snapshot": {
+      "version": 10,
+      "trip": {
+        "title": "合成评测 · 山西古建筑摄影",
+        "destination": "太原",
+        "startDate": "2026-11-02",
+        "endDate": "2026-11-06",
+        "timezone": "Asia/Shanghai",
+        "preferences": "独自摄影，关注木构古建和细节，优先太原及晋中可达地点。每天最多两个主要地点，不夜间驾车，不把跨城交通时长当已知。",
+        "id": "fixture-r1-v1-shanxi-2026-11-02",
+        "createdAt": "2026-11-02T00:00:00Z",
+        "updatedAt": "2026-11-02T00:00:00Z"
+      },
+      "ideas": [
+        {
+          "title": "阅读当地历史并写旅行笔记",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-shanxi-2026-11-02-i0",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "备用室内休息安排",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-shanxi-2026-11-02-i1",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "遇到喜欢的地方多停一会",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-shanxi-2026-11-02-i2",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "activities": [
+        {
+          "title": "抵达太原与整理摄影设备",
+          "date": "2026-11-02",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanxi-2026-11-02-a0-0",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "晋祠建筑观察",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T10:00",
+          "endAt": "2026-11-03T12:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanxi-2026-11-02-a1-0",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "整理照片",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T18:00",
+          "endAt": "2026-11-03T19:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanxi-2026-11-02-a1-1",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "sortKey": 1,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "休息与阅读古建资料",
+          "date": "2026-11-04",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanxi-2026-11-02-a2-0",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "保留摄影机动时间",
+          "date": "2026-11-05",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanxi-2026-11-02-a3-0",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "返程",
+          "date": "2026-11-06",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-shanxi-2026-11-02-a4-0",
+          "tripId": "fixture-r1-v1-shanxi-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "suggestions": []
+    },
+    "question": "只读当前旅行：第二天已有几个安排，哪些时间已确定？不要检索，也不要修改。",
+    "taskId": "r1-v1:shanxi:0:2026-11-02",
+    "mode": "direct",
+    "contextHash": "1410233e58615ac1ee582a4caf3511eebdfe21ed1a93d8ed02748861b3d27bd4"
+  },
+  "versions": {
+    "deepagents": "0.7.32",
+    "langchain": "1.4.7",
+    "langgraph": "1.2.17",
+    "langsmith": "0.14.12",
+    "langchain-openai": "1.7.2",
+    "tavily-python": "0.8.5"
+  },
+  "commit": "e2c373267a869569d0c0f4f6d66f441301541f25",
+  "sourceFingerprint": "66b6f130c23fc972048803913acca3740fb153827ee8e4419e5d02b0d069c9e9",
+  "traceId": "dcf967da-d932-4aa0-bc65-063604a24b50",
+  "traceRunId": "dcf967da-d932-4aa0-bc65-063604a24b50",
+  "knownUsageCostCny": 0.014839,
+  "costCompleteness": "complete_usage",
+  "modelListPriceEstimateCny": 0.014839,
+  "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
+  "traceVerified": true,
+  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/dcf967da-d932-4aa0-bc65-063604a24b50?poll=true",
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
+}

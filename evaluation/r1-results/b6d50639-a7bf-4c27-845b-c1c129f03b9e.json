@@ -1,0 +1,844 @@
+{
+  "runId": "b6d50639-a7bf-4c27-845b-c1c129f03b9e",
+  "taskId": "r1-v1:beijing:1:2026-11-02",
+  "status": "Pass",
+  "batch": "smoke",
+  "architecture": "A",
+  "mode": "research",
+  "llmMode": "live",
+  "toolMode": "live",
+  "contextHash": "ea045fb73ea6cc7837a7621584d4f09d937023f317592ddfb395862c568f941b",
+  "humanReview": "Pending",
+  "proposedResult": {
+    "summary": "围绕Trip日期（2026-11-02~06）核对两个候选：中国国家博物馆官网预约须知经全文提取确认，适用于2025-08-01起施行且覆盖11-05；故宫官网淡季与临时闭馆公告涉及11-03，但官网全文提取失败，仅以搜索摘录佐证。两者均须实名预约，Trip中的\"计划\"不等于预约成功。",
+    "candidates": [
+      {
+        "title": "中国国家博物馆（建议安排在2026-11-05）",
+        "rationale": "填补11月5日“自由文化探索”，与11月3日故宫同日不冲突，满足每天最多两个主活动。",
+        "preferenceMatches": [
+          "历史与博物馆主题高度契合",
+          "免费预约，符合两位成人安排"
+        ],
+        "tradeoffs": [
+          "热门时段名额紧张，需提前抢约",
+          "场馆大，参观耗时可能超半天"
+        ],
+        "claims": [
+          {
+            "text": "国博官网“服务/参观预约”页（本次全文提取）：每日9:00—17:00（16:00停止入馆），周一闭馆（法定节假日除外）；观众需求高峰期6月1日至10月31日延长至17:30（16:30停止入馆）。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:512215eb42c058fef346e77e"
+            ]
+          },
+          {
+            "text": "同页预约须知（自2025年8月1日起实施）：实名免费预约，可提前7日内在官网/官方小程序/微信预约；每日分9:00-11:00、11:00-13:30、13:30-16:00三个入馆时段，每日17:00放票；凭证件原件按预约时段从北门核验入馆。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:512215eb42c058fef346e77e"
+            ]
+          },
+          {
+            "text": "2026-11-05为周四且不在6.1-10.31延长开放期，按现行规则推断当日开放至17:00、第三入馆时段止于16:00；未见针对该日的专项公告，建议出行前再查官网公告确认无临时调整。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:512215eb42c058fef346e77e",
+              "ev:06bc0297d86385e8121074c8"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-05",
+        "placeEvidenceRef": "ev:06bc0297d86385e8121074c8"
+      },
+      {
+        "title": "故宫博物院（核对既有11月3日计划）",
+        "rationale": "Trip已有11月3日故宫计划但未预约；核对淡季时间与临时闭馆信息以确认可行性。",
+        "preferenceMatches": [
+          "契合历史博物馆偏好",
+          "已对应行程中11月3日计划"
+        ],
+        "tradeoffs": [
+          "淡季15:30停止入馆，9:00-12:00窗口紧凑",
+          "武英殿关闭，部分专馆不可看"
+        ],
+        "claims": [
+          {
+            "text": "故宫官网导览页搜索摘录：除法定节假日外全年周一闭馆；11月1日至次年3月31日执行淡季时间，入馆8:30、停止入馆15:30、珍宝馆/钟表馆停止入馆15:40。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:67dddf169fd71aa729980554"
+            ]
+          },
+          {
+            "text": "同页公告：延禧宫2026年9月1日至10月31日保护性勘察、11月1日重新开放；武英殿自2026年10月19日起停止开放——对11月3日参观直接适用。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:67dddf169fd71aa729980554"
+            ]
+          },
+          {
+            "text": "第三方汇总与官网公告均称通过“故宫博物院”微信小程序实名预约、提前7天每晚20:00放票、现场不售票；但官网导览页全文提取失败，此预约细节仅有搜索摘录支持。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:a9c24d66a9f70209ed927046",
+              "ev:28f21dd75b42cb0c53276a83"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-03",
+        "placeEvidenceRef": "ev:63d56fceeae9ed70effc02e7"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Trip为2026-11-02至11-06北京行程，11-03上午已有“故宫文化参观计划”（仅安排，非已预约），11-05“自由文化探索”未定时；偏好为历史与博物馆、每天最多两个主活动。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:a8c893f5b9f02177135e802a"
+        ]
+      },
+      {
+        "text": "国博节假日（含周一）可正常开放属个案公告；本Trip日期均为周四/周五等平日，不涉及节假日例外，周一闭馆规则对本Trip日期无直接影响。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:d06ccc8365ab60413b51aa5f"
+        ]
+      }
+    ],
+    "limitations": [
+      "故宫官网Visit.html全文提取返回EXTRACT_UNAVAILABLE，其开放与临时闭馆信息基于官网页搜索摘录，建议出行前在dpm.org.cn公告页复核",
+      "未发现专门针对2026-11-03或11-05的开放公告；11-05国博开放时间为按现行规则的推断",
+      "故宫小程序预约细则（提前7天20:00放票等）来自第三方汇总，未见官网全文确认",
+      "所有预约均未执行，本研究不构成任何预约成功；POI仅验证地点，不验证开放与体验",
+      "第三方网页（museumsky、新浪）规则可能与官方最新公告存在滞后"
+    ],
+    "coverage": [
+      "高德POI检索（国博、故宫及检票口/午门）",
+      "国博官网chnmuseum.cn服务页全文提取（page_extract）",
+      "国博预约小程序页搜索摘录",
+      "故宫官网dpm.org.cn导览页与公告页搜索摘录（全文提取失败）",
+      "第三方攻略/新闻搜索摘录（仅作交叉参考）"
+    ],
+    "status": "partial"
+  },
+  "result": {
+    "summary": "围绕Trip日期（2026-11-02~06）核对两个候选：中国国家博物馆官网预约须知经全文提取确认，适用于2025-08-01起施行且覆盖11-05；故宫官网淡季与临时闭馆公告涉及11-03，但官网全文提取失败，仅以搜索摘录佐证。两者均须实名预约，Trip中的\"计划\"不等于预约成功。",
+    "candidates": [
+      {
+        "title": "中国国家博物馆（建议安排在2026-11-05）",
+        "rationale": "填补11月5日“自由文化探索”，与11月3日故宫同日不冲突，满足每天最多两个主活动。",
+        "preferenceMatches": [
+          "历史与博物馆主题高度契合",
+          "免费预约，符合两位成人安排"
+        ],
+        "tradeoffs": [
+          "热门时段名额紧张，需提前抢约",
+          "场馆大，参观耗时可能超半天"
+        ],
+        "claims": [
+          {
+            "text": "国博官网“服务/参观预约”页（本次全文提取）：每日9:00—17:00（16:00停止入馆），周一闭馆（法定节假日除外）；观众需求高峰期6月1日至10月31日延长至17:30（16:30停止入馆）。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:512215eb42c058fef346e77e"
+            ]
+          },
+          {
+            "text": "同页预约须知（自2025年8月1日起实施）：实名免费预约，可提前7日内在官网/官方小程序/微信预约；每日分9:00-11:00、11:00-13:30、13:30-16:00三个入馆时段，每日17:00放票；凭证件原件按预约时段从北门核验入馆。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:512215eb42c058fef346e77e"
+            ]
+          },
+          {
+            "text": "2026-11-05为周四且不在6.1-10.31延长开放期，按现行规则推断当日开放至17:00、第三入馆时段止于16:00；未见针对该日的专项公告，建议出行前再查官网公告确认无临时调整。",
+            "kind": "inference",
+            "evidenceRefs": [
+              "ev:512215eb42c058fef346e77e",
+              "ev:06bc0297d86385e8121074c8"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-05",
+        "placeEvidenceRef": "ev:06bc0297d86385e8121074c8"
+      },
+      {
+        "title": "故宫博物院（核对既有11月3日计划）",
+        "rationale": "Trip已有11月3日故宫计划但未预约；核对淡季时间与临时闭馆信息以确认可行性。",
+        "preferenceMatches": [
+          "契合历史博物馆偏好",
+          "已对应行程中11月3日计划"
+        ],
+        "tradeoffs": [
+          "淡季15:30停止入馆，9:00-12:00窗口紧凑",
+          "武英殿关闭，部分专馆不可看"
+        ],
+        "claims": [
+          {
+            "text": "故宫官网导览页搜索摘录：除法定节假日外全年周一闭馆；11月1日至次年3月31日执行淡季时间，入馆8:30、停止入馆15:30、珍宝馆/钟表馆停止入馆15:40。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:67dddf169fd71aa729980554"
+            ]
+          },
+          {
+            "text": "同页公告：延禧宫2026年9月1日至10月31日保护性勘察、11月1日重新开放；武英殿自2026年10月19日起停止开放——对11月3日参观直接适用。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:67dddf169fd71aa729980554"
+            ]
+          },
+          {
+            "text": "第三方汇总与官网公告均称通过“故宫博物院”微信小程序实名预约、提前7天每晚20:00放票、现场不售票；但官网导览页全文提取失败，此预约细节仅有搜索摘录支持。",
+            "kind": "fact",
+            "evidenceRefs": [
+              "ev:a9c24d66a9f70209ed927046",
+              "ev:28f21dd75b42cb0c53276a83"
+            ]
+          }
+        ],
+        "proposedDate": "2026-11-03",
+        "placeEvidenceRef": "ev:63d56fceeae9ed70effc02e7"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Trip为2026-11-02至11-06北京行程，11-03上午已有“故宫文化参观计划”（仅安排，非已预约），11-05“自由文化探索”未定时；偏好为历史与博物馆、每天最多两个主活动。",
+        "kind": "fact",
+        "evidenceRefs": [
+          "ev:a8c893f5b9f02177135e802a"
+        ]
+      },
+      {
+        "text": "国博节假日（含周一）可正常开放属个案公告；本Trip日期均为周四/周五等平日，不涉及节假日例外，周一闭馆规则对本Trip日期无直接影响。",
+        "kind": "inference",
+        "evidenceRefs": [
+          "ev:d06ccc8365ab60413b51aa5f"
+        ]
+      }
+    ],
+    "limitations": [
+      "故宫官网Visit.html全文提取返回EXTRACT_UNAVAILABLE，其开放与临时闭馆信息基于官网页搜索摘录，建议出行前在dpm.org.cn公告页复核",
+      "未发现专门针对2026-11-03或11-05的开放公告；11-05国博开放时间为按现行规则的推断",
+      "故宫小程序预约细则（提前7天20:00放票等）来自第三方汇总，未见官网全文确认",
+      "所有预约均未执行，本研究不构成任何预约成功；POI仅验证地点，不验证开放与体验",
+      "第三方网页（museumsky、新浪）规则可能与官方最新公告存在滞后"
+    ],
+    "coverage": [
+      "高德POI检索（国博、故宫及检票口/午门）",
+      "国博官网chnmuseum.cn服务页全文提取（page_extract）",
+      "国博预约小程序页搜索摘录",
+      "故宫官网dpm.org.cn导览页与公告页搜索摘录（全文提取失败）",
+      "第三方攻略/新闻搜索摘录（仅作交叉参考）"
+    ],
+    "status": "partial"
+  },
+  "seconds": 54.231,
+  "modelRequests": 6,
+  "inputTokens": 64600,
+  "outputTokens": 1892,
+  "usageRequests": 6,
+  "schemaRepairs": 0,
+  "deniedTools": [],
+  "toolCalls": [
+    "get_trip_snapshot",
+    "search_places",
+    "web_search",
+    "search_places",
+    "web_search",
+    "read_pages",
+    "read_pages",
+    "web_search"
+  ],
+  "sourceEvents": [
+    {
+      "tool": "get_trip_snapshot",
+      "status": "OK",
+      "mode": "live"
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "live",
+      "results": 3
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    },
+    {
+      "tool": "search_places",
+      "status": "OK",
+      "mode": "live",
+      "results": 3
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    },
+    {
+      "tool": "read_pages",
+      "status": "OK",
+      "mode": "live",
+      "results": 1,
+      "requested": 1
+    },
+    {
+      "tool": "read_pages",
+      "status": "ERROR",
+      "mode": "live",
+      "errorType": "ConnectError"
+    },
+    {
+      "tool": "web_search",
+      "status": "OK",
+      "mode": "live",
+      "results": 4
+    }
+  ],
+  "sourceCounts": {
+    "amap": 2,
+    "web": 3,
+    "extract": 2,
+    "credits": 5
+  },
+  "evidence": [
+    {
+      "id": "ev:a8c893f5b9f02177135e802a",
+      "sourceType": "snapshot",
+      "url": null,
+      "providerId": null,
+      "title": "Synthetic evaluation Trip snapshot",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:55:27.744008+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "da32dd23c250dd7743de0337ba4e86fb61510f9b5c41cb39424e8bf27a59e758",
+      "verification": "snapshot",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "da32dd23c250dd7743de0337ba4e86fb61510f9b5c41cb39424e8bf27a59e758",
+      "excerptCharacters": 2997
+    },
+    {
+      "id": "ev:06bc0297d86385e8121074c8",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B000A83U0P",
+      "title": "中国国家博物馆",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:55:30.302972+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "a4def4771f0f32893f84b3d94f37a5c7fe9cfcb6045bccc46d1ff84d328eb3eb",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B000A83U0P",
+        "name": "中国国家博物馆",
+        "address": "东长安街16号天安门广场东侧",
+        "latitude": 39.905374,
+        "longitude": 116.401304
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "a4def4771f0f32893f84b3d94f37a5c7fe9cfcb6045bccc46d1ff84d328eb3eb",
+      "excerptCharacters": 133
+    },
+    {
+      "id": "ev:53150da4a56df2ea8009b629",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B000A7CRPA",
+      "title": "国家自然博物馆",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:55:30.303030+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "d2bee66b707840b26d306c42707bad3b7189d0d73b6f9a2e16ed47bd87f09905",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B000A7CRPA",
+        "name": "国家自然博物馆",
+        "address": "天桥南大街126号",
+        "latitude": 39.883183,
+        "longitude": 116.399833
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "d2bee66b707840b26d306c42707bad3b7189d0d73b6f9a2e16ed47bd87f09905",
+      "excerptCharacters": 128
+    },
+    {
+      "id": "ev:b63de7228a3b75387b5a6f7b",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0JUDRHL8D",
+      "title": "中国科学家博物馆",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:55:30.303060+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "7471045d9d19e51551df3624f5dad36e0a2b450ee649ef81cf8545780932c1b6",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0JUDRHL8D",
+        "name": "中国科学家博物馆",
+        "address": "北辰东路3号",
+        "latitude": 40.007626,
+        "longitude": 116.398916
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "7471045d9d19e51551df3624f5dad36e0a2b450ee649ef81cf8545780932c1b6",
+      "excerptCharacters": 126
+    },
+    {
+      "id": "ev:75a17370ed43dd7bda534542",
+      "sourceType": "web",
+      "url": "https://www.chnmuseum.cn/cg",
+      "providerId": null,
+      "title": "服务_中国国家博物馆官方网站",
+      "publisher": "www.chnmuseum.cn",
+      "retrievedAt": "2026-10-25T20:55:35.641982+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "dc73edcb5275ed51b18d55fb60aa797e4ed30c82f0b4ea0038274d87c4d0c57f",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "dc73edcb5275ed51b18d55fb60aa797e4ed30c82f0b4ea0038274d87c4d0c57f",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:3cdebde8bf0fc9ec510da0ce",
+      "sourceType": "web",
+      "url": "https://pcticket.chnmuseum.cn",
+      "providerId": null,
+      "title": "中国国家博物馆参观预约",
+      "publisher": "pcticket.chnmuseum.cn",
+      "retrievedAt": "2026-10-25T20:55:35.642073+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "9c0b2988b5bfaf069eeeb32b9cf0348f03702a7f9f24415893d0301f033b699c",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "9c0b2988b5bfaf069eeeb32b9cf0348f03702a7f9f24415893d0301f033b699c",
+      "excerptCharacters": 792
+    },
+    {
+      "id": "ev:d06ccc8365ab60413b51aa5f",
+      "sourceType": "web",
+      "url": "https://xinwen.bjd.com.cn/content/s6809fbede4b0ec1c3d963894.html",
+      "providerId": null,
+      "title": "中国国家博物馆：5月1日至5月5日（含周一）正常开放",
+      "publisher": "xinwen.bjd.com.cn",
+      "retrievedAt": "2026-10-25T20:55:35.642146+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "f8efc20798437df32159f95204f73fdeb9403f89d68749bda7ae6221c78552cd",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "f8efc20798437df32159f95204f73fdeb9403f89d68749bda7ae6221c78552cd",
+      "excerptCharacters": 545
+    },
+    {
+      "id": "ev:b1c4a1672adcc1a9bc7de40f",
+      "sourceType": "web",
+      "url": "https://pcticket.chnmuseum.cn/commentate/general",
+      "providerId": null,
+      "title": "中国国家博物馆",
+      "publisher": "pcticket.chnmuseum.cn",
+      "retrievedAt": "2026-10-25T20:55:35.642198+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "1d40dee02936f3653c28bfd96e58fc51dc82a11322c5297e93d8616d2ef78a8a",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "1d40dee02936f3653c28bfd96e58fc51dc82a11322c5297e93d8616d2ef78a8a",
+      "excerptCharacters": 647
+    },
+    {
+      "id": "ev:63d56fceeae9ed70effc02e7",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B000A8UIN8",
+      "title": "故宫博物院",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:55:37.799366+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "7ad5fc664b7ced2037f256d7a6eed3262e2183fafe250da39c7de9fa3c6c7a3b",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B000A8UIN8",
+        "name": "故宫博物院",
+        "address": "景山前街4号",
+        "latitude": 39.917839,
+        "longitude": 116.397029
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "7ad5fc664b7ced2037f256d7a6eed3262e2183fafe250da39c7de9fa3c6c7a3b",
+      "excerptCharacters": 123
+    },
+    {
+      "id": "ev:1ee8ebfd490fd5022c8fd1d2",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B0FFKL520U",
+      "title": "故宫博物院检票处",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:55:37.799421+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "b8d5a16e8caa6440ce2e2a0bee04972b97698fef1e4d2b7cb5aeb8c2fd8e68a0",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B0FFKL520U",
+        "name": "故宫博物院检票处",
+        "address": "景山前街4号故宫博物院内(南侧)",
+        "latitude": 39.913619,
+        "longitude": 116.396952
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "b8d5a16e8caa6440ce2e2a0bee04972b97698fef1e4d2b7cb5aeb8c2fd8e68a0",
+      "excerptCharacters": 136
+    },
+    {
+      "id": "ev:50286a3a7868f289c6abcbc9",
+      "sourceType": "poi",
+      "url": null,
+      "providerId": "B000A84GDN",
+      "title": "故宫博物院-午门",
+      "publisher": null,
+      "retrievedAt": "2026-10-25T20:55:37.799453+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "6c226e5a08f0acc52498ac83be67cb0bfa06b363fb44193b3014f1347d58009b",
+      "verification": "provider",
+      "place": {
+        "provider": "amap",
+        "providerId": "B000A84GDN",
+        "name": "故宫博物院-午门",
+        "address": "东华门街道景山前街4号故宫博物院内(南侧)",
+        "latitude": 39.913582,
+        "longitude": 116.397228
+      },
+      "commercialStatus": "unknown",
+      "excerptSha256": "6c226e5a08f0acc52498ac83be67cb0bfa06b363fb44193b3014f1347d58009b",
+      "excerptCharacters": 141
+    },
+    {
+      "id": "ev:44e7f8f186e90bafb113d7db",
+      "sourceType": "web",
+      "url": "https://www.museumsky.com/cn/beijing/forbidden-city",
+      "providerId": null,
+      "title": "故宫博物院攻略 2026｜门票预约｜镇馆之宝｜参观路线 - MuseumSky",
+      "publisher": "www.museumsky.com",
+      "retrievedAt": "2026-10-25T20:55:42.121013+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "5b4bf6df20042482678524919a0a8743bf6aafee81cdb77d63f5d36ad90dc581",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "5b4bf6df20042482678524919a0a8743bf6aafee81cdb77d63f5d36ad90dc581",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:a9c24d66a9f70209ed927046",
+      "sourceType": "web",
+      "url": "https://k.sina.com.cn/article_7879777379_1d5abdc6306801k2z2.html?from=news",
+      "providerId": null,
+      "title": "故宫门票怎么预约？2026超全抢票攻略+避坑指南+FAQ|故宫博物院|官方|官网|珍宝馆|实名制_新浪新闻",
+      "publisher": "k.sina.com.cn",
+      "retrievedAt": "2026-10-25T20:55:42.121111+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "fcaf07df69da2f09b3c834577d6e852e1ad0455d9bbfb215a681741b9501f871",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "fcaf07df69da2f09b3c834577d6e852e1ad0455d9bbfb215a681741b9501f871",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:67dddf169fd71aa729980554",
+      "sourceType": "web",
+      "url": "https://www.dpm.org.cn/Visit.html",
+      "providerId": null,
+      "title": "导览 - 故宫博物院",
+      "publisher": "www.dpm.org.cn",
+      "retrievedAt": "2026-10-25T20:55:42.121172+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "f44a9f28745cb803ef73f4daae9bbf8d038918c1e3cc27878e0f56fa81f8cc14",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "f44a9f28745cb803ef73f4daae9bbf8d038918c1e3cc27878e0f56fa81f8cc14",
+      "excerptCharacters": 969
+    },
+    {
+      "id": "ev:28f21dd75b42cb0c53276a83",
+      "sourceType": "web",
+      "url": "https://www.dpm.org.cn/announce_detail/379398.html",
+      "providerId": null,
+      "title": "故宫博物院关于2026年7月27日开放的公告 - 故宫博物院",
+      "publisher": "www.dpm.org.cn",
+      "retrievedAt": "2026-10-25T20:55:42.121230+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "31a365799da68a649b6f5aca90a3606649bd8dc9b677881f7e7cddb29f4d7b7a",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "31a365799da68a649b6f5aca90a3606649bd8dc9b677881f7e7cddb29f4d7b7a",
+      "excerptCharacters": 1045
+    },
+    {
+      "id": "ev:512215eb42c058fef346e77e",
+      "sourceType": "web",
+      "url": "https://www.chnmuseum.cn/cg",
+      "providerId": null,
+      "title": "www.chnmuseum.cn",
+      "publisher": "www.chnmuseum.cn",
+      "retrievedAt": "2026-10-25T20:55:44.822702+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "e7809543b172806e75a06099663fb498771a86cde51a827258ff6346a83c7f21",
+      "verification": "page_extract",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "e7809543b172806e75a06099663fb498771a86cde51a827258ff6346a83c7f21",
+      "excerptCharacters": 1891
+    },
+    {
+      "id": "ev:90c78ff01cae415a36e97372",
+      "sourceType": "web",
+      "url": "https://www.dpm.org.cn/announce_detail/378375.html",
+      "providerId": null,
+      "title": "关于2026年教师和本科院校、专科院校学生主题免费开放日的公告 - 故宫博物院",
+      "publisher": "www.dpm.org.cn",
+      "retrievedAt": "2026-10-25T20:55:57.909343+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "f8f1065abd57b97b0ade213beadcd2a55e97ff49bdd78e91c5bc8ddc3e45b1bf",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "f8f1065abd57b97b0ade213beadcd2a55e97ff49bdd78e91c5bc8ddc3e45b1bf",
+      "excerptCharacters": 1147
+    },
+    {
+      "id": "ev:40955d467e94839fc18d6570",
+      "sourceType": "web",
+      "url": "https://www.dpm.org.cn/announce_detail/372863.html",
+      "providerId": null,
+      "title": "关于2026年故宫博物院年票发售的公告 - 故宫博物院",
+      "publisher": "www.dpm.org.cn",
+      "retrievedAt": "2026-10-25T20:55:57.909447+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "b140f0638b2918b73287f3640814e1df89926050a7c82328fe0f4877f7dbd469",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "b140f0638b2918b73287f3640814e1df89926050a7c82328fe0f4877f7dbd469",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:228425fe1b2f4d9a5d8f0cd8",
+      "sourceType": "web",
+      "url": "https://www.dpm.org.cn/announce/p/2.html",
+      "providerId": null,
+      "title": "故宫公告 - 故宫博物院",
+      "publisher": "www.dpm.org.cn",
+      "retrievedAt": "2026-10-25T20:55:57.909511+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "bbbac53a2fecf8e6ce25c122bbbc25f965b61101b999999ef692ddf1115f0754",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "bbbac53a2fecf8e6ce25c122bbbc25f965b61101b999999ef692ddf1115f0754",
+      "excerptCharacters": 1200
+    },
+    {
+      "id": "ev:2c3cf5322989858f825a62ea",
+      "sourceType": "web",
+      "url": "https://www.dpm.org.cn/announce_detail/378645.html",
+      "providerId": null,
+      "title": "关于2026年环卫工人主题免费开放日的公告 - 故宫博物院",
+      "publisher": "www.dpm.org.cn",
+      "retrievedAt": "2026-10-25T20:55:57.909564+00:00",
+      "publishedAt": null,
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
+      "contentHash": "fcf5f1c78b33a2945b2bdf04a43327ee6e0be53c4b9e06c12f21197bf2348900",
+      "verification": "search_excerpt",
+      "place": null,
+      "commercialStatus": "unknown",
+      "excerptSha256": "fcf5f1c78b33a2945b2bdf04a43327ee6e0be53c4b9e06c12f21197bf2348900",
+      "excerptCharacters": 633
+    }
+  ],
+  "noWorkspaceWrites": true,
+  "contextUnchanged": true,
+  "createdAt": "2026-10-25T20:56:21.226258+00:00",
+  "brief": {
+    "snapshot": {
+      "version": 10,
+      "trip": {
+        "title": "合成评测 · 北京文化旅行",
+        "destination": "北京",
+        "startDate": "2026-11-02",
+        "endDate": "2026-11-06",
+        "timezone": "Asia/Shanghai",
+        "preferences": "两位成人偏爱历史和博物馆，每天最多两个主活动。预约和闭馆规则必须核对官方来源，不把计划等同于预约成功。",
+        "id": "fixture-r1-v1-beijing-2026-11-02",
+        "createdAt": "2026-11-02T00:00:00Z",
+        "updatedAt": "2026-11-02T00:00:00Z"
+      },
+      "ideas": [
+        {
+          "title": "阅读当地历史并写旅行笔记",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-beijing-2026-11-02-i0",
+          "tripId": "fixture-r1-v1-beijing-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "备用室内休息安排",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-beijing-2026-11-02-i1",
+          "tripId": "fixture-r1-v1-beijing-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "遇到喜欢的地方多停一会",
+          "description": "合成用户候选，未预约；仅在用户确认后加入安排。",
+          "place": null,
+          "sourceKind": "manual",
+          "evidence": [],
+          "id": "fixture-r1-v1-beijing-2026-11-02-i2",
+          "tripId": "fixture-r1-v1-beijing-2026-11-02",
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "activities": [
+        {
+          "title": "抵达北京与休息",
+          "date": "2026-11-02",
+          "startAt": "2026-11-02T10:00",
+          "endAt": "2026-11-02T12:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-beijing-2026-11-02-a0-0",
+          "tripId": "fixture-r1-v1-beijing-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "故宫文化参观计划",
+          "date": "2026-11-03",
+          "startAt": "2026-11-03T09:00",
+          "endAt": "2026-11-03T12:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-beijing-2026-11-02-a1-0",
+          "tripId": "fixture-r1-v1-beijing-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "阅读与咖啡休息",
+          "date": "2026-11-04",
+          "startAt": "2026-11-04T14:00",
+          "endAt": "2026-11-04T16:00",
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-beijing-2026-11-02-a2-0",
+          "tripId": "fixture-r1-v1-beijing-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "自由文化探索",
+          "date": "2026-11-05",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-beijing-2026-11-02-a3-0",
+          "tripId": "fixture-r1-v1-beijing-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        },
+        {
+          "title": "返程",
+          "date": "2026-11-06",
+          "startAt": null,
+          "endAt": null,
+          "place": null,
+          "ideaId": null,
+          "notes": "人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。",
+          "id": "fixture-r1-v1-beijing-2026-11-02-a4-0",
+          "tripId": "fixture-r1-v1-beijing-2026-11-02",
+          "sortKey": 0,
+          "createdAt": "2026-11-02T00:00:00Z",
+          "updatedAt": "2026-11-02T00:00:00Z"
+        }
+      ],
+      "suggestions": []
+    },
+    "question": "研究两个北京博物馆或文化场馆候选，针对本 Trip 日期核对官方开放和预约规则，用高德核对地点。不要把旧网页规则或搜索摘要直接说成适用于出行日。",
+    "taskId": "r1-v1:beijing:1:2026-11-02",
+    "mode": "research",
+    "contextHash": "ea045fb73ea6cc7837a7621584d4f09d937023f317592ddfb395862c568f941b"
+  },
+  "versions": {
+    "deepagents": "0.7.32",
+    "langchain": "1.4.7",
+    "langgraph": "1.2.17",
+    "langsmith": "0.14.12",
+    "langchain-openai": "1.7.2",
+    "tavily-python": "0.8.5"
+  },
+  "commit": "e2c373267a869569d0c0f4f6d66f441301541f25",
+  "sourceFingerprint": "5d48bbf33cfed83ba52763d9b1b6e8367dc154930db2225e8c7abdf390566818",
+  "traceId": "b6d50639-a7bf-4c27-845b-c1c129f03b9e",
+  "traceRunId": "b6d50639-a7bf-4c27-845b-c1c129f03b9e",
+  "knownUsageCostCny": 0.056788,
+  "costCompleteness": "complete_usage",
+  "modelListPriceEstimateCny": 0.056788,
+  "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
+  "traceVerified": true,
+  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/b6d50639-a7bf-4c27-845b-c1c129f03b9e?poll=true",
+  "totalSeconds": 57.865,
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
+}
