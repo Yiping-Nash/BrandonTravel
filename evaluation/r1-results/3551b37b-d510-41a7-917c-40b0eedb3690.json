@@ -96,11 +96,13 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:44:50.515660+00:00",
       "publishedAt": null,
-      "excerpt": "{\"version\": 10, \"trip\": {\"title\": \"合成评测 · 上海长者出行\", \"destination\": \"上海\", \"startDate\": \"2026-11-02\", \"endDate\": \"2026-11-06\", \"timezone\": \"Asia/Shanghai\", \"preferences\": \"两位七十岁长者与一位成人，连续步行尽量不超过三十分钟；需要坐下休息、少台阶和便捷卫生间。无障碍设施必须有证据，未知不等于没有或具备。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, \"ideas\": [{\"title\": \"阅读当地历史并写旅行笔记\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-i0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"备用室内休息安排\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-i1\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"遇到喜欢的地方多停一会\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-i2\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}], \"activities\": [{\"title\": \"抵达与酒店休息\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T10:00\", \"endAt\": \"2026-11-02T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a0-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"午休\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T13:00\", \"endAt\": \"2026-11-02T15:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a0-1\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"滨江短程散步\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T09:30\", \"endAt\": \"2026-11-03T10:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a1-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"坐下休息\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T10:00\", \"endAt\": \"2026-11-03T11:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a1-1\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"午休\", \"date\": \"2026-11-04\", \"startAt\": \"2026-11-04T13:00\", \"endAt\": \"2026-11-04T15:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a2-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"家人聚餐\", \"date\": \"2026-11-05\", \"startAt\": \"2026-11-05T12:00\", \"endAt\": \"2026-11-05T13:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a3-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"返程\", \"date\": \"2026-11-06\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a4-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}]}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "c714107f0e3829ff6cfd73b36b1a9637f3e49dfef681967b2e44276f50a1c9bf",
       "verification": "snapshot",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "c714107f0e3829ff6cfd73b36b1a9637f3e49dfef681967b2e44276f50a1c9bf",
+      "excerptCharacters": 3944
     },
     {
       "id": "ev:66c28aa3b7b0adf7c852c782",
@@ -111,7 +113,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:45:03.598157+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B001535BBC\",\"name\":\"上海博物馆(人民广场馆)\",\"address\":\"人民大道201号\",\"latitude\":31.228231,\"longitude\":121.47548}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "c8674fe8edbaec57b006045dcd797c38084e78580b52ce01c1a6fd194b05c85e",
       "verification": "provider",
       "place": {
@@ -122,7 +124,9 @@
         "latitude": 31.228231,
         "longitude": 121.47548
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "c8674fe8edbaec57b006045dcd797c38084e78580b52ce01c1a6fd194b05c85e",
+      "excerptCharacters": 131
     },
     {
       "id": "ev:ab6bb401d27a9ea0b3d3c8a8",
@@ -133,7 +137,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:45:03.598209+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B00157917M\",\"name\":\"上海人民广场\",\"address\":\"人民大道185号\",\"latitude\":31.228827,\"longitude\":121.475213}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "65bd8261da3fa574a22e35a2a04b943e28d9c197d4b1760f8da937715df2003e",
       "verification": "provider",
       "place": {
@@ -144,7 +148,9 @@
         "latitude": 31.228827,
         "longitude": 121.475213
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "65bd8261da3fa574a22e35a2a04b943e28d9c197d4b1760f8da937715df2003e",
+      "excerptCharacters": 126
     },
     {
       "id": "ev:f9ae67874d0401d45b7ae500",
@@ -155,7 +161,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:45:03.598242+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"BV09301496\",\"name\":\"上海博物馆人民广场馆(公交站)\",\"address\":\"上海博物馆人民广场-上海博物馆东馆便民定制公交\",\"latitude\":31.227499,\"longitude\":121.476013}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "a65380f5246ca5cef79cb827bdf72f50de27f3c6abbf0e46c0451b79d4a78297",
       "verification": "provider",
       "place": {
@@ -166,7 +172,9 @@
         "latitude": 31.227499,
         "longitude": 121.476013
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "a65380f5246ca5cef79cb827bdf72f50de27f3c6abbf0e46c0451b79d4a78297",
+      "excerptCharacters": 150
     },
     {
       "id": "ev:c0a15d2b7f3446845edd067a",
@@ -177,7 +185,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:45:03.728862+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B00154DUI6\",\"name\":\"上海世纪公园\",\"address\":\"锦绣路1001号\",\"latitude\":31.215725,\"longitude\":121.552563}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "3add674d20fdf3e547d0b2fdaae34cccb62bc2f10889922afa7e3d03c672afbe",
       "verification": "provider",
       "place": {
@@ -188,7 +196,9 @@
         "latitude": 31.215725,
         "longitude": 121.552563
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "3add674d20fdf3e547d0b2fdaae34cccb62bc2f10889922afa7e3d03c672afbe",
+      "excerptCharacters": 126
     },
     {
       "id": "ev:cfd67485bb0edaed17c33b98",
@@ -199,7 +209,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:45:03.728920+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0FFFD8NUB\",\"name\":\"世纪公园-夏园\",\"address\":\"浦东锦绣路1001号新区世纪公园内(西南角)\",\"latitude\":31.213481,\"longitude\":121.550366}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "d88756d32436e96113734a1a7c7f42a0f56ac22e29d23efbf5a6f39ea6b285f6",
       "verification": "provider",
       "place": {
@@ -210,7 +220,9 @@
         "latitude": 31.213481,
         "longitude": 121.550366
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "d88756d32436e96113734a1a7c7f42a0f56ac22e29d23efbf5a6f39ea6b285f6",
+      "excerptCharacters": 141
     },
     {
       "id": "ev:8d3ce3fadb0eca7595d65961",
@@ -221,7 +233,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:45:03.728951+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"BV10032793\",\"name\":\"世纪公园(地铁站)\",\"address\":\"2号线\",\"latitude\":31.209421,\"longitude\":121.550909}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "973074ddf2ea46f271392d74f3e824ae48f58b7ab0a58b0c0659a285330816a2",
       "verification": "provider",
       "place": {
@@ -232,7 +244,9 @@
         "latitude": 31.209421,
         "longitude": 121.550909
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "973074ddf2ea46f271392d74f3e824ae48f58b7ab0a58b0c0659a285330816a2",
+      "excerptCharacters": 124
     },
     {
       "id": "ev:b02fbcb258cc2446a5abe3ba",
@@ -243,11 +257,13 @@
       "publisher": "www.chinamuseum.org.cn",
       "retrievedAt": "2026-10-25T20:45:30.065572+00:00",
       "publishedAt": null,
-      "excerpt": "可增设志愿者服务，接应视障人士打车或步行至博物馆门口。 中国博物馆无障碍建设指南 40 4.2.1.2 路线推荐 博物馆应根据不同访客的身体状况和需求特点，结合馆藏文物和展览，推荐合 适的无障碍游览路线。 可制作博物馆感官地图，标出无障碍卫生间、电梯、座椅、升降台、育婴室、 安静室、低位服务台等设施，以及自然/ 人造光源区域、人群拥挤/ 稀疏区域、环 境吵闹/ 安静区域、温度偏高/ 偏低区域、气味强烈区域等。 可为轮椅使用者、老年人、带婴幼儿的家庭访客推荐包含较少楼梯和直梯的游 览路线。 4.2.2 访问中 4.2.2.1 入口接待 （1）服务目标 主动识别并回应访客需求，帮助其快速建立环境安全感，从容地访问博物馆。 （2）服务措施 基础配置：提供租借轮椅、折叠座椅、婴儿车停放区、低位服务台、行李寄存 服务等。物理设施、信息标识参照本指南相关章节。 进阶配置：提供基础手语卡片、多语种实时翻译设备、环路助听系统、无障碍 信息台、AI 智能接待系统、个性化欢迎服务等。 服务要点：微笑问候，主动询问需求；简要介绍场馆布局与无障碍设施设备并 [...] 到设施安全方便，道路通畅可用。 中国博物馆无障碍建设指南 14 （5）博物馆场地、建筑内部及其之间均应提供连贯的无障碍通行流线。无障 碍通行流线需能到达每个无障碍出入口。博物馆主要出入口及无障碍出入口应设置 无障碍设施导引地图，宜设置无障碍触摸地图、语音提示及明显的盲道辅助指引。 （6）博物馆场地内的主要人行通道有高差或台阶时，应设置轮椅坡道或无障 碍电梯。 （7）通往无障碍服务设施的通道应为无障碍通道。 （8）无障碍通道及无障碍设施的地面应平整、防滑、反光小或无反光，并满 足便于轮椅通行的地面硬度，避免设置厚地毯。 2.1.1.1 无障碍通行设施 （1）博物馆建筑物主要出入口处应设置无障碍出入口。应优先选用平坡出入 口作为无障碍出入口的类型。 博物馆运营期间， 无障碍入口和出口须保持同时开闭。 （2）有楼层的博物馆建筑应设置至少1 部无障碍电梯。电梯位置应设无障碍 标志。电梯候梯厅及轿厢内应具备语音播报功能。无障碍电梯轿厢内部设施应满足 无障碍要求。 （3） 博物馆内外停车场应设置无障碍机动车停车位和残障人士专用车停车位， 门口处应设置无障碍机动车上落客区。 2.1.1.2 [...] 2.1.1.2 无障碍服务设施 （1）博物馆应在男、女公共卫生间附近设置至少1 个独立的无障碍卫生间， 或设置满足无障碍要求的公共卫生间。 （2）为儿童服务的展厅/ 体验馆或活动室/ 教室等附近的公共卫生间应便利 儿童使用，有条件的博物馆可在附近设置独立的家庭卫生间。 （3） 博物馆应设置至少1 处育婴室， 设置位置应遵循 “安全性、 卫生性、 私密性、 便捷性”的总体原则。 （4）应在博物馆小剧场、报告厅、影院、餐厅、教室等空间设",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "0d5b6266705f076dd91759efb6dbec7d44746b1de4ccd4033a7e739cc3e4400d",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "0d5b6266705f076dd91759efb6dbec7d44746b1de4ccd4033a7e739cc3e4400d",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:a1d872520373eb711318833a",
@@ -258,11 +274,13 @@
       "publisher": "www.chinaclzl.com",
       "retrievedAt": "2026-10-25T20:45:30.065677+00:00",
       "publishedAt": null,
-      "excerpt": "设施提升 突破障碍重重\n\n近年来，三峡博物馆在物理无障碍设施上投入了大量资源，进行全面改造，优化馆内外坡道坡度，确保轮椅通行顺畅；修复并启用无障碍电梯，残障观众可直达各展厅。同时在检票口设有宽闸机，安检设施设置无障碍通道，确保轮椅使用者等能顺畅通行。无障碍电梯、无障碍卫生间等设施一应俱全，为残障人士提供了极大的便利。同时，博物馆还免费提供轮椅、拐杖、放大镜，设置电梯低位按钮、触摸电子屏信息介绍等，以适应不同身高和身体状况的参观者。这些改进让残障人士从地铁站到展厅的全程实现“零障碍”，体现了博物馆的“平等参与”理念。\n\n“博@你 重博志愿者暖心活动”现场\n\n多感官体验 打破信息壁垒\n\n据统计，我国有超过2000万残障人士，其中一些人因教育水平和识字能力的限制，在理解传统的展览上遇到困难，这不仅影响了他们获取展览信息的能力，也增加了他们对文化场所的疏远感。\n\n让导赏更有温度 [...] 展览中超过90%的展品都是可触摸的，这些可触摸的展品根据馆藏原件1∶1复制，讲解员讲述文物背后的故事的同时，引导他们亲手触摸，结合触觉体验与语言描述，感受了解历史文化。此外可触摸展品前的地面设置了凸点指示，并保证不同身高和轮椅观众的触摸高度及通过空间。在展览开幕当天，来自重庆市盲协的20余名视障儿童在家长的陪伴下进行了无障碍参观的尝试。值得惊喜的是超过95%的视障观众表示，这是他们第一次清晰地感知到文物的材质、花纹和轮廓，是通过再多的语言描述都无法建立的具象化感知。\n\n触摸画像砖（复制品）\n\n公众共建 提升无障碍意识\n\n积极参与“无障碍山城”项目，发起“无障碍友好地图”共建活动。公众通过打卡认证的方式检验设施，标注无障碍友好场所，最终形成覆盖全城的无障碍地图，助力残障人士出行。三峡博物馆联合重庆市残联、公益组织定期举办无障碍体验活动，邀请残障人士担任“测评官”，收集反馈以持续优化服务。 [...] 让导赏更有温度\n\n手语是听障人士与世界沟通的桥梁。三峡博物馆与重庆市残联、市聋人协会和专业的聋人团队等紧密合作，为听障观众提供手语讲解视频，通过扫码即可免费观看，实现无障碍信息获取。听障观众对手语视频高度评价，称视频制作精良、手语翻译准确，使他们能完全理解博物馆展品的深层内容。\n\n除了线上手语视频外，博物馆还配备专业手语讲解员。为不断精进手语讲解业务水平，去年三峡博物馆还主办了首届成渝双城文博艺术手语讲解大赛。博物馆通过线上线下的手语讲解模式，为听障观众提供了更优质的文化体验。\n\n让展览可触可感\n\n展览是博物馆的灵魂，如何让残障人士获得展览和展品信息，一直是三峡博物馆思考的方向。针对视障和肢障观众，特别策划推出“不问不知——博物馆里的为什么？”展览。展览中的无障碍展线特别面向不同身高的观众、视障观众和肢障观众进行了包容性的设计处理，此外在展线内还设置了可触摸的无障碍导览图，在满足普通观",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "cdadc50d34b8bf6499bbc83e30002c700023ca4edc543688d967fae352535c33",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "cdadc50d34b8bf6499bbc83e30002c700023ca4edc543688d967fae352535c33",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:c28bae4d40d5bbf45a78905d",
@@ -273,11 +291,13 @@
       "publisher": "www.mocanyc.org",
       "retrievedAt": "2026-10-25T20:45:30.065749+00:00",
       "publishedAt": null,
-      "excerpt": "# Museum of Chinese in America\n\n# 无障碍参观\n\n如需了解更多信息，或对如何满足您的特殊需求有疑问，请致电(855) 955-MOCA，或发送电子邮件至 access@mocanyc.org。\n\n## 抵达博物馆\n\n坚尼街（Canal Street）上的6号线地铁站有无障碍设施：直达电梯位于坚尼街和拉菲尔街（Lafayette Street）的东北角（北向行车线路）和西北角（南向行车线路）。附近其他地铁线路（N、R、Q、J、Z）的地下通道没有无障碍设施。\n\n博物馆毗邻M9、M15、M103路公交车站。\n\n如需了解MTA交通网络中的其他无障碍站点，请访问MTA无障碍交通指南。\n\n## 行动不便者\n\n轮椅使用者和其他需要避开楼梯的参观者可以无障碍进入博物馆。博物馆位于中央街（Centre Street）215号的入口可供轮椅进入。博物馆也免费提供轮椅，如需预约轮椅使用或希望博物馆为轮椅使用者在参观博物馆过程中提供一位陪护（请您尽量提前告知），请致电(855) 955-MOCA或发送电子邮件至 access@mocanyc.org。 [...] 洗手间位于地下一层，可乘坐无障碍电梯抵达。\n\n## 社交情景故事以及参观准备工作\n\n我们的社交情景故事描绘了参观博物馆的过程当中可能涉及的方方面面，前来参观的自闭症谱系障碍的儿童可以通过这些社交情景故事，了解展品和各项服务。请点击这里访问社交情景故事 。\n\n## 聋人或听障人士\n\n对于展览中部分核心的视频和口述历史资料，我们提供相应的阅读文字。\n\n如参与活动和导览时需要ASL美国手语翻译的陪同，或希望参与私人ASL翻译导览，请至少提前两周联系我们。请邮件联系 access@mocanyc.org。\n\n## Blind or Low Vision\n\n参观者可以向我们预约特别导览，由一位专业教育人员带领参观者探索博物馆教学收藏中的精选文物和教具，了解我们的核心展览内容。整个导览整合了详细的描述、触觉/触摸的展品以及展览架构。前台也提供大号字体版本的导览手册和展品标签。如需预约参观，请至少提前三周发送电子邮件至 <access@mocanyc.org> 或致电 (855) 955-MOCA 。\n\n请注意：出于保护展出的文物和艺术品的需要，核心展区的灯光可能会被调暗。\n\n## 家庭活动 [...] ## 家庭活动\n\n我们每周六的“创造MOCA”（MOCACREATE）活动无需预约，欢迎家庭、有发展障碍或学习障碍的儿童以及自闭症谱系障碍的儿童参加。能力不同、学习风格各异的儿童和成人都可以享受提供了多种知觉体验的工作坊，包括凸出触感的互动机会和艺术创作活动。每个月，“创造MOCA”都将探索一个全新的主题！购买博物馆门票可免费参与；点击这里了解更多信息。\n\n## 学校或社区团体\n\n我们的参观和教育项目可根",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "c0a36014a8386e047abbdfc07b3d6cafd77dbeab76f36bbcf9d3120f3bdb532e",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "c0a36014a8386e047abbdfc07b3d6cafd77dbeab76f36bbcf9d3120f3bdb532e",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:3f6b87132d8b587a599e176c",
@@ -288,11 +308,13 @@
       "publisher": "unesdoc.unesco.org",
       "retrievedAt": "2026-10-25T20:45:30.065808+00:00",
       "publishedAt": null,
-      "excerpt": "Image 1: UNESCO UNESDOC Digital Library\n\nVisit unesco.org\n\nAccessibility\n\nChange language \n\nEnglish\n\nEnglish\n\nFrançais\n\nEspañol\n\nрусский\n\nعربى\n\n中文\n\nCollections\n\nExplore\n\nResources\n\nAbout\n\nperson\n\n   Notice\n\n# Museums for All innovative practices in accessibility and inclusion: 2024 call for good practices of universal accessibility among museums in China; collection of selected case studies (chi)\n\n## Notice header\n\nImage 2\n\nOnline [...] ©UNESCO 2026\n\nWe use cookies on this site to enhance your user experience. For more information on how we use cookies, read our privacy notice.\n\nContinue\n\nImage 4 [...] favorite_border Favourites playlist_add Add share Share\n\n## Notice content\n\n## Access\n\n## Record\n\n### Full text\n\n### Epub Document\n\n### Source document\n\nImage 3: UNESCO\n\nDisclaimer of use\n\nWebsite Privacy Notice\n\nUNESCO Name & Logo\n\nFAQ\n\nQuery list\n\nAccess to Information\n\nEnvironmental and Social Policies\n\nProtection of human rights : Procedure 104\n\nScam alert\n\nReport Fraud, Corruption or other Misconduct\n\n©UNESCO 2026",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "9d786be6880db1c184d8414be1087e80db9d6b25d4c97d4e17e6b5d38e1a2b55",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "9d786be6880db1c184d8414be1087e80db9d6b25d4c97d4e17e6b5d38e1a2b55",
+      "excerptCharacters": 1032
     }
   ],
   "noWorkspaceWrites": true,
@@ -471,5 +493,6 @@
   "modelListPriceEstimateCny": 0.060429,
   "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
   "traceVerified": true,
-  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/3551b37b-d510-41a7-917c-40b0eedb3690?poll=true"
+  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/3551b37b-d510-41a7-917c-40b0eedb3690?poll=true",
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
 }

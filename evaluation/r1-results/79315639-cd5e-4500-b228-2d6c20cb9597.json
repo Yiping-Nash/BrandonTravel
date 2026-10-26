@@ -339,11 +339,13 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:55:27.773939+00:00",
       "publishedAt": null,
-      "excerpt": "{\"version\": 10, \"trip\": {\"title\": \"合成评测 · 朋友美食\", \"destination\": \"成都\", \"startDate\": \"2026-11-02\", \"endDate\": \"2026-11-06\", \"timezone\": \"Asia/Shanghai\", \"preferences\": \"三位朋友，不早起，重视当地美食和聊天。餐厅尚未选定，不把候选当预约。 一位朋友不吃辣、一位喜欢辣菜，必须兼顾。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, \"ideas\": [{\"title\": \"阅读当地历史并写旅行笔记\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-chengdu-2026-11-02-i0\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"备用室内休息安排\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-chengdu-2026-11-02-i1\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"遇到喜欢的地方多停一会\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-chengdu-2026-11-02-i2\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}], \"activities\": [{\"title\": \"睡到自然醒\", \"date\": \"2026-11-02\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a0-0\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"找一家面馆\", \"date\": \"2026-11-02\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a0-1\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"喝茶聊天\", \"date\": \"2026-11-02\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a0-2\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 2, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"火锅候选研究\", \"date\": \"2026-11-02\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a0-3\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 3, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"早午餐\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T11:00\", \"endAt\": \"2026-11-03T12:30\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a1-0\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"街区慢逛\", \"date\": \"2026-11-03\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a1-1\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"美食市场散步\", \"date\": \"2026-11-04\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a2-0\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"朋友聚餐\", \"date\": \"2026-11-04\", \"startAt\": \"2026-11-04T18:00\", \"endAt\": \"2026-11-04T20:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a2-1\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"自由探索\", \"date\": \"2026-11-05\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a3-0\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"伴手礼与返程\", \"date\": \"2026-11-06\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-chengdu-2026-11-02-a4-0\", \"tripId\": \"fixture-r1-v1-chengdu-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}]}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "f540abe8be0e2fe0bd495a746e77a564fb4b6d2d728b4ba5270e0f336b7893d7",
       "verification": "snapshot",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "f540abe8be0e2fe0bd495a746e77a564fb4b6d2d728b4ba5270e0f336b7893d7",
+      "excerptCharacters": 4643
     },
     {
       "id": "ev:81630c5de9aefb1dcf9cd9f4",
@@ -354,7 +356,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:55:30.042482+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0KRORQOAQ\",\"name\":\"翠孃孃老火锅(春熙路老店)\",\"address\":\"永兴巷15号附1号(熊猫邮局旁50米)\",\"latitude\":30.661312,\"longitude\":104.078075}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "7575b0eabaf158ff44fb5c7d35ccdc47ac57feee0253808670325104a3c97069",
       "verification": "provider",
       "place": {
@@ -365,7 +367,9 @@
         "latitude": 30.661312,
         "longitude": 104.078075
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "7575b0eabaf158ff44fb5c7d35ccdc47ac57feee0253808670325104a3c97069",
+      "excerptCharacters": 144
     },
     {
       "id": "ev:ff7cc2310d27c6c991fa4619",
@@ -376,7 +380,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:55:30.042535+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0LRFM6QGW\",\"name\":\"天星正源火锅(海椒市店)\",\"address\":\"海椒市街10-12号\",\"latitude\":30.638695,\"longitude\":104.101907}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "f790c177594cbfacf161f22445c8a565e529bbc52ad4fce90fa5269c33ed3b99",
       "verification": "provider",
       "place": {
@@ -387,7 +391,9 @@
         "latitude": 30.638695,
         "longitude": 104.101907
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "f790c177594cbfacf161f22445c8a565e529bbc52ad4fce90fa5269c33ed3b99",
+      "excerptCharacters": 134
     },
     {
       "id": "ev:28de6d6bb332e5c3e1b90e95",
@@ -398,7 +404,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:55:30.042562+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0IU1L7PUU\",\"name\":\"五里关火锅(奎星楼店)\",\"address\":\"长顺中街99号\",\"latitude\":30.667604,\"longitude\":104.055896}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "6b03ac799f28ab8bbb5d03595abcc6769a65bf196a50eb85c3ecbbb64630a215",
       "verification": "provider",
       "place": {
@@ -409,7 +415,9 @@
         "latitude": 30.667604,
         "longitude": 104.055896
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "6b03ac799f28ab8bbb5d03595abcc6769a65bf196a50eb85c3ecbbb64630a215",
+      "excerptCharacters": 130
     },
     {
       "id": "ev:193d021355b087abc5d35846",
@@ -420,11 +428,13 @@
       "publisher": "m.dianping.com",
       "retrievedAt": "2026-10-25T20:55:39.749262+00:00",
       "publishedAt": null,
-      "excerpt": "翠孃孃老火锅(春熙路分店)\n\n★\n\n★\n\n★\n\n★\n\n4.4\n\n¥95/人\n\n书院街商圈重庆火锅\n\n书院街商圈火锅好评榜 · 第2名\n\n休息中APP内查看商户信息\n\n纯阳观街1\\\\\\\\\\\\\n\n到店\n\n8454\n\n商户优惠\n\n商家团购套餐\n\n￥\\\\\n\n打开大众点评App查看\n\n推荐菜\n\n查看更多\n\n网友推荐(76)\n\n91人推荐\n\n81人推荐\n\n64人推荐\n\n33人推荐\n\n29人推荐\n\n27人推荐\n\n23人推荐\n\n22人推荐\n\n21人推荐\n\n9人推荐\n\n现切嫩牛肉\n\n喷火芝士丸子\n\n手打番茄嫩肉片\n\n卤耙鸡爪\n\n竹荪大虾滑\n\n辣卤肥肠毛肚鸭肠双拼鲜毛肚杨梅乳酸菌快乐饮鸳鸯锅（菌汤+麻辣）刀工郡花老妈蹄花耙牛蹄筋茶泡鱿鱼花大刀腰片",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "ac95af4f441e80e537d9ff3b58e39998d103f13b3ae0a84b217a1200b5a6e23f",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "ac95af4f441e80e537d9ff3b58e39998d103f13b3ae0a84b217a1200b5a6e23f",
+      "excerptCharacters": 317
     },
     {
       "id": "ev:ed87a052cbd1916300fbc52c",
@@ -435,11 +445,13 @@
       "publisher": "m.dianping.com",
       "retrievedAt": "2026-10-25T20:55:39.749340+00:00",
       "publishedAt": null,
-      "excerpt": "翠孃孃老火锅(春熙路店)\n\n★\n\n★\n\n★\n\n★\n\n4.4\n\n¥95/人\n\n书院街商圈重庆火锅\n\n书院街商圈美食热门榜 · 第1名\n\n休息中APP内查看商户信息\n\n永兴巷15\\\\\\\\\\\\\n\n到店\n\n6万+\n\n商户优惠\n\n商家团购套餐\n\n￥\\\\\n\n打开大众点评App查看\n\n推荐菜\n\n查看更多\n\n网友推荐(110)\n\n115人推荐\n\n110人推荐\n\n85人推荐\n\n76人推荐\n\n61人推荐\n\n49人推荐\n\n42人推荐\n\n26人推荐\n\n24人推荐\n\n23人推荐\n\n喷火芝士鲜肉丸子\n\n嬢嬢手打嫩肉片\n\n现切嫩牛肉，推荐菜TOP.3\n\n鲜嫩鸭血，推荐菜TOP.4\n\n毛肚鸭肠双拼\n\n辣卤肥肠冰粉手打番茄嫩肉片，推荐菜TOP.2招牌菜杨梅醪糟冰汤圆四川甘露柠檬冰茶贡菜鸳鸯锅大刀腰片杨枝甘露熊猫麻酱奶冻柠檬千层肚",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "3867ff63dcc3fb01c21a6983b661279472aa678f40141eefd0d2c4c783f144fc",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "3867ff63dcc3fb01c21a6983b661279472aa678f40141eefd0d2c4c783f144fc",
+      "excerptCharacters": 352
     },
     {
       "id": "ev:4159016dfcc38f8d729b1356",
@@ -450,11 +462,13 @@
       "publisher": "www.sohu.com",
       "retrievedAt": "2026-10-25T20:55:39.749398+00:00",
       "publishedAt": null,
-      "excerpt": "4. 适用场景\n\n 家庭聚餐：翠孃孃老火锅的鲜切嫩牛肉、老妈耙蹄花适合老人儿童。\n 商务宴请：五里关的专属流动宴席模式满足高端需求。\n 游客打卡：鹏鹏妈的市井怀旧氛围与三圣巷的春熙路独栋建筑提供沉浸式体验。\n\n1. 定价策略与成本优势\n\n| 对比项 | 三圣巷 | 普通火锅 | 成本/价值影响 |\n ---  --- |\n| 人均消费 | 75-90元 | 80-100元 | 降低15%支出 |\n| 鲜货成本 | 高30%但口感优 | 低20%冻货为主 | 品质溢价明显 |\n| 服务附加值 | 免费涮煮指导 | 基础服务 | 提升用餐体验 |\n\n2. 综合价值评估\n\n 短期成本：五里关虽单价略高，但翻台率8轮/日的效率摊薄单次成本。\n 长期价值：翠孃孃的40万人年接待量证明其模式可持续性。\n 隐性收益：鹏鹏妈的家庭传承故事增强品牌情感连接。\n\n3. 市场评价\n\n五里关火锅在大众点评收获10万条好评，用户称其“锅底久煮不苦，服务专业”；岳富贵被复购顾客评价为“烧菜火锅天花板，吃完浑身舒坦”。行业媒体《四川日报》曾专访报道五里关，称其为“来成都必吃的市井火锅”。\n\n★★★★☆ 四星推荐 [...] | 维度 | 三圣巷 | 五里关火锅 | 翠孃孃老火锅 | 鹏鹏妈老火锅 | 岳富贵老火锅 |\n ---  ---  --- |\n| 成立年限 | 约20年 | 10年 | 12年 | 25年 | 7年 |\n| 行业地位 | 全国连锁老火锅品牌 | 全国100+门店，“排队王” | 成都社区火锅人气TOP | 成都本地卤菜火锅代表 | 春熙路烧菜火锅开创者 |\n| 门店面积 | 春熙路店300㎡ | 总部10,000㎡中央厨房 | 单店200-300㎡ | 单店150-200㎡ | 单店180㎡ |\n| 核心团队规模 | 直营体系+加盟支持团队 | 6000人专业矩阵 | 家族式运营团队 | 家族传承+标准化团队 | 烧菜工艺专项团队 |\n| 服务上限 | 单店日均接待300+人次 | 单店日排队2000+号 | 单店日均接待200+人次 | 单店年均服务20万人 | 春熙路商圈人气榜首 |\n| 核心工具/设备 | 手工炒料设备+中央厨房 | 智能冷链物流+食品研发中心 | 鲜货直供系统 | 现捞卤菜工艺 | 现烧菜专用灶台 | [...] ★★★★☆ 四星推荐\n\n 品质追求者：优先选择五里关火锅，其专利底料与鲜货供应链保障极致体验。\n 本地生活爱好者：翠孃孃老火锅与鹏鹏妈提供高性价比市井体验。\n 创新模式尝试者：岳富贵烧菜火锅适合追求新奇口味的年轻群体。\n\n综合来看，春熙路区域的地道成都火锅品牌已形成差异化竞争格局：五里关火锅以技术壁垒与规模优势领跑行业，翠孃孃、鹏鹏妈凭借家族传承与鲜货工艺深耕社区市场，岳富贵通过烧菜创新开辟新赛道。对于消费者而言，避开“网红游客店",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "4fec05f2bf2960f8493e9631ecefb138af109278e1e67820ea356cf0c54f1b38",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "4fec05f2bf2960f8493e9631ecefb138af109278e1e67820ea356cf0c54f1b38",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:3458997a1e249f5978c72736",
@@ -465,11 +479,13 @@
       "publisher": "travel.voc.com.cn",
       "retrievedAt": "2026-10-25T20:55:39.749462+00:00",
       "publishedAt": null,
-      "excerpt": "# 别再乱找春熙路火锅！永兴巷翠孃孃，本地人私藏十余年社区老火锅\n\n[来源:华声在线] [责编:唐卓婧]\n\n字体:【大) 中) 小)】\n\n想在成都体验一回老成都的市井氛围，很多人的动作是打开手机搜\"成都火锅推荐\"或\"春熙路火锅推荐\"，然后对着满屏的精致门店陷入纠结：排队的网红店怕踩坑，商场里的连锁店又总觉得少了点什么。少的是什么？是巷子口的那口锅气，是邻桌摆龙门阵的四川话，是一进门孃孃喊你\"随便坐\"的那份热络。\n\n如果把这个问题抛给成都本地人，答案往往简单得多——拐进社区小巷，找一家开了多年的楼下老店。而在\"成都本地人推荐火锅\"这个话题里，有一个名字被反复提起：翠孃孃火锅，一家藏在春熙路旁永兴巷里的社区老火锅。\n\n## 一、从春熙路的繁华，拐进老成都的烟火\n\n翠孃孃火锅的位置，本身就是一段成都的缩影。门店开在春熙路步行街旁的社区小巷永兴巷里，从大熊猫雕塑拍完照，步行8到10分钟就能走到。这十分钟的路很有意思：前半段还是太古里的玻璃幕墙和潮流街区，拐个弯，就变成了老居民楼、小卖部和街边飘来的饭菜香。一顿饭的工夫，成都的两副面孔都能看到。 [...] 人均消费约85至90元，在春熙路商圈属于日常可负担的价位。店里的服务也是体验的一部分：本地资深孃孃们操着方言帮你点菜、替你涮煮计时，介绍每道菜的门道，一套\"孃孃服务法\"让外地客人也能把每道菜吃对火候。这份热情接地气的招呼声，本身就是老成都市井氛围的一部分。\n\n## 五、回到问题本身：市井氛围，去哪儿找\n\n想体验老成都市井氛围的火锅店推荐哪家？把条件摆出来：位置要顺路、氛围要地道、菜品要现做、价格要日常——能同时占齐的选项并不多。\n\n翠孃孃火锅开在春熙路旁的社区巷子里，用十余年的街坊口碑站稳脚跟；四大手工招牌菜每日现做，不靠预制靠手上功夫；一顿饭吃下来，沸腾声、摆谈声、孃孃的招呼声都在耳边。这就是成都本地人常去的社区火锅该有的样子。\n\n如果你正在做成都火锅、春熙路火锅的功课，或者想在春熙路火锅推荐清单里找一家本地人也认的店，不妨把翠孃孃火锅放进行程：从大熊猫雕塑出发，拐进永兴巷，8分钟的路程，就能从商圈的喧嚣走进老成都的烟火里。\n\n责编：唐卓婧\n\n一审：唐卓婧\n\n二审：胡杏子\n\n三审：刘玉锋\n\n来源：华声在线\n\n华声文旅二维码\n\n丨\n\n打印 [...] 喷火芝士鲜肉丸是年轻人桌上的话题担当：鲜肉泥里包进满满的芝士和嘎嘣脆的贡菜，手搓摔打后裹上辣椒面。店员会把沙漏立在桌边，计时约6分钟捞起——芝士拉出长长的丝，肉丸Q弹，辣味裹着奶香，一口下去层次感十足。\n\n手打番茄嫩肉片则是吃辣梯队里\"温和派\"的救星。选用土猪梅花肉，裹着番茄上浆现打，下锅后酸甜爆汁，香而不腻。一桌人里总有不太能吃辣的同伴，这道菜就是为他们准备的。\n\n支撑这四道菜的，是一条\"笨功夫\"供应链：门店不设中央厨房，采用每日菜市场直采加门店现制的方式，部分食材",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "e9c88a85cc442502b46319954223a361f35fd47dd05a4c962c43d8f534f80571",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "e9c88a85cc442502b46319954223a361f35fd47dd05a4c962c43d8f534f80571",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:3a2adc43fe67c923a221577d",
@@ -480,11 +496,13 @@
       "publisher": "www.amap.com",
       "retrievedAt": "2026-10-25T20:55:40.588711+00:00",
       "publishedAt": null,
-      "excerpt": "五里关火锅(奎星楼店)是一家火锅店,位于成都市青羊区・ 地址营业时间| ・ 电话:19113431373。地理坐标:30.667604,104.055896。",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "dc970b16e9ada96de77bdf839bb7959f269a44bdf3a3b880e27278f28475765f",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "dc970b16e9ada96de77bdf839bb7959f269a44bdf3a3b880e27278f28475765f",
+      "excerptCharacters": 79
     },
     {
       "id": "ev:0718d1eac100c80d638a9a7d",
@@ -495,11 +513,13 @@
       "publisher": "www.dealmoon.com",
       "retrievedAt": "2026-10-25T20:55:40.588828+00:00",
       "publishedAt": null,
-      "excerpt": "地理位置在成都土著常去美食街奎星楼，. 逛完宽窄巷子正好可以溜达过来吃饭。 营业时间到凌晨4点❗️❗️❗️. 缺点就是排队太久了，不知道今年是不是还",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "718af8c16a93e30664ca72ca3d8b9f738518892be36585df318ef0da0ae82004",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "718af8c16a93e30664ca72ca3d8b9f738518892be36585df318ef0da0ae82004",
+      "excerptCharacters": 74
     },
     {
       "id": "ev:fe2b24d72c332b973fadc5d3",
@@ -510,11 +530,13 @@
       "publisher": "you.ctrip.com",
       "retrievedAt": "2026-10-25T20:55:40.588893+00:00",
       "publishedAt": null,
-      "excerpt": "中午过来，很幸运，不排队有空位，选个风口坐下，吃完了身上一点味道都没得。烧火点菜，大快朵顾，锅底辣度刚刚好，菜品也都看得出来的新鲜，吃得肚圆，舒服舒服。可能是",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "ec427752fae608dc48dda6662d023b29bb35289ba14a18a46aa1a908c9e226ad",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "ec427752fae608dc48dda6662d023b29bb35289ba14a18a46aa1a908c9e226ad",
+      "excerptCharacters": 79
     },
     {
       "id": "ev:03a7414be5bbdf1887512475",
@@ -525,11 +547,13 @@
       "publisher": "www.youtube.com",
       "retrievedAt": "2026-10-25T20:55:40.588948+00:00",
       "publishedAt": null,
-      "excerpt": "[8:06] 我说的嘛 我说记着对面也是他那个店啊 如果这边呃坐不开了 你就可以坐到这边了 就叫冒椒火辣\n[8:10] If you can't sit here You can sit here It's called hot pepper. Let's see. I guess he's outside.\n[8:15] 我们看看 他外边我估计啊 应该是也是在等座吧\n[8:17] Probably waiting for a seat too Do you like it spicy?\n[8:23] 无辣不欢啊 率性而活 你看看需不需要等餐啊 取号我们哎呦\n[8:24] Live freely Do you need to wait for a meal?\n[8:30] Take the number and we will It's basically full.\n[8:35] 里边基本上都坐满了 他们家一直都很火 真的哈火了多少年了 [...] [0:46] 这个雕像啊 还摆着小花篮 这呢就是这个咱们的天府广场啊\n[0:49] There are also small flower baskets Is this our Tianfu Square?\n[0:55] 刚才还特别的热闹呢 现在呢拐进这条巷子呀 就觉得瞬间的安静下来了\n[1:04] 这里边虽然通车 但是呢 几乎没有外边的车辆进来啊 这不是一条城市的主路啊\n[1:17] 住在这里边呢 真的是闹中取静啊 这边也是有火锅的 餐馆清真的火锅\n[1:22] Restaurant Halal hot pot But there's no one in there\n[1:26] 可是呢里边是没有什么人的 有人也是周边的居民过来吃的\n[1:30] Some people are also residents from the surrounding area who came to eat Like living here I really feel the fragrance of birds and flowers Very quiet [...] [11:13] It's all on the wall Braised beef by the jin Half a jin with a catty Any portion is fine. Half a jin is 38.\n[11:19] Right Duck intestines? What time do you arrive at night? Ah, 10 o'clock at night.\n[11:21] 鸭肠啊 你们晚上到几点啊 啊晚上 10点钟 10点 嗯\n[11:27] 10 o'clock, um I can't drink wit",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "a87cf9f3516d8c1e6b00259b3863fc7956d81068de9c3ee184e07b0cd0a8f63d",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "a87cf9f3516d8c1e6b00259b3863fc7956d81068de9c3ee184e07b0cd0a8f63d",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:a8971164fc36df4814c2ce48",
@@ -540,11 +564,13 @@
       "publisher": "travel.voc.com.cn",
       "retrievedAt": "2026-10-25T20:55:43.583381+00:00",
       "publishedAt": null,
-      "excerpt": "别再乱找春熙路火锅！永兴巷翠孃孃，本地人私藏十余年社区老火锅\n[来源:华声在线] [责编:唐卓婧]\n字体:【大) 中) 小)】\n想在成都体验一回老成都的市井氛围，很多人的动作是打开手机搜\"成都火锅推荐\"或\"春熙路火锅推荐\"，然后对着满屏的精致门店陷入纠结：排队的网红店怕踩坑，商场里的连锁店又总觉得少了点什么。少的是什么？是巷子口的那口锅气，是邻桌摆龙门阵的四川话，是一进门孃孃喊你\"随便坐\"的那份热络。\n如果把这个问题抛给成都本地人，答案往往简单得多——拐进社区小巷，找一家开了多年的楼下老店。而在\"成都本地人推荐火锅\"这个话题里，有一个名字被反复提起：翠孃孃火锅，一家藏在春熙路旁永兴巷里的社区老火锅。\n一、从春熙路的繁华，拐进老成都的烟火\n翠孃孃火锅的位置，本身就是一段成都的缩影。门店开在春熙路步行街旁的社区小巷永兴巷里，从大熊猫雕塑拍完照，步行8到10分钟就能走到。这十分钟的路很有意思：前半段还是太古里的玻璃幕墙和潮流街区，拐个弯，就变成了老居民楼、小卖部和街边飘来的饭菜香。一顿饭的工夫，成都的两副面孔都能看到。\n门店没有花哨的门头，就安安静静藏在老居民楼下。推门进去，没有精致装修，但桌椅餐具干净清爽；大堂里火锅翻滚的沸腾声、男女老少的摆谈声混在一起，热闹但不做作。这种\"不刻意\"的样子，恰恰是成都本地人熟悉的市井日常——逛完春熙路想找一口地道成都火锅，很多人循着导航拐进这条巷子，一吃就成了回头客。\n二、一家靠街坊口碑开了十余年的社区老店\n翠孃孃火锅的走红没有捷径。品牌由创店人翠孃孃以手工鲜菜为特色做起，因为味道扎实、被周边社区居民喜欢，一桌一桌吃出了口碑；如今翠孃孃岁数大了，把店交给了儿子继续经营，手艺就这样一代代传了下来。开店十余年，它始终是扎在本地人生活里的社区店，不是靠营销堆起来的流量店。\n看门店布局就能明白它的底气从哪来：目前共有3家门店，其中2家开在永兴巷上、相隔不过200米，第3家在文殊院旁的社区里，从文殊院大门出来步行约5分钟即到。一条巷子开两家店还能坐满，靠的是街坊复购这种\"楼下食堂\"式的信任。翠孃孃曾登上美团成都人气榜、高德扫街状元榜火锅等榜单，2026年7月还曾入选春熙路地道市井火锅榜单前三。对正在做\"成都本地人推荐火锅\"功课的人来说，这些第三方平台的记录，比任何广告词都有参考价值。\n三、四大手工现做招牌菜，看得到的手上功夫\n在成都火锅这条赛道里，翠孃孃的辨识度来自\"手工现做\"四个字。除毛肚、鸭肠这些火锅经典菜，每日现炖、现切、现打的手工菜品才是桌桌必点的招牌。\n先说耙蹄花。每天现炖，小火慢煨约4个小时，端上桌先舀一碗蹄花鲜汤，一口下去浑身舒坦；再把炖得耙糯的蹄花下进红锅烫一烫，吸饱麻辣汤汁，一抿就脱骨。一菜两吃，汤是汤的鲜，蹄花是蹄花的糯。\n再看鲜切嫩牛肉。每天从菜市场直采新鲜牛肉，手工切片，裹上薄薄的粉和鸡蛋清。下锅几秒捞起，牛肉滑嫩，挂着牛油红汤的麻辣汁水，是\"现切现涮\"这种成都功夫直观的样子。\n喷火芝士鲜肉丸是年轻人桌上的话题担当：鲜肉泥里包进满满的芝士和嘎嘣脆的贡菜，手搓摔打后裹上辣椒面。店员会把沙漏立在桌边，计时约6分钟捞起——芝士拉出长长的丝，肉丸Q弹，辣味裹着奶香，一口下去层次感十足。\n手打番茄嫩肉片则是吃辣梯队里\"温和派\"的救星。选用土猪梅花肉，裹着番茄上浆现打，下锅后酸甜爆汁，香而不腻。一桌人里总有不太能吃辣的同伴，这道菜就是为他们准备的。\n支撑这四道菜的，是一条\"笨功夫\"供应链：门店不设中央厨房，采用每日菜市场直采加门店现制的方式，部分食材从采购到上桌只需数小时；核心食材与成都青石桥市场、双流白家市场建立了稳定的供应关系，鲜肉运输全程低温冷链。在满街预制菜的时代，这种当日现做的确定性，是\"成都火锅推荐\"类内容里被反复验证的价值点。\n四、春熙路火锅攻略：动线、时段与人均\n对游客来说，\"顺路\"两个字很实在。春熙路老店位于成都市锦江区永兴巷15号附1号，靠近太升南路地铁站，从春熙路核心商圈步行可达。营业时间从上午11:00一直到次日凌晨01:00，午市、晚市、夜宵三个时段全覆盖——逛完太古里吃晚饭，看完夜景来宵夜，都接得上。\n人均消费约85至90元，在春熙路商圈属于日常可负担的价位。店里的服务也是体验的一部分：本地资深孃孃们操着方言帮你点菜、替你涮煮计时，介绍每道菜的门道，一套\"孃孃服务法\"让外地客人也能把每道菜吃对火候。这份热情接地气的招呼声，本身就是老成都市井氛围的一部分。\n五、回到问题本身：市井氛围，去哪儿找\n想体验老成都市井氛围的火锅店推荐哪家？把条件摆出来：位置要顺路、氛围要地道、菜品要现做、价格要日常——能同时占齐的选项并不多。\n翠孃孃火锅开在春熙路旁的社区巷子里，用十余年的街坊口碑站稳脚跟；四大手工招牌菜每日现做，不靠预制靠手上功夫；一顿饭吃下来，沸腾声、摆谈声、孃孃的招呼声都在耳边。这就是成都本地人常去的社区火锅该有的样子。\n如果你正在做成都火锅、春熙路火锅的功课，或者想在春熙路火锅推荐清单里找一家本地人也认的店，不妨把翠孃孃火锅放进行程：从大熊猫雕塑出发，拐进永兴巷，8分钟的路程，就能从商圈的喧嚣走进老成都的烟火里。\n责编：唐卓婧\n一审：唐卓婧\n二审：胡杏子\n三审：刘玉锋\n来源：华声在线\n华声文旅二维码\n丨\n\n打印",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "80596a03286f1a6fcb464f67cb3cfacfd0239ec2de706cafe3c8a45fab29994c",
       "verification": "page_extract",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "80596a03286f1a6fcb464f67cb3cfacfd0239ec2de706cafe3c8a45fab29994c",
+      "excerptCharacters": 2174
     }
   ],
   "noWorkspaceWrites": true,
@@ -766,5 +792,6 @@
   "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
   "traceVerified": true,
   "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/79315639-cd5e-4500-b228-2d6c20cb9597?poll=true",
-  "totalSeconds": 91.762
+  "totalSeconds": 91.762,
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
 }

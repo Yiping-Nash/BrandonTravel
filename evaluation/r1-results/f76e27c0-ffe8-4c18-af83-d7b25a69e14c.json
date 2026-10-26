@@ -388,11 +388,13 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T21:11:08.262508+00:00",
       "publishedAt": null,
-      "excerpt": "{\"version\": 10, \"trip\": {\"title\": \"合成评测 · 亲子慢游\", \"destination\": \"杭州\", \"startDate\": \"2026-11-02\", \"endDate\": \"2026-11-06\", \"timezone\": \"Asia/Shanghai\", \"preferences\": \"两位成人与一名六岁孩子，喜欢公园和轻松体验。午休不可少，每天最多两个主要活动。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, \"ideas\": [{\"title\": \"阅读当地历史并写旅行笔记\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-i0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"备用室内休息安排\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-i1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"遇到喜欢的地方多停一会\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-i2\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}], \"activities\": [{\"title\": \"湖畔短程散步\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T09:30\", \"endAt\": \"2026-11-02T10:30\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a0-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"午休\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T12:30\", \"endAt\": \"2026-11-02T14:30\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a0-1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"找一处草地玩耍\", \"date\": \"2026-11-02\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a0-2\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 2, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"自然博物馆探索\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T10:00\", \"endAt\": \"2026-11-03T11:30\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a1-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"午休\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T13:00\", \"endAt\": \"2026-11-03T15:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a1-1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"亲子手工体验\", \"date\": \"2026-11-04\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a2-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"自由晚餐\", \"date\": \"2026-11-04\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a2-1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"公园野餐\", \"date\": \"2026-11-05\", \"startAt\": \"2026-11-05T11:00\", \"endAt\": \"2026-11-05T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a3-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"慢慢收拾与返程\", \"date\": \"2026-11-06\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a4-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}]}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "c2c4c30b3d0ed010bf3cf95a6d37242c9d2d55f776322fe349eea6d3027ec3bf",
       "verification": "snapshot",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "c2c4c30b3d0ed010bf3cf95a6d37242c9d2d55f776322fe349eea6d3027ec3bf",
+      "excerptCharacters": 4403
     },
     {
       "id": "ev:705a8e1ff711ef132d3aea6c",
@@ -403,7 +405,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T21:11:22.498316+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B023B15DKJ\",\"name\":\"浙江自然博物院\",\"address\":\"西湖文化广场6号\",\"latitude\":30.276814,\"longitude\":120.164581}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "9a2a717353149f95e399d22a93b725f74f165a758d2a4536bb4976bb3128e4a0",
       "verification": "provider",
       "place": {
@@ -414,7 +416,9 @@
         "latitude": 30.276814,
         "longitude": 120.164581
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "9a2a717353149f95e399d22a93b725f74f165a758d2a4536bb4976bb3128e4a0",
+      "excerptCharacters": 127
     },
     {
       "id": "ev:89ae9202d42a0c9779d13ead",
@@ -425,7 +429,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T21:11:22.498380+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B023B089X6\",\"name\":\"西湖博物馆\",\"address\":\"南山路89号\",\"latitude\":30.241739,\"longitude\":120.157449}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "d266a379e1e35cc8fa016e5c9a5b0801feb0432d8dbe9ffd429dcf55b3621c9f",
       "verification": "provider",
       "place": {
@@ -436,7 +440,9 @@
         "latitude": 30.241739,
         "longitude": 120.157449
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "d266a379e1e35cc8fa016e5c9a5b0801feb0432d8dbe9ffd429dcf55b3621c9f",
+      "excerptCharacters": 123
     },
     {
       "id": "ev:4e23424de8d3c2711b3ef3dd",
@@ -447,7 +453,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T21:11:22.498426+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B023B0BIT8\",\"name\":\"西湖文化广场\",\"address\":\"环城北路47号\",\"latitude\":30.276652,\"longitude\":120.163755}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "0997837d554556bbac1c69c41edbcec5fb9ff21195d956feb222f46508cf8264",
       "verification": "provider",
       "place": {
@@ -458,7 +464,9 @@
         "latitude": 30.276652,
         "longitude": 120.163755
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "0997837d554556bbac1c69c41edbcec5fb9ff21195d956feb222f46508cf8264",
+      "excerptCharacters": 125
     },
     {
       "id": "ev:b587261f6f2cdc0a97b2cecd",
@@ -469,7 +477,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T21:11:29.147650+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B023B02074\",\"name\":\"杭州西湖风景名胜区-太子湾公园\",\"address\":\"南星街道南山路1-1号\",\"latitude\":30.22547,\"longitude\":120.142177}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "ed6d71bfba5d3adb56781ff00c1ec1a8accfd6922e5d86803aeaa332b1e673a0",
       "verification": "provider",
       "place": {
@@ -480,7 +488,9 @@
         "latitude": 30.22547,
         "longitude": 120.142177
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "ed6d71bfba5d3adb56781ff00c1ec1a8accfd6922e5d86803aeaa332b1e673a0",
+      "excerptCharacters": 137
     },
     {
       "id": "ev:4262c9bb16bdb12e42323847",
@@ -491,7 +501,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T21:11:29.147705+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B023B09DUS\",\"name\":\"太子湾公园-九曜山\",\"address\":\"虎跑路(近太子湾公园)\",\"latitude\":30.2203,\"longitude\":120.14184}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "468c63e0f610057006938441eb61869b3a22e0a1798d1506f7d747f970d2a771",
       "verification": "provider",
       "place": {
@@ -502,7 +512,9 @@
         "latitude": 30.2203,
         "longitude": 120.14184
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "468c63e0f610057006938441eb61869b3a22e0a1798d1506f7d747f970d2a771",
+      "excerptCharacters": 129
     },
     {
       "id": "ev:b0e58887b20918c3a84fa62e",
@@ -513,7 +525,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T21:11:29.147736+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B023B17X5O\",\"name\":\"太子湾公园-迎宾亭(南山路)\",\"address\":\"西湖街道南山路1-1号太子湾公园北门内\",\"latitude\":30.227695,\"longitude\":120.143845}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "eeaf07b43c032020e82b589f0dcabf2a864cd995a1ea3e48e1c56491828586b5",
       "verification": "provider",
       "place": {
@@ -524,7 +536,9 @@
         "latitude": 30.227695,
         "longitude": 120.143845
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "eeaf07b43c032020e82b589f0dcabf2a864cd995a1ea3e48e1c56491828586b5",
+      "excerptCharacters": 145
     },
     {
       "id": "ev:ff3aa807fa65bb49d54f80b6",
@@ -535,11 +549,13 @@
       "publisher": "www.zmnh.com",
       "retrievedAt": "2026-10-25T21:11:36.773376+00:00",
       "publishedAt": null,
-      "excerpt": "参观入馆时间为：4月1日-10月31日 9:00-16:00\n\n11月1日-3月31日 9:30-16:00   \n闭馆时间为17:00\n\n展厅参观示意图\n\n{{data.text}}\n\n须知\n\n1.展馆开放时间为周二至周日，周一休馆（遇国定假日照常开放，顺延休馆），参观入馆时间为：4月1日-10月31日 9:00-16:00，11月1日-3月31日 9:30-16:00，17:00闭馆。\n\n2.展馆基本陈列免费参观，部分临特展需购票参观。\n\n3.为确保参观安全，提升观展体验，根据上级部门要求实行实名预约参观制，并落实限量、错峰措施，展馆每日最大承载量为5000人次，视馆内接待情况实时调控。\n\n4.观众可提前5天（含当日）通过官方微信公众号进行实名预约，预约通道开放时间为每日7:00-23:00，预约门票当日当次有效；20人以上的团队参观须至少提前7天通过电话咨询预约；参观24小时博物馆、安吉馆需另行预约。\n\n5.未满3周岁幼儿无需预约，由已预约成人携带直接入馆；70 周岁（含）以上老人、残障人士、现役军人等，出示本人有效证件可免预约入馆（仅限进入场馆不含收费临特展）。 [...] 12.任何机构或个人在展馆内组织讲解、讲学、调查、采访、摄录等活动，须提前报本馆审批。\n\n13.我院未授权任何第三方机构或个人代理门票预约业务，以及提供与讲解服务捆绑的旅游产品。请勿通过非官方渠道预约或购买相关服务，由此导致的无法入馆参观或因购买上述有偿服务产品所产生的任何纠纷和法律责任均与本馆无关，并将保留追究相关第三方平台或个人法律责任的权利。\n\n14.如遇特殊活动或突发事件，须接受博物馆现场工作人员引导和指挥，有序疏散。\n\n15.对违反相关规定、扰乱参观秩序的行为，本馆有权予以劝阻、制止；对拒不服从管理、扰乱正常参观秩序或造成不良影响的人员，可以拒绝提供服务、责令离馆；情节严重的，交由公安机关处理。\n\n16.咨询服务电话：0571—88212712，88050941（请于开放时间内咨询）。\n\n服务设施\n\n{{data.name}}\n\n{{data.name}}\n\n周边示意图\n\n公交线路\n\n西湖文化广场:\n\n3路 ; 3路区间 ; 19路 ; 30路 ; 38路 ; 65路 ; 67路 ; 274路 ; 1004路 ; 省人民医院免费接驳专线 ; 市儿童医院地铁接驳线 [...] 6.如无法按时入馆参观，观众可于当日16:00前在系统上申请取消预约，逾期无法办理，系统将自动默认该账号失约1次。累计3次失约的账号，将在30天内不能预约。\n\n7.观众入馆须自觉出示预约码并接受安全检查；醉酒者、仪容不整者等谢绝入馆；幼童、高龄老人、行动不便者须由成年人陪同参观。\n\n8.请勿将宠物、各类枪支（含仿制品）、管制刀具、军警械具、具有一定杀伤力的其他器具及可能危害国家安全和社会政治稳定或影",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "b8fad9c1864780601554425450f304d77fb28f671545fbb778ef4c9d9b9c819c",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "b8fad9c1864780601554425450f304d77fb28f671545fbb778ef4c9d9b9c819c",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:a068662d539e70a2caaafc2f",
@@ -550,11 +566,13 @@
       "publisher": "tidenews.com.cn",
       "retrievedAt": "2026-10-25T21:11:36.773486+00:00",
       "publishedAt": null,
-      "excerpt": "周末及节假日散客需提前预约，预约方式：进入“浙江自然博物院微信公众号-自博服务-杭州馆预约”进行预约。预约通道将于参观日前三日上午7:00准时开放。周末及节假日不接待团队预约。\n\n安吉馆\n\n工作日实行免预约入馆（每周一、周二休馆）。观众可持本人实体身份证等有效证件核验身份或实名登记后入馆参观。\n\n周末及节假日散客、团队均需提前预约，预约方式：进入“浙江自然博物院微信公众号-自博服务-安吉馆预约”进行预约。预约通道分别将于参观日前三日（散客）、参观前四日（团队）上午7:00准时开放。\n\n咨询电话：0572-5022030，5022217\n\n24小时博物馆\n\n全时段免预约入馆。\n\n特展资讯\n\n蕨宙永光——穿越亿年的蕨类植物展\n\n■展览地点：杭州馆一楼临展B厅\n\n■门票：免费参观\n\n■简介： [...] # 浙江自然博物院参观入场时间调整及临时闭馆公告\n\n浙江自然博物院\n\n2025年11月1日至2026年3月31日，浙江自然博物院杭州馆、安吉馆调整开放时间，开馆时间延后半小时，即参观入场时间为9:30 - 16:00，闭馆时间为17:00。\n\n24小时博物馆参观时间不变，双休日、节假日为10:00 - 24:00，工作日为10:00 - 22:00。\n\n请合理安排您的参观时间，谢谢！\n\n安吉馆部分展馆\n\n临时闭馆公告\n\n为有效控制展馆各类标本虫害现象的发生，安吉馆近期对贝林主题展馆和生态主题展馆进行轮流薰蒸杀虫，两馆临时关闭。具体安排如下：\n\n11月3日（周一）至11月6日（周四），贝林主题展馆临时关闭。\n\n11月7日（周五）至11月11日（周二），生态主题展馆临时关闭。\n\n请合理安排您的参观时间。如给您带来不便，敬请谅解！\n\n杭州馆\n\n工作日实行散客免预约入馆（每周一休馆）。观众可持本人实体身份证、市民卡等有效证件核验身份或实名登记后入馆参观。团队参观需提前5个工作日电话预约（每日限额，约完即止），联系电话：0571-88050941、88212712。 [...] ■门票：免费参观\n\n■简介：\n\n蕨类植物，又称羊齿植物，从古生代至现代经历丰富的演化进程。作为地球数亿年变迁的“实践者”与“随行者”，它顽强的生命力不仅使其姿态规整俊美，同时在园艺、药用、食用等方面有多样的实用价值。本次展览是国内首次大规模集中展示蕨类植物演化史的专题展，汇聚了来自中国科学院南京地质古生物研究所及本院珍藏的39件珍贵蕨类化石标本，众多展品均为国内首次公开亮相。\n\n徜徉自然之境——大师们的艺绘人生与博物情怀\n\n■展览地点：杭州馆二楼油画展厅\n\n■门票：免费参观\n\n■简介：\n\n本次展览为中国大陆博物画大师曾孝濂与中国台湾生态艺术家、水彩画家杨恩生的双人联展，是浙江自然博物院馆藏博物画的荟萃集锦，也是中国台湾画家杨恩生在浙江的首展。博物绘画是一类融合了科学观察与艺术表现的绘画形式，它不仅仅",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "1d4351e8c4e14bb50314ded147833d8d22a962f6690c7aaeae0a691041b004d5",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "1d4351e8c4e14bb50314ded147833d8d22a962f6690c7aaeae0a691041b004d5",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:d00df969de032196ddfce008",
@@ -565,11 +583,13 @@
       "publisher": "edu.hangzhou.com.cn",
       "retrievedAt": "2026-10-25T21:11:36.773575+00:00",
       "publishedAt": null,
-      "excerpt": "看点三：丰富奇异的生物世界&绿色浙江\n\n以中国云南热带雨林、藏北无人区、南海珊瑚礁等为原型，再现不同区域典型的生态系统景观。以有限的空间浓缩浙江大地自然之精华，您可以漫步大型烤瓷地图，浏览浙江的地貌。您可以同浙江最后一只野生华南虎面对面，或是登上海岛一睹“神话之鸟”的风采，了解博物馆一线科研人员如何保护绿色家园，践行“两山”理念。\n\n看点四：狂野之地\n\n想近距离观察中国以外生活着的动物？在狂野之地野生动物展区，我们结合场景复原、栩栩如生的珍贵动物标本、多媒体等手段，还原了非洲热带雨林、稀树草原、北美荒漠，北美苔原等生态系统，感受人类与自然是不可分割的命运共同体。\n\n场馆信息\n\n开馆时间：周二至周日，周一休馆（遇国定假日照常开放，顺延休馆）\n\n参观入馆时间为：4月1日-10月31日 9:00-16:00；\n\n11月1日-3月31日 9:30-16:00。\n\n闭馆时间为17:00。\n\n场馆地址：杭州市拱墅区西湖文化广场6号\n\n交通指引：\n\n公交站：西湖文化广场公交站，中北桥站；\n\n地铁站：1/3/19号线至西湖文化广场C口。\n\n讲解服务（提前至服务台咨询、预约）：定时定点公益讲解 [...] 收费讲解：需致电服务台提前预约，收费标准如下：\n\n1-10人，120元；11-20人，160元；21-30人，200元；31-40人，240元。\n\n咨询电话：0571—88212712，88050941（请于开馆时间内咨询）\n\n预约方式（参观须知）：\n\n来源：杭州网、杭州通客户端  作者：  编辑：陈笛 [...] 杭州馆位于市中心的西湖文化广场，2009年对外开放，馆舍面积2.6万平方米。以地球及生命诞生与发展为主线，以“自然·生命·人”为主题，设有5个基本陈列及3个临展厅。以提高公众的自然科学文化素养和生态文明意识为宗旨，集生命科学、地球科学等自然类标本收藏研究、展示宣传、科普教育、文化交流和智性休闲于一体。\n\n安吉馆位于浙江省湖州市安吉县，2018年12月开馆。是411省重点文化基础设施建设项目，文化强省建设示范引领性项目，总建筑面积6.1万平方米，占地300余亩。基本陈列定位以“休闲体验”为主，以专题展为特色，设地质、生态、贝林、恐龙、自然艺术、海洋等6个主题展馆以及临特展馆、4D电影院、自然探索中心、天文台和自然餐厅。按照“国内一流，国际领先”的建设目标，着力打造集科普教育、收藏研究、文化交流、休闲体验于一体的现代自然博物馆。\n\n24小时博物馆位于杭州馆北侧通道，面积300平方米，以身边的动物、植物和矿物为主题，甄选了浙江地区出现的300余件动物、植物和矿物标本，采用AI增强现实、多媒体动画等多种展示手法，配套多元的研学活动，是全国首家24小时开放的国有博物馆。\n\n场馆看点",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "ddc19a0fe0e8c926dca98daca3dfc94761d309ce3c6106c120be2e46fcd7b63d",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "ddc19a0fe0e8c926dca98daca3dfc94761d309ce3c6106c120be2e46fcd7b63d",
+      "excerptCharacters": 1154
     },
     {
       "id": "ev:e68d71e0ea7f80535fb94001",
@@ -580,11 +600,13 @@
       "publisher": "www.bw10000.com",
       "retrievedAt": "2026-10-25T21:11:36.773643+00:00",
       "publishedAt": null,
-      "excerpt": "### 浙江自然博物院安吉馆参观指南\n\n 浙江自然博物院\n\n开放时间周三至周日，周一、周二休馆（遇国定假日照常开放，延顺休馆参观入场时间：冬季（11月1日-3月31日） 9:30-16:00夏季（4月1日-10月31日） 9:00-16:00闭馆时间17:00须知参观方式1.刷身份...\n\n开放时间\n\n周三至周日，周一、周二休馆（遇国定假日照常开放，延顺休馆\n\n参观入场时间：\n\n冬季（11月1日-3月31日） 9:30-16:00\n\n夏季（4月1日-10月31日） 9:00-16:00\n\n闭馆时间17:00\n\n须知\n\n参观方式\n\n1.刷身份证直接进馆\n\n2．展馆实行观众总量控制，酌情控制人流量。个人、团队参观均需提前预约，个人请在我院微信公众号预约。\n\n3.未成年人可以使用家长的身份证或电子二维码进馆\n\n4.参观前请自觉接受安全检查\n\n安吉馆咨询电话：咨询电话：0572-5022030 / 5022217 监督电话：0572-5022512\n\n团队参观预约须知 [...] 团队参观预约须知\n\n1.本馆施行团队（20人以上）参观预约制，请按照流程在浙江自然博物馆微信公众服务号上预约参观。团队每天预约限额 2000人次。\n\n2.首次申请团队预约时需认证单位信息，其中包含“认证主体名称、统一信用代码、营业执照、申请人姓名、申请人身份证照片（正反面）、认证公函”。以上认证信息提交审核，审核通过后将以免费短信方式通知申请人。\n\n3.团队预约时需明确参观对象、参观人数、参观时段和领队联系方式，并将单位公函（介绍信）及领队证件扫描或拍照上传。\n\n4. 团队参观时需凭团队预约码按预约日期从闸机参观通道过安检入馆，预约过期须重新预约确认。\n\n5.团队领队作为团队安全的第一责任人，入馆前须做好团队安全教育，文明参观，自觉配合馆方维持良好的参观秩序。馆内光线较暗，台阶较多，负责人需及时提醒，以防发生意外。\n\n6. 未经过浙江自然博物院专业培训的其他从业人员不得擅自在馆内开展讲解等相关教育活动。\n\n特别提醒\n\n1.展馆常设陈列展览常年免费参观，特别展览酌情收费。\n\n2.请勿携带有毒有害、易燃易爆、管制械具等危险物品及宠物等入馆。",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "151877bff30b985fb639ecadd4efd277f2a002e979fee0f0634b6f7d1fbc114a",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "151877bff30b985fb639ecadd4efd277f2a002e979fee0f0634b6f7d1fbc114a",
+      "excerptCharacters": 918
     },
     {
       "id": "ev:95e165d1a83e34c367c3c576",
@@ -595,11 +617,13 @@
       "publisher": "www.zmnh.com",
       "retrievedAt": "2026-10-25T21:11:39.890227+00:00",
       "publishedAt": null,
-      "excerpt": "参观入馆时间为：4月1日-10月31日 9:00-16:00\n11月1日-3月31日 9:30-16:00   \n闭馆时间为17:00\n展厅参观示意图\n{{data.text}}\n\n须知\n1.展馆开放时间为周二至周日，周一休馆（遇国定假日照常开放，顺延休馆），参观入馆时间为：4月1日-10月31日 9:00-16:00，11月1日-3月31日 9:30-16:00，17:00闭馆。\n2.展馆基本陈列免费参观，部分临特展需购票参观。\n3.为确保参观安全，提升观展体验，根据上级部门要求实行实名预约参观制，并落实限量、错峰措施，展馆每日最大承载量为5000人次，视馆内接待情况实时调控。\n4.观众可提前5天（含当日）通过官方微信公众号进行实名预约，预约通道开放时间为每日7:00-23:00，预约门票当日当次有效；20人以上的团队参观须至少提前7天通过电话咨询预约；参观24小时博物馆、安吉馆需另行预约。\n5.未满3周岁幼儿无需预约，由已预约成人携带直接入馆；70 周岁（含）以上老人、残障人士、现役军人等，出示本人有效证件可免预约入馆（仅限进入场馆不含收费临特展）。\n6.如无法按时入馆参观，观众可于当日16:00前在系统上申请取消预约，逾期无法办理，系统将自动默认该账号失约1次。累计3次失约的账号，将在30天内不能预约。\n7.观众入馆须自觉出示预约码并接受安全检查；醉酒者、仪容不整者等谢绝入馆；幼童、高龄老人、行动不便者须由成年人陪同参观。\n8.请勿将宠物、各类枪支（含仿制品）、管制刀具、军警械具、具有一定杀伤力的其他器具及可能危害国家安全和社会政治稳定或影响参观秩序的其他物品带入展馆；大件行李寄存储物柜或服务台，贵重物品请自行妥善保管。\n9.请严格遵守安全规定，注意脚下台阶、坡道；展馆禁止吸烟，请勿点外卖食品进馆、随意丢弃废弃物，自觉维护环境卫生；禁止在展馆内大声喧哗、追逐打闹、攀爬躺卧、翻越围挡护栏、展厅内饮食等不文明行为。\n10.请自觉爱护展览展项、服务设施，请勿擅自使用馆内电源和各类教学设备设施，如造成损坏，须照价赔偿并承担相应的法律责任。\n11.请自觉维护参观秩序，未经允许禁止在展馆内进行各类表演、散发广告、拉横幅、架设画架或支架类摄影器材、网络直播等非参观活动，禁止违背公序良俗的活动或行为。\n12.任何机构或个人在展馆内组织讲解、讲学、调查、采访、摄录等活动，须提前报本馆审批。\n13.我院未授权任何第三方机构或个人代理门票预约业务，以及提供与讲解服务捆绑的旅游产品。请勿通过非官方渠道预约或购买相关服务，由此导致的无法入馆参观或因购买上述有偿服务产品所产生的任何纠纷和法律责任均与本馆无关，并将保留追究相关第三方平台或个人法律责任的权利。\n14.如遇特殊活动或突发事件，须接受博物馆现场工作人员引导和指挥，有序疏散。\n15.对违反相关规定、扰乱参观秩序的行为，本馆有权予以劝阻、制止；对拒不服从管理、扰乱正常参观秩序或造成不良影响的人员，可以拒绝提供服务、责令离馆；情节严重的，交由公安机关处理。\n16.咨询服务电话：0571—88212712，88050941（请于开放时间内咨询）。\n\n服务设施\n\n{{data.name}}\n\n{{data.name}}\n周边示意图\n公交线路\n西湖文化广场:\n3路 ; 3路区间 ; 19路 ; 30路 ; 38路 ; 65路 ; 67路 ; 274路 ; 1004路 ; 省人民医院免费接驳专线 ; 市儿童医院地铁接驳线\n中北桥:\n2路 ; 19路 ; 22路 ; 55路 ; 56路 ; 67路 ; 78路 ; 1014路\n45路 ; 46路 ; 50路 ; 74路 ; 179路 ; 316路 ; 7299路 ; 8218路\n126B路 ; 126路 ; 318路[工作日] ; 318路[双休日节假日]",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "1722abb4008efafc879f594b1bc8e6626827618773b0e53f3faf078a38f111b4",
       "verification": "page_extract",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "1722abb4008efafc879f594b1bc8e6626827618773b0e53f3faf078a38f111b4",
+      "excerptCharacters": 1592
     },
     {
       "id": "ev:d5157b965c4a6e63f77adf5d",
@@ -610,11 +634,13 @@
       "publisher": "www.facebook.com",
       "retrievedAt": "2026-10-25T21:11:44.464589+00:00",
       "publishedAt": null,
-      "excerpt": "Image 10 Steve Chew 周本兴 516\n\nImage 11 Steve Chew 周本兴 623\n\nImage 12 Steve Chew 周本兴 1.3K\n\nImage 13 Steve Chew 周本兴 907\n\nImage 14 Steve Chew 周本兴 887\n\nImage 15 Steve Chew 周本兴 695\n\n## Related videos\n\nImage 16: Video thumbnail 1:37\n\n[](\n\n巴国和印度边界降旗仪式 #Wagah #Border #Ceremony\n\nSteve Chew 周本兴\n\n613 views\n\n · \n\n2d ago\n\nImage 17: Video thumbnail 0:36\n\n[](\n\nLahore ,one of the busiest road in the world\n\nSteve Chew 周本兴\n\n563 views\n\n · \n\n2d ago\n\nImage 18: Video thumbnail 3:42\n\n[](\n\nLahore city, Pakistan [...] Steve Chew 周本兴\n\n3d ago\n\nImage 19: Video thumbnail 3:00\n\n[](\n\n寂寞沙洲\n\nSteve Chew 周本兴\n\n3d ago\n\nImage 20: Video thumbnail 6:57\n\n[](\n\n五星级酒店Ramada\n\nSteve Chew 周本兴\n\n4d ago\n\nImage 21: Video thumbnail 0:04\n\n[](\n\nSteve Chew 周本兴's video\n\nSteve Chew 周本兴\n\n537 views\n\n · \n\n5d ago\n\nImage 22: Video thumbnail 0:23\n\n[](\n\nSteve Chew 周本兴's video\n\nSteve Chew 周本兴\n\n1.1K views\n\n · \n\n5d ago\n\nImage 23: Video thumbnail 10:15\n\n[](\n\n世界之颠\n\nSteve Chew 周本兴\n\n6d ago\n\nImage 24: Video thumbnail 6:12\n\n[](\n\nSnowing at the peak [...] Like\n\nComment\n\nShare\n\nImage 2\n\nImage 3\n\n57\n\n · \n\n6 comments\n\n · \n\n1.8K views\n\n · \n\nFollow\n\n[](\n\n#太子湾公园 位于中国浙江省杭州市西湖景区南侧，是一座以花卉观赏和自然景观为主的公园。这里以春天的郁金香花海和樱花盛景最为著名，是杭州市民和游客赏花、拍照、休闲的热门地点。…\n\nSee more\n\n## Commen",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "f98ae9353f3c20f5b2182bac92ba8e2123ff16c11e22d59e7208db1cff129e02",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "f98ae9353f3c20f5b2182bac92ba8e2123ff16c11e22d59e7208db1cff129e02",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:93e40797139599e09d80d9fa",
@@ -625,11 +651,13 @@
       "publisher": "gs.ctrip.com",
       "retrievedAt": "2026-10-25T21:11:44.464702+00:00",
       "publishedAt": null,
-      "excerpt": "查看全部\n\n西湖风景区-太子湾公园 \n\n󰺂5.6\n\n4.8/5\n\n792条点评\n\n西湖风景名胜区必打卡景点榜 No.18\n\n开放时间\n\n免费开放\n\n预约信息\n\n需提前预约\n\n\n\n浙江省杭州市西湖区南山路5-1号\n\n󱃍\n\n电话\n\n达人实拍\n\n查看更多\n\n用户点评 (792)\n\n4.8/5\n\n拍照很赞 4\n\n适合情侣 3\n\n公共交通方便 3\n\n充满浪漫情怀的公园 3\n\n遛娃好去处 2\n\n餐饮不错 1\n\nChanmaomi\n\n潜力旅行家\n\n5分超棒\n\n太子湾公园，位于南山路，九曜山的山脚下，山不高30分钟即可登顶，晴天最佳与花港观鱼景区蒋庄的小南湖相对，西入口的对面即是鹆鹄湾景区的黄篾楼。 太子湾公园四季不同景色各异，适合游玩。 太子湾的春天还是赏樱、观赏郁金香🌷的最佳之地。 太子湾的初冬，红枫渐变红的辣眼。清晨至上午10点的光线最佳，午后3—4点的光线也尚可。 推荐：春秋最佳，四季皆宜。\n\n10+\n\n太子湾公园，位于南山路，九曜山的山脚下，山不高30分钟即可登\n\n没有故事的大爷\n\n5分超棒 [...] 没有故事的大爷\n\n5分超棒\n\n雨打花落入鳞波，一池柔水满春愁。春天的太子湾公园简直美爆了，当郁金香开放的时候，这里游人如织，不需要滤镜，眼前就是一幅幅美景\n\n雨打花落入鳞波，一池柔水满春愁。春天的太子湾公园简直美爆了，\n\n查看更多\n\n用户问答 (58)\n\n现在的太子湾有花看吗？\n\n3个回答\n\n现在的太子湾有花看吗？\n\n太子湾公园内可以搭帐篷么\n\n9个回答\n\n太子湾公园内可以搭帐篷么\n\n查看更多\n\n景点\n\n美食\n\n购物\n\n\n\n距景点7.5km\n\n2026中国100必打卡景点\n\n杭州宋城\n\n看《宋城千古情》演出\n\n遛娃宝藏地\n\n亲子同乐\n\n4.7/5\n\n3.8万条点评\n\n门票¥260起\n\n杭州宋城\n\n\n\n距景点8.8km\n\n2026全球50赏花踏青景点\n\n西溪国家湿地公园\n\n坐船漫游芦苇荡\n\n遛娃宝藏地\n\n亲子同乐\n\n4.6/5\n\n2.9万条点评\n\n门票¥70起\n\n西溪国家湿地公园\n\n\n\n距景点2.0km\n\n2026全球100必打卡景点\n\n西湖风景名胜区\n\n杭州之美的代言人\n\n遛娃宝藏地\n\n亲子同乐\n\n4.7/5\n\n3.7万条点评\n\n免费\n\n西湖风景名胜区\n\n [...] 免费\n\n西湖风景名胜区\n\n\n\n距景点750m\n\n西湖风景名胜区必打卡景点榜 No.2\n\n西湖游船\n\n坐船领略西湖别样美貌\n\n遛娃宝藏地\n\n亲子同乐\n\n4.5/5\n\n2.6万条点评\n\n门票¥70起\n\n西湖游船\n\n距景点1.7km\n\n杭州亲子景点榜 No.8\n\n遛娃宝藏地\n\n4.7/5\n\n6078条点评\n\n门票¥20起\n\n杭州动物园\n\n距景点863m\n\n西湖风景名胜区必打卡景点榜 No.4\n\n遛娃宝藏地\n\n亲子同乐\n\n4.5/5\n\n9041条点评\n\n雷峰塔\n\n景区",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "a49d2cf70e50c7d0b6725f7b29454d5dfdfd91f982358eb402631cec5f814e09",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "a49d2cf70e50c7d0b6725f7b29454d5dfdfd91f982358eb402631cec5f814e09",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:8a4aa42951dd7287e8d884c7",
@@ -640,11 +668,13 @@
       "publisher": "vacation.eztravel.com.tw",
       "retrievedAt": "2026-10-25T21:11:44.464783+00:00",
       "publishedAt": null,
-      "excerpt": "基本資訊\n\n服務專線\n\n詳細地址\n\n杭州市西湖區南山路5-1號\n\n官方網站\n\n門票\n\n:   免費\n\n開放時間\n\n:   全天開放\n\n交通資訊\n\n乘51路、52路、334路、Y6路、87路、315路、4路等到蘇堤站即是。\n\n周邊景點\n\n\n\n花港觀魚\n\n\n\n雷峰塔\n\n\n\n三潭印月\n\n\n\n玉皇山景區\n\n\n\n長橋公園\n\n\n\n南山路\n\n\n\n西湖\n\n\n\n萬松書院\n\n推薦商品\n\n 票券\n\n杭州靈隱寺半日遊含導遊講解(2-10人小團)可選茶室抄經品茗\n\n286 元起 \n\n杭州浙江省博物館人員導覽服務【專業導遊 深度導覽 場次可選】\n\n378 元起 \n\nEatwith共饗時刻-杭州-茶鄉採茶輕徒步，探索富氧水庫的奧秘所在\n\n425 元起 \n\n浙江省博物館+導遊導覽半日(2-18人團)可選上午場或下午場\n\n475 元起\n\n更多票券 [...] 太子灣公園位於西湖的西南角，花港觀魚景區南門正對面，離蘇堤、楊公堤都不遠，是一處24小時開放的免費的公園。公園內的綠化很棒，是杭州春天踏青、賞花的絕佳地點。   \n從蘇堤對面的東門進去，不遠就是一塊大草坪，每天早上都有不少人來此晨練。草坪上有一座充滿異域風情的大風車，是太子灣公園的標誌。從這裡開始，沿著公園內的棧道往西走，一路都是鬱鬱蔥蔥的樹林和花花草草，還有蜿蜒而過的溪水、石橋，景色非常美。公園西側還有一座小教堂，俏皮又浪漫。和家人朋友一起來這裡散步、拍照，或者隨意走走逛逛感覺非常好。   \n太子灣公園的最佳遊玩時間是每年的3月底至4月初，3月20日左右公園會舉辦盛大的鬱金香節，可免費參觀。此時公園內幾十萬朵鬱金香、櫻花和花信子百花齊放，五顏六色的花海非常好看。這段時間的太子灣公園景色是最美的，遊人也最多，幾乎每朵花都有遊人在拍照。建議避開週末等假日的人潮，在平日的清早或傍晚來此遊玩，更能享受親近自然的閒適。",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "f2d2a254705f0c257abaca6b9a65373e1a4045cafd4e219870b5a799180f984d",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "f2d2a254705f0c257abaca6b9a65373e1a4045cafd4e219870b5a799180f984d",
+      "excerptCharacters": 779
     },
     {
       "id": "ev:cc2b53e1e85c0998757e61fd",
@@ -655,11 +685,13 @@
       "publisher": "baike.baidu.com",
       "retrievedAt": "2026-10-25T21:11:44.464841+00:00",
       "publishedAt": null,
-      "excerpt": "太子湾公园的花\n\n[](\n\n太子湾公园\n\n[](\n\n## 参观信息\n\n播报\n\n编辑\n\n### 地理位置\n\n太子湾公园位于浙江省杭州市西湖区南星街道南山路1-1号。 \n\n出口\n\n太子湾公园\n\n### 门票信息\n\n免费开放，四季皆可，其中12月为红枫最佳观赏期。 \n\n### 交通信息\n\n乘公交4路、87路、139路、510路、1314路、西湖内环线、大红豆数字旅游专线到苏堤站即是。\n\n词条图册 更多图册\n\n1 太子湾公园鸟瞰图\n\n38 太子湾公园\n\n16 太子湾公园的花\n\n5 太子湾公园\n\n2 词条图片\n\n68 太子湾公园景点图片\n\n6 太子湾公园旅游风景相册\n\n31 景点风景图\n\n5 参考资料图册\n\n参考资料",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "75e76388ec114ca5c5456bfebc9b29b8156f65ddc7a12832e8bc242f6e475b62",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "75e76388ec114ca5c5456bfebc9b29b8156f65ddc7a12832e8bc242f6e475b62",
+      "excerptCharacters": 307
     }
   ],
   "noWorkspaceWrites": true,
@@ -866,5 +898,6 @@
   "modelListPriceEstimateCny": 0.089643,
   "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
   "traceVerified": false,
-  "totalSeconds": 82.77
+  "totalSeconds": 82.77,
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
 }

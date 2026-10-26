@@ -308,11 +308,13 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:56:59.399293+00:00",
       "publishedAt": null,
-      "excerpt": "{\"version\": 10, \"trip\": {\"title\": \"合成评测 · 跨周文化独旅\", \"destination\": \"西安\", \"startDate\": \"2026-11-02\", \"endDate\": \"2026-11-10\", \"timezone\": \"Asia/Shanghai\", \"preferences\": \"独自出行，偏好历史、建筑与安静观察。九天跨周，重视灵活调整。\", \"id\": \"fixture-r1-v1-xian-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, \"ideas\": [{\"title\": \"阅读当地历史并写旅行笔记\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-xian-2026-11-02-i0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"备用室内休息安排\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-xian-2026-11-02-i1\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"遇到喜欢的地方多停一会\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-xian-2026-11-02-i2\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}], \"activities\": [{\"title\": \"抵达与休息\", \"date\": \"2026-11-02\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a0-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"读一段城市历史\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T19:00\", \"endAt\": \"2026-11-02T20:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a0-1\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"博物馆主题研究\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T10:00\", \"endAt\": \"2026-11-03T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a1-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"古建筑漫步\", \"date\": \"2026-11-04\", \"startAt\": \"2026-11-04T09:00\", \"endAt\": \"2026-11-04T11:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a2-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"写旅行笔记\", \"date\": \"2026-11-05\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a3-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"自由留白\", \"date\": \"2026-11-06\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a4-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"城市文化展览\", \"date\": \"2026-11-07\", \"startAt\": \"2026-11-07T13:00\", \"endAt\": \"2026-11-07T15:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a5-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"旧街区观察\", \"date\": \"2026-11-08\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a6-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"跨周：再访喜欢的展馆\", \"date\": \"2026-11-09\", \"startAt\": \"2026-11-09T10:00\", \"endAt\": \"2026-11-09T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a7-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"跨周：整理笔记与返程\", \"date\": \"2026-11-10\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a8-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}]}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "481c76387bffabc8c29fd790da176dc8a36a98491b3d91250afe12082cd5d7a8",
       "verification": "snapshot",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "481c76387bffabc8c29fd790da176dc8a36a98491b3d91250afe12082cd5d7a8",
+      "excerptCharacters": 4640
     },
     {
       "id": "ev:d7838d264b1d000da121d51f",
@@ -323,7 +325,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:57:01.910906+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B001D06484\",\"name\":\"西安碑林博物馆\",\"address\":\"三学街15号\",\"latitude\":34.254497,\"longitude\":108.95286}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "2c006aa41030860bf7fd5c3a35dbb019994183fd6502109c6614509055f28e6c",
       "verification": "provider",
       "place": {
@@ -334,7 +336,9 @@
         "latitude": 34.254497,
         "longitude": 108.95286
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "2c006aa41030860bf7fd5c3a35dbb019994183fd6502109c6614509055f28e6c",
+      "excerptCharacters": 124
     },
     {
       "id": "ev:05fa293799dabac163e342a9",
@@ -345,7 +349,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:57:01.910961+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0FFFYRY5C\",\"name\":\"西安碑林博物馆售票处\",\"address\":\"三学街15号西安碑林博物馆\",\"latitude\":34.252203,\"longitude\":108.953019}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "dac2fcd5b3dee942c95c623be22606a2d691e74c4f80c3f58c0a739620ec8860",
       "verification": "provider",
       "place": {
@@ -356,7 +360,9 @@
         "latitude": 34.252203,
         "longitude": 108.953019
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "dac2fcd5b3dee942c95c623be22606a2d691e74c4f80c3f58c0a739620ec8860",
+      "excerptCharacters": 135
     },
     {
       "id": "ev:6833e00a175c81f80615ede2",
@@ -367,7 +373,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:57:01.910989+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0FFF465NX\",\"name\":\"西安碑林博物馆-游客服务中心\",\"address\":\"三学街15号西安碑林博物馆\",\"latitude\":34.252193,\"longitude\":108.952671}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "0fd547bb68ed5de484e305e6ecb4162e82d11c983f4f54ab2be4d56fcb889cfb",
       "verification": "provider",
       "place": {
@@ -378,7 +384,9 @@
         "latitude": 34.252193,
         "longitude": 108.952671
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "0fd547bb68ed5de484e305e6ecb4162e82d11c983f4f54ab2be4d56fcb889cfb",
+      "excerptCharacters": 139
     },
     {
       "id": "ev:1dfd58ddbd19f64cce7014a9",
@@ -389,7 +397,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:57:01.946326+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B001D026D8\",\"name\":\"小雁塔\",\"address\":\"友谊西路74号\",\"latitude\":34.239195,\"longitude\":108.942011}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "5b13e59502aa905fb05db12e98ececb8f952ff4a53c3ffaf47dae67b3902615f",
       "verification": "provider",
       "place": {
@@ -400,7 +408,9 @@
         "latitude": 34.239195,
         "longitude": 108.942011
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "5b13e59502aa905fb05db12e98ececb8f952ff4a53c3ffaf47dae67b3902615f",
+      "excerptCharacters": 122
     },
     {
       "id": "ev:94dac649bb1a0400c420cc99",
@@ -411,7 +421,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:57:01.946378+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B001D06AOS\",\"name\":\"西安博物院\",\"address\":\"友谊西路72号\",\"latitude\":34.238589,\"longitude\":108.941673}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "63a3e6857538d76f34c5236dd765eebb49690f413b6a97873373d5b7b2cc5d28",
       "verification": "provider",
       "place": {
@@ -422,7 +432,9 @@
         "latitude": 34.238589,
         "longitude": 108.941673
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "63a3e6857538d76f34c5236dd765eebb49690f413b6a97873373d5b7b2cc5d28",
+      "excerptCharacters": 124
     },
     {
       "id": "ev:736c8efb8b443573a8265151",
@@ -433,7 +445,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:57:01.946406+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B001D1158K\",\"name\":\"西安博物院北门售票处\",\"address\":\"友谊西路72号(南稍门地铁站F口步行200米)\",\"latitude\":34.240813,\"longitude\":108.942433}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "8e87d42630820b43788dc3d2514c19fef3d82a25d0f2c330779b744de5d2d37e",
       "verification": "provider",
       "place": {
@@ -444,7 +456,9 @@
         "latitude": 34.240813,
         "longitude": 108.942433
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "8e87d42630820b43788dc3d2514c19fef3d82a25d0f2c330779b744de5d2d37e",
+      "excerptCharacters": 145
     },
     {
       "id": "ev:b1a5458e3df7594bcae03f9a",
@@ -455,11 +469,13 @@
       "publisher": "xa.bendibao.com",
       "retrievedAt": "2026-10-25T20:57:09.929901+00:00",
       "publishedAt": null,
-      "excerpt": "资讯\n 办事\n 社保\n 公积金\n 补贴\n 教育\n 旅游\n 休闲\n 交通\n 招聘\n 特惠\n 房产\n\n 西安旅游\n 活动大全\n 好玩推荐\n 重磅特色\n 主题游\n 节庆攻略\n 特惠优选\n 周末去哪\n 产品导航\n\n西安本地宝 > 西安旅游 > 游在西安 > 西安旅游攻略 > 西安博物院小雁塔门票免费预约指南\n\n2026-10-19 16:43 【我要纠错】\n\n分享至\n\n【导语】：西安博物院小雁塔每周二及除夕闭园，景区免费不免票，需提前预约入园，预约指南见正文：\n\n西安博物院（小雁塔）门票免费预约流程\n\n一、手机微信预约方式\n\n　　1、扫码关注西安博物院微信公众号，进入预约入口\n\n西安博物院小雁塔门票免费预约指南\n\n　　2、选择预约日期、入场时间，点击下一步\n\n　　3、填写身份信息后【去预约】\n\n　　4、预约成功后凭【身份证】直接入园\n\n二、现场预约\n\n　　已到达现场但未提前网络预约的游客，需要用微信扫描西安博物院门口二维码进行现场预约，从西安博物院西门、北门、南门闸机处刷身份证有序入园。\n\n三、预约须知 [...] 三、预约须知\n\n　　1、游客可提前五天(含当天)通过西安博物院官方微信公众号、西安博物院官方网站进行门票预约。\n\n　　2、放票时间为每日下午18:00。每个手机号每天最多预约5张门票，每个身份证每日仅能预约一次。\n\n　　3、预约成功后持本人身份证在预约时段内刷身份证即可入园。\n\n　　4、放票规则：每日18:00整点更新5天内门票(例如，9月1日放9月6日门票)，请您按需预约。\n\n推荐阅读：西安博物院小雁塔游玩攻略（时间+门票+交通）\n\n温馨提示：微信搜索公众号【西安本地宝】，关注后在对话框回复【小雁塔】预约免费门票，查看、讲解服务、晨练登记、咨询电话，还可进入线上云观展\n\n手机访问 西安本地宝首页\n\n相关推荐 西安博物院门票 小雁塔门票\n\n- 西安小雁塔怎么去（地址+交通指南）\n\n  西安小雁塔位于西安市碑林区友谊西路72号西安博物院内，游客可乘坐西安地铁或公交前往景区，具体路线见正文！\n- 2026西安第四届幸福雁塔枫叶季赏枫攻略+便民指南 [...] IOS Android\n\n通过西安博物院官方微信公众号、西安博物院官方网站进行门票预约。\n\n　　2、放票时间为每日下午18:00。每个手机号每天最多预约5张门票，每个身份证每日仅能预约一次。\n\n　　3、预约成功后持本人身份证在预约时段内刷身份证即可入园。\n\n　　4、放票规则：每日18:00整点更新5天内门票(例如，9月1日放9月6日门票)，请您按需预约。\n\n推荐阅读：西安博物院小雁塔游玩攻略（时间+门票+交通）\n\n企业文化 | 广告服务 | 关于我们 | 联系我们 | 诚聘英才 | 意见建议 | 本地宝APP   \n\nCopyright © 2006- 2026 All rights reserved.",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "f7a80926c6972a11b33cb0958685f21c6aa821044b980b8c8a95872ca4575f64",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "f7a80926c6972a11b33cb0958685f21c6aa821044b980b8c8a95872ca4575f64",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:b99cb86f8ff5ceae934f3f73",
@@ -470,11 +486,13 @@
       "publisher": "www.iwenbo.fun",
       "retrievedAt": "2026-10-25T20:57:09.930014+00:00",
       "publishedAt": null,
-      "excerpt": "世界文化遗产“小雁塔”是唐长安城中著名皇家寺院荐福寺的佛塔，已有1300余年历史，是西安地区保持了初建时原貌的唐代建筑。荐福寺原名“献福寺”，武则天天授元年改为现名。寺内每日敲响的“雁塔晨钟”被誉为长安八景之一。小雁塔于1961年列入全国重点文物保护单位，2014年随着“丝绸之路：长安\\_\\_天山廊道的路网”申遗成功，小雁塔入选世界文化遗产名录。\n\n“乐知学堂”是西安博物院实施博物馆教育职能的专用空间，遵循乐学、好知、博学、多闻的教育理念，策划开展了一系列“博物馆体验”活动，采取积极主动的方式引导公众走进博物馆参观，并为公众提供各种教育性与娱乐性的文化体验项目，让观众更好地理解博物馆展览内涵和外延，做到博物馆亲近民众，让观众了解博物馆、接近博物馆、爱上博物馆。\n\n参观须知：\n\n### 开放时间\n\n旺季：\n\n3月15日至10月31日，发票时间：9∶00—17∶00，18∶00清园。\n\n淡季：\n\n11月1日至次年3月14日，发票时间：9∶00—16∶30，17∶30清园。  \n每周二（国家法定节假日除外）及除夕全天闭馆，其余时间开放。\n\n### 交通路线\n\n地址： [...] 服务项目：\n\n1、付费讲解  \n中文讲解：  \n专家讲解员  500元/批次  \n高级讲解员  150元/批次  \n普通讲解员  100元/批次  \n外语讲解：  \n150元/批次  \n备注：  \n1.讲解内容：博物馆负一层基本陈列、荐福寺景区、小雁塔（世界文化遗产），时长90分钟以内。  \n2.每批次10人以内。  \n团队讲解：  \n20人以上需提前1天拨打电话预约。预约电话：029-87568908。  \n2、定时免费讲解  \n每天上午10:00、下午15:00（节假日除外）有我馆的专业讲解员为您提供定时免费讲解服务，详情请咨询博物馆讲解服务台。  \n3、志愿者讲解  \n博物馆讲解服务台公示当日志愿者讲解场次（讲解服务不针对团队），详情可在博物馆讲解服务台咨询。  \n4、自助语音导览  \n博物馆入口处设置有自助导览服务驿站终端机2台，观众可通过扫描支付码进行租用。  \n咨询电话：029-87568908、87568960、85270409\n\n交通指南： [...] ### 交通路线\n\n地址：\n\n      西安市碑林区朱雀大街北段（西门）  \n公交路线：  \n      小雁塔站：游7、游8、21、203、224、410、508、521、700、五龙专线  \n      夏家庄站：18、204、218、407、713、720  \n地铁：  \n      南稍门站：2号线  \n自驾：  \n      西门停车场\n\n### 预约参观流程\n\n1、官方预约通道：关注西安博物院微信公众号，点击“服务”选择“门票预约”，进入预约界面；也可进入西安博物院官方网站（\n\n2、其他预约通道：美团APP/大",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "6204b79bf9f29a706fee2117c4c2db01fa407907b4e290389ccc449b6b00b2f0",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "6204b79bf9f29a706fee2117c4c2db01fa407907b4e290389ccc449b6b00b2f0",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:2933f5bbd42525288801a68b",
@@ -485,11 +503,13 @@
       "publisher": "www.xabwy.com",
       "retrievedAt": "2026-10-25T20:57:09.930076+00:00",
       "publishedAt": null,
-      "excerpt": "1.游客可通过西安博物院官方微信公众号、西安博物院官方网站、携程旅行APP完成实名制门票预约。每日18:00更新5日内门票（例如，9月1日放9月6日门票）。预约成功后，请凭",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "3bebf080670d820bbe8c607a2c4067a6f2cf984f9a3632542da8528fc1d73956",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "3bebf080670d820bbe8c607a2c4067a6f2cf984f9a3632542da8528fc1d73956",
+      "excerptCharacters": 86
     },
     {
       "id": "ev:c192855230031ef5f0c1bc12",
@@ -500,11 +520,13 @@
       "publisher": "my.trip.com",
       "retrievedAt": "2026-10-25T20:57:09.930120+00:00",
       "publishedAt": null,
-      "excerpt": "免費預約門票. . 所有旅客. 官方認證夥伴. 預約並直接使用. 隨時可取消. 無需取 ... 西安博物院/小雁塔英文人員導覽（09:00-英语讲解-1-6人使用, 所有旅客）. 官方認證",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "28671dba1be2a16361ba8f0712b0643a31dcf8eef8e8c9414d812aefaa24a665",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "28671dba1be2a16361ba8f0712b0643a31dcf8eef8e8c9414d812aefaa24a665",
+      "excerptCharacters": 94
     },
     {
       "id": "ev:b41ae1b02e68f72f87e1352f",
@@ -515,11 +537,13 @@
       "publisher": "www.beilin-museum.com",
       "retrievedAt": "2026-10-25T20:57:10.204852+00:00",
       "publishedAt": null,
-      "excerpt": "一、开放时间  \n 9:00-18：00(17:00停止检票)。   \n 二、门票价格  \n 除政策性免票外，暂执行惠民价格：10元/人次。   \n 三、参观区域  \n 孔庙古建筑群、第一至七展室、石刻艺术馆、西安石刻艺术室。  \n 四、购票方式  \n 1.西安碑林博物馆实行身份证实名预约购票。   \n 2.观众须通过官方微信公众号、官方网站和支付宝提前预约购票。凭身份证或购票电子二维码入园参观。   \n 3.特殊证件人群（军官证、士兵证、消防员证、残疾证、人民警察证等）请前往售票窗口兑换免票。   \n 五、游览要求   \n 1.我馆实行分时预约、错峰参观措施，请观众务必按照预约时间段前来参观。   \n 2.当日客流量过大时，将现场分流；若达到当日最大承载量8000人，将停止售票，给您带来不便敬请谅解。   \n 3.如您在游览期间有任何疑问或者需要帮助，请致电029-87253331。   \n 六、政策性免票 [...] 西安碑林博物馆   \n 2025年4月11日\n\n中/En\n\n 网站首页\n 参观指南\n 碑林播报\n 陈列展览\n 精品视窗\n 科研成果\n 数字资源\n 机构设置\n 合作交流\n\n ，高285厘米，宽...\n:   \n\n    曹全碑\n\n    《曹全碑》，高272厘米，宽95厘米，隶书，20行...\n:   \n\n    迴元观钟楼铭\n\n    《迴元观钟楼铭》，横长方形，长123厘米，高60厘...\n:   \n\n    开成石经\n\n    《开成石经》，共114右、228面，每石高216厘...\n:   \n\n    石台孝经\n\n    《石台孝经》，由四块高590厘米、宽120厘米的长...\n:   \n\n    三藏圣教序碑\n\n    《集王圣教序碑》，又称《七佛头圣教序》，高350厘...\n:   \n\n    皇甫诞碑\n\n    《皇甫诞碑》，螭首方座，高268厘米，宽96厘米，...\n\n:   \n\n    仓颉庙碑\n\n    《仓颉庙碑》，尖首形，高147厘米，宽79厘米，碑...\n:   \n\n    邓太尉祠碑 [...] 西安碑林博物馆  \n 参观公告",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "0477ca3b22eb84a5d8b9e670a0cc435b85439e89e3f0e4e16e2833ead62eb0aa",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "0477ca3b22eb84a5d8b9e670a0cc435b85439e89e3f0e4e16e2833ead62eb0aa",
+      "excerptCharacters": 900
     },
     {
       "id": "ev:e6542a1f2d2ae81047b49c69",
@@ -530,11 +554,13 @@
       "publisher": "www.beilin-museum.com",
       "retrievedAt": "2026-10-25T20:57:10.204968+00:00",
       "publishedAt": null,
-      "excerpt": "尊敬的观众朋友们：  \n       西安碑林博物馆改扩建工程在社会各界的关心与支持下，已具备开放条件。为保障博物馆可持续发展，进一步提升公共服务质量，优化观众参观体验，根据《陕西省发展和改革委员会关于核定西安碑林博物馆改扩建门票价格的函》（陕发改价格函〔2025〕464号）文件精神，现就西安碑林博物馆全面开放门票价格事宜公告如下：     \n一、开放时间：  \n       9:00开馆，17:00停止检票，18:30闭馆。  \n二、门票价格：  \n       自2025年5月12日起，除政策性免票外，门票价格不分淡旺季，统一按全票85元/人次，半票42元/人次执行，执行期2年。日最大承载量20199人次。  \n三、购票方式：  \n       1.西安碑林博物馆实行身份证实名预约购票。  \n       2.观众须通过官方微信公众号、官方网站和支付宝提前预约购票。凭身份证或购票电子二维码入馆参观。  \n       3.特殊证件人群（军官证、士兵证、消防员证、残疾证等）请前往售票窗口兑换免票。  \n四、游览要求： [...] 四、游览要求：  \n       1.全面实行分时预约制，请务必按照预约时间段前来参观。  \n       2.当日客流量过大时，将现场分流；若达到当日最大承载量，将停止售票，给您带来不便敬请谅解。  \n       3.如您在游览期间有任何疑问或者需要帮助，请致电029-87253331。 [...] 中/En\n\n 网站首页\n 参观指南\n 碑林播报\n 陈列展览\n 精品视窗\n 科研成果\n 数字资源\n 机构设置\n 合作交流\n\n首页 > 碑林播报 > 公告\n\n 公告\n 碑林简讯\n 社会教育\n 馆际展览\n\n# 西安碑林博物馆全面开放门票价格公告\n\n作者：西安碑林博物馆\n\n发布时间：2025-05-06 23:56:41\n\n阅读次数：次",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "39e81d4d7fafafbf1676951b1ebd210dd0958d695cf0feab0f4d66340d3d0244",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "39e81d4d7fafafbf1676951b1ebd210dd0958d695cf0feab0f4d66340d3d0244",
+      "excerptCharacters": 791
     },
     {
       "id": "ev:ffd413909014d9bdd709ec0c",
@@ -545,11 +571,13 @@
       "publisher": "m.gmw.cn",
       "retrievedAt": "2026-10-25T20:57:10.205046+00:00",
       "publishedAt": null,
-      "excerpt": "手机光明网\n\n# 西安碑林博物馆，即将全面开放！\n\n光明网 显示图片\n\n西安碑林博物馆改扩建工程\n\n　　已经具备开放条件\n\n　　即将全面开放\n\n　　西安碑林博物馆全面开放\n\n　　门票价格公告\n\n　　尊敬的观众朋友们：\n\n　　西安碑林博物馆改扩建工程在社会各界的关心与支持下，已具备开放条件。为保障博物馆可持续发展，进一步提升公共服务质量，优化观众参观体验，根据《陕西省发展和改革委员会关于核定西安碑林博物馆改扩建门票价格的函》（陕发改价格函〔2025〕464号）文件精神，现就西安碑林博物馆全面开放门票价格事宜公告如下：\n\n　　一、开放时间：\n\n　　9:00开馆，17:00停止检票，18:30闭馆。\n\n　　二、门票价格：\n\n　　自2025年5月12日起，除政策性免票外，门票价格不分淡旺季，统一按全票85元/人次，半票42元/人次执行，执行期2年。日最大承载量20199人次。\n\n　　三、购票方式：\n\n　　1.西安碑林博物馆实行身份证实名预约购票。\n\n　　2.观众须通过官方微信公众号、官方网站和支付宝提前预约购票。凭身份证或购票电子二维码入馆参观。 [...] 3.特殊证件人群（军官证、士兵证、消防员证、残疾证等）请前往售票窗口兑换免票。\n\n　　四、游览要求：\n\n　　1.全面实行分时预约制，请务必按照预约时间段前来参观。\n\n　　2.当日客流量过大时，将现场分流；若达到当日最大承载量，将停止售票，给您带来不便敬请谅解。\n\n　　3.如您在游览期间有任何疑问或者需要帮助，请致电029-87253331。\n\n　　五、优惠政策：\n\n　　1.现役军人（含军队离退休干部）、残疾人、65周岁以上老年人（含65周岁）、6周岁（含6周岁）以下的儿童，凭军官证(离退休证)、士官证、残疾证、居民身份证（或陕西省敬老优待证）免票。\n\n　　2.现役军人本人所携的配偶和18岁以下未成年子女，凭结婚证、户口本等有效证件免票。\n\n　　3.“三属”人员凭优待证免票。\n\n　　4.消防救援人员（含离退休），凭有效证件享受现役军人的同等优待政策。\n\n　　5.人民警察凭《人民警察证》免票。\n\n　　6.退役军人凭《中华人民共和国退役军人优待证》享受半价优惠。\n\n　　7.二级以上重度残疾人需要陪护的，免1名陪同人员门票。 [...] 8.凡陕西省内有突出贡献专家、享受政府特殊津贴专家和离休老干部，凭有效证件（荣誉证书、身份证两证齐全）免票。\n\n　　9.三秦优才卡人员持证可享受同行三人免票。\n\n　　10.院士免票。\n\n　　\\以上优惠政策仅限中华人民共和国公民。\n\n　　西安碑林博物馆\n\n来源： 西安网\n\n2025-05-07 10:47:46",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "acdfe66f94e08dd2b15db16b9742445fce7d1493b5f8eb27f2b966d2d8d66b3f",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "acdfe66f94e08dd2b15db16b9742445fce7d1493b5f8eb27f2b966d2d8d66b3f",
+      "excerptCharacters": 1110
     },
     {
       "id": "ev:693da194b2d2878bbeb12ce0",
@@ -560,11 +588,13 @@
       "publisher": "art.idai.ly",
       "retrievedAt": "2026-10-25T20:57:10.205116+00:00",
       "publishedAt": null,
-      "excerpt": "Imsm top\n\n##### Xi'an\n\n# Xi'an Beilin Museum\n\n---\n\n|  |  |\n --- |\n| 时间 | 每天 9:00-18:30 提前90分钟停止入馆 2026年7月1日至9月30日，开放时间调整为8:30-19:00 |\n| 地址 | 西安市碑林区三学街15号 |\n| 费用 | 全票:85元 入馆需预约购票 | [...] 西安碑林博物馆（Xi'an Beilin Museum）由西安碑林和孔庙旧址的建筑组成，是一座以收藏、研究和陈列历代碑石、墓志及石刻造像为主的博物馆，馆藏文物超过1.1万件，其中包括自汉代以来各类碑石约4000件，重要藏品包括汉《曹全碑》、颜真卿《多宝塔碑》、唐太宗「昭陵六骏」石刻等。  \n  \n历史：  \n西安碑林的历史可以追溯至唐末，人们为防止战乱散失而将碑石集中保存在文庙内；北宋时建成了专门陈列石碑的场所，经过历代收集和增建，规模不断扩大，至清初开始被称为「碑林」。  \n  \n1944年陕西省历史博物馆在碑林成立，1953年孔庙被扩充为馆区。1955年更名为陕西省博物馆。  \n  \n由于碑林馆舍空间有限，难以容纳陕西省内出土的大量文物，博物馆决定筹建一座新馆。1991年新馆即陕西历史博物馆正式开放，碑林从省博物馆中拆分成一座独立的博物馆。  \n  \n2010年，新建成的石刻艺术馆对外开放。  \n  \n\n\n###### 684 人去过\n\n不错的地方\n\n2025.11\n\n上次去装修，部分展出，遗憾。还会再去。\n\n###### 955 张照片\n\n查看更多",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "05b3b541a683cc86f5be46a1fcfee5557487bb23233f30d32e1e341a4fa624e7",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "05b3b541a683cc86f5be46a1fcfee5557487bb23233f30d32e1e341a4fa624e7",
+      "excerptCharacters": 670
     }
   ],
   "noWorkspaceWrites": true,
@@ -786,5 +816,6 @@
   "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
   "traceVerified": true,
   "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/ebd54793-00f6-4fa7-b31c-70d383acccf5?poll=true",
-  "totalSeconds": 41.974
+  "totalSeconds": 41.974,
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
 }

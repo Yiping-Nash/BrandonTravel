@@ -316,11 +316,13 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:55:27.744008+00:00",
       "publishedAt": null,
-      "excerpt": "{\"version\": 10, \"trip\": {\"title\": \"合成评测 · 北京文化旅行\", \"destination\": \"北京\", \"startDate\": \"2026-11-02\", \"endDate\": \"2026-11-06\", \"timezone\": \"Asia/Shanghai\", \"preferences\": \"两位成人偏爱历史和博物馆，每天最多两个主活动。预约和闭馆规则必须核对官方来源，不把计划等同于预约成功。\", \"id\": \"fixture-r1-v1-beijing-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, \"ideas\": [{\"title\": \"阅读当地历史并写旅行笔记\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-beijing-2026-11-02-i0\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"备用室内休息安排\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-beijing-2026-11-02-i1\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"遇到喜欢的地方多停一会\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-beijing-2026-11-02-i2\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}], \"activities\": [{\"title\": \"抵达北京与休息\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T10:00\", \"endAt\": \"2026-11-02T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-beijing-2026-11-02-a0-0\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"故宫文化参观计划\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T09:00\", \"endAt\": \"2026-11-03T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-beijing-2026-11-02-a1-0\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"阅读与咖啡休息\", \"date\": \"2026-11-04\", \"startAt\": \"2026-11-04T14:00\", \"endAt\": \"2026-11-04T16:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-beijing-2026-11-02-a2-0\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"自由文化探索\", \"date\": \"2026-11-05\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-beijing-2026-11-02-a3-0\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"返程\", \"date\": \"2026-11-06\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-beijing-2026-11-02-a4-0\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}]}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "da32dd23c250dd7743de0337ba4e86fb61510f9b5c41cb39424e8bf27a59e758",
       "verification": "snapshot",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "da32dd23c250dd7743de0337ba4e86fb61510f9b5c41cb39424e8bf27a59e758",
+      "excerptCharacters": 2997
     },
     {
       "id": "ev:06bc0297d86385e8121074c8",
@@ -331,7 +333,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:55:30.302972+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B000A83U0P\",\"name\":\"中国国家博物馆\",\"address\":\"东长安街16号天安门广场东侧\",\"latitude\":39.905374,\"longitude\":116.401304}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "a4def4771f0f32893f84b3d94f37a5c7fe9cfcb6045bccc46d1ff84d328eb3eb",
       "verification": "provider",
       "place": {
@@ -342,7 +344,9 @@
         "latitude": 39.905374,
         "longitude": 116.401304
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "a4def4771f0f32893f84b3d94f37a5c7fe9cfcb6045bccc46d1ff84d328eb3eb",
+      "excerptCharacters": 133
     },
     {
       "id": "ev:53150da4a56df2ea8009b629",
@@ -353,7 +357,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:55:30.303030+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B000A7CRPA\",\"name\":\"国家自然博物馆\",\"address\":\"天桥南大街126号\",\"latitude\":39.883183,\"longitude\":116.399833}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "d2bee66b707840b26d306c42707bad3b7189d0d73b6f9a2e16ed47bd87f09905",
       "verification": "provider",
       "place": {
@@ -364,7 +368,9 @@
         "latitude": 39.883183,
         "longitude": 116.399833
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "d2bee66b707840b26d306c42707bad3b7189d0d73b6f9a2e16ed47bd87f09905",
+      "excerptCharacters": 128
     },
     {
       "id": "ev:b63de7228a3b75387b5a6f7b",
@@ -375,7 +381,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:55:30.303060+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0JUDRHL8D\",\"name\":\"中国科学家博物馆\",\"address\":\"北辰东路3号\",\"latitude\":40.007626,\"longitude\":116.398916}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "7471045d9d19e51551df3624f5dad36e0a2b450ee649ef81cf8545780932c1b6",
       "verification": "provider",
       "place": {
@@ -386,7 +392,9 @@
         "latitude": 40.007626,
         "longitude": 116.398916
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "7471045d9d19e51551df3624f5dad36e0a2b450ee649ef81cf8545780932c1b6",
+      "excerptCharacters": 126
     },
     {
       "id": "ev:75a17370ed43dd7bda534542",
@@ -397,11 +405,13 @@
       "publisher": "www.chnmuseum.cn",
       "retrievedAt": "2026-10-25T20:55:35.641982+00:00",
       "publishedAt": null,
-      "excerpt": "藏品\n 文保\n 研究\n 展览\n\n 社教\n 文创\n 服务\n 视频\n\n开放时间\n\n 09:00 开馆时间\n 16:30 停止入馆\n 17:30 闭馆时间\n\n每周一例行闭馆，国家法定节假日除外\n\n交通地理\n\n 中国国家博物馆 北京市东城区东长安街16号 天安门广场东侧\n 公交线路 天安门东站：1、2、52、82、120、观光2线、旅游公交1线、旅游公交2线\n 地铁线路 地铁1号线天安门东站：C口、D口出站\n\n  \n\n  参观预约\n  \n\n  参观须知\n  \n\n  公益讲解\n  \n\n  APP导览\n  \n\n  餐饮休息\n  \n\n  文创产品\n  \n\n  便民服务\n  \n\n  观众之声\n\n参观预约\n\n欢迎您参观 中国国家博物馆\n\n观众预约须知：\n\n为提升服务质量、保护文物安全，本馆实行预约参观制度。请您阅读如下须知，明晰预约流程、参观规则及相关注意事项。祝您参观愉快！\n\n一、开放时间：\n\n本馆每日9:00—17:00（16:00停止入馆），周一闭馆（法定节假日除外）。观众需求高峰期6月1日至10月31日延长开放至17:30（16:30停止入馆）。\n\n二、预约规则： [...] 二、预约规则：\n\n1. 观众须使用有效身份证件完成预约账号实名认证后进行免费预约｡未满14周岁（含）的未成年人，须由成年人代为预约，并与预约人同步核验入馆｡\n\n2. 每个账号每周最多预约1次，每次最多预约5人；至多添加10个常用联系人，且添加后30天内不可变更。同一证件号每月最多预约4次，每天仅可预约1次。\n\n3. 预约后退票仍计入预约次数。每个证件号累积3次未履约将被限制预约30日。用户自行注销账号后，该账号30日内将无法再次登录和重新注册｡\n\n三、预约渠道：\n\n观众可提前7日内在国家博物馆官网､国家博物馆官方预约小程序､微信小程序和微信公众号预约｡每日分为9:00—11:00、11:00—13:30、13:30—16:00（6月1日—10月31日第三时段为13:30—16:30）三个预约入馆时段，预约放票时间为每日17:00，退票截止时间为参观当日15:00。预约成功后，系统自动发送预约成功消息通知，请妥善保存｡\n\n四、核验方式： [...] 四、核验方式：\n\n观众凭本人预约证件原件和预约成功信息，按预约时段从北门观众参观入口有序排队核验入馆，未预约、身份证件信息不符及错过预约时段的观众将无法核验入馆。60周岁（含）以上老人以及残障人士、现役军人、退役军人、军烈属、消防救援人员，凭本人预约证件原件、预约成功信息和优待证件，在所预约时段内从北门绿色通道核验入馆。\n\n五、本预约须知自2025年8月1日起实施。\n\n扫码预约\n\n参观须知\n\n文明参观须知\n\n禁限带物品清单\n\n观众存包须知\n\n展品拍照须知\n\n场馆地图\n\n楼层地图\n\nB1层 1&2层 3层 4层\n\n服务设施\n\n 服务台\n 卫生间\n 女卫生",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "dc73edcb5275ed51b18d55fb60aa797e4ed30c82f0b4ea0038274d87c4d0c57f",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "dc73edcb5275ed51b18d55fb60aa797e4ed30c82f0b4ea0038274d87c4d0c57f",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:3cdebde8bf0fc9ec510da0ce",
@@ -412,11 +422,13 @@
       "publisher": "pcticket.chnmuseum.cn",
       "retrievedAt": "2026-10-25T20:55:35.642073+00:00",
       "publishedAt": null,
-      "excerpt": "个人预约\n\n个人用户请使用手机微信扫描下方小程序码进行预约\n\n扫码预约\n\n个人预约须知\n\n开闭馆时间\n\n 09:00 开馆时间\n 16:00 停止入馆\n 16:30 观众退场\n 17:00 闭馆时间\n\n每周一例行闭馆，国家法定节假日除外\n\n中国国家博物馆版权所有  |  Copyright @中国国家博物馆 京ICP备05008885号  |  EMAIL：service@chnmuseum.cn\n\n观众预约须知\n\n为提升服务质量、保护文物安全，本馆实行预约参观制度。请您阅读如下须知，明晰预约流程、参观规则及相关注意事项。祝您参观愉快！\n\n一、开放时间：\n\n本馆每日9:00—17:00（16:00停止入馆），周一闭馆（法定节假日除外）。观众需求高峰期6月1日至10月31日延长开放至17:30（16:30停止入馆）。\n\n二、预约规则：\n\n1. 观众须使用有效身份证件完成预约账号实名认证后进行免费预约｡未满14周岁（含）的未成年人，须由成年人代为预约，并与预约人同步核验入馆｡ [...] 2. 每个账号每周最多预约1次，每次最多预约5人；至多添加10个常用联系人，且添加后30天内不可变更。同一证件号每月最多预约4次，每天仅可预约1次。\n\n3. 预约后退票仍计入预约次数。每个证件号累积3次未履约将被限制预约30日。用户自行注销账号后，该账号30日内将无法再次登录和重新注册｡\n\n三、预约渠道：\n\n观众可提前7日内在国家博物馆官网､国家博物馆官方预约小程序､微信小程序和微信公众号预约｡每日分为9:00—11:00、11:00—13:30、13:30—16:00（6月1日—10月31日第三时段为13:30—16:30）三个预约入馆时段，预约放票时间为每日17:00，退票截止时间为参观当日15:00。预约成功后，系统自动发送预约成功消息通知，请妥善保存｡\n\n四、核验方式：",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "9c0b2988b5bfaf069eeeb32b9cf0348f03702a7f9f24415893d0301f033b699c",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "9c0b2988b5bfaf069eeeb32b9cf0348f03702a7f9f24415893d0301f033b699c",
+      "excerptCharacters": 792
     },
     {
       "id": "ev:d06ccc8365ab60413b51aa5f",
@@ -427,11 +439,13 @@
       "publisher": "xinwen.bjd.com.cn",
       "retrievedAt": "2026-10-25T20:55:35.642146+00:00",
       "publishedAt": null,
-      "excerpt": "国博君\n\n2025-04-24 16:53 语音播报\n\n头版\n\n进入频道\n\n中国国家博物馆2025年“五一”假期开放公告\n\n各位观众：\n\n2025年“五一”假期将至，为满足广大观众假日文化需求，中国国家博物馆2025年“五一”期间开放时间安排如下：\n\n5月1日至5月5日（含周一）正常开放。开馆时间为9:00，停止入馆时间为16:00，闭馆时间为17:00。\n\n“五一”期间我馆继续实行全员实名预约参观机制，您可在参观前7日内通过国家博物馆官网、国家博物馆官方预约小程序、国家博物馆微信小程序和微信公众号预约免费入馆门票。参观当日须按照您所预约的时段入馆，入馆时请您有序排队并配合进行身份证件核录，入馆后请勿大声喧哗，文明有序观展，共同营造和谐舒适的参观环境。\n\n国家博物馆官网预约链接：\n\n国家博物馆官方预约小程序：\n\n \n\n国家博物馆微信小程序：\n\n \n\n国家博物馆微信公众号：\n\n \n\n（微信扫一扫，点击“我要来”菜单中的预约入口即可预约）\n\n参观咨询热线：010-65116400（9:00—16:30）。\n\n感谢您对中国国家博物馆的关注与支持。\n\n中国国家博物馆\n\n2025年4月24日 [...] 2025年4月24日\n\n编辑：曾佳佳\n\n打开APP阅读全文\n\n您的评论已提交审核",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "f8efc20798437df32159f95204f73fdeb9403f89d68749bda7ae6221c78552cd",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "f8efc20798437df32159f95204f73fdeb9403f89d68749bda7ae6221c78552cd",
+      "excerptCharacters": 545
     },
     {
       "id": "ev:b1c4a1672adcc1a9bc7de40f",
@@ -442,11 +456,13 @@
       "publisher": "pcticket.chnmuseum.cn",
       "retrievedAt": "2026-10-25T20:55:35.642198+00:00",
       "publishedAt": null,
-      "excerpt": "讲解预约\n\n请使用手机微信扫描下方小程序码进行预约\n\n扫码预约\n\n预约须知\n\n开闭馆时间\n\n 09:00 开馆时间\n 16:00 停止入馆\n 16:30 观众退场\n 17:00 闭馆时间\n\n每周一例行闭馆，国家法定节假日除外\n\n中国国家博物馆版权所有  |  Copyright @中国国家博物馆 京ICP备05008885号  |  EMAIL：service@chnmuseum.cn\n\n预约须知\n\n(1)观众可提前2-7天在“中国国家博物馆”官方网站、“国家博物馆”APP或“国家博物馆”公众号中，点击收费讲解服务，根据个人需求，选择相应的讲解类型报名并缴费。\n\n(2)每张有效身份证件单日仅可预约一次，务必准确填写预约单。每张预约单一次预约人数上限为: 精品讲解15人，定制精品讲解20人。讲解当日，请随身携带有效身份证件。\n\n(3)收费讲解服务可在支付费用后至开讲前24小时内申请退款，逾期则不予受理，退款将在3个工作日内退回预约账户。\n\n(4)收费讲解有可能根据实际情况变更或取消，我们将及时发布通知，并办理退款，请留意关注。 [...] (5)预约1小时可选择1个展览，预约2小时可选择2个展览。如迟到20分钟以上，则按原定时间结束。迟到1小时以上，则取消订单，不予退款。\n\n(6)观众需按约定时间开讲前10分钟到达预约讲解展厅门口，并在讲解人员的帮助下核实身份并领取蓝牙耳机。讲解员会准时开始讲解，如有观众迟到，请自行至展厅内与讲解员汇合（讲解员会佩戴红色证件），谢谢您的配合。",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "1d40dee02936f3653c28bfd96e58fc51dc82a11322c5297e93d8616d2ef78a8a",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "1d40dee02936f3653c28bfd96e58fc51dc82a11322c5297e93d8616d2ef78a8a",
+      "excerptCharacters": 647
     },
     {
       "id": "ev:63d56fceeae9ed70effc02e7",
@@ -457,7 +473,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:55:37.799366+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B000A8UIN8\",\"name\":\"故宫博物院\",\"address\":\"景山前街4号\",\"latitude\":39.917839,\"longitude\":116.397029}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "7ad5fc664b7ced2037f256d7a6eed3262e2183fafe250da39c7de9fa3c6c7a3b",
       "verification": "provider",
       "place": {
@@ -468,7 +484,9 @@
         "latitude": 39.917839,
         "longitude": 116.397029
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "7ad5fc664b7ced2037f256d7a6eed3262e2183fafe250da39c7de9fa3c6c7a3b",
+      "excerptCharacters": 123
     },
     {
       "id": "ev:1ee8ebfd490fd5022c8fd1d2",
@@ -479,7 +497,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:55:37.799421+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0FFKL520U\",\"name\":\"故宫博物院检票处\",\"address\":\"景山前街4号故宫博物院内(南侧)\",\"latitude\":39.913619,\"longitude\":116.396952}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "b8d5a16e8caa6440ce2e2a0bee04972b97698fef1e4d2b7cb5aeb8c2fd8e68a0",
       "verification": "provider",
       "place": {
@@ -490,7 +508,9 @@
         "latitude": 39.913619,
         "longitude": 116.396952
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "b8d5a16e8caa6440ce2e2a0bee04972b97698fef1e4d2b7cb5aeb8c2fd8e68a0",
+      "excerptCharacters": 136
     },
     {
       "id": "ev:50286a3a7868f289c6abcbc9",
@@ -501,7 +521,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:55:37.799453+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B000A84GDN\",\"name\":\"故宫博物院-午门\",\"address\":\"东华门街道景山前街4号故宫博物院内(南侧)\",\"latitude\":39.913582,\"longitude\":116.397228}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "6c226e5a08f0acc52498ac83be67cb0bfa06b363fb44193b3014f1347d58009b",
       "verification": "provider",
       "place": {
@@ -512,7 +532,9 @@
         "latitude": 39.913582,
         "longitude": 116.397228
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "6c226e5a08f0acc52498ac83be67cb0bfa06b363fb44193b3014f1347d58009b",
+      "excerptCharacters": 141
     },
     {
       "id": "ev:44e7f8f186e90bafb113d7db",
@@ -523,11 +545,13 @@
       "publisher": "www.museumsky.com",
       "retrievedAt": "2026-10-25T20:55:42.121013+00:00",
       "publishedAt": null,
-      "excerpt": "常规开放时间\n\n| 季节 | 开放时间 | 停止入馆 | 闭馆时间 |\n ---  --- |\n| 旺季（4月-10月） | 08:30 | 16:10 | 17:00 |\n| 淡季（11月-3月） | 08:30 | 15:40 | 16:30 |\n\n2026年特别提示\n\n 周一照常开放：春节期间（2月10日-17日）周一不闭馆\n 清明假期（4月4日-6日）：延时至18:00闭馆\n 五一假期（5月1日-5日）：延时至18:00闭馆\n 国庆假期（10月1日-7日）：延时至18:00闭馆\n\n建议游览时段\n\n| 时段 | 推荐度 | 原因 |\n --- \n| 08:30-10:30 | ⭐⭐⭐⭐⭐ | 最佳：清晨人少，光线佳，拍照黄金时间 |\n| 14:00-15:30 | ⭐⭐⭐⭐ | 次佳：午后团队游客减少，展厅相对安静 |\n| 11:00-14:00 | ⭐ | 不建议：人流最密集，殿内拥挤，体验大打折扣 |\n\n闭馆日\n\n故宫每周一闭馆（法定节假日除外），每年春节期间闭馆约5天。建议出发前通过官网或微信小程序确认当日是否开放。\n\n## 👃 气味指南 [...] 预约渠道\n\n1. 故宫博物院官方网站：每日20:00开放预约，可预约未来7日内门票 ⭐推荐\n2. 故宫博物院微信小程序：搜索\"故宫博物院\"，按指引操作，支持微信支付\n3. 携程/去哪儿等第三方平台：同步放票，但建议以官方为准，第三方可能存在信息滞后\n\n预约流程\n\n1. 选择参观日期（周一闭馆，法定节假日除外）\n2. 填写实名信息（姓名、身份证号码）\n3. 选择票种（大门票/大门票+钟表馆/大门票+珍宝馆）\n4. 支付并获取订单二维码\n5. 入院时刷身份证或出示订单二维码\n\n> 💡 预约技巧：每日20:00放票时是捡漏最佳时机，若错过可多刷新，有时退票会在整点放出。另外，预约成功后爽约一次会被警告，爽约两次将取消预约资格90天。\n\n温馨提示\n\n 旺季建议提前5-7天预约，节假日至少提前两周\n 每个账户每单最多购买5张票\n 预约成功后无故爽约将被取消预约资格\n 身份证必带，入园需刷身份证核验\n\n## 🕐 开放时间（2026）\n\n常规开放时间 [...] 大门票\n\n| 票种 | 旺季（4月1日-10月31日） | 淡季（11月1日-3月31日） |\n --- \n| 成人票 | ¥60 | ¥40 |\n| 学生票 | ¥20 | ¥20 |\n| 老人票 | 免费（凭有效证件） | 免费 |\n\n内馆专票（需另行购买）\n\n| 展馆 | 票价 |\n --- |\n| 钟表馆 | ¥10 |\n| 珍宝馆 | ¥10 |\n| 联票（钟表+珍宝） | ¥20 |\n\n> 💡 省钱提示：钟表馆与珍宝馆联票比分开购买便宜¥20，强烈建议联票购买。两馆馆藏价值极高，单独¥10一张票，性价比超值。\n\n优待政策\n\n 6周岁以下或身高",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "5b4bf6df20042482678524919a0a8743bf6aafee81cdb77d63f5d36ad90dc581",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "5b4bf6df20042482678524919a0a8743bf6aafee81cdb77d63f5d36ad90dc581",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:a9c24d66a9f70209ed927046",
@@ -538,11 +562,13 @@
       "publisher": "k.sina.com.cn",
       "retrievedAt": "2026-10-25T20:55:42.121111+00:00",
       "publishedAt": null,
-      "excerpt": "门票价格：旺季（4月1日-10月31日）大门票60元/人，淡季（11月1日-3月31日）40元/人；珍宝馆和钟表馆各10元/人，可在同一小程序内预约。未成年人（未满18周岁）免费，但需在“故宫博物院”小程序“未成年人团队预约”或个人预约中完成登记。故宫博物院周一闭馆（法定节假日除外），预约时需避开周一。\n\n 关键规则\n 具体说明\n 放票时间提前7天，每晚20:00（例：7月10日门票，7月4日20:00开抢）\n 预约渠道仅官方微信小程序“故宫博物院”，官网可辅助\n 当日票不售当日票，现场不售票\n 闭馆日周一闭馆（法定节假日除外）\n 实名制需凭有效身份证件实名预约，入馆刷证\n 退改签未使用门票可退，但需在参观日前一天23:59前操作\n\n表格说明：数据来源为故宫博物院官方小程序及官网公开信息\n\n02预约操作：微信小程序四步走，细节决定成败\n\n官方小程序是目前唯一正规入口，操作流程并不复杂，但细节决定是否抢得到。实测成功率最高的方法如下： [...] 故宫博物院全年开放，开放时间按照淡、旺季会有所改变，遇到法定假期也会延长或缩短开放时间。旺季（4.1-10.31）入馆时间8:30，停止入馆16:00，珍宝馆、钟表馆停止入馆16:10，闭馆17:00；淡季（11.1-3.31）入馆时间8:30，停止入馆15:30，珍宝馆、钟表馆停止入馆15:40，闭馆16:30。故宫实行自南向北单向参观，观众一律由午门进入，参观结束后可由神武门或东华门离开。此外，部分古建区域可能临时关闭，如2026年9月1日至10月31日延禧宫进行保护性勘察，11月1日重新开放；雕版馆2026年8月11日至9月14日临时闭馆等，出行前建议查看官网公告。\n\n参观时，请勿携带宠物进院，保持衣容整洁，不要随地吐痰，乱丢垃圾。同时，注意保管个人物品，提防扒窃，不要轻信社会散杂人员派发的广告和兜售的商品。如有紧急情况，可拨打咨询电话400-950-1925，或联系故宫派出所电话010－65131882。 [...] 💡编辑部建议：如果你计划在暑期或节假日参观，务必提前7天晚上20:00准时开抢，并做好捡漏准备。如果时间灵活，建议优先选择淡季（11月-3月）的周二至周四，票量相对充足，体验也更舒适。\n\n最后，根据不同的用户需求，给出以下建议：\n\n学生党/年轻人\n\n推荐在淡季（11月-3月）参观，门票40元，人少票多，提前1-2天预约即可，还能避开人流高峰，拍照体验更好。\n\n带娃家庭\n\n建议提前7天20:00准时抢票，尤其是节假日期间，并重点关注珍宝馆和钟表馆（各10元），孩子通常很喜欢。未成年人免费，需在预约时登记。\n\n时间灵活的游客\n\n建议关注官网公告，避开临时闭馆区域（如延禧宫2026年9-10月闭馆）。选择工作日出行，抢票成功率更高，体验也更好。\n\n记住，故宫门票预约的唯一官方渠道是“故宫博物院”微信小",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "fcaf07df69da2f09b3c834577d6e852e1ad0455d9bbfb215a681741b9501f871",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "fcaf07df69da2f09b3c834577d6e852e1ad0455d9bbfb215a681741b9501f871",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:67dddf169fd71aa729980554",
@@ -553,11 +579,13 @@
       "publisher": "www.dpm.org.cn",
       "retrievedAt": "2026-10-25T20:55:42.121172+00:00",
       "publishedAt": null,
-      "excerpt": "位于景仁宫的“仁风景从——故宫博物院藏捐献文物展”原计划展出至2026年10月18日，现延期至2028年10月15日。欢迎各位观众前往参观。   故宫博物院 2026年10月8日\n\n根据古建保护工作计划，我院将于2026年9月1日至10月31日对延禧宫进行保护性勘察，11月1日重新开放。给您参观带来不便，敬请谅解！   故宫博物院 2026年8月27日\n\n更多公告\n\n开放时间\n\n故宫博物院全年开放，开放时间按照淡、旺季会有所改变，遇到法定假期也会延长或缩短开放时间，请随时注意本网站的公告！如果遇到重大活动或特殊情况，开放时间如有改变，故宫网站将特别发布公告。除法定节假日外，故宫博物院全年实行周一全天闭馆的措施。\n\n旺季4.1-10.31\n\n每年4月1日至10月31日采用旺季开放时间\n\n开放入馆时间：8:30\n\n停止入馆时间：16:00\n\n珍宝馆、钟表馆停止入馆时间：16:10\n\n闭馆时间：17:00\n\n11.1-3.31淡季\n\n每年11月1日至来年3月31日采用淡季开放时间\n\n开放入馆时间：8:30\n\n停止入馆时间：15:30\n\n珍宝馆、钟表馆停止入馆时间：15:40 [...] # 展览\n\n:   近期展览\n:   专馆\n:   原状陈列\n:   赴外展览\n\n# 教育\n\n:   教育新闻\n:   故宫讲坛\n:   书画考级\n:   故宫博物院教育中心\n:   国际博协培训中心\n:   故宫志愿者\n\n# 探索\n\n:   建筑\n:   藏品\n:   古籍\n:   宫廷历史\n:   文物医院\n:   文化专题\n:   名画记\n:   数字多宝阁\n:   数字文物库\n:   藏品总目\n\n# 学术\n\n:   学术资讯\n:   专家名录\n:   故宫学研究院\n:   其他学术机构\n:   故宫博物院院刊\n\n# 文创\n\n:   故宫出版\n:   文创产品\n:   故宫壁纸\n:   故宫APP\n:   故宫游戏\n\n# 关于\n\n:   总说\n:   领导\n:   资讯\n:   院史编年\n:   景仁榜\n:   机构设置\n\n\n\n\n\n\n\n\n\n根据古建修缮、藏品保养与展陈升级计划，武英殿将于2026年10月19日起停止开放，特此公告。   感谢您对故宫文化遗产保护工作的理解与支持！   故宫博物院    2026年10月12日",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "f44a9f28745cb803ef73f4daae9bbf8d038918c1e3cc27878e0f56fa81f8cc14",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "f44a9f28745cb803ef73f4daae9bbf8d038918c1e3cc27878e0f56fa81f8cc14",
+      "excerptCharacters": 969
     },
     {
       "id": "ev:28f21dd75b42cb0c53276a83",
@@ -568,11 +596,13 @@
       "publisher": "www.dpm.org.cn",
       "retrievedAt": "2026-10-25T20:55:42.121230+00:00",
       "publishedAt": null,
-      "excerpt": "大\n\n中\n\n小\n\n各位观众：\n\n为庆祝北京中轴线申遗成功两周年，满足广大观众文化需求，故宫博物院将于2026年7月27日（周一）免费开放一天。8:30开馆，16:00停止入馆，17:00闭馆。\n\n本次参观仅可通过“故宫博物院”微信小程序进行实名预约，7月24日20:00开始预约大门票和钟表馆、珍宝馆门票，约满即止。参观当日，端门、珍宝馆、钟表馆票务窗口不提供服务。\n\n如需帮助，可拨打服务热线：400-950-1925。\n\n故宫博物院\n\n2026年7月23日\n\n问题反馈 分享到：\n\n返回列表\n\n 图书馆\n\n 视听馆\n\n 故宫旗舰店\n\n 全景故宫\n\n v故宫\n\n微博\n\n微信\n\n小程序\n\n学习强国号\n\n视频号\n\n抖音号\n\n网站访问量\n\n网站地图 相关链接 影像授权 隐私政策 版权声明  留言板 联系我们 关于我们\n\n联系方式：gugong@dpm.org.cn\n\n京公网安备 11010102004165号\n\n© 2001- 现在 故宫博物院\n\n网站建设：北京分形科技\n\n火狐 谷歌 360浏览器 最佳分辨率（1920 \\ 1080）\n\n全国党政机关事业单位互联网网站标识管理服务平台 [...] 确 定\n\n确 定\n\n无障碍浏览\n\n故宫博物院 故宫博物院\n\n故宫博物院\n\n 首页\n 导览\n 展览\n 教育\n 探索\n 学术\n 文创\n 关于\n\n 开放时间\n 在线订票\n 交通路线\n 参观须知\n 全景故宫\n\n 近期展览\n 专馆\n 原状陈列\n 赴外展览\n\n 教育新闻\n 故宫讲坛\n 书画考级\n 故宫博物院教育中心\n 国际博协培训中心\n 故宫志愿者\n\n 建筑\n 藏品\n 古籍\n 宫廷历史\n 文物医院\n 文化专题\n 名画记\n 数字多宝阁\n 数字文物库\n 藏品总目\n\n 学术资讯\n 专家名录\n 故宫学研究院\n 其他学术机构\n 故宫博物院院刊\n\n 故宫出版\n 文创产品\n 故宫壁纸\n 故宫APP\n 故宫游戏\n\n 总说\n 领导\n 资讯\n 院史编年\n 景仁榜\n 机构设置\n\n 无障碍\n 登录 注册\n 中\n\n  青少 繁体中文 English Español Русский язык 日本語 Français\n\n青少 繁体中文 English Español Русский язык 日本語 Français\n\n# 导览\n\n:   开放时间\n:   在线订票\n:   交通路线\n:   参观须知\n:   全景故宫 [...] 您当前使用的浏览器版本过低，  \n建议尽快升级您的浏览器，以获得更好的浏览体验！",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "31a365799da68a649b6f5aca90a3606649bd8dc9b677881f7e7cddb29f4d7b7a",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "31a365799da68a649b6f5aca90a3606649bd8dc9b677881f7e7cddb29f4d7b7a",
+      "excerptCharacters": 1045
     },
     {
       "id": "ev:512215eb42c058fef346e77e",
@@ -583,11 +613,13 @@
       "publisher": "www.chnmuseum.cn",
       "retrievedAt": "2026-10-25T20:55:44.822702+00:00",
       "publishedAt": null,
-      "excerpt": "藏品\n 文保\n 研究\n 展览\n 社教\n 文创\n 服务\n 视频\n\n开放时间\n 09:00 开馆时间\n 16:30 停止入馆\n 17:30 闭馆时间\n每周一例行闭馆，国家法定节假日除外\n交通地理\n 中国国家博物馆 北京市东城区东长安街16号 天安门广场东侧\n 公交线路 天安门东站：1、2、52、82、120、观光2线、旅游公交1线、旅游公交2线\n 地铁线路 地铁1号线天安门东站：C口、D口出站\n  \n参观预约\n  \n参观须知\n  \n公益讲解\n  \nAPP导览\n  \n餐饮休息\n  \n文创产品\n  \n便民服务\n  \n观众之声\n参观预约\n欢迎您参观 中国国家博物馆\n观众预约须知：\n为提升服务质量、保护文物安全，本馆实行预约参观制度。请您阅读如下须知，明晰预约流程、参观规则及相关注意事项。祝您参观愉快！\n一、开放时间：\n本馆每日9:00—17:00（16:00停止入馆），周一闭馆（法定节假日除外）。观众需求高峰期6月1日至10月31日延长开放至17:30（16:30停止入馆）。\n二、预约规则：\n1. 观众须使用有效身份证件完成预约账号实名认证后进行免费预约｡未满14周岁（含）的未成年人，须由成年人代为预约，并与预约人同步核验入馆｡\n2. 每个账号每周最多预约1次，每次最多预约5人；至多添加10个常用联系人，且添加后30天内不可变更。同一证件号每月最多预约4次，每天仅可预约1次。\n3. 预约后退票仍计入预约次数。每个证件号累积3次未履约将被限制预约30日。用户自行注销账号后，该账号30日内将无法再次登录和重新注册｡\n三、预约渠道：\n观众可提前7日内在国家博物馆官网､国家博物馆官方预约小程序､微信小程序和微信公众号预约｡每日分为9:00—11:00、11:00—13:30、13:30—16:00（6月1日—10月31日第三时段为13:30—16:30）三个预约入馆时段，预约放票时间为每日17:00，退票截止时间为参观当日15:00。预约成功后，系统自动发送预约成功消息通知，请妥善保存｡\n四、核验方式：\n观众凭本人预约证件原件和预约成功信息，按预约时段从北门观众参观入口有序排队核验入馆，未预约、身份证件信息不符及错过预约时段的观众将无法核验入馆。60周岁（含）以上老人以及残障人士、现役军人、退役军人、军烈属、消防救援人员，凭本人预约证件原件、预约成功信息和优待证件，在所预约时段内从北门绿色通道核验入馆。\n五、本预约须知自2025年8月1日起实施。\n\n扫码预约\n参观须知\n\n文明参观须知\n\n禁限带物品清单\n\n观众存包须知\n\n展品拍照须知\n场馆地图\n楼层地图\nB1层 1&2层 3层 4层\n服务设施\n 服务台\n 卫生间\n 女卫生间\n 男卫生间\n 母婴室\n 餐厅\n 咖啡厅\n 存包\n 饮水处\n 文创商店\n\n便民服务\n 咨询服务\n服务咨询台（位置：北门入口处）\n咨询台（位置：南区三层、北区三层）\n 轮椅、婴儿车\n当日免费使用，需提供有效证件及押金500元，在服务台即可办理手续。\n 母婴室\n母婴室位于艺术长廊南侧，为哺乳期妈妈提供安全、私密、温馨的护理空间。\n 存包\n存包处：北门外设有存包处，为当日参观的观众提供有偿寄存服务。\n智能存包柜：艺术长廊、3层公共空间综合休闲体验区，均设有分时段计费智能存包柜，方便观众临时寄存衣物及随身物品。\n 失物招领\n如果您在展厅内丢失物品，请您及时到服务台进行登记；如果您已经离开，并且确定是在我馆丢失，请您拨打咨询热线010-65116400咨询相关信息。\n 留言台\n场馆各层公共区域设有电子留言台，欢迎观众踊跃留言！\n 应急处置\n如果您在参观过程中突感身体不适或意外受伤，请及时与身边的工作人员联系。\n如果您在参观过程中与亲友走散，请前往服务台，工作人员将为您提供广播寻人服务。\n如遇突发情况，请您服从现场工作人员指挥，按照疏散标识快速有序撤离至安全区域。\n 意见建议\n若您对中国国家博物馆的场馆设施、展览内容或服务质量有任何意见、建议，欢迎前往馆内服务咨询台现场反馈，也可拨打010-65116400服务咨询热线进行反馈。\n\n友情链接：\n文化和旅游部 国家文物局 故宫博物院 上海博物馆 南京博物院 湖南省博物馆 陕西历史博物馆\n网站地图 国博招聘 留言板 资料下载 联系我们 版权声明 隐私安全声明\n\n中国国家博物馆版权所有 京ICP备05008885号 京公网安备11010102003012号 EMAIL：service@chnmuseum.cn\n内容运维：新闻传播处 技术支持：信息技术部　易宝电脑系统（北京）有限公司",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "e7809543b172806e75a06099663fb498771a86cde51a827258ff6346a83c7f21",
       "verification": "page_extract",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "e7809543b172806e75a06099663fb498771a86cde51a827258ff6346a83c7f21",
+      "excerptCharacters": 1891
     },
     {
       "id": "ev:90c78ff01cae415a36e97372",
@@ -598,11 +630,13 @@
       "publisher": "www.dpm.org.cn",
       "retrievedAt": "2026-10-25T20:55:57.909343+00:00",
       "publishedAt": null,
-      "excerpt": "确 定\n\n确 定\n\n无障碍浏览\n\n故宫博物院 故宫博物院\n\n故宫博物院\n\n 首页\n 导览\n 展览\n 教育\n 探索\n 学术\n 文创\n 关于\n\n 开放时间\n 在线订票\n 交通路线\n 参观须知\n 全景故宫\n\n 近期展览\n 专馆\n 原状陈列\n 赴外展览\n\n 教育新闻\n 故宫讲坛\n 书画考级\n 故宫博物院教育中心\n 国际博协培训中心\n 故宫志愿者\n\n 建筑\n 藏品\n 古籍\n 宫廷历史\n 文物医院\n 文化专题\n 名画记\n 数字多宝阁\n 数字文物库\n 藏品总目\n\n 学术资讯\n 专家名录\n 故宫学研究院\n 其他学术机构\n 故宫博物院院刊\n\n 故宫出版\n 文创产品\n 故宫壁纸\n 故宫APP\n 故宫游戏\n\n 总说\n 领导\n 资讯\n 院史编年\n 景仁榜\n 机构设置\n\n 无障碍\n 登录 注册\n 中\n\n  青少 繁体中文 English Español Русский язык 日本語 Français\n\n青少 繁体中文 English Español Русский язык 日本語 Français\n\n# 导览\n\n:   开放时间\n:   在线订票\n:   交通路线\n:   参观须知\n:   全景故宫 [...] 京公网安备 11010102004165号\n\n© 2001- 现在 故宫博物院\n\n网站建设：北京分形科技\n\n火狐 谷歌 360浏览器 最佳分辨率（1920 \\ 1080）\n\n全国党政机关事业单位互联网网站标识管理服务平台\n\n您当前使用的浏览器版本过低，  \n建议尽快升级您的浏览器，以获得更好的浏览体验！ [...] 大\n\n中\n\n小\n\n2026年2月4日（周三），故宫博物院对教师和本科院校、专科院校学生免费开放，含大门票、钟表馆、珍宝馆。\n\n教师和本科院校、专科院校学生主题免费票于1月28日20:00开始预约，申请人须提前通过“故宫博物院”微信小程序实名预约，参观当日不可办理。\n\n参观当日，教师和本科院校、专科院校学生需携带身份证和有效工作证件原件，由午门检票入院参观。预约上午时段的观众最迟检票时间为当日12:00，预约下午时段的观众最早检票时间为当日11:00。请按照预约时间来院，以免影响参观。\n\n故宫博物院客服电话:400-950-1925，工作时间：08:00-20:00（全年无休）。\n\n特此公告。\n\n“故宫博物院”微信小程序\n\n故宫博物院\n\n2026年1月28日\n\n问题反馈 分享到：\n\n返回列表\n\n 图书馆\n\n 视听馆\n\n 故宫旗舰店\n\n 全景故宫\n\n v故宫\n\n微博\n\n微信\n\n小程序\n\n学习强国号\n\n视频号\n\n抖音号\n\n网站访问量\n\n网站地图 相关链接 影像授权 隐私政策 版权声明  留言板 联系我们 关于我们\n\n联系方式：gugong@dpm.org.cn",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "f8f1065abd57b97b0ade213beadcd2a55e97ff49bdd78e91c5bc8ddc3e45b1bf",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "f8f1065abd57b97b0ade213beadcd2a55e97ff49bdd78e91c5bc8ddc3e45b1bf",
+      "excerptCharacters": 1147
     },
     {
       "id": "ev:40955d467e94839fc18d6570",
@@ -613,11 +647,13 @@
       "publisher": "www.dpm.org.cn",
       "retrievedAt": "2026-10-25T20:55:57.909447+00:00",
       "publishedAt": null,
-      "excerpt": "确 定\n\n确 定\n\n无障碍浏览\n\n故宫博物院 故宫博物院\n\n故宫博物院\n\n 首页\n 导览\n 展览\n 教育\n 探索\n 学术\n 文创\n 关于\n\n 开放时间\n 在线订票\n 交通路线\n 参观须知\n 全景故宫\n\n 近期展览\n 专馆\n 原状陈列\n 赴外展览\n\n 教育新闻\n 故宫讲坛\n 书画考级\n 故宫博物院教育中心\n 国际博协培训中心\n 故宫志愿者\n\n 建筑\n 藏品\n 古籍\n 宫廷历史\n 文物医院\n 文化专题\n 名画记\n 数字多宝阁\n 数字文物库\n 藏品总目\n\n 学术资讯\n 专家名录\n 故宫学研究院\n 其他学术机构\n 故宫博物院院刊\n\n 故宫出版\n 文创产品\n 故宫壁纸\n 故宫APP\n 故宫游戏\n\n 总说\n 领导\n 资讯\n 院史编年\n 景仁榜\n 机构设置\n\n 无障碍\n 登录 注册\n 中\n\n  青少 繁体中文 English Español Русский язык 日本語 Français\n\n青少 繁体中文 English Español Русский язык 日本語 Français\n\n# 导览\n\n:   开放时间\n:   在线订票\n:   交通路线\n:   参观须知\n:   全景故宫 [...] 温馨提示：未满18周岁的中国公民（含港澳台居民及获得永久居留权的外国人）、现役军人、消防救援人员、残疾人免费参观，无需办理年票，如有特殊需求请致电客服。\n\n故宫博物院客服电话：400-950-1925，工作时间8:00-20:00（全年无休）\n\n扫码进入“故宫博物院”微信小程序\n\n故宫博物院\n\n2025年11月30日\n\n问题反馈 分享到：\n\n返回列表\n\n 图书馆\n\n 视听馆\n\n 故宫旗舰店\n\n 全景故宫\n\n v故宫\n\n微博\n\n微信\n\n小程序\n\n学习强国号\n\n视频号\n\n抖音号\n\n网站访问量\n\n网站地图 相关链接 影像授权 隐私政策 版权声明  留言板 联系我们 关于我们\n\n联系方式：gugong@dpm.org.cn\n\n京公网安备 11010102004165号\n\n© 2001- 现在 故宫博物院\n\n网站建设：北京分形科技\n\n火狐 谷歌 360浏览器 最佳分辨率（1920 \\ 1080）\n\n全国党政机关事业单位互联网网站标识管理服务平台\n\n您当前使用的浏览器版本过低，  \n建议尽快升级您的浏览器，以获得更好的浏览体验！ [...] 大\n\n中\n\n小\n\n2026年故宫博物院年票将于2025年12月1日-12月31日发售，开售时间为12月1日晚8:00。故宫博物院未授权任何第三方机构或个人代理年票销售业务，请通过“故宫博物院”微信小程序购买。\n\n1.年票价格300元/张，2026年当年有效，有效期内可入院参观10次。\n\n2.中国内地观众仅限使用身份证购买，非中国内地观众请使用港澳居民来往内地通行证、台湾居民来往大陆通行证、港澳台居民居住证、外国人永久居留身份证或护照购买。每个身",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "b140f0638b2918b73287f3640814e1df89926050a7c82328fe0f4877f7dbd469",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "b140f0638b2918b73287f3640814e1df89926050a7c82328fe0f4877f7dbd469",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:228425fe1b2f4d9a5d8f0cd8",
@@ -628,11 +664,13 @@
       "publisher": "www.dpm.org.cn",
       "retrievedAt": "2026-10-25T20:55:57.909511+00:00",
       "publishedAt": null,
-      "excerpt": "关于2026年公共交通司乘人员主题免费开放日的公告\n\n2025 / 12 / 31\n\n2026年1月7日（周三），故宫博物院对公共交通司乘人员免费开放，含大门票、钟表馆、珍宝馆。 公共交...\n\n关于养心殿重新开放的公告\n\n2025 / 12 / 23\n\n经过近10年的研究性保护和系统性修缮，养心殿将于2025年12月26日（周五）对观众重新开放。 养...\n\n关于2026年故宫博物院年票发售的公告\n\n2025 / 11 / 29\n\n2026年故宫博物院年票将于2025年12月1日-12月31日发售，开售时间为12月1日晚8:00。...\n\n关于2025年公安民警主题免费开放日的公告\n\n2025 / 11 / 26\n\n2025年12月3日（周三），故宫博物院对公安民警免费开放，含大门票、钟表馆、珍宝馆。午门展览须自行...\n\n关于2025年医务人员和志愿者主题免费开放日的公告\n\n2025 / 10 / 29\n\n2025年11月5日（周三），故宫博物院对医务人员和志愿者免费开放，含大门票、钟表馆、珍宝馆。午门...\n\n1 2;) 3 4 5 … 15\n\n查看更多;)\n\n 学术活动 [...] # 展览\n\n:   近期展览\n:   专馆\n:   原状陈列\n:   赴外展览\n\n# 教育\n\n:   教育新闻\n:   故宫讲坛\n:   书画考级\n:   故宫博物院教育中心\n:   国际博协培训中心\n:   故宫志愿者\n\n# 探索\n\n:   建筑\n:   藏品\n:   古籍\n:   宫廷历史\n:   文物医院\n:   文化专题\n:   名画记\n:   数字多宝阁\n:   数字文物库\n:   藏品总目\n\n# 学术\n\n:   学术资讯\n:   专家名录\n:   故宫学研究院\n:   其他学术机构\n:   故宫博物院院刊\n\n# 文创\n\n:   故宫出版\n:   文创产品\n:   故宫壁纸\n:   故宫APP\n:   故宫游戏\n\n# 关于\n\n:   总说\n:   领导\n:   资讯\n:   院史编年\n:   景仁榜\n:   机构设置\n\n首页\n\n故宫公告\n\n故宫公告\n\n开放公告\n\n关于2026年环卫工人主题免费开放日的公告\n\n2026 / 03 / 11\n\n2026年3月18日（周三），故宫博物院对环卫工人免费开放，免费范围包括大门票、钟表馆、珍宝馆。环卫...\n\n关于中和殿临时关闭的公告 [...] 关于中和殿临时关闭的公告\n\n2026 / 03 / 11\n\n因展室保养的需要，故宫博物院将于2026年3月17日（周二）临时关闭中和殿展厅进行相关工作，2026...\n\n关于“三八”妇女节女性观众半价参观的公告\n\n2026 / 02 / 28\n\n2026年3月8日（周日），故宫博物院对女性观众半价开放，优惠范围包括大门票、钟表馆、珍宝馆。三八妇...\n\n故宫博物院关于2026年春节",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "bbbac53a2fecf8e6ce25c122bbbc25f965b61101b999999ef692ddf1115f0754",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "bbbac53a2fecf8e6ce25c122bbbc25f965b61101b999999ef692ddf1115f0754",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:2c3cf5322989858f825a62ea",
@@ -643,11 +681,13 @@
       "publisher": "www.dpm.org.cn",
       "retrievedAt": "2026-10-25T20:55:57.909564+00:00",
       "publishedAt": null,
-      "excerpt": "确 定\n\n确 定\n\n无障碍浏览\n\n故宫博物院 故宫博物院\n\n故宫博物院\n\n 首页\n 导览\n 展览\n 教育\n 探索\n 学术\n 文创\n 关于\n\n 开放时间\n 在线订票\n 交通路线\n 参观须知\n 全景故宫\n\n 近期展览\n 专馆\n 原状陈列\n 赴外展览\n\n 教育新闻\n 故宫讲坛\n 书画考级\n 故宫博物院教育中心\n 国际博协培训中心\n 故宫志愿者\n\n 建筑\n 藏品\n 古籍\n 宫廷历史\n 文物医院\n 文化专题\n 名画记\n 数字多宝阁\n 数字文物库\n 藏品总目\n\n 学术资讯\n 专家名录\n 故宫学研究院\n 其他学术机构\n 故宫博物院院刊\n\n 故宫出版\n 文创产品\n 故宫壁纸\n 故宫APP\n 故宫游戏\n\n 总说\n 领导\n 资讯\n 院史编年\n 景仁榜\n 机构设置\n\n 无障碍\n 登录 注册\n 中\n\n  青少 繁体中文 English Español Русский язык 日本語 Français\n\n青少 繁体中文 English Español Русский язык 日本語 Français\n\n# 导览\n\n:   开放时间\n:   在线订票\n:   交通路线\n:   参观须知\n:   全景故宫 [...] © 2001- 现在 故宫博物院\n\n网站建设：北京分形科技\n\n火狐 谷歌 360浏览器 最佳分辨率（1920 \\ 1080）\n\n全国党政机关事业单位互联网网站标识管理服务平台\n\n您当前使用的浏览器版本过低，  \n建议尽快升级您的浏览器，以获得更好的浏览体验！",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "fcf5f1c78b33a2945b2bdf04a43327ee6e0be53c4b9e06c12f21197bf2348900",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "fcf5f1c78b33a2945b2bdf04a43327ee6e0be53c4b9e06c12f21197bf2348900",
+      "excerptCharacters": 633
     }
   ],
   "noWorkspaceWrites": true,
@@ -799,5 +839,6 @@
   "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
   "traceVerified": true,
   "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/b6d50639-a7bf-4c27-845b-c1c129f03b9e?poll=true",
-  "totalSeconds": 57.865
+  "totalSeconds": 57.865,
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
 }

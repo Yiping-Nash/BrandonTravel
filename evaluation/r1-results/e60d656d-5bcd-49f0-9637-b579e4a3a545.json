@@ -97,11 +97,13 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:17:30.113241+00:00",
       "publishedAt": null,
-      "excerpt": "{\"version\": 10, \"trip\": {\"title\": \"合成评测 · 亲子慢游\", \"destination\": \"杭州\", \"startDate\": \"2026-11-02\", \"endDate\": \"2026-11-06\", \"timezone\": \"Asia/Shanghai\", \"preferences\": \"两位成人与一名六岁孩子，喜欢公园和轻松体验。午休不可少，每天最多两个主要活动。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, \"ideas\": [{\"title\": \"阅读当地历史并写旅行笔记\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-i0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"备用室内休息安排\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-i1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"遇到喜欢的地方多停一会\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-i2\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}], \"activities\": [{\"title\": \"湖畔短程散步\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T09:30\", \"endAt\": \"2026-11-02T10:30\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a0-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"午休\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T12:30\", \"endAt\": \"2026-11-02T14:30\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a0-1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"找一处草地玩耍\", \"date\": \"2026-11-02\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a0-2\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 2, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"自然博物馆探索\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T10:00\", \"endAt\": \"2026-11-03T11:30\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a1-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"午休\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T13:00\", \"endAt\": \"2026-11-03T15:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a1-1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"亲子手工体验\", \"date\": \"2026-11-04\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a2-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"自由晚餐\", \"date\": \"2026-11-04\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a2-1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"公园野餐\", \"date\": \"2026-11-05\", \"startAt\": \"2026-11-05T11:00\", \"endAt\": \"2026-11-05T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a3-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"慢慢收拾与返程\", \"date\": \"2026-11-06\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a4-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}]}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "c2c4c30b3d0ed010bf3cf95a6d37242c9d2d55f776322fe349eea6d3027ec3bf",
       "verification": "snapshot",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "c2c4c30b3d0ed010bf3cf95a6d37242c9d2d55f776322fe349eea6d3027ec3bf",
+      "excerptCharacters": 4403
     },
     {
       "id": "ev:b587261f6f2cdc0a97b2cecd",
@@ -112,7 +114,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:17:33.100799+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B023B02074\",\"name\":\"杭州西湖风景名胜区-太子湾公园\",\"address\":\"南星街道南山路1-1号\",\"latitude\":30.22547,\"longitude\":120.142177}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "ed6d71bfba5d3adb56781ff00c1ec1a8accfd6922e5d86803aeaa332b1e673a0",
       "verification": "provider",
       "place": {
@@ -123,7 +125,9 @@
         "latitude": 30.22547,
         "longitude": 120.142177
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "ed6d71bfba5d3adb56781ff00c1ec1a8accfd6922e5d86803aeaa332b1e673a0",
+      "excerptCharacters": 137
     },
     {
       "id": "ev:4262c9bb16bdb12e42323847",
@@ -134,7 +138,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:17:33.100861+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B023B09DUS\",\"name\":\"太子湾公园-九曜山\",\"address\":\"虎跑路(近太子湾公园)\",\"latitude\":30.2203,\"longitude\":120.14184}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "468c63e0f610057006938441eb61869b3a22e0a1798d1506f7d747f970d2a771",
       "verification": "provider",
       "place": {
@@ -145,7 +149,9 @@
         "latitude": 30.2203,
         "longitude": 120.14184
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "468c63e0f610057006938441eb61869b3a22e0a1798d1506f7d747f970d2a771",
+      "excerptCharacters": 129
     },
     {
       "id": "ev:3534b431499e0ef2991bae23",
@@ -156,7 +162,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:17:33.100897+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B023B17WM2\",\"name\":\"太子湾公园-珠帘壁\",\"address\":\"南山路1-1号\",\"latitude\":30.224407,\"longitude\":120.143332}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "df6efdc28b8878927021f4f5c0b642b324deaeed61b75fb9e382ec795d57cb2e",
       "verification": "provider",
       "place": {
@@ -167,7 +173,9 @@
         "latitude": 30.224407,
         "longitude": 120.143332
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "df6efdc28b8878927021f4f5c0b642b324deaeed61b75fb9e382ec795d57cb2e",
+      "excerptCharacters": 128
     },
     {
       "id": "ev:705a8e1ff711ef132d3aea6c",
@@ -178,7 +186,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:17:33.150656+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B023B15DKJ\",\"name\":\"浙江自然博物院\",\"address\":\"西湖文化广场6号\",\"latitude\":30.276814,\"longitude\":120.164581}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "9a2a717353149f95e399d22a93b725f74f165a758d2a4536bb4976bb3128e4a0",
       "verification": "provider",
       "place": {
@@ -189,7 +197,9 @@
         "latitude": 30.276814,
         "longitude": 120.164581
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "9a2a717353149f95e399d22a93b725f74f165a758d2a4536bb4976bb3128e4a0",
+      "excerptCharacters": 127
     },
     {
       "id": "ev:956d931d50d891855c7d1df6",
@@ -200,7 +210,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:17:33.150719+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0FFFWQGI8\",\"name\":\"杭州博物馆\",\"address\":\"粮道山18号\",\"latitude\":30.239091,\"longitude\":120.166525}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "3d6578e80783987bbe8fac9f0468a119b9cbaf67b26ea6227af1ca8778bc2461",
       "verification": "provider",
       "place": {
@@ -211,7 +221,9 @@
         "latitude": 30.239091,
         "longitude": 120.166525
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "3d6578e80783987bbe8fac9f0468a119b9cbaf67b26ea6227af1ca8778bc2461",
+      "excerptCharacters": 123
     },
     {
       "id": "ev:a5d9688d87237214cba1e954",
@@ -222,7 +234,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:17:33.150752+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B023B014F0\",\"name\":\"杭州博物馆南馆\",\"address\":\"粮道山18号杭州博物馆\",\"latitude\":30.238803,\"longitude\":120.166259}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "3113bec5f172cdbb4993a2a9974b7d46673e3b152927c31ae715d283c315fff3",
       "verification": "provider",
       "place": {
@@ -233,7 +245,9 @@
         "latitude": 30.238803,
         "longitude": 120.166259
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "3113bec5f172cdbb4993a2a9974b7d46673e3b152927c31ae715d283c315fff3",
+      "excerptCharacters": 130
     },
     {
       "id": "ev:001c5b7aba8b0e587d226c14",
@@ -244,11 +258,13 @@
       "publisher": "wenku.baidu.com",
       "retrievedAt": "2026-10-25T20:17:47.917724+00:00",
       "publishedAt": null,
-      "excerpt": "浙江自然博物院 的历史可追溯至1929年,其前身为 浙江 省西湖博物馆。历经多次更名与建制调整, 博物院 于2009年迁至西湖文化广场,并在2018年8月正式更名为 浙江自然博物院 。作为国家一级博物... 浙江自然博物院 免费 开放 ，但 预约 政策分时段有所不同，建议出发前确认。 工作日免 预约 ：自2025年9月1日起，工作日恢复免 预约参观 ，散客携带有效证件（身份证等）即可直接入馆。 主要展... 1.本馆施行团队（20人以上） 参观预约 制，请按照流程在 浙江自然 博物馆微信公众服务号上 预约参观 。团队每天 预约 限额 2000人次。 2.首次申请团队 预约 时需认证单位信息，其中包含“认证主... 常设展览为免费 开放 ，请持有效证件免费 预约 取票。一人一证，实名 预约 。科普活动 预约时间 为即日起7天之内。 开馆 时间 调整通知 2026年4月1日起， 浙江自然博物院 杭州馆、安吉馆调整 开放时间 ，每日开馆 时间 提前半小时，即 参观 入场 时间 为9:00 - 16:00，闭馆 时间 为17:00。 24小时博物馆 开放时间 不... Mar 25, 2026 · 2026年4月1日起， 浙江自然博物院 杭州馆、安吉馆调整 开放时间 ，每日开馆 时间 提前半小时，即 参观 入场 时间 为9:00-16:00，闭馆 时间 为17:00。清明假期期间（4月4日至6日），杭州馆、安吉馆... 自然 课程 浙江自然博物院 针对学龄前儿童和5-10岁年龄段观众及陪同家长，将博物馆科教人力和高校大学生志愿者等社会资源共同合力 自然 艺术 科普讲座包含科普大讲堂、科普小讲堂、志愿... Mar 3, 2026 · 为优化观众 参观 体验，提升公共文化服务效能，自2026年3月4日起， 浙江自然博物院 将对杭州馆、安吉馆入馆方式作出如下调整： 预约 通道分别将于 参观 日前三日开启，请观众提前通过公众号 预... 杭州本地宝杭州旅游提供2024 浙江自然 博物馆 参观 指南（ 开放时间 + 预约 入口+地址交通）有关的信息，杭州有非常多值得一去的地方，趁着周末去走走，也是非常惬意的， 浙江自然 博物馆就很值",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "a190832c1e9f21b91bb703c705ef242b8123ec6c8bcd70dc0a00079adad7bf8d",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "a190832c1e9f21b91bb703c705ef242b8123ec6c8bcd70dc0a00079adad7bf8d",
+      "excerptCharacters": 924
     },
     {
       "id": "ev:4641a7c7c17966b8aa73b4de",
@@ -259,11 +275,13 @@
       "publisher": "zjzrpcticket.hdwbcloud.com",
       "retrievedAt": "2026-10-25T20:17:47.917833+00:00",
       "publishedAt": null,
-      "excerpt": "安吉馆区 一、 开放时间 ： 周三至周日 开放 ，周一、周二休馆 (如遇节假日 开放 ，闭馆日顺延); 9月1日起，周三至周五工作日无需 预约 ，可持身份证直接走散客通道； 周末、节假日需提前 预... 浙江自然博物院 的历史可追溯至1929年,其前身为 浙江 省西湖博物馆。历经多次更名与建制调整, 博物院 于2009年迁至西湖文化广场,并在2018年8月正式更名为 浙江自然博物院 。作为国家一级博物... 浙江自然博物院 免费 开放 ，但 预约 政策分时段有所不同，建议出发前确认。 工作日免 预约 ：自2025年9月1日起，工作日恢复免 预约参观 ，散客携带有效证件（身份证等）即可直接入馆。 主要展... 1.本馆施行团队（20人以上） 参观预约 制，请按照流程在 浙江自然 博物馆微信公众服务号上 预约参观 。团队每天 预约 限额 2000人次。 2.首次申请团队 预约 时需认证单位信息，其中包含“认证主... 常设展览为免费 开放 ，请持有效证件免费 预约 取票。一人一证，实名 预约 。科普活动 预约时间 为即日起7天之内。 开馆 时间 调整通知 2026年4月1日起， 浙江自然博物院 杭州馆、安吉馆调整 开放时间 ，每日开馆 时间 提前半小时，即 参观 入场 时间 为9:00 - 16:00，闭馆 时间 为17:00。 24小时博物馆 开放时间 不... Mar 25, 2026 · 2026年4月1日起， 浙江自然博物院 杭州馆、安吉馆调整 开放时间 ，每日开馆 时间 提前半小时，即 参观 入场 时间 为9:00-16:00，闭馆 时间 为17:00。清明假期期间（4月4日至6日），杭州馆、安吉馆... 自然 课程 浙江自然博物院 针对学龄前儿童和5-10岁年龄段观众及陪同家长，将博物馆科教人力和高校大学生志愿者等社会资源共同合力 自然 艺术 科普讲座包含科普大讲堂、科普小讲堂、志愿... Mar 3, 2026 · 为优化观众 参观 体验，提升公共文化服务效能，自2026年3月4日起， 浙江自然博物院 将对杭州馆、安吉馆入馆方式作出如下调整： 预约 通道分别将于 参观 日前三日开启，请观众提前通过公众号 预... 杭州本地宝杭州旅游提供2024 浙江自然 博物馆 参观 指南（ 开放时间 + 预约 入口+地址交通）有关的信息，杭州有非常多值得一去的地方，趁着周末去走走，也是非常惬意的， 浙江自然 博物馆就很值",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "cd7f010be1319c4e1fbf27713262cb650872f312d49b929a162ba2fda6f14441",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "cd7f010be1319c4e1fbf27713262cb650872f312d49b929a162ba2fda6f14441",
+      "excerptCharacters": 1026
     },
     {
       "id": "ev:85d446e60d63e39e80ff8944",
@@ -274,11 +292,13 @@
       "publisher": "wenku.baidu.com",
       "retrievedAt": "2026-10-25T20:17:47.917902+00:00",
       "publishedAt": null,
-      "excerpt": "浙江自然博物院 免费 开放 ，但 预约 政策分时段有所不同，建议出发前确认。 工作日免 预约 ：自2025年9月1日起，工作日恢复免 预约参观 ，散客携带有效证件（身份证等）即可直接入馆。 主要展... 1.本馆施行团队（20人以上） 参观预约 制，请按照流程在 浙江自然 博物馆微信公众服务号上 预约参观 。团队每天 预约 限额 2000人次。 2.首次申请团队 预约 时需认证单位信息，其中包含“认证主... 常设展览为免费 开放 ，请持有效证件免费 预约 取票。一人一证，实名 预约 。科普活动 预约时间 为即日起7天之内。 开馆 时间 调整通知 2026年4月1日起， 浙江自然博物院 杭州馆、安吉馆调整 开放时间 ，每日开馆 时间 提前半小时，即 参观 入场 时间 为9:00 - 16:00，闭馆 时间 为17:00。 24小时博物馆 开放时间 不... Mar 25, 2026 · 2026年4月1日起， 浙江自然博物院 杭州馆、安吉馆调整 开放时间 ，每日开馆 时间 提前半小时，即 参观 入场 时间 为9:00-16:00，闭馆 时间 为17:00。清明假期期间（4月4日至6日），杭州馆、安吉馆... 自然 课程 浙江自然博物院 针对学龄前儿童和5-10岁年龄段观众及陪同家长，将博物馆科教人力和高校大学生志愿者等社会资源共同合力 自然 艺术 科普讲座包含科普大讲堂、科普小讲堂、志愿... Mar 3, 2026 · 为优化观众 参观 体验，提升公共文化服务效能，自2026年3月4日起， 浙江自然博物院 将对杭州馆、安吉馆入馆方式作出如下调整： 预约 通道分别将于 参观 日前三日开启，请观众提前通过公众号 预... 杭州本地宝杭州旅游提供2024 浙江自然 博物馆 参观 指南（ 开放时间 + 预约 入口+地址交通）有关的信息，杭州有非常多值得一去的地方，趁着周末去走走，也是非常惬意的， 浙江自然 博物馆就很值",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "c148a7a7df7bdc6c087c4e6074bff422f250f445f6db21c33d378ea8d4a45dec",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "c148a7a7df7bdc6c087c4e6074bff422f250f445f6db21c33d378ea8d4a45dec",
+      "excerptCharacters": 820
     },
     {
       "id": "ev:e96df587b350ddffcdcfa27d",
@@ -289,11 +309,13 @@
       "publisher": "www.zmnh.com",
       "retrievedAt": "2026-10-25T20:17:47.917958+00:00",
       "publishedAt": null,
-      "excerpt": "作者：    来源：    发布时间:    点击数:\n\n|  |  |  |  |  |\n ---  --- \n| |  |  |  |  |  |  | 上一篇： | | 下一篇： |  |  |  |  | |",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "29f8ce96e4030b282eb1e1bb833dbd44f9f81310a2c5de1ea5b4e770ea735087",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "29f8ce96e4030b282eb1e1bb833dbd44f9f81310a2c5de1ea5b4e770ea735087",
+      "excerptCharacters": 108
     },
     {
       "id": "ev:f0ffff59ae40e25e1cbb1318",
@@ -304,11 +326,13 @@
       "publisher": "www.zmnh.com",
       "retrievedAt": "2026-10-25T20:17:56.283593+00:00",
       "publishedAt": null,
-      "excerpt": "作者：    来源：    发布时间:    点击数:\n|  |  |  |  |  |\n ---  --- \n| |  |  |  |  |  |  | 上一篇： | | 下一篇： |  |  |  |  | |",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "dbb0bbd831c1dd915ba7e40e83678294fb8146e45c53c4380f7526f81143dbef",
       "verification": "page_extract",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "dbb0bbd831c1dd915ba7e40e83678294fb8146e45c53c4380f7526f81143dbef",
+      "excerptCharacters": 107
     }
   ],
   "noWorkspaceWrites": true,
@@ -515,5 +539,6 @@
   "modelListPriceEstimateCny": null,
   "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
   "traceVerified": true,
-  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/e60d656d-5bcd-49f0-9637-b579e4a3a545?poll=true"
+  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/e60d656d-5bcd-49f0-9637-b579e4a3a545?poll=true",
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
 }

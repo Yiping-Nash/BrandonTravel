@@ -364,11 +364,13 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T21:10:53.657079+00:00",
       "publishedAt": null,
-      "excerpt": "{\"version\": 10, \"trip\": {\"title\": \"合成评测 · 北京文化旅行\", \"destination\": \"北京\", \"startDate\": \"2026-11-02\", \"endDate\": \"2026-11-06\", \"timezone\": \"Asia/Shanghai\", \"preferences\": \"两位成人偏爱历史和博物馆，每天最多两个主活动。预约和闭馆规则必须核对官方来源，不把计划等同于预约成功。\", \"id\": \"fixture-r1-v1-beijing-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, \"ideas\": [{\"title\": \"阅读当地历史并写旅行笔记\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-beijing-2026-11-02-i0\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"备用室内休息安排\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-beijing-2026-11-02-i1\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"遇到喜欢的地方多停一会\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-beijing-2026-11-02-i2\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}], \"activities\": [{\"title\": \"抵达北京与休息\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T10:00\", \"endAt\": \"2026-11-02T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-beijing-2026-11-02-a0-0\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"故宫文化参观计划\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T09:00\", \"endAt\": \"2026-11-03T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-beijing-2026-11-02-a1-0\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"阅读与咖啡休息\", \"date\": \"2026-11-04\", \"startAt\": \"2026-11-04T14:00\", \"endAt\": \"2026-11-04T16:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-beijing-2026-11-02-a2-0\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"自由文化探索\", \"date\": \"2026-11-05\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-beijing-2026-11-02-a3-0\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"返程\", \"date\": \"2026-11-06\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-beijing-2026-11-02-a4-0\", \"tripId\": \"fixture-r1-v1-beijing-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}]}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "da32dd23c250dd7743de0337ba4e86fb61510f9b5c41cb39424e8bf27a59e758",
       "verification": "snapshot",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "da32dd23c250dd7743de0337ba4e86fb61510f9b5c41cb39424e8bf27a59e758",
+      "excerptCharacters": 2997
     },
     {
       "id": "ev:578ded1c928b38df456dd03c",
@@ -379,7 +381,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T21:11:09.041674+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B000A76B0A\",\"name\":\"首都博物馆\",\"address\":\"复兴门外大街16号\",\"latitude\":39.906412,\"longitude\":116.342067}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "146b7b58407f12f13b74a4d5080c1382c0283efc24161cf5dd5cd406f03a01a2",
       "verification": "provider",
       "place": {
@@ -390,7 +392,9 @@
         "latitude": 39.906412,
         "longitude": 116.342067
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "146b7b58407f12f13b74a4d5080c1382c0283efc24161cf5dd5cd406f03a01a2",
+      "excerptCharacters": 126
     },
     {
       "id": "ev:53b8c6c8aa5340ec60cdda82",
@@ -401,7 +405,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T21:11:09.041741+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0FFFFGVR6\",\"name\":\"首都博物馆(东区)\",\"address\":\"复兴门外大街16号(木樨地地铁站C1东南口步行330米)\",\"latitude\":39.906487,\"longitude\":116.34256}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "74e34753360d5577bc738220c0c6aa8363e34de8fd679390bb97b6e11376eb23",
       "verification": "provider",
       "place": {
@@ -412,7 +416,9 @@
         "latitude": 39.906487,
         "longitude": 116.34256
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "74e34753360d5577bc738220c0c6aa8363e34de8fd679390bb97b6e11376eb23",
+      "excerptCharacters": 148
     },
     {
       "id": "ev:9c5869cb3061156572427ba2",
@@ -423,7 +429,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T21:11:09.041774+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0I64H3DDF\",\"name\":\"北京大运河博物馆(首都博物馆东馆)\",\"address\":\"滨河南路城市绿心森林公园(西北角)\",\"latitude\":39.880877,\"longitude\":116.71666}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "d0c373686c40862412a3469f79c3136b0ef4937426728d0f7bd55341ebfee40c",
       "verification": "provider",
       "place": {
@@ -434,7 +440,9 @@
         "latitude": 39.880877,
         "longitude": 116.71666
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "d0c373686c40862412a3469f79c3136b0ef4937426728d0f7bd55341ebfee40c",
+      "excerptCharacters": 145
     },
     {
       "id": "ev:06bc0297d86385e8121074c8",
@@ -445,7 +453,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T21:11:09.081776+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B000A83U0P\",\"name\":\"中国国家博物馆\",\"address\":\"东长安街16号天安门广场东侧\",\"latitude\":39.905374,\"longitude\":116.401304}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "a4def4771f0f32893f84b3d94f37a5c7fe9cfcb6045bccc46d1ff84d328eb3eb",
       "verification": "provider",
       "place": {
@@ -456,7 +464,9 @@
         "latitude": 39.905374,
         "longitude": 116.401304
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "a4def4771f0f32893f84b3d94f37a5c7fe9cfcb6045bccc46d1ff84d328eb3eb",
+      "excerptCharacters": 133
     },
     {
       "id": "ev:53150da4a56df2ea8009b629",
@@ -467,7 +477,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T21:11:09.081828+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B000A7CRPA\",\"name\":\"国家自然博物馆\",\"address\":\"天桥南大街126号\",\"latitude\":39.883183,\"longitude\":116.399833}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "d2bee66b707840b26d306c42707bad3b7189d0d73b6f9a2e16ed47bd87f09905",
       "verification": "provider",
       "place": {
@@ -478,7 +488,9 @@
         "latitude": 39.883183,
         "longitude": 116.399833
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "d2bee66b707840b26d306c42707bad3b7189d0d73b6f9a2e16ed47bd87f09905",
+      "excerptCharacters": 128
     },
     {
       "id": "ev:88e328f6065c1008abcce8fd",
@@ -489,7 +501,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T21:11:09.081856+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B000A7S1GC\",\"name\":\"中国人民革命军事博物馆\",\"address\":\"复兴路9号\",\"latitude\":39.909108,\"longitude\":116.323871}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "52a5923a6dee9e2455d9451553131f39eeb249a584916b4e9a4840ec8e5ce2ba",
       "verification": "provider",
       "place": {
@@ -500,7 +512,9 @@
         "latitude": 39.909108,
         "longitude": 116.323871
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "52a5923a6dee9e2455d9451553131f39eeb249a584916b4e9a4840ec8e5ce2ba",
+      "excerptCharacters": 128
     },
     {
       "id": "ev:3cdebde8bf0fc9ec510da0ce",
@@ -511,11 +525,13 @@
       "publisher": "pcticket.chnmuseum.cn",
       "retrievedAt": "2026-10-25T21:11:18.526493+00:00",
       "publishedAt": null,
-      "excerpt": "个人预约\n\n个人用户请使用手机微信扫描下方小程序码进行预约\n\n扫码预约\n\n个人预约须知\n\n开闭馆时间\n\n 09:00 开馆时间\n 16:00 停止入馆\n 16:30 观众退场\n 17:00 闭馆时间\n\n每周一例行闭馆，国家法定节假日除外\n\n中国国家博物馆版权所有  |  Copyright @中国国家博物馆 京ICP备05008885号  |  EMAIL：service@chnmuseum.cn\n\n观众预约须知\n\n为提升服务质量、保护文物安全，本馆实行预约参观制度。请您阅读如下须知，明晰预约流程、参观规则及相关注意事项。祝您参观愉快！\n\n一、开放时间：\n\n本馆每日9:00—17:00（16:00停止入馆），周一闭馆（法定节假日除外）。观众需求高峰期6月1日至10月31日延长开放至17:30（16:30停止入馆）。\n\n二、预约规则：\n\n1. 观众须使用有效身份证件完成预约账号实名认证后进行免费预约｡未满14周岁（含）的未成年人，须由成年人代为预约，并与预约人同步核验入馆｡ [...] 2. 每个账号每周最多预约1次，每次最多预约5人；至多添加10个常用联系人，且添加后30天内不可变更。同一证件号每月最多预约4次，每天仅可预约1次。\n\n3. 预约后退票仍计入预约次数。每个证件号累积3次未履约将被限制预约30日。用户自行注销账号后，该账号30日内将无法再次登录和重新注册｡\n\n三、预约渠道：\n\n观众可提前7日内在国家博物馆官网､国家博物馆官方预约小程序､微信小程序和微信公众号预约｡每日分为9:00—11:00、11:00—13:30、13:30—16:00（6月1日—10月31日第三时段为13:30—16:30）三个预约入馆时段，预约放票时间为每日17:00，退票截止时间为参观当日15:00。预约成功后，系统自动发送预约成功消息通知，请妥善保存｡\n\n四、核验方式：",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "9c0b2988b5bfaf069eeeb32b9cf0348f03702a7f9f24415893d0301f033b699c",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "9c0b2988b5bfaf069eeeb32b9cf0348f03702a7f9f24415893d0301f033b699c",
+      "excerptCharacters": 792
     },
     {
       "id": "ev:75a17370ed43dd7bda534542",
@@ -526,11 +542,13 @@
       "publisher": "www.chnmuseum.cn",
       "retrievedAt": "2026-10-25T21:11:18.526585+00:00",
       "publishedAt": null,
-      "excerpt": "藏品\n 文保\n 研究\n 展览\n\n 社教\n 文创\n 服务\n 视频\n\n开放时间\n\n 09:00 开馆时间\n 16:30 停止入馆\n 17:30 闭馆时间\n\n每周一例行闭馆，国家法定节假日除外\n\n交通地理\n\n 中国国家博物馆 北京市东城区东长安街16号 天安门广场东侧\n 公交线路 天安门东站：1、2、52、82、120、观光2线、旅游公交1线、旅游公交2线\n 地铁线路 地铁1号线天安门东站：C口、D口出站\n\n  \n\n  参观预约\n  \n\n  参观须知\n  \n\n  公益讲解\n  \n\n  APP导览\n  \n\n  餐饮休息\n  \n\n  文创产品\n  \n\n  便民服务\n  \n\n  观众之声\n\n参观预约\n\n欢迎您参观 中国国家博物馆\n\n观众预约须知：\n\n为提升服务质量、保护文物安全，本馆实行预约参观制度。请您阅读如下须知，明晰预约流程、参观规则及相关注意事项。祝您参观愉快！\n\n一、开放时间：\n\n本馆每日9:00—17:00（16:00停止入馆），周一闭馆（法定节假日除外）。观众需求高峰期6月1日至10月31日延长开放至17:30（16:30停止入馆）。\n\n二、预约规则： [...] 二、预约规则：\n\n1. 观众须使用有效身份证件完成预约账号实名认证后进行免费预约｡未满14周岁（含）的未成年人，须由成年人代为预约，并与预约人同步核验入馆｡\n\n2. 每个账号每周最多预约1次，每次最多预约5人；至多添加10个常用联系人，且添加后30天内不可变更。同一证件号每月最多预约4次，每天仅可预约1次。\n\n3. 预约后退票仍计入预约次数。每个证件号累积3次未履约将被限制预约30日。用户自行注销账号后，该账号30日内将无法再次登录和重新注册｡\n\n三、预约渠道：\n\n观众可提前7日内在国家博物馆官网､国家博物馆官方预约小程序､微信小程序和微信公众号预约｡每日分为9:00—11:00、11:00—13:30、13:30—16:00（6月1日—10月31日第三时段为13:30—16:30）三个预约入馆时段，预约放票时间为每日17:00，退票截止时间为参观当日15:00。预约成功后，系统自动发送预约成功消息通知，请妥善保存｡\n\n四、核验方式： [...] 四、核验方式：\n\n观众凭本人预约证件原件和预约成功信息，按预约时段从北门观众参观入口有序排队核验入馆，未预约、身份证件信息不符及错过预约时段的观众将无法核验入馆。60周岁（含）以上老人以及残障人士、现役军人、退役军人、军烈属、消防救援人员，凭本人预约证件原件、预约成功信息和优待证件，在所预约时段内从北门绿色通道核验入馆。\n\n五、本预约须知自2025年8月1日起实施。\n\n扫码预约\n\n参观须知\n\n文明参观须知\n\n禁限带物品清单\n\n观众存包须知\n\n展品拍照须知\n\n场馆地图\n\n楼层地图\n\nB1层 1&2层 3层 4层\n\n服务设施\n\n 服务台\n 卫生间\n 女卫生",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "dc73edcb5275ed51b18d55fb60aa797e4ed30c82f0b4ea0038274d87c4d0c57f",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "dc73edcb5275ed51b18d55fb60aa797e4ed30c82f0b4ea0038274d87c4d0c57f",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:d06ccc8365ab60413b51aa5f",
@@ -541,11 +559,13 @@
       "publisher": "xinwen.bjd.com.cn",
       "retrievedAt": "2026-10-25T21:11:18.526659+00:00",
       "publishedAt": null,
-      "excerpt": "国博君\n\n2025-04-24 16:53 语音播报\n\n头版\n\n进入频道\n\n中国国家博物馆2025年“五一”假期开放公告\n\n各位观众：\n\n2025年“五一”假期将至，为满足广大观众假日文化需求，中国国家博物馆2025年“五一”期间开放时间安排如下：\n\n5月1日至5月5日（含周一）正常开放。开馆时间为9:00，停止入馆时间为16:00，闭馆时间为17:00。\n\n“五一”期间我馆继续实行全员实名预约参观机制，您可在参观前7日内通过国家博物馆官网、国家博物馆官方预约小程序、国家博物馆微信小程序和微信公众号预约免费入馆门票。参观当日须按照您所预约的时段入馆，入馆时请您有序排队并配合进行身份证件核录，入馆后请勿大声喧哗，文明有序观展，共同营造和谐舒适的参观环境。\n\n国家博物馆官网预约链接：\n\n国家博物馆官方预约小程序：\n\n \n\n国家博物馆微信小程序：\n\n \n\n国家博物馆微信公众号：\n\n \n\n（微信扫一扫，点击“我要来”菜单中的预约入口即可预约）\n\n参观咨询热线：010-65116400（9:00—16:30）。\n\n感谢您对中国国家博物馆的关注与支持。\n\n中国国家博物馆\n\n2025年4月24日 [...] 2025年4月24日\n\n编辑：曾佳佳\n\n打开APP阅读全文\n\n您的评论已提交审核",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "f8efc20798437df32159f95204f73fdeb9403f89d68749bda7ae6221c78552cd",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "f8efc20798437df32159f95204f73fdeb9403f89d68749bda7ae6221c78552cd",
+      "excerptCharacters": 545
     },
     {
       "id": "ev:fbbcef56bad41c52a9167986",
@@ -556,11 +576,13 @@
       "publisher": "pcticket.chnmuseum.cn",
       "retrievedAt": "2026-10-25T21:11:18.526709+00:00",
       "publishedAt": null,
-      "excerpt": "讲解预约\n\n请使用手机微信扫描下方小程序码进行预约\n\n扫码预约\n\n预约须知\n\n开闭馆时间\n\n 09:00 开馆时间\n 16:00 停止入馆\n 16:30 观众退场\n 17:00 闭馆时间\n\n每周一例行闭馆，国家法定节假日除外\n\n中国国家博物馆版权所有  |  Copyright @中国国家博物馆 京ICP备05008885号  |  EMAIL：service@chnmuseum.cn\n\n预约须知\n\n(1)观众可提前2-7天在“中国国家博物馆”官方网站、“国家博物馆”APP或“国家博物馆”公众号中，点击收费讲解服务，根据个人需求，选择相应的讲解类型报名并缴费。\n\n(2)每张有效身份证件单日仅可预约一次，务必准确填写预约单。每张预约单一次预约人数上限为: 精品讲解15人，定制精品讲解20人。讲解当日，请随身携带有效身份证件。\n\n(3)收费讲解服务可在支付费用后至开讲前24小时内申请退款，逾期则不予受理，退款将在3个工作日内退回预约账户。\n\n(4)收费讲解有可能根据实际情况变更或取消，我们将及时发布通知，并办理退款，请留意关注。",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "b4b5e999e9d1a576e4f2c33cda068ae444aeec477c111196e5a2479ee78eed7c",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "b4b5e999e9d1a576e4f2c33cda068ae444aeec477c111196e5a2479ee78eed7c",
+      "excerptCharacters": 469
     },
     {
       "id": "ev:673e174524192c6878a786d1",
@@ -571,11 +593,13 @@
       "publisher": "bj.bendibao.com",
       "retrievedAt": "2026-10-25T21:11:23.028125+00:00",
       "publishedAt": null,
-      "excerpt": "四、领票入馆时间及地点：\n\n　　领票及入馆时间：周二至周日09:00-16:00，周一闭馆\n\n　　领票及入馆地点：个人观众自北门领票参观\n\n　　团体、旅行社自地下一层东门领票参观\n\n　　五、特别说明：\n\n　　1、老年人、残疾人和军人无需预约，凭本人有效证件可直接来馆参观\n\n　　2、观众可登录首博官方网站或拨打咨询电话查询具体参观信息\n\n　　3、如遇大型活动或特展，需对预约参观办法进行调整时，首都博物馆将提前通过各大媒体或首博官方网站向社会进行公示\n\n　　六、相关信息：\n\n　　个人预约电话：63393339 团体预约电话：63370458\n\n　　咨询电话：63370491/63370492 投诉电话：63370490\n\n在线预约地址：\n\n》》北京首都博物馆地址及乘车路线指南(图)\n\n》》首都博物馆官网及门票价格、预约系统\n\n》》北京首都博物馆各层参观导览图(请点击放大观看)\n\n》》北京首都博物馆参观须知事项\n\n》》北京首都博物馆导览服务时间(图)\n\n手机访问 北京本地宝首页\n\n相关推荐 首都博物馆官网 首都博物馆门票 首都博物馆地址 首都博物馆预约 [...] 资讯\n 办事\n 社保\n 公积金\n 补贴\n 教育\n 旅游\n 休闲\n 交通\n 招聘\n 特惠\n 房产\n\n 北京旅游\n 本地游\n 周边游\n 周末去哪\n 旅游景点\n 周边景点\n 京津冀\n 国内\n 港澳台\n 出境\n\n北京本地宝 > 北京旅游 > 周边游玩 > 游玩攻略 > 首都博物馆官网及门票价格、预约系统\n\n2013-05-28 13:37作者：未审核的爱情【我要纠错】\n\n首都博物馆网址： www.capitalmuseum.org.cn\n\n首都博物馆领取免费参观门票预约系统\n\n　　一、免费参观形式：提前预约，领票参观\n\n　　二、预约时间：观众参观需提前预约，网上预约时间为全天24小时，电话预约时间为每日09:00-17:00，每日12:00停止预约当日参观门票\n\n　　三、预约、领票方式：\n\n　　1、个人观众通过登录首博官方网站或拨打预约电话进行预约，每人每次预约免费参观票不超过5张，参观当日凭预约号或预约时使用的有效证件领票参观\n\n　　2、团体、旅行社需通过电话进行预约，可自预约成功次日起凭单位介绍信或领队有效证件到指定地点提前领票，也可于参观当日现场领票参观\n\n　　四、领票入馆时间及地点： [...] - 2025国家博物馆展览时间表最新(不断更新中)\n\n  专题展览立足馆藏，“中国古代钱币展”“中国古代玉器艺术”“中国古代瓷器展”等正在展出。遵循“不求所藏、但求所展、开放合作、互利共赢”的原则，临时展览逐步形成主题展览、精品文物展、历史文化展、\n- 2025年11月1日起北京大钟寺古钟博物馆淡季开放时间公告\n\n  2025年11月1日起大钟寺古钟博物馆将于2025年11月1日起实行淡季开放时间，具体如下。\n",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "1e80276e6941f8e81cafabae68236f2a38d683e5ff630102b891cb603e30516a",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "1e80276e6941f8e81cafabae68236f2a38d683e5ff630102b891cb603e30516a",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:adeaacabd269fd30f5696dfe",
@@ -586,11 +610,13 @@
       "publisher": "www.beijing.gov.cn",
       "retrievedAt": "2026-10-25T21:11:23.028252+00:00",
       "publishedAt": null,
-      "excerpt": "其中，“邮票馆”主展厅展出了博物馆的基本陈列，分为“海关邮政时期邮票”“清代邮政时期邮票”“民国时期邮票”“人民革命战争时期邮票”“中华人民共和国邮票”“外国异形异质邮票”和“邮票印刷工艺和防伪技术”等部分，全面展示了中外邮票发行的发展历程；“邮政馆”以大量的实物、图表、景观、模型回顾了中国邮政源远流长的发展历史；“特展厅”与“珍宝馆”则轮换展出馆藏邮票原图和各历史时期出现的珍贵邮票等文物。\n\n　　开放时间：周二至周日（周一闭馆，法定节假日另行通知）9:00-16:00\n\n　　门票：免费\n\n　　预约：可在“中国邮政邮票博物馆”微信公众号上预约\n\n　　地址：北京市东城区建国门内贡院西街六号D座\n\n中国钱币博物馆\n\n　　中国钱币博物馆成立于1992年，是中国人民银行总行直属的国家级钱币专业博物馆。其中，原北洋保商银行和原中央银行北平分行两座大楼为国家文物保护建筑，是中国近代金融业发展的实物见证。 [...] 目前，由最高人民法院民一庭、人民法院新闻传媒总社、中国法院博物馆主办的“法安天下，德润人心——人民法院弘扬和践行社会主义核心价值观成就展”正在展出。就业被歧视怎么办？被父母逼婚怎么办？给娃取名能随心所欲吗？成年子女来“啃老”能拒绝吗？遇到强买强卖怎么办？这些问题在该展览上都能找到法律解决方案哦。\n\n　　开放时间：周二至周日（周一闭馆）9:00-17:00\n\n　　门票：免费\n\n　　预约：可在“中国法院博物馆”微信公众号上预约\n\n　　地址：北京市东城区正义路4号\n\n中国消防博物馆\n\n　　中国消防博物馆是国内唯一的国家级消防主题博物馆，以“传承消防历史文化、普及防火防灾知识、展示消防队伍形象”为宗旨，大力收藏陈列中国消防历史文化遗存、开展全民防火防灾普及教育、宣传消防队伍良好形象、传播优秀防灾文化和防范理念。 [...] 中国钱币博物馆秉承服务央行、服务社会的宗旨，坚持以弘扬货币文化为己任，主要从事古代、近现代货币及银行史相关实物的收藏、陈列和研究。博物馆拥有丰富的藏品，成功举办了“中国古代铸钱工艺展”“反假货币展”和“红色政权货币展”等具有较大影响力的展览。\n\n　　开放时间：周二至周日（周一闭馆）9:00-17:00\n\n　　门票：免费\n\n　　预约：可在“中国钱币博物馆”微信公众号上预约\n\n　　地址：北京市西城区西交民巷17号\n\n中国法院博物馆\n\n　　中国法院博物馆是最高人民法院主办的全国性行业博物馆，于2016年1月6日正式向社会公众开放。",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "29d293e1fa4c9b5fd63a2e400b2bba70a84106c933c0e566fccf6b472687f4bd",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "29d293e1fa4c9b5fd63a2e400b2bba70a84106c933c0e566fccf6b472687f4bd",
+      "excerptCharacters": 1036
     },
     {
       "id": "ev:1d81f586b74efabd1a8d9c7e",
@@ -601,11 +627,13 @@
       "publisher": "www.capitalmuseum.org.cn",
       "retrievedAt": "2026-10-25T21:11:23.028352+00:00",
       "publishedAt": null,
-      "excerpt": "首博简介领导成员组织机构一馆多址党建动态\n\n总书记讲话首博快讯 信息公开\n\n参观指南综合服务交通路线场馆地图\n\n最新展览常设展览展览回顾虚拟展厅\n\n基地建设社教品牌蓟下博谈教育空间亲子互动志愿者之家\n\n文创品牌专委会资讯下载专区\n\n藏品征集馆藏精品可移动文物普查成果展示\n\n文物保护学术资料数智首博\n\n时令节俗\n\n无障碍\n\nEN\n\n今日开馆\n\n09:00\n\n开放时间\n\n19:00\n\n停止入馆\n\n20:00\n\n闭馆时间\n\n9:00—20:00（19:00停止入馆），每周二为闭馆日。延时开放时段(17:00至20:00)，只开放一层及地下一层，包括\"玉米·黄金·美洲豹一一玛雅与安第斯古代文明大展”展厅及寄存、文创、餐饮等功能区域。\n\n在线预约\n\n交通线路\n\n参观须知\n\n地图导览\n\n 新闻资讯\n\n更多\n\n15\n\n2026.10\n\n最后三天！首博“玛雅与安第斯古代文明大展”夜场开启07\n\n2026.09\n\n首都博物馆2026年合同制用工人员招聘拟录用人选 名单公示04\n\n2026.09\n\n首都博物馆关于2026年第二批公开招聘暨博士后招收资格复审、面试等有关事项的公告29\n\n2026.07",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "daf17b6edf945ea1bf9b3f666bd9398dcb38ef936de754ff1e5745ed50b6a1cd",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "daf17b6edf945ea1bf9b3f666bd9398dcb38ef936de754ff1e5745ed50b6a1cd",
+      "excerptCharacters": 497
     },
     {
       "id": "ev:512215eb42c058fef346e77e",
@@ -616,11 +644,13 @@
       "publisher": "www.chnmuseum.cn",
       "retrievedAt": "2026-10-25T21:11:24.681451+00:00",
       "publishedAt": null,
-      "excerpt": "藏品\n 文保\n 研究\n 展览\n 社教\n 文创\n 服务\n 视频\n\n开放时间\n 09:00 开馆时间\n 16:30 停止入馆\n 17:30 闭馆时间\n每周一例行闭馆，国家法定节假日除外\n交通地理\n 中国国家博物馆 北京市东城区东长安街16号 天安门广场东侧\n 公交线路 天安门东站：1、2、52、82、120、观光2线、旅游公交1线、旅游公交2线\n 地铁线路 地铁1号线天安门东站：C口、D口出站\n  \n参观预约\n  \n参观须知\n  \n公益讲解\n  \nAPP导览\n  \n餐饮休息\n  \n文创产品\n  \n便民服务\n  \n观众之声\n参观预约\n欢迎您参观 中国国家博物馆\n观众预约须知：\n为提升服务质量、保护文物安全，本馆实行预约参观制度。请您阅读如下须知，明晰预约流程、参观规则及相关注意事项。祝您参观愉快！\n一、开放时间：\n本馆每日9:00—17:00（16:00停止入馆），周一闭馆（法定节假日除外）。观众需求高峰期6月1日至10月31日延长开放至17:30（16:30停止入馆）。\n二、预约规则：\n1. 观众须使用有效身份证件完成预约账号实名认证后进行免费预约｡未满14周岁（含）的未成年人，须由成年人代为预约，并与预约人同步核验入馆｡\n2. 每个账号每周最多预约1次，每次最多预约5人；至多添加10个常用联系人，且添加后30天内不可变更。同一证件号每月最多预约4次，每天仅可预约1次。\n3. 预约后退票仍计入预约次数。每个证件号累积3次未履约将被限制预约30日。用户自行注销账号后，该账号30日内将无法再次登录和重新注册｡\n三、预约渠道：\n观众可提前7日内在国家博物馆官网､国家博物馆官方预约小程序､微信小程序和微信公众号预约｡每日分为9:00—11:00、11:00—13:30、13:30—16:00（6月1日—10月31日第三时段为13:30—16:30）三个预约入馆时段，预约放票时间为每日17:00，退票截止时间为参观当日15:00。预约成功后，系统自动发送预约成功消息通知，请妥善保存｡\n四、核验方式：\n观众凭本人预约证件原件和预约成功信息，按预约时段从北门观众参观入口有序排队核验入馆，未预约、身份证件信息不符及错过预约时段的观众将无法核验入馆。60周岁（含）以上老人以及残障人士、现役军人、退役军人、军烈属、消防救援人员，凭本人预约证件原件、预约成功信息和优待证件，在所预约时段内从北门绿色通道核验入馆。\n五、本预约须知自2025年8月1日起实施。\n\n扫码预约\n参观须知\n\n文明参观须知\n\n禁限带物品清单\n\n观众存包须知\n\n展品拍照须知\n场馆地图\n楼层地图\nB1层 1&2层 3层 4层\n服务设施\n 服务台\n 卫生间\n 女卫生间\n 男卫生间\n 母婴室\n 餐厅\n 咖啡厅\n 存包\n 饮水处\n 文创商店\n\n便民服务\n 咨询服务\n服务咨询台（位置：北门入口处）\n咨询台（位置：南区三层、北区三层）\n 轮椅、婴儿车\n当日免费使用，需提供有效证件及押金500元，在服务台即可办理手续。\n 母婴室\n母婴室位于艺术长廊南侧，为哺乳期妈妈提供安全、私密、温馨的护理空间。\n 存包\n存包处：北门外设有存包处，为当日参观的观众提供有偿寄存服务。\n智能存包柜：艺术长廊、3层公共空间综合休闲体验区，均设有分时段计费智能存包柜，方便观众临时寄存衣物及随身物品。\n 失物招领\n如果您在展厅内丢失物品，请您及时到服务台进行登记；如果您已经离开，并且确定是在我馆丢失，请您拨打咨询热线010-65116400咨询相关信息。\n 留言台\n场馆各层公共区域设有电子留言台，欢迎观众踊跃留言！\n 应急处置\n如果您在参观过程中突感身体不适或意外受伤，请及时与身边的工作人员联系。\n如果您在参观过程中与亲友走散，请前往服务台，工作人员将为您提供广播寻人服务。\n如遇突发情况，请您服从现场工作人员指挥，按照疏散标识快速有序撤离至安全区域。\n 意见建议\n若您对中国国家博物馆的场馆设施、展览内容或服务质量有任何意见、建议，欢迎前往馆内服务咨询台现场反馈，也可拨打010-65116400服务咨询热线进行反馈。\n\n友情链接：\n文化和旅游部 国家文物局 故宫博物院 上海博物馆 南京博物院 湖南省博物馆 陕西历史博物馆\n网站地图 国博招聘 留言板 资料下载 联系我们 版权声明 隐私安全声明\n\n中国国家博物馆版权所有 京ICP备05008885号 京公网安备11010102003012号 EMAIL：service@chnmuseum.cn\n内容运维：新闻传播处 技术支持：信息技术部　易宝电脑系统（北京）有限公司",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "e7809543b172806e75a06099663fb498771a86cde51a827258ff6346a83c7f21",
       "verification": "page_extract",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "e7809543b172806e75a06099663fb498771a86cde51a827258ff6346a83c7f21",
+      "excerptCharacters": 1891
     }
   ],
   "noWorkspaceWrites": true,
@@ -771,5 +801,6 @@
   "modelListPriceEstimateCny": 0.095767,
   "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
   "traceVerified": false,
-  "totalSeconds": 97.34
+  "totalSeconds": 97.34,
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
 }

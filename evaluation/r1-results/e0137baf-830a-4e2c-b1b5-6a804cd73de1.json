@@ -373,11 +373,13 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:29:06.664710+00:00",
       "publishedAt": null,
-      "excerpt": "{\"version\": 10, \"trip\": {\"title\": \"合成评测 · 亲子慢游\", \"destination\": \"杭州\", \"startDate\": \"2026-11-02\", \"endDate\": \"2026-11-06\", \"timezone\": \"Asia/Shanghai\", \"preferences\": \"两位成人与一名六岁孩子，喜欢公园和轻松体验。午休不可少，每天最多两个主要活动。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, \"ideas\": [{\"title\": \"阅读当地历史并写旅行笔记\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-i0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"备用室内休息安排\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-i1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"遇到喜欢的地方多停一会\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-i2\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}], \"activities\": [{\"title\": \"湖畔短程散步\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T09:30\", \"endAt\": \"2026-11-02T10:30\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a0-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"午休\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T12:30\", \"endAt\": \"2026-11-02T14:30\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a0-1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"找一处草地玩耍\", \"date\": \"2026-11-02\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a0-2\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 2, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"自然博物馆探索\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T10:00\", \"endAt\": \"2026-11-03T11:30\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a1-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"午休\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T13:00\", \"endAt\": \"2026-11-03T15:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a1-1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"亲子手工体验\", \"date\": \"2026-11-04\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a2-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"自由晚餐\", \"date\": \"2026-11-04\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a2-1\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"公园野餐\", \"date\": \"2026-11-05\", \"startAt\": \"2026-11-05T11:00\", \"endAt\": \"2026-11-05T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a3-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"慢慢收拾与返程\", \"date\": \"2026-11-06\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-hangzhou-2026-11-02-a4-0\", \"tripId\": \"fixture-r1-v1-hangzhou-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}]}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "c2c4c30b3d0ed010bf3cf95a6d37242c9d2d55f776322fe349eea6d3027ec3bf",
       "verification": "snapshot",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "c2c4c30b3d0ed010bf3cf95a6d37242c9d2d55f776322fe349eea6d3027ec3bf",
+      "excerptCharacters": 4403
     },
     {
       "id": "ev:77a760e332f1f677078ba2bf",
@@ -388,7 +390,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:29:08.089491+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0FFIBMXP0\",\"name\":\"青山湖绿道\",\"address\":\"锦城街道望湖路与青山湖绿道交叉口南80米\",\"latitude\":30.229892,\"longitude\":119.740856}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "620b29beda0c22de0d6f62421499fb2a6a5b31491e950551a2dcfd30bf69928e",
       "verification": "provider",
       "place": {
@@ -399,7 +401,9 @@
         "latitude": 30.229892,
         "longitude": 119.740856
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "620b29beda0c22de0d6f62421499fb2a6a5b31491e950551a2dcfd30bf69928e",
+      "excerptCharacters": 137
     },
     {
       "id": "ev:d670d4d1a7f07237e5911b7b",
@@ -410,7 +414,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:29:08.089557+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B023B14O96\",\"name\":\"良渚古城遗址公园\",\"address\":\"瓶窑镇凤都路与104国道辅路交叉口西北200米\",\"latitude\":30.389549,\"longitude\":119.991005}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "9a04ea48db520529fe6bc4fd01b9b40bf52e1474a90d0fc10b3074ed22773bbc",
       "verification": "provider",
       "place": {
@@ -421,7 +425,9 @@
         "latitude": 30.389549,
         "longitude": 119.991005
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "9a04ea48db520529fe6bc4fd01b9b40bf52e1474a90d0fc10b3074ed22773bbc",
+      "excerptCharacters": 143
     },
     {
       "id": "ev:b587261f6f2cdc0a97b2cecd",
@@ -432,7 +438,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:29:08.089591+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B023B02074\",\"name\":\"杭州西湖风景名胜区-太子湾公园\",\"address\":\"南星街道南山路1-1号\",\"latitude\":30.22547,\"longitude\":120.142177}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "ed6d71bfba5d3adb56781ff00c1ec1a8accfd6922e5d86803aeaa332b1e673a0",
       "verification": "provider",
       "place": {
@@ -443,7 +449,9 @@
         "latitude": 30.22547,
         "longitude": 120.142177
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "ed6d71bfba5d3adb56781ff00c1ec1a8accfd6922e5d86803aeaa332b1e673a0",
+      "excerptCharacters": 137
     },
     {
       "id": "ev:b8e922d287e199a95419a257",
@@ -454,7 +462,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:29:09.479823+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0FFFYF0GP\",\"name\":\"千岛湖风景区\",\"address\":\"千岛湖镇\",\"latitude\":29.545082,\"longitude\":119.055172}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "9c5690333b8fd111f08759dbdccc75c7179d721f97026fd78479f0ac59460d0c",
       "verification": "provider",
       "place": {
@@ -465,7 +473,9 @@
         "latitude": 29.545082,
         "longitude": 119.055172
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "9c5690333b8fd111f08759dbdccc75c7179d721f97026fd78479f0ac59460d0c",
+      "excerptCharacters": 122
     },
     {
       "id": "ev:656f3cbb73a43ef0051365f0",
@@ -476,7 +486,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:29:09.479879+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0FFG97H9P\",\"name\":\"京杭大运河杭州景区\",\"address\":\"环城北路226号武林门码头\",\"latitude\":30.302955,\"longitude\":120.141908}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "b737dbb5c92d14f086ed2d910aa69f0dc4abd41d5a1fed69b1a39dfdb3d4220d",
       "verification": "provider",
       "place": {
@@ -487,7 +497,9 @@
         "latitude": 30.302955,
         "longitude": 120.141908
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "b737dbb5c92d14f086ed2d910aa69f0dc4abd41d5a1fed69b1a39dfdb3d4220d",
+      "excerptCharacters": 134
     },
     {
       "id": "ev:5e2a2f5e6108e84f0e84809c",
@@ -498,7 +510,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:29:09.479911+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B023B1BGM6\",\"name\":\"拱宸桥\",\"address\":\"桥弄街1号\",\"latitude\":30.318101,\"longitude\":120.139844}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "cd47b8842a006d261c463d4d8e4283c0c0e0e1378835f3b35b4314c5d9c10d9b",
       "verification": "provider",
       "place": {
@@ -509,7 +521,9 @@
         "latitude": 30.318101,
         "longitude": 120.139844
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "cd47b8842a006d261c463d4d8e4283c0c0e0e1378835f3b35b4314c5d9c10d9b",
+      "excerptCharacters": 120
     },
     {
       "id": "ev:78d9922c71d67d7e49ce69a9",
@@ -520,11 +534,13 @@
       "publisher": "www.lzmuseum.cn",
       "retrievedAt": "2026-10-25T20:29:17.879149+00:00",
       "publishedAt": null,
-      "excerpt": "温馨提醒\n\n1、良渚古城遗址公园门票可通过“良渚古城”官方微信公众号、“良渚古城”微信小程序以及支付宝小程序进行预约。\n\n2、团队预约请到“良渚古城”官方微信公众号发送“团队”到对话框进行预约。\n\n3、良渚古城遗址公园开放时间为：09:00-17:00（16:00后停止入园）如有疑问，请致电良渚古城遗址公园：0571-85855300 / 0571-88530030\n\n|  |  |\n --- |\n| 上一篇：良渚博物院春节期间开放公告 | 下一篇：良渚博物院参观须知 |\n\n   0571-88773875\n\n   lzmuseum@sina.com\n\n   中国 · 杭州市余杭区美丽洲路1号\n\n最新公告 媒体报道 参观指南 馆内新闻 网站留言\n\n©2018-至今 良渚博物院版权所有 浙ICP备12021648号 浙公网安备33011002010721\n\n 全站搜索\n 活动日历\n 下载专区\n 返回顶部 [...] |  |  |  |  |  |  |  |  |\n ---  ---  ---  --- |\n|  |  |  |  | # | # |  |  |\n\n当前位置：首页 >> 资讯 >> 最新公告\n\n 良博新闻\n 媒体报道\n 最新公告\n 藏品征集\n\n温馨提醒 | 良渚古城遗址公园再升级，明日南门出口将优化调整\n\n发布者：管理员　发布时间：2023-07-30 10:45:59 点击率：次\n\n盛夏时节，万物并秀\n\n良渚古城遗址公园也迎来了新变化\n\n为了提升访客的参访体验\n\n进一步改善参访路线\n\n对南出口进行了优化调整\n\n同时，对周边区域进行了景观升级\n\n从2023年7月31日起\n\n良渚古城遗址公园原南出入口将实行功能分离\n\n原南入口将保留入口功能，只入不出\n\n新开放的南出口位于p2停车场北部，只出不进\n\n为访客出园提供更大便捷\n\n南门出口位置示意图\n\n夏日的良渚古城遗址公园\n\n蓝天白云，湖光疏影，草木繁盛\n\n目光所及之处，是干净而无拘无束的\n\n处处透露着静谧的风景与遥远的文明\n\n欢迎大家在鸟鸣蛙叫、蝉鸣荷香中\n\n来良渚古城赴一场又一场不散的相聚\n\n 温馨提醒",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "6211e87eeaed24f837d1a4c82857f68af863e6b73ab4fe267b8840c995ed239f",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "6211e87eeaed24f837d1a4c82857f68af863e6b73ab4fe267b8840c995ed239f",
+      "excerptCharacters": 898
     },
     {
       "id": "ev:257a60c452b59bb1fe8c3aa9",
@@ -535,11 +551,13 @@
       "publisher": "www.leixiaobao.com",
       "retrievedAt": "2026-10-25T20:29:17.879285+00:00",
       "publishedAt": null,
-      "excerpt": "## 杭州遛娃\n\n# 良渚古城遗址公园\n\n地址：浙江省杭州市余杭区瓶窑镇 地图;)   \n官方电话：0571-85855300\n\n 公园\n\n#### 下单返红包\n\n 团\n\n【麦淘讲精团】良渚古城遗址公园｜世界遗产·文明圣地，4人成团！实证中华五干多年文明史的圣地\n\n预订渠道： 麦淘\n\n#### 商户介绍\n\n良渚古城遗址，被誉为“中华第一城”，良渚古城外围水利系统是迄今所知中国最早的大型水利工程，也是世界最早的水坝，良渚古城是中国长江下游环太湖地区的一个区域性早期国家的权力与信仰中心。良渚文化对其后五千年的中华文明发展拥有广泛而深远的影响，可实证中华文明的发展特征—多元一体，并真实、完整地保存下来，它是人类文明发展史上具有杰出代表性的东亚地区史前大型聚落遗址。 [...] 良渚遗址（距今5300~4300年）地处中国东南沿海丘陵区北缘的天目山东麓河网平原，主要位于浙江省杭州市余杭区境内，由分布于4203公顷范围内的良渚古城、瑶山和汇观山祭坛墓地、塘山土垣、姚家墩和荀山聚落等6片遗址分布区组成。它是我国长江下游地区新石器时代最重要的考古遗址之一，是中华早期文明的一种重要模式，代表了中华文明起源阶段的最高成就。\n\n官网",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "1dee9f44227a115f5af8241829d3d02b0f0479d7d687138fa9b726047492c821",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "1dee9f44227a115f5af8241829d3d02b0f0479d7d687138fa9b726047492c821",
+      "excerptCharacters": 514
     },
     {
       "id": "ev:a470e0537cdd74cf33cdc8e0",
@@ -550,11 +568,13 @@
       "publisher": "hangzhou.zjol.com.cn",
       "retrievedAt": "2026-10-25T20:29:17.879399+00:00",
       "publishedAt": null,
-      "excerpt": "■ 遗址公园门票预约须知\n\n　　一、良渚古城遗址公园实行实名制预约参访，每天预约入园人数不超过3000人。\n\n　　二、公园营业时间为9:00-17:00，每天16:00后停止入园。\n\n　　三、预约系统提供个人实名制预约。个人预约需提前1-7天在“良渚古城遗址公园”微信公众号、“良渚古城遗址公园”支付宝小程序等渠道进行线上预约。\n\n标签：良渚古城 责任编辑：严东\n\n相关稿件\n:   |  |  |\n     --- |\n    | · | 零距离感受千年稻香 良渚古城遗址里“庆丰收” |\n    | · | 展巨幅国旗唱澎湃国歌 良渚古城遗址这样祝福祖国 |\n    | · | 良渚古城遗址公园恢复开放 访客入园需提前预约 |\n\n 网站简介\n 网站律师\n 版权声明\n 广告刊登\n 技术支持\n 联系我们\n\n Copyright © 1999-2017 Zjol. All Rights Reserved   浙江在线版权所有 [...] 调整后，杭州市民即可实现免费预约入园。\n\n　　此外，在原先以观光车览为主的游览模式上，公园又新增了景区自行车、步行路线等多种参观方式，能让更多的访客慢下来，细细体味良渚古城遗址，深入地了解良渚文化。\n\n图片来源：良渚古城遗址公园微信公众号\n\n调整后的具体售票规则如下：\n\n■ 遗址公园新收费政策\n\n　　一、门票\n\n　　1.全价票：60元/人\n\n　　使用范围：面向国内外访客。\n\n　　2.半价票：30元/人\n\n　　使用范围：6周岁-18周岁之间有成年人监护的青少年儿童；全日制大学本科及以下学历学生（凭本人有效学生证件）；年满60周岁至70周岁的老人（持当地政府或老龄机构发放的老年人优待证）。\n\n　　3.杭州市民票：0元/人\n\n　　使用范围：持杭州市市民卡的杭州市市民。\n\n　　4.免费票：0元/人\n\n　　使用范围：年满70周岁及以上老人；参战老兵；现役军人；烈士遗属；因公牺牲军人遗属；病故军人遗属；残疾人；浙江省离休干部；本省30年以上教龄教师；浙江省无偿献血荣誉证拥有者；6周岁及以下，有成年人监护的儿童。\n\n　　5.购买以上参访券均需提供有效证件并预约。\n\n　　二、观光车票 [...] 二、观光车票\n\n　　1.观光车票（全程）：20元/人\n\n　　购买后可在公园各观光车站点乘车一次，仅限一次循环。\n\n　　2.观光车票（单次）：10元/人\n\n　　购买后可在公园任一观光车站点乘车一次。若需再次乘坐可在观光车票（单次）使用后支付10元升级至观光车票（全程）。\n\n　　3.观光车包车服务：800元/4小时\n\n　　三、定制讲解服务费\n\n　　1.中文讲解180元/次/3小时（10人以下团队，含10人）；\n\n　　2.中文讲解300元/次/3小时（11-50人团队，含50人）；\n\n　　3.英文讲解230元/次/3小时（10人以下团队，含10人）；\n\n　　4.",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "53377c1c5de6f584b5c148b8e356fcc5f355a0afdb4be2712dfcefd4476f1d56",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "53377c1c5de6f584b5c148b8e356fcc5f355a0afdb4be2712dfcefd4476f1d56",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:ce632754a0d0bfdd7905bc26",
@@ -565,11 +585,13 @@
       "publisher": "www.wingontravel.com",
       "retrievedAt": "2026-10-25T20:29:17.879475+00:00",
       "publishedAt": null,
-      "excerpt": "🎫 良渚古城遺址公園門票\n\n 💰 門票價格：全價 60 元人民幣（含園區觀光車車費）\n 📅 預約建議：暑期旺季建議提前 3 天以上預訂，每日限流人數以官方公佈為準\n 🕘 開放時間：每日 9:00-17:00，最晚入園時間以現場公告為準\n\n🏛️ 良渚博物院免費預約\n\n 🆓 入場費用：免費（須提前預約）\n 📱 預約方式：微信搜尋公眾號良渚博物院進行預約\n 🕘 開放時間：9:00-17:00，最晚入館 16:30；週一閉館（法定節假日除外）\n\n暑期為參觀旺季，門票及預約名額有限，建議提早安排。以上價格及開放時間僅供參考，實際以官方最新公佈為準。\n\n## 2、🏛️ 良渚博物院參觀指南\n\n杭州良渚博物院建築外觀\n\n杭州良渚博物院建築外觀\n\n良渚博物院免費向公眾開放，參觀前須提前完成預約。\n\n 📱 預約方式：微信搜尋公眾號 良渚博物院 提前預約\n 📅 暑期工作日人流相對寬鬆，週末建議提前預約\n 🕘 開放時間：9:00-17:00，最晚入館 16:30；週一閉館(法定節假日除外) [...] 成人票 60 元人民幣。\n\n### 2.良渚古城遺址公園門票包含觀光車嗎？\n\n包含。60 元門票已含園區內觀光車車費，可沿逆時針路線單向遊覽各景點。\n\n### 3.杭州市民可以免費入園嗎？\n\n可以。杭州市民憑市民卡免費入園，但須提前 1 天預約。\n\n### 4.良渚古城遺址需要遊玩多久？\n\n建議預留 3 至 3.5 小時。\n\n### 5.良渚博物院需要預約嗎？\n\n需要免費預約。通過微信公眾號良渚博物院提前預約，暑期週末人流較多，建議盡早預約。\n\n### 6.良渚博物院和遺址公園之間怎麼往返？\n\n兩地相距約 4 公里，可搭乘公交往返（具體線路以實時查詢為準）。\n\n### 7.遺址公園適合帶小朋友嗎？\n\n### 8.暑期去良渚要注意什麼？\n\n### 9.良渚古城遺址公園開放時間？\n\n每日 9:00-17:00，最晚入園時間以現場公告為準；週一閉館（法定節假日除外）。\n\n### 10.旺季需要提前多久預訂良渚古城遺址門票？\n\n建議提前 3 天以上預訂，暑期和法定節假日更早為佳。每日限流人數以官方公佈為準。\n\n## 內容目錄 [...] 2026暑期帶娃探秘良渚古城遺址門票預約攻略＋良渚博物院免費參觀指南，一站式規劃杭州文博遊親子行程\n\n良渚古城遺址於2019年列入世界文化遺產名錄，距今約5300至4300年，是實證中華5000年文明史的重要考古發現。遺址位於杭州市餘杭區，包含古城遺址公園與良渚博物院兩大核心區域。暑假帶小朋友來一趟杭州文博遊，既能避暑又能讓孩子親身體驗中國早期文明的發展脈絡。\n\n## 1、🎫 良渚古城遺址公園門票預約攻略\n\n杭州良渚古城遺址公園入園景觀\n\n杭州良渚古城遺址公園入園景觀\n\n良渚古城遺址公園是遺址的核心展示區域，園區內保留着新石器時代晚期的城牆遺址、宮殿基址、墓",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "72393aa79893d06e743c81d156aa6b6fe97b115b876efc466f0caa0355b88c10",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "72393aa79893d06e743c81d156aa6b6fe97b115b876efc466f0caa0355b88c10",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:90f066051c7ae6533451e0d1",
@@ -580,11 +602,13 @@
       "publisher": "hwyst.hangzhou.com.cn",
       "retrievedAt": "2026-10-25T20:29:20.584213+00:00",
       "publishedAt": null,
-      "excerpt": "|  |  |  | 杭+新闻讯 杭州西湖风景名胜区昨天正式对外公布，太子湾公园将从3月7日（本周六）开始在今年春季旅游旺季实行预约制，在疫情管控期间，继续免费为游客带来更便捷、更安全的游览体验（具体内容请查阅昨天『杭州西湖风景名胜区』、『杭州花港』微信公众号发布的相关信息）。  1、微信搜索西湖管委会微信公众号『杭州西湖风景名胜区』，点击“当地玩乐”中的“太子湾入园预约”既可进入报名预约通道。  2、微信搜索花港管理处微信公众号『杭州花港』，点击“免费预约”就可报名。  （二）通过掌上西湖APP预约。  1、下载掌上西湖APP预约。  2、进入【首页】-【展馆预约】，  3、选择太子湾点击【预约】，  4、选择【预约日期】及【到馆时间】，并【添加游客】身份信息，  5、选择要参观的【游客】，  6、【立即预约】既可成功预约！  预约成功后，你可以前往【我的】-【我的预约】中查看预约状态。在此，你可以选择【取消】预约或者【去使用】。  02  怎么游玩？ [...] |\n|  |\n\n|  |\n\n| 网站简介  |  关于我们  |  广告服务  |  建站服务  |  帮助信息  |  联系方式 |\n\n|  |\n\n| 增值电信业务经营许可证：浙B2-20110366 | 信息网络传播视听节目许可证：1105105 | 互联网新闻信息服务许可证：国新网3312006002 网络文化经营许可:[浙网文0867-091号]( | 工信部备案号：浙ICP备11041366号-1 |  浙公网安备：33010002000058号  杭州网(杭州网络传媒有限公司)版权所有未经授权禁止复制或镜像 法律顾问：浙江智仁律师事务所律师 马宏利 Copyright © 2001 - 2026 Hangzhou.com.cn All Rights Reserved | [...] 同时，北门停车场将作为预约检验通道，在此期间不会开放停车。为了大家更清楚明白地了解相关信息，花港管理处还特地制作了导览图，方便大家有序游览。  4、错峰游  旺季期间，什么时间段来公园比较好呢？根据往年的情况，旺季期间中午及下午人流较多，尤其是周末，客流量达到高峰，所以我们建议市民游客错峰游览，特别是年纪较大的市民游客尽量选择工作日预约出游。  在这里，我们要温馨提醒下您，公园内不能铺地垫、不能搭帐篷哦！  03  怎样出行？  每逢旺季景区停车泊位都较为紧张，我们建议市民游客尽量不要驾车前往，避免因无法停车而错过入园时间。公园门口的公共交通非常便捷，旺季期间，市公交公司还将3月7日-4月12日期间开通两条太子湾公交专线，分别在虎跑路赤山埠停车场、南山路苏堤停车场设置临时公交接驳点，方便市民游客搭乘，建议市民游客绿色出行。  公交站：“苏堤”站，可乘坐4路、87路、52路、31路、314路、1314路等公",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "4b722be4c1a0f1d1009d8d1a2d0f5c2e6dd38542856f9a62e89f4031a88e2729",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "4b722be4c1a0f1d1009d8d1a2d0f5c2e6dd38542856f9a62e89f4031a88e2729",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:8305ad599a80c7c6ca9e27ff",
@@ -595,11 +619,13 @@
       "publisher": "m.hz.bendibao.com",
       "retrievedAt": "2026-10-25T20:29:20.584298+00:00",
       "publishedAt": null,
-      "excerpt": "# 杭州太子湾公园预约上午只能上午去吗？\n\n导语 每年3月，杭州太子湾公园都与春天有一个浪漫的“春之约会”，那就是每年都不失约的郁金香花展。\n\n花展时间：2023年3月10日-4月16日\n\n预约通道：花展期间去太子湾公园游玩的游客们请注意，需提前数日在微信搜索“西湖旅游”小程序，然后在小程序页面内搜索\"杭州太子湾公园\"进入预约页面进行预约，预约成功后方可前去游玩（点击查看>>>预约教程(附图)、取消预约教程(附图)）\n\n详细游玩指南请看>>2023杭州太子湾公园郁金香花展（时间+预约方法+注意事项）\n\n温馨提示：微信搜索公众号→【杭州本地宝】，关注后在对话框内回复【太子湾】获取2026杭州太子湾郁金香花展时间、免费门票预约入口、预约/取消预约教程、预约二维码查看、最新实拍图、公园地图、水上/地铁/公交指南等。\n\n分享本文到：\n\n关闭\n\n内容来源杭州本地宝\n\n杭州本地宝\n\n+ 关注\n\n分享  \n\n返回首页\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n   \n反馈 提问",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "1539766a95000283d8903c661b4b18f0ac3270cc95b4d4416cc1280fb354ace9",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "1539766a95000283d8903c661b4b18f0ac3270cc95b4d4416cc1280fb354ace9",
+      "excerptCharacters": 434
     },
     {
       "id": "ev:93e40797139599e09d80d9fa",
@@ -610,11 +636,13 @@
       "publisher": "gs.ctrip.com",
       "retrievedAt": "2026-10-25T20:29:20.584350+00:00",
       "publishedAt": null,
-      "excerpt": "查看全部\n\n西湖风景区-太子湾公园 \n\n󰺂5.6\n\n4.8/5\n\n792条点评\n\n西湖风景名胜区必打卡景点榜 No.18\n\n开放时间\n\n免费开放\n\n预约信息\n\n需提前预约\n\n\n\n浙江省杭州市西湖区南山路5-1号\n\n󱃍\n\n电话\n\n达人实拍\n\n查看更多\n\n用户点评 (792)\n\n4.8/5\n\n拍照很赞 4\n\n适合情侣 3\n\n公共交通方便 3\n\n充满浪漫情怀的公园 3\n\n遛娃好去处 2\n\n餐饮不错 1\n\nChanmaomi\n\n潜力旅行家\n\n5分超棒\n\n太子湾公园，位于南山路，九曜山的山脚下，山不高30分钟即可登顶，晴天最佳与花港观鱼景区蒋庄的小南湖相对，西入口的对面即是鹆鹄湾景区的黄篾楼。 太子湾公园四季不同景色各异，适合游玩。 太子湾的春天还是赏樱、观赏郁金香🌷的最佳之地。 太子湾的初冬，红枫渐变红的辣眼。清晨至上午10点的光线最佳，午后3—4点的光线也尚可。 推荐：春秋最佳，四季皆宜。\n\n10+\n\n太子湾公园，位于南山路，九曜山的山脚下，山不高30分钟即可登\n\n没有故事的大爷\n\n5分超棒 [...] 没有故事的大爷\n\n5分超棒\n\n雨打花落入鳞波，一池柔水满春愁。春天的太子湾公园简直美爆了，当郁金香开放的时候，这里游人如织，不需要滤镜，眼前就是一幅幅美景\n\n雨打花落入鳞波，一池柔水满春愁。春天的太子湾公园简直美爆了，\n\n查看更多\n\n用户问答 (58)\n\n现在的太子湾有花看吗？\n\n3个回答\n\n现在的太子湾有花看吗？\n\n太子湾公园内可以搭帐篷么\n\n9个回答\n\n太子湾公园内可以搭帐篷么\n\n查看更多\n\n景点\n\n美食\n\n购物\n\n\n\n距景点7.5km\n\n2026中国100必打卡景点\n\n杭州宋城\n\n看《宋城千古情》演出\n\n遛娃宝藏地\n\n亲子同乐\n\n4.7/5\n\n3.8万条点评\n\n门票¥260起\n\n杭州宋城\n\n\n\n距景点8.8km\n\n2026全球50赏花踏青景点\n\n西溪国家湿地公园\n\n坐船漫游芦苇荡\n\n遛娃宝藏地\n\n亲子同乐\n\n4.6/5\n\n2.9万条点评\n\n门票¥70起\n\n西溪国家湿地公园\n\n\n\n距景点2.0km\n\n2026全球100必打卡景点\n\n西湖风景名胜区\n\n杭州之美的代言人\n\n遛娃宝藏地\n\n亲子同乐\n\n4.7/5\n\n3.7万条点评\n\n免费\n\n西湖风景名胜区\n\n [...] 免费\n\n西湖风景名胜区\n\n\n\n距景点750m\n\n西湖风景名胜区必打卡景点榜 No.2\n\n西湖游船\n\n坐船领略西湖别样美貌\n\n遛娃宝藏地\n\n亲子同乐\n\n4.5/5\n\n2.6万条点评\n\n门票¥70起\n\n西湖游船\n\n距景点1.7km\n\n杭州亲子景点榜 No.8\n\n遛娃宝藏地\n\n4.7/5\n\n6078条点评\n\n门票¥20起\n\n杭州动物园\n\n距景点863m\n\n西湖风景名胜区必打卡景点榜 No.4\n\n遛娃宝藏地\n\n亲子同乐\n\n4.5/5\n\n9041条点评\n\n雷峰塔\n\n景区",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "a49d2cf70e50c7d0b6725f7b29454d5dfdfd91f982358eb402631cec5f814e09",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "a49d2cf70e50c7d0b6725f7b29454d5dfdfd91f982358eb402631cec5f814e09",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:11f6db8570fe93f149c8ae71",
@@ -625,11 +653,13 @@
       "publisher": "baike.baidu.com",
       "retrievedAt": "2026-10-25T20:29:20.584399+00:00",
       "publishedAt": null,
-      "excerpt": "5 参考资料图册\n\n参考资料\n\n   1[]( 0元追！杭州徒步圈最强“顶流”上新，大片红枫爆红了．钱江晚报．2025-12-05 [引用日期2026-03-19]\n   2[]( 杭城春日推荐｜全杭州都在等的樱花季要来了！．钱江晚报 [引用日期2026-03-19]\n   3[]( 施奠东主编,西湖园林植物景观艺术,浙江科学技术出版社,2015.03,第146页\n   4[]( 谢云，胡牮主编,园林植物景观规划设计 修订第2版,华中科技大学出版社,2020.08,第117页-120页\n   5[]( 3月5日起可预约 来杭州太子湾看郁金香花展．钱江晚报 [引用日期2026-03-19]\n   6[]( 天开图画——论杭州西湖太子湾公园造园艺术．中国园林 [引用日期2026-03-19]\n   7[]( 太子湾公园．韵味杭州 [引用日期2026-03-19]\n   8[]( “杭州一平方米的浪漫”升级，太子湾公园亲花平台增至3个．央广网 [引用日期2026-03-19]\n   9[]( 第二十届西湖音乐节 昨天在雨中开唱 快乐派对今天继续．杭州网 [引用日期2026-03-19] [...] 太子湾公园的花\n\n[](\n\n太子湾公园\n\n[](\n\n## 参观信息\n\n播报\n\n编辑\n\n### 地理位置\n\n太子湾公园位于浙江省杭州市西湖区南星街道南山路1-1号。 \n\n出口\n\n太子湾公园\n\n### 门票信息\n\n免费开放，四季皆可，其中12月为红枫最佳观赏期。 \n\n### 交通信息\n\n乘公交4路、87路、139路、510路、1314路、西湖内环线、大红豆数字旅游专线到苏堤站即是。\n\n词条图册 更多图册\n\n1 太子湾公园鸟瞰图\n\n38 太子湾公园\n\n16 太子湾公园的花\n\n5 太子湾公园\n\n2 词条图片\n\n68 太子湾公园景点图片\n\n6 太子湾公园旅游风景相册\n\n31 景点风景图\n\n5 参考资料图册\n\n参考资料 [...] 网页新闻贴吧知道网盘图片视频地图文库资讯采购百科\n\n百度首页\n\n登录\n\n注册\n\nImage 1: 百度百科\n\n进入词条 全站搜索国际版帮助\n\nImage 2: 百度百科\n\n进入词条 全站搜索国际版帮助\n\n播报 编辑讨论收藏 赞\n\n登录\n\n首页\n\n历史上的今天\n\n百科冷知识\n\n图解百科\n\n秒懂百科\n\n懂啦\n\n秒懂本尊答\n\n秒懂大师说\n\n秒懂看瓦特\n\n秒懂五千年\n\n秒懂全视界\n\n特色百科\n\n动态百科\n\n数字博物馆\n\n非遗百科\n\n艺术百科\n\n科学百科\n\n知识专题\n\n史记2025·科学100词\n\n观千年·见今朝\n\n中国航天\n\n食品百科\n\n云游博物馆\n\n数字文物守护计划\n\n加入百科\n\n新人成长\n\n进阶成长\n\n任务广场\n\n百科团队\n\n校园团\n\n分类达人团\n\n热词团\n\n繁星团\n\n蝌蚪团\n\n权威合作\n\n合作模式\n\n常见问题\n\n联系方式\n\n个人中心\n\n# 太子湾公园\n\n播",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "02da56ecd654d2170a44e3bce4aefee6ea8ddcf4e734c627bc00e1bc9a581596",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "02da56ecd654d2170a44e3bce4aefee6ea8ddcf4e734c627bc00e1bc9a581596",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:f345bfbce622da8bb664fe81",
@@ -640,11 +670,13 @@
       "publisher": "www.lzmuseum.cn",
       "retrievedAt": "2026-10-25T20:29:24.954191+00:00",
       "publishedAt": null,
-      "excerpt": "|  |  |  |  |  |  |  |  |\n ---  ---  ---  --- |\n|  |  |  |  | # | # |  |  |\n当前位置：首页 >> 资讯 >> 最新公告\n 良博新闻\n 媒体报道\n 最新公告\n 藏品征集\n温馨提醒 | 良渚古城遗址公园再升级，明日南门出口将优化调整\n发布者：管理员　发布时间：2023-07-30 10:45:59 点击率：次\n盛夏时节，万物并秀\n良渚古城遗址公园也迎来了新变化\n为了提升访客的参访体验\n进一步改善参访路线\n对南出口进行了优化调整\n同时，对周边区域进行了景观升级\n从2023年7月31日起\n良渚古城遗址公园原南出入口将实行功能分离\n原南入口将保留入口功能，只入不出\n新开放的南出口位于p2停车场北部，只出不进\n为访客出园提供更大便捷\n南门出口位置示意图\n夏日的良渚古城遗址公园\n蓝天白云，湖光疏影，草木繁盛\n目光所及之处，是干净而无拘无束的\n处处透露着静谧的风景与遥远的文明\n欢迎大家在鸟鸣蛙叫、蝉鸣荷香中\n来良渚古城赴一场又一场不散的相聚\n 温馨提醒\n1、良渚古城遗址公园门票可通过“良渚古城”官方微信公众号、“良渚古城”微信小程序以及支付宝小程序进行预约。\n2、团队预约请到“良渚古城”官方微信公众号发送“团队”到对话框进行预约。\n3、良渚古城遗址公园开放时间为：09:00-17:00（16:00后停止入园）如有疑问，请致电良渚古城遗址公园：0571-85855300 / 0571-88530030\n|  |  |\n --- |\n| 上一篇：良渚博物院春节期间开放公告 | 下一篇：良渚博物院参观须知 |\n\n   0571-88773875\n   lzmuseum@sina.com\n   中国 · 杭州市余杭区美丽洲路1号\n最新公告 媒体报道 参观指南 馆内新闻 网站留言\n\n©2018-至今 良渚博物院版权所有 浙ICP备12021648号 浙公网安备33011002010721\n 全站搜索\n 活动日历\n 下载专区\n 返回顶部",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "06d6791cf583542300bf45ce5936209d59bb2a384fb26f709f672e4e3b4be152",
       "verification": "page_extract",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "06d6791cf583542300bf45ce5936209d59bb2a384fb26f709f672e4e3b4be152",
+      "excerptCharacters": 856
     },
     {
       "id": "ev:dff83dfe003004c5f0ae52b1",
@@ -655,11 +687,13 @@
       "publisher": "hwyst.hangzhou.com.cn",
       "retrievedAt": "2026-10-25T20:29:24.954262+00:00",
       "publishedAt": null,
-      "excerpt": "|\n|  |\n|\n|  |\n|  |  |  |  |  |  |  |  |  |  |  |  |  |\n ---  ---  ---  ---  ---  --- \n| |  |  |  |  |  |  |  |  |  |  |  |  |  ---  ---  ---  ---  ---  --- | | 网站首页 | 频道首页 | 网上服务 | 热点热议 | 问计于民 | 新闻发布 | 民生恳谈 | 记者出击 | 政策库 | 我们圆桌会 | 使用帮助 | 频道简介 | |\n|\n|  |\n|\n|  |\n|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  --- \n| |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  --- | | |  |  |  |  ---  |  | 所在位置： | 杭网议事厅>媒体联动 |  |  |  |  | | |  |  |  |  |  |  ---  ---  | |  |  | 太子湾公园实行预约制 怎么约？怎么玩？最详细的攻略在这里！ | | hwyst.hangzhou.com.cn　　2020年03月06日 14:30:58 星期五 |  |  |  | 杭+新闻讯 杭州西湖风景名胜区昨天正式对外公布，太子湾公园将从3月7日（本周六）开始在今年春季旅游旺季实行预约制，在疫情管控期间，继续免费为游客带来更便捷、更安全的游览体验（具体内容请查阅昨天『杭州西湖风景名胜区』、『杭州花港』微信公众号发布的相关信息）。  1、微信搜索西湖管委会微信公众号『杭州西湖风景名胜区』，点击“当地玩乐”中的“太子湾入园预约”既可进入报名预约通道。  2、微信搜索花港管理处微信公众号『杭州花港』，点击“免费预约”就可报名。  （二）通过掌上西湖APP预约。  1、下载掌上西湖APP预约。  2、进入【首页】-【展馆预约】，  3、选择太子湾点击【预约】，  4、选择【预约日期】及【到馆时间】，并【添加游客】身份信息，  5、选择要参观的【游客】，  6、【立即预约】既可成功预约！  预约成功后，你可以前往【我的】-【我的预约】中查看预约状态。在此，你可以选择【取消】预约或者【去使用】。  02  怎么游玩？  实行预约制期间，太子湾公园进出口、内部管理、周边停车场都进行了调整，为了让预约好的游客轻松入园，舒心赏花，我们帮你梳理了几个关键词。  1、身份证  这次推出的预约平台已与杭州健康码实现数据互通，申领到绿码的游客只要完成实名预约并携带身份证，到园配合测完体温后，只需凭借身份证刷机即可一秒入园，轻松快捷。所以，从在线预约到刷机入园，您的身份证（划重点）是你轻松入园的保证。  2、戴口罩  在疫情尚未完全解除的情况下，为了保障您的健康，在游览过程中，请您配合现场管理员及志愿者的工作，佩戴口罩、不聚集、保持安全的游览距离。公园在出口和进口处为大家放置了专门投放废弃口罩的专用垃圾桶，废弃的口罩和普通的垃圾请分开投放。  3、单循环  预约来园的游客一定要记住，公园将实行“一进两出”的单循环管理措施，即：统一南山路大门（北门）为入口，虎跑路大门（西门）、东门为出口。其中，东门出口与北门入口相距较近，有急事的游客可以就近出园，来园的游客千万不要记错入口的位置哦！  同时，北门停车场将作为预约检验通道，在此期间不会开放停车。为了大家更清楚明白地了解相关信息，花港管理处还特地制作了导览图，方便大家有序游览。  4、错峰游  旺季期间，什么时间段来公园比较好呢？根据往年的情况，旺季期间中午及下午人流较多，尤其是周末，客流量达到高峰，所以我们建议市民游客错峰游览，特别是年纪较大的市民游客尽量选择工作日预约出游。  在这里，我们要温馨提醒下您，公园内不能铺地垫、不能搭帐篷哦！  03  怎样出行？  每逢旺季景区停车泊位都较为紧张，我们建议市民游客尽量不要驾车前往，避免因无法停车而错过入园时间。公园门口的公共交通非常便捷，旺季期间，市公交公司还将3月7日-4月12日期间开通两条太子湾公交专线，分别在虎跑路赤山埠停车场、南山路苏堤停车场设置临时公交接驳点，方便市民游客搭乘，建议市民游客绿色出行。  公交站：“苏堤”站，可乘坐4路、87路、52路、31路、314路、1314路等公交在站台下车即可到达公园。  停车场：虎跑路赤山埠停车场、南山路苏堤停车场、太子湾西门停车场。 | | 来源：杭+新闻 作者：通讯员 丁高峰 记者 俞倩 编辑：张翟 | |  | |  | |  | |  |  |  | 请主动申报 居家隔离！杭州多个城区相继发出致海外侨胞的一封“家书” 杭州市民卡“绿码”扫码可乘公交、地铁了！不用切换 出行更方便 |  |  |  |  --- | | |  |  | 『相关阅读』 | |  | |  |  |  |  | 杭州网版权与免责声明：  ① 凡本网注明“稿件来源：杭州网（包括杭州日报、都市快报、每日商报）”的所有文字、图片和音视频稿件，版权均属杭州网所有，任何媒体、网站或个人未经本网协议授权不得转载、链接、转贴或以其他方式复制发表。已经本网协议授权的媒体、网站，在下载使用时必须注明“稿件来源：杭州网”，违者本网将依法追究责任。 ② 本网未注明“稿件来源：杭州网（包括杭州日报、都市快报、每日商报）”的文/图等稿件均为转载稿，本网转载出于传递更多信息之目的，并不意味着赞同其观点或证实其内容的真实性。如其他媒体、网站或个人从本网下载使用，必须保留本网注明的“稿件来源”，并自负版权等法律责任。如擅自篡改为“稿件来源：杭州网”，本网将依法追究责任。如对稿件内容有疑议，请及时与我们联系。 ③ 如本网转载稿涉及版权等问题，请作者在两周内速来电或来函与杭州网联系。 | | |  | | |  |  |  --- | | |  |  | 杭网议事厅动态 | |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  | | |  |  |  |  |  --- | | · | “杭网议事厅”被评为杭州“市民之家”2017年度“红旗窗口” | | · | “杭网议事厅”被评为杭州“市民之家”2016年度“红旗窗口” | | · | “杭网议事厅”荣获“2015年度人民建议先进集体”称号 | | · | “杭网议事厅”被评为杭州“市民之家”2015年度“红旗窗口” | | · | “杭网议事厅” 荣获“2014年度人民建议先进集体”称号 | | · | 省政协常委陈琪一行考察杭网议事厅（组图） | | · | “杭网议事厅”走进市民之家聆听新年新期待 | | · | 2014年记者节 杭州网记者进社区 | | · | “杭网议事厅”获2013年度人民建议集体奖 | | · | “杭网议事厅”连续四年荣获社情民意直报点先进单位 |  | |  | |  | |  |  |  |  |  |  ---  | | |  | | 联系我们 | | | 地址：浙江省杭州市下城区体育场路218号杭州日报南大楼518杭网议事厅  邮编：310041  热线：85052222  新浪微博： @杭网议事厅  微信ID： hzwhwyst | | | ",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "ba2f962eb70e34ead168fa2169aef72d8530459c8b8fe5cc0429dbf0e1686866",
       "verification": "page_extract",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "ba2f962eb70e34ead168fa2169aef72d8530459c8b8fe5cc0429dbf0e1686866",
+      "excerptCharacters": 3500
     }
   ],
   "noWorkspaceWrites": true,
@@ -866,5 +900,6 @@
   "modelListPriceEstimateCny": 0.083784,
   "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
   "traceVerified": true,
-  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/e0137baf-830a-4e2c-b1b5-6a804cd73de1?poll=true"
+  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/e0137baf-830a-4e2c-b1b5-6a804cd73de1?poll=true",
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
 }

@@ -185,11 +185,13 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:56:59.552509+00:00",
       "publishedAt": null,
-      "excerpt": "{\"version\": 10, \"trip\": {\"title\": \"合成评测 · 上海长者出行\", \"destination\": \"上海\", \"startDate\": \"2026-11-02\", \"endDate\": \"2026-11-06\", \"timezone\": \"Asia/Shanghai\", \"preferences\": \"两位七十岁长者与一位成人，连续步行尽量不超过三十分钟；需要坐下休息、少台阶和便捷卫生间。无障碍设施必须有证据，未知不等于没有或具备。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, \"ideas\": [{\"title\": \"阅读当地历史并写旅行笔记\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-i0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"备用室内休息安排\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-i1\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"遇到喜欢的地方多停一会\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-i2\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}], \"activities\": [{\"title\": \"抵达与酒店休息\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T10:00\", \"endAt\": \"2026-11-02T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a0-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"午休\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T13:00\", \"endAt\": \"2026-11-02T15:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a0-1\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"滨江短程散步\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T09:30\", \"endAt\": \"2026-11-03T10:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a1-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"坐下休息\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T10:00\", \"endAt\": \"2026-11-03T11:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a1-1\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"午休\", \"date\": \"2026-11-04\", \"startAt\": \"2026-11-04T13:00\", \"endAt\": \"2026-11-04T15:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a2-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"家人聚餐\", \"date\": \"2026-11-05\", \"startAt\": \"2026-11-05T12:00\", \"endAt\": \"2026-11-05T13:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a3-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"返程\", \"date\": \"2026-11-06\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-shanghai_seniors-2026-11-02-a4-0\", \"tripId\": \"fixture-r1-v1-shanghai_seniors-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}]}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "c714107f0e3829ff6cfd73b36b1a9637f3e49dfef681967b2e44276f50a1c9bf",
       "verification": "snapshot",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "c714107f0e3829ff6cfd73b36b1a9637f3e49dfef681967b2e44276f50a1c9bf",
+      "excerptCharacters": 3944
     },
     {
       "id": "ev:aa88f78bcacfd7e7c6dc9f01",
@@ -200,7 +202,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:57:01.957751+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B001559PZQ\",\"name\":\"上海海洋水族馆\",\"address\":\"陆家嘴环路1388号\",\"latitude\":31.240777,\"longitude\":121.501894}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "05065a7fd4099ed7600ccb4ddda63955bc521482b5d01c88bef6ef75302768e2",
       "verification": "provider",
       "place": {
@@ -211,7 +213,9 @@
         "latitude": 31.240777,
         "longitude": 121.501894
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "05065a7fd4099ed7600ccb4ddda63955bc521482b5d01c88bef6ef75302768e2",
+      "excerptCharacters": 129
     },
     {
       "id": "ev:528341cc98b45b36bd0d0ee0",
@@ -222,7 +226,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:57:01.957794+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0G3DS2CY2\",\"name\":\"上海海洋水族馆停车场\",\"address\":\"陆家嘴环路1388号(陆家嘴地铁站1号入口步行330米)\",\"latitude\":31.241218,\"longitude\":121.502122}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "6e34deac83126dd86aae4668a307de66a117533aaf7640e7770d9f3064778833",
       "verification": "provider",
       "place": {
@@ -233,7 +237,9 @@
         "latitude": 31.241218,
         "longitude": 121.502122
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "6e34deac83126dd86aae4668a307de66a117533aaf7640e7770d9f3064778833",
+      "excerptCharacters": 150
     },
     {
       "id": "ev:f522ba9e636baf91dde56646",
@@ -244,7 +250,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:57:01.957822+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0MDLOLSME\",\"name\":\"上海海洋水族馆-中国区\",\"address\":\"陆家嘴环路1388号上海海洋水族馆\",\"latitude\":31.240725,\"longitude\":121.501825}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "c04a8aaa216a0a0d54f28b1691b2214532ade8bc08358fe557ae880deb9b51b9",
       "verification": "provider",
       "place": {
@@ -255,7 +261,9 @@
         "latitude": 31.240725,
         "longitude": 121.501825
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "c04a8aaa216a0a0d54f28b1691b2214532ade8bc08358fe557ae880deb9b51b9",
+      "excerptCharacters": 140
     },
     {
       "id": "ev:66c28aa3b7b0adf7c852c782",
@@ -266,7 +274,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:57:01.958040+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B001535BBC\",\"name\":\"上海博物馆(人民广场馆)\",\"address\":\"人民大道201号\",\"latitude\":31.228231,\"longitude\":121.47548}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "c8674fe8edbaec57b006045dcd797c38084e78580b52ce01c1a6fd194b05c85e",
       "verification": "provider",
       "place": {
@@ -277,7 +285,9 @@
         "latitude": 31.228231,
         "longitude": 121.47548
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "c8674fe8edbaec57b006045dcd797c38084e78580b52ce01c1a6fd194b05c85e",
+      "excerptCharacters": 131
     },
     {
       "id": "ev:ab6bb401d27a9ea0b3d3c8a8",
@@ -288,7 +298,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:57:01.958069+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B00157917M\",\"name\":\"上海人民广场\",\"address\":\"人民大道185号\",\"latitude\":31.228827,\"longitude\":121.475213}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "65bd8261da3fa574a22e35a2a04b943e28d9c197d4b1760f8da937715df2003e",
       "verification": "provider",
       "place": {
@@ -299,7 +309,9 @@
         "latitude": 31.228827,
         "longitude": 121.475213
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "65bd8261da3fa574a22e35a2a04b943e28d9c197d4b1760f8da937715df2003e",
+      "excerptCharacters": 126
     },
     {
       "id": "ev:f9ae67874d0401d45b7ae500",
@@ -310,7 +322,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:57:01.958094+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"BV09301496\",\"name\":\"上海博物馆人民广场馆(公交站)\",\"address\":\"上海博物馆人民广场-上海博物馆东馆便民定制公交\",\"latitude\":31.227499,\"longitude\":121.476013}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "a65380f5246ca5cef79cb827bdf72f50de27f3c6abbf0e46c0451b79d4a78297",
       "verification": "provider",
       "place": {
@@ -321,7 +333,9 @@
         "latitude": 31.227499,
         "longitude": 121.476013
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "a65380f5246ca5cef79cb827bdf72f50de27f3c6abbf0e46c0451b79d4a78297",
+      "excerptCharacters": 150
     },
     {
       "id": "ev:a02572eabac3b87258f5ce82",
@@ -332,11 +346,13 @@
       "publisher": "www.sh-aquarium.com",
       "retrievedAt": "2026-10-25T20:57:09.206416+00:00",
       "publishedAt": null,
-      "excerpt": "上海海洋水族馆为游客提供行李免费寄存服务、婴儿车和轮椅馆内免费租借服务。  \n  \n1. 行李寄存  \n中小件行李寄存：馆内大堂设有自助寄存行李柜，可微信扫码免费寄存中小件行李。行李需在当日闭馆前提前半小时取走。贵重物品请随身携带。  \n大件行李寄存：如有大件行李或婴儿车、轮椅需要寄存，请凭当日门票在大堂游客中心寄存。行李需在当日闭馆前提前半小时取走。贵重物品请随身携带。  \n  \n2. 婴儿车/轮椅租用  \n上海海洋水族馆提供婴儿车和轮椅免费租用服务。  \n租用方式：需支付押金（现金支付或身份证件、驾照)，婴儿车押金600元，轮椅押金800元，归还婴儿车/轮椅后押金如数退回。  \n租用须知：租用婴儿车/轮椅不可推至场馆以外区域，租用无时间限制，但须在当日营业时间内归还。  \n押金退还：设备完好归还后，押金将如数退回。  \n 3. 母婴室母婴室位于上海海洋水族馆二楼，未入馆及出馆游客无法进入使用。如遇特殊情况请联系工作人员寻求帮助。  \n  \n4. 洗手间上海海洋水族馆每层均设有洗手间。 [...] 服务设施.jpg\n上海海洋水族馆\n\n#### (86-21) 58779988\n\n58779988\n\nfollow-us-wx.svg\n微信公众号\n\n微信公众号\n\nfollow-us-douyin.svg\n抖音账号\n\n抖音账号\n\nfollow-us-xiaohongshu.svg\n小红书账号\n\n小红书账号\n\n## 游客攻略\n\n### 主题展区\n\n### 行前须知\n\n## 立即预订\n\n### 门票与年卡\n\n### 团队及包场\n\n### 活动预定\n\n## 海洋之友\n\n## 科普专栏\n\n## 关于我们 [...] # 上海海洋水族馆\n\n上海海洋水族馆\n\n## 主题展区\n\n## 行前须知\n\n喂食时间\n\n### 喂食时间\n\n本馆设置了五大生物喂食互动时段，提供符合生物自然摄食习性的营养食物，以促进生物的健康成长。\n\n讲解时间\n\n### 讲解时间\n\n为了让您的参观更丰富有趣，我们为各展区安排了特色科普讲解时间，让您在探索海洋世界的同时，丰富水世界体验，学习有趣的海洋知识，了解各种海洋生物的习性与奥秘。\n\n## 门票与年卡\n\n## 团队及包场\n\n## 活动预定\n\n“与鲨共眠”夜宿活动\n\n### “与鲨共眠”夜宿活动\n\n上海海洋水族馆“与鲨共眠”夜宿儿童独立营\n\n“海洋之友”年卡\n\n### “海洋之友”年卡\n\n上海海洋水族馆“海洋之友”年卡\n\n## 服务设施",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "6bfdbc6db253a9ec4b7632e31c19fe30df7e71fc93b9bd6934312141b7c05dbf",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "6bfdbc6db253a9ec4b7632e31c19fe30df7e71fc93b9bd6934312141b7c05dbf",
+      "excerptCharacters": 1037
     },
     {
       "id": "ev:00100dde2aa68b893bce43ec",
@@ -347,11 +363,13 @@
       "publisher": "sc.kariyushi-aquarium.com",
       "retrievedAt": "2026-10-25T20:57:09.206509+00:00",
       "publishedAt": null,
-      "excerpt": "你无障碍吗？ 水族馆可供轮椅通行。 · 坐轮椅可以进入博物馆吗？ 轮椅可以进入。 · 有轮椅出租服务吗？ 可以在邻近的IIAS 购物中心出租（开放时间10:00）。 · 协助犬可以进入",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "d932e60127578f6dd1dc88cce67605dfa63a004c590d59eb4a466e6611b06467",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "d932e60127578f6dd1dc88cce67605dfa63a004c590d59eb4a466e6611b06467",
+      "excerptCharacters": 92
     },
     {
       "id": "ev:8ad2e0906cbb51e862798cb2",
@@ -362,11 +380,13 @@
       "publisher": "oki-park.jp",
       "retrievedAt": "2026-10-25T20:57:09.206556+00:00",
       "publishedAt": null,
-      "excerpt": "提供免費租借。 無法事先預約，以先到順序進行提供。請您事先了解。 請出示身分證等證件並填寫使用申請書。",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "0bc3ee7e6531aacfd10123974dacc4574b876c3cf8e46d4285817fd36782e0b8",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "0bc3ee7e6531aacfd10123974dacc4574b876c3cf8e46d4285817fd36782e0b8",
+      "excerptCharacters": 51
     },
     {
       "id": "ev:5e9e007e23337cb3d8170f8f",
@@ -377,11 +397,13 @@
       "publisher": "www.shanghaidisneyresort.com",
       "retrievedAt": "2026-10-25T20:57:09.206605+00:00",
       "publishedAt": null,
-      "excerpt": "关于我们\n\n新闻发布室\n\n工作机会\n\n© 迪士尼版权所有 © 迪士尼 / 皮克斯版权所有\n\nCookie设置\n\n沪ICP备15053331号-3\n\n 沪公网安备 31011502002267号\n\n 电子营业执照 [...] 关注我们的微博\n\n关注我们的小红书\n\n© 迪士尼版权所有 © 迪士尼 / 皮克斯版权所有\n\n 沪公网安备 31011502002267号\n\n活动一览\n\n所有玩乐\n\n游乐项目\n\n娱乐演出\n\n迪士尼朋友\n\n餐饮\n\n商店\n\n互动游戏\n\n酒店\n\n上海迪士尼乐园酒店\n\n玩具总动员酒店\n\n周边地点\n\n迪士尼小镇\n\n星愿公园\n\n预订\n\n乐园门票\n\n年卡\n\n酒店\n\n迪士尼尊享服务\n\n餐券\n\n活动\n\n旅行信息\n\n游园攻略\n\n出发前必看\n\n交通指南\n\n新实名制购票政策\n\n帮助及联系\n\n游客服务\n\n无障碍服务\n\n常见问题\n\n联系我们\n\n隐私和法律\n\n乐园须知\n\n年卡须知\n\n酒店须知\n\n迪士尼小镇须知\n\n星愿公园须知\n\n蓝天大道须知\n\n上海迪士尼度假区小型车及旅游客车停车场游客须知\n\n隐私政策\n\n使用条款\n\n会员条款与细则\n\n法律声明\n\n相关迪士尼网站\n\n迪士尼（中国）官方网站\n\n迪士尼乐园度假区\n\n香港迪士尼乐园度假区\n\n东京迪士尼乐园度假区\n\n巴黎迪士尼度假区\n\n佛罗里达华特迪士尼世界度假区\n\n加州迪士尼乐园度假区\n\n迪士尼邮轮\n\n关于我们\n\n新闻发布室\n\n工作机会 [...] Logo\n\n## 查看地图\n\n## 查看地图\n\n查看地图\n\n## 查看地图\n\n## 查看地图\n\n查看地图\n\n活动一览\n\n所有玩乐\n\n游乐项目\n\n娱乐演出\n\n迪士尼朋友\n\n餐饮\n\n商店\n\n互动游戏\n\n酒店\n\n上海迪士尼乐园酒店\n\n玩具总动员酒店\n\n周边地点\n\n迪士尼小镇\n\n星愿公园\n\n预订\n\n乐园门票\n\n年卡\n\n酒店\n\n迪士尼尊享服务\n\n餐券\n\n活动\n\n旅行信息\n\n游园攻略\n\n出发前必看\n\n交通指南\n\n新实名制购票政策\n\n帮助及联系\n\n游客服务\n\n无障碍服务\n\n常见问题\n\n联系我们\n\n隐私和法律\n\n乐园须知\n\n年卡须知\n\n酒店须知\n\n迪士尼小镇须知\n\n星愿公园须知\n\n蓝天大道须知\n\n上海迪士尼度假区小型车及旅游客车停车场游客须知\n\n隐私政策\n\n使用条款\n\n会员条款与细则\n\n法律声明\n\n相关迪士尼网站\n\n迪士尼（中国）官方网站\n\n迪士尼乐园度假区\n\n香港迪士尼乐园度假区\n\n东京迪士尼乐园度假区\n\n巴黎迪士尼度假区\n\n佛罗里达华特迪士尼世界度假区\n\n加州迪士尼乐园度假区\n\n迪士尼邮轮\n\n关于我们\n\n新闻发布室\n\n工作机会\n\n关注我们的微信\n\n关注我们的微博\n\n关注我们的小红书",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "f0b38b32ec9c66ba25a46ebaa09c0c4fc0e75ae718c3b4f10d4bcc84b7daec0d",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "f0b38b32ec9c66ba25a46ebaa09c0c4fc0e75ae718c3b4f10d4bcc84b7daec0d",
+      "excerptCharacters": 1091
     },
     {
       "id": "ev:569a998998dfce7fed7d7e7a",
@@ -392,11 +414,13 @@
       "publisher": "www.shanghaimuseum.net",
       "retrievedAt": "2026-10-25T20:57:10.712374+00:00",
       "publishedAt": null,
-      "excerpt": "停车\n\n上海人民广场地下停车场：10元/小时  \n武胜路地面停车场：10元/小时  \n以上仅限小型车辆\n\n  \n\n馆内设施\n\n 1楼\n 2楼\n 3楼\n 4楼\n\n 男卫生间    女卫生间    无障碍措施    自动扶梯    楼梯    服务台    导览服务    影视中心    寄物处    书店    商店    餐厅\n\n 男卫生间    女卫生间    自动扶梯    楼梯    直饮水    茶室\n\n 男卫生间    女卫生间    自动扶梯    楼梯\n\n 男卫生间    女卫生间    自动扶梯    楼梯\n\n \n\nCopyright © 2015 ShanghaiMuseum.net  \n 上海博物馆 版权所有 备案号：沪ICP备10003390号-4 [...] 参观预约 活动预约\n  \n\n   \n\n服务项目\n\n无障碍服务  \n智能终端  \n语音导览  \n婴儿车、轮椅  \n寄物服务  \n咨询服务\n\n导览服务\n\n专职讲解员导览\n\n我馆提供专职讲解员导览服务，详情请留意当日中心服务台显示屏或展厅口立牌。\n\n志愿者服务\n\n我馆每日有志愿者为您免费提供讲解及帮助，详情请留意中心服务台立牌。\n\n语音导览\n\n提供中、英、法、日、德、韩、西班牙、意大利等语种。\n\n中文数码机\n\n成人版：20元/套，亲子版：20元/套，儿童版：10元/套，无需押金，需提供手机号和身份证。\n\n外文数码机\n\n租金40元/套，押金400元或50美元，或护照。\n\n另外特别展览数码机单独出借。\n\n智慧导览\n\n提供中文智能讲解导览服务，通过语音讲解、视频介绍、手绘故事、动画解析、探索解谜、游戏互动等帮助观众立体了解文物背景、趣味解读历史瑰宝。\n\n每套配备平板电脑、手持带和耳机。\n\n租借费30元/套，无需押金，需提供手机号和身份证，可线上和线下办理租借。\n\n也可通过我馆“上海博物馆”APP手机导览或微信小程序获取有关文物的更多信息\n\n位置周边\n\n位置 [...] 位置周边\n\n位置\n\n上海市黄浦区人民大道201号（近武胜路）  \n南门：武胜路、延安东路交界处  \n北门：人民大道\n\n周边\n\n毗邻南京路、淮海路，与上海大剧院、上海城市规划馆、上海音乐厅等相邻。距离虹桥机场约15公里，浦东机场约40公里，上海火车站约3公里，虹桥火车站约17公里，上海南站约12公里。\n\n交通\n\n公交18路、23路、42路、46路、49路、71路、71路区间、108路、108路区间、112路、112路区间、123路、145路、167路、454路、455路、537路、775路、782路、783路、789路、930路、934路、952路、952路B线、980路、隧道三线、隧道六线、上川专线、沪朱高速快线\n\n轨道一、二、八线\n\n都市观光旅游1线、都市观光旅游2线\n\n到达\n\n虹桥机场1号航站楼：地铁10号线至老西门站，换",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "6ee14ea4dae17884c93ed659a100af20025567f3e8bd037f292724d4f59b539a",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "6ee14ea4dae17884c93ed659a100af20025567f3e8bd037f292724d4f59b539a",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:d7b31c3341cc27a1b919313c",
@@ -407,11 +431,13 @@
       "publisher": "www.shanghaimuseum.net",
       "retrievedAt": "2026-10-25T20:57:10.712483+00:00",
       "publishedAt": null,
-      "excerpt": "人民广场馆常设展览・ 类别: 家具尺寸: 座面长58.5厘米,宽47.0厘米,通高119.5厘米 ・ 开放信息人民广场馆周边信息东馆",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "666967b2d7b62f54db6ba8ff81135a07922ed5c84fc1b3cc1f79b3b0833079c1",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "666967b2d7b62f54db6ba8ff81135a07922ed5c84fc1b3cc1f79b3b0833079c1",
+      "excerptCharacters": 66
     },
     {
       "id": "ev:a1d872520373eb711318833a",
@@ -422,11 +448,13 @@
       "publisher": "www.chinaclzl.com",
       "retrievedAt": "2026-10-25T20:57:10.712565+00:00",
       "publishedAt": null,
-      "excerpt": "设施提升 突破障碍重重\n\n近年来，三峡博物馆在物理无障碍设施上投入了大量资源，进行全面改造，优化馆内外坡道坡度，确保轮椅通行顺畅；修复并启用无障碍电梯，残障观众可直达各展厅。同时在检票口设有宽闸机，安检设施设置无障碍通道，确保轮椅使用者等能顺畅通行。无障碍电梯、无障碍卫生间等设施一应俱全，为残障人士提供了极大的便利。同时，博物馆还免费提供轮椅、拐杖、放大镜，设置电梯低位按钮、触摸电子屏信息介绍等，以适应不同身高和身体状况的参观者。这些改进让残障人士从地铁站到展厅的全程实现“零障碍”，体现了博物馆的“平等参与”理念。\n\n“博@你 重博志愿者暖心活动”现场\n\n多感官体验 打破信息壁垒\n\n据统计，我国有超过2000万残障人士，其中一些人因教育水平和识字能力的限制，在理解传统的展览上遇到困难，这不仅影响了他们获取展览信息的能力，也增加了他们对文化场所的疏远感。\n\n让导赏更有温度 [...] 展览中超过90%的展品都是可触摸的，这些可触摸的展品根据馆藏原件1∶1复制，讲解员讲述文物背后的故事的同时，引导他们亲手触摸，结合触觉体验与语言描述，感受了解历史文化。此外可触摸展品前的地面设置了凸点指示，并保证不同身高和轮椅观众的触摸高度及通过空间。在展览开幕当天，来自重庆市盲协的20余名视障儿童在家长的陪伴下进行了无障碍参观的尝试。值得惊喜的是超过95%的视障观众表示，这是他们第一次清晰地感知到文物的材质、花纹和轮廓，是通过再多的语言描述都无法建立的具象化感知。\n\n触摸画像砖（复制品）\n\n公众共建 提升无障碍意识\n\n积极参与“无障碍山城”项目，发起“无障碍友好地图”共建活动。公众通过打卡认证的方式检验设施，标注无障碍友好场所，最终形成覆盖全城的无障碍地图，助力残障人士出行。三峡博物馆联合重庆市残联、公益组织定期举办无障碍体验活动，邀请残障人士担任“测评官”，收集反馈以持续优化服务。 [...] 让导赏更有温度\n\n手语是听障人士与世界沟通的桥梁。三峡博物馆与重庆市残联、市聋人协会和专业的聋人团队等紧密合作，为听障观众提供手语讲解视频，通过扫码即可免费观看，实现无障碍信息获取。听障观众对手语视频高度评价，称视频制作精良、手语翻译准确，使他们能完全理解博物馆展品的深层内容。\n\n除了线上手语视频外，博物馆还配备专业手语讲解员。为不断精进手语讲解业务水平，去年三峡博物馆还主办了首届成渝双城文博艺术手语讲解大赛。博物馆通过线上线下的手语讲解模式，为听障观众提供了更优质的文化体验。\n\n让展览可触可感\n\n展览是博物馆的灵魂，如何让残障人士获得展览和展品信息，一直是三峡博物馆思考的方向。针对视障和肢障观众，特别策划推出“不问不知——博物馆里的为什么？”展览。展览中的无障碍展线特别面向不同身高的观众、视障观众和肢障观众进行了包容性的设计处理，此外在展线内还设置了可触摸的无障碍导览图，在满足普通观",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "cdadc50d34b8bf6499bbc83e30002c700023ca4edc543688d967fae352535c33",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "cdadc50d34b8bf6499bbc83e30002c700023ca4edc543688d967fae352535c33",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:50c7f15f7ba057e59058e952",
@@ -437,11 +465,13 @@
       "publisher": "www.tnm.jp",
       "retrievedAt": "2026-10-25T20:57:10.712628+00:00",
       "publishedAt": null,
-      "excerpt": "### 票价和门票\n\n残障人士及一名陪护人员可免费入馆。  \n 到达东京国立博物馆后，请直接前往右侧的“正门广场”入口。在该入口出示残障人士手账等相关证件后即可入馆，无需在售票处排队购票。\n\n## 设施、设备与服务\n\n### 无障碍设施地图\n\n博物馆区内及各个展馆的无障碍设施设置情况\n\n下载博物馆区内及各个展馆的所有地图(PDF, 494KB)\n\n标注无障碍信息的地图及关于无障碍设施设置情况的说明。\n\n 正门周围及博物馆区内\n 正门广场\n 主馆\n 平成馆\n 东洋馆\n 法隆寺宝物馆\n 表庆馆\n 黑田纪念馆\n 资料馆\n\n### 卫生间\n\n 除表庆馆外，其他展馆均设有可供轮椅使用的多功能卫生间。\n 造口患者专用设施位于以下区域的多功能卫生间内：主馆地下、平成馆1层、东洋馆1层、正门广场1层及黑田纪念馆1层。\n 主馆、平成馆、东洋馆、法隆寺宝物馆、正门广场及黑田纪念馆的卫生间均配备婴儿护理台。\n\n### 轮椅、婴儿车、拐杖借用服务\n\n可借用轮椅、婴儿车、拐杖。  \n 借用地点：轮椅与拐杖在表庆馆以外的各展馆咨询处，婴儿车则在主馆咨询处。（数量有限，请提前咨询。）\n\n### 电梯与坡道 [...] ### 电梯与坡道\n\n各展馆均设有电梯和坡道，除庭园茶室外，所有设施及楼层均可使用轮椅通行。  \n 但主馆与表庆馆入口处坡道坡度较陡，馆内部分区域存在1～2厘米的小型台阶。如遇不便，请随时向附近工作人员寻求协助。\n\n### 救护室\n\n感到身体不适时，请与工作人员联系，可以利用主馆、平成馆及东洋馆的救护室。\n\n### AED（自动体外除颤器）\n\n所有建筑中均配备有AED。\n\n### 储物柜\n\n各展馆均设有行李寄存储物柜。若行李无法放入储物柜，请前往咨询处寻求帮助。\n\n### 休息、餐饮区\n\n 馆内各处均设有长椅和沙发。\n 馆内设有餐厅（关闭）、咖啡厅及可购买简餐的餐车。详情请参考“餐厅、咖啡厅”页面。  \n     \n\n  餐厅、咖啡厅页面\n 户外区域可自由饮食。\n 室内可饮食区域为：平成馆1楼休息区、主馆地下1楼休息区、资料馆1楼正门旁休息区、东洋馆3楼带屋檐露台。其他区域禁止饮食，但特定室内空间允许使用带盖容器补充水分。\n\n## 按困扰事项、需求分类的指南\n\n### 轮椅使用者、行动不便者 [...] ### 轮椅使用者、行动不便者\n\n 行动不便者可使用免费专用停车场。因车位有限，请在来馆前致电03-3822-1111预约。\n 各展馆均设有电梯和坡道，除庭园茶室外，所有设施及楼层均可使用轮椅通行。   \n   但主馆与表庆馆入口处坡道坡度较陡，馆内部分区域存在1～2厘米的小型台阶。如遇不便，请随时向附近工作人员寻求协助。  \n   ※进入黑田纪念馆时，请通过入口处的对讲机呼叫工作人员。  \n   ※可从东洋馆分馆“大仓饭店餐厅 鹅掌楸（关闭）”前的道路进入庭园。但庭园内的",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "d2c80b1cb940d54b2754069d837d153ad3e9b10a03144adec2d6b0210cfc5ccb",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "d2c80b1cb940d54b2754069d837d153ad3e9b10a03144adec2d6b0210cfc5ccb",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:0a0600da64808971411abf7f",
@@ -452,11 +482,13 @@
       "publisher": "www.shanghaimuseum.net",
       "retrievedAt": "2026-10-25T20:57:13.172138+00:00",
       "publishedAt": null,
-      "excerpt": "服务\n+ 观众须知\n+ 服务项目\n+ 馆内设施\n+ 位置周边\n+ 推荐路线\n+ 文创商店\n 资讯\n+ 关于我们\n本馆介绍\n馆标介绍\n领导介绍\n理事会章程\n组织架构\n隐私政策\n联系我们\n+ 本馆公告\n服务公告\n人事公告\n对外交流\n馆务公开\n财政公开\n+ 新闻动态\n+ 媒体资源\n视频\n 展览\n 专题\n 讲座\n 活动\n三维\n 场景\nAR藏品\n+ 数字产品\n贺卡\n桌面\n导览手册\n+ 志愿者之家\n 活动\n+ 专题讲座\n+ 专题导览\n+ 艺术欣赏\n+ 其他\n+ 体验工坊\n 典藏\n+ 数字文物库\n+ 典藏精选\n金石\n 青铜\n 雕塑\n 钱币\n 其他\n陶瓷\n书画\n 书法\n 绘画\n 其他\n工艺\n 玉器\n 家具\n 少数民族\n 其他\n+ AR藏品\n+ 我的收藏\n 展示\n+ 常设陈列（线上展厅）\n+ 历年特展（线上展厅）\n+ 特别展览\n+ 网上展览\n+ 珍品精读\n+ 推荐路线\n 研究\n+ 展览图录\n+ 学术专刊\n上海博物馆集刊\n上海文博\n文物保护与考古科学\n+ 学术成果\n 参观预约\n  \n参观预约 活动预约\n  \n   \n\n  \n\n  \n  \n 观众须知\n 服务项目\n 馆内设施\n 位置周边\n 推荐路线\n 文创商店\n开放信息\n除国定假日外，每周一闭馆，9:00~17:00，16:00后停止入场  \n双休日、国定节假日及参观高峰期间需预约入馆\n更多开放信息\n请从南门（近武胜路）入馆\n展厅讲解活动需向本馆申报\n \n服务项目\n\n无障碍服务  \n智能终端  \n语音导览  \n婴儿车、轮椅  \n寄物服务  \n咨询服务\n导览服务\n\n专职讲解员导览\n我馆提供专职讲解员导览服务，详情请留意当日中心服务台显示屏或展厅口立牌。\n志愿者服务\n我馆每日有志愿者为您免费提供讲解及帮助，详情请留意中心服务台立牌。\n语音导览\n提供中、英、法、日、德、韩、西班牙、意大利等语种。\n中文数码机\n成人版：20元/套，亲子版：20元/套，儿童版：10元/套，无需押金，需提供手机号和身份证。\n外文数码机\n租金40元/套，押金400元或50美元，或护照。\n另外特别展览数码机单独出借。\n智慧导览\n提供中文智能讲解导览服务，通过语音讲解、视频介绍、手绘故事、动画解析、探索解谜、游戏互动等帮助观众立体了解文物背景、趣味解读历史瑰宝。\n每套配备平板电脑、手持带和耳机。\n租借费30元/套，无需押金，需提供手机号和身份证，可线上和线下办理租借。\n也可通过我馆“上海博物馆”APP手机导览或微信小程序获取有关文物的更多信息\n位置周边\n\n位置\n上海市黄浦区人民大道201号（近武胜路）  \n南门：武胜路、延安东路交界处  \n北门：人民大道\n周边\n毗邻南京路、淮海路，与上海大剧院、上海城市规划馆、上海音乐厅等相邻。距离虹桥机场约15公里，浦东机场约40公里，上海火车站约3公里，虹桥火车站约17公里，上海南站约12公里。\n交通\n公交18路、23路、42路、46路、49路、71路、71路区间、108路、108路区间、112路、112路区间、123路、145路、167路、454路、455路、537路、775路、782路、783路、789路、930路、934路、952路、952路B线、980路、隧道三线、隧道六线、上川专线、沪朱高速快线\n轨道一、二、八线\n都市观光旅游1线、都市观光旅游2线\n到达\n虹桥机场1号航站楼：地铁10号线至老西门站，换乘8号线至人民广场站\n虹桥机场2号航站楼：乘地铁2号线至人民广场站\n浦东机场1、2号航站楼：乘地铁2号线至人民广场站\n上海火车站：地铁1号线至人民广场站\n虹桥火车站：乘地铁2号线至人民广场站\n上海南站：乘地铁1号线至人民广场站\n停车\n上海人民广场地下停车场：10元/小时  \n武胜路地面停车场：10元/小时  \n以上仅限小型车辆\n \n馆内设施\n\n 1楼\n 2楼\n 3楼\n 4楼\n\n 男卫生间    女卫生间    无障碍措施    自动扶梯    楼梯    服务台    导览服务    影视中心    寄物处    书店    商店    餐厅\n\n 男卫生间    女卫生间    自动扶梯    楼梯    直饮水    茶室\n\n 男卫生间    女卫生间    自动扶梯    楼梯\n\n 男卫生间    女卫生间    自动扶梯    楼梯\n\nCopyright © 2015 ShanghaiMuseum.net  \n上海博物馆 版权所有 备案号：沪ICP备10003390号-4",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "9cee7d7c88faa061c74a32a7ca8553a53cb57b1e04df5b119e0814d8632a4bfa",
       "verification": "page_extract",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "9cee7d7c88faa061c74a32a7ca8553a53cb57b1e04df5b119e0814d8632a4bfa",
+      "excerptCharacters": 1840
     },
     {
       "id": "ev:c84a013e9f59cb4ea3a0860d",
@@ -467,11 +499,13 @@
       "publisher": "www.sh-aquarium.com",
       "retrievedAt": "2026-10-25T20:57:13.372934+00:00",
       "publishedAt": null,
-      "excerpt": "上海海洋水族馆\n上海海洋水族馆\n主题展区\n行前须知\n喂食时间\n喂食时间\n本馆设置了五大生物喂食互动时段，提供符合生物自然摄食习性的营养食物，以促进生物的健康成长。\n讲解时间\n讲解时间\n为了让您的参观更丰富有趣，我们为各展区安排了特色科普讲解时间，让您在探索海洋世界的同时，丰富水世界体验，学习有趣的海洋知识，了解各种海洋生物的习性与奥秘。\n门票与年卡\n团队及包场\n活动预定\n“与鲨共眠”夜宿活动\n“与鲨共眠”夜宿活动\n上海海洋水族馆“与鲨共眠”夜宿儿童独立营\n“海洋之友”年卡\n“海洋之友”年卡\n上海海洋水族馆“海洋之友”年卡\n服务设施\n\n上海海洋水族馆为游客提供行李免费寄存服务、婴儿车和轮椅馆内免费租借服务。  \n1. 行李寄存  \n中小件行李寄存：馆内大堂设有自助寄存行李柜，可微信扫码免费寄存中小件行李。行李需在当日闭馆前提前半小时取走。贵重物品请随身携带。  \n大件行李寄存：如有大件行李或婴儿车、轮椅需要寄存，请凭当日门票在大堂游客中心寄存。行李需在当日闭馆前提前半小时取走。贵重物品请随身携带。  \n2. 婴儿车/轮椅租用  \n上海海洋水族馆提供婴儿车和轮椅免费租用服务。  \n租用方式：需支付押金（现金支付或身份证件、驾照)，婴儿车押金600元，轮椅押金800元，归还婴儿车/轮椅后押金如数退回。  \n租用须知：租用婴儿车/轮椅不可推至场馆以外区域，租用无时间限制，但须在当日营业时间内归还。  \n押金退还：设备完好归还后，押金将如数退回。  \n3. 母婴室母婴室位于上海海洋水族馆二楼，未入馆及出馆游客无法进入使用。如遇特殊情况请联系工作人员寻求帮助。  \n4. 洗手间上海海洋水族馆每层均设有洗手间。  \n5. 无线网络Wi-Fi上海海洋水族馆提供免费 Wi-Fi，每次可使用 2 小时。(国外游客的手机号码如非国内运营商，则无法享受该服务)。  \n如需任何协助，请至场馆1楼游客服务中心，或拨打咨询电话\n服务设施.jpg\n上海海洋水族馆\n(86-21) 58779988\n58779988\nfollow-us-wx.svg\n微信公众号\n微信公众号\nfollow-us-douyin.svg\n抖音账号\n抖音账号\nfollow-us-xiaohongshu.svg\n小红书账号\n小红书账号\n游客攻略\n主题展区\n行前须知\n立即预订\n门票与年卡\n团队及包场\n活动预定\n海洋之友\n科普专栏\n关于我们",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "f0cd8ed00acc53ccf0b7b1367a3c30441a45e17144cc4d4051128a94ce87cc53",
       "verification": "page_extract",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "f0cd8ed00acc53ccf0b7b1367a3c30441a45e17144cc4d4051128a94ce87cc53",
+      "excerptCharacters": 1005
     }
   ],
   "noWorkspaceWrites": true,
@@ -651,5 +685,6 @@
   "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
   "traceVerified": true,
   "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/0b316e05-4789-4442-9c40-c81928963c49?poll=true",
-  "totalSeconds": 49.989
+  "totalSeconds": 49.989,
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
 }

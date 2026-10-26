@@ -16,4 +16,6 @@ Registry files are fetched independently from repository HEAD; exact downloaded 
 
 Copied component license texts are preserved in [third_party/licenses](../third_party/licenses/). Original AMap imagery retains provider attribution; AMap/Tavily hosted APIs follow their provider terms and account quotas rather than the components' MIT licenses. Exact Python/npm versions remain in `uv.lock` and `apps/web/package-lock.json`.
 
+Portfolio 1.0 original V2 code is MIT, selected by the owner on 2026-10-26. The former Open Sunsama non-commercial root license remains applicable to its V1 material in archived history; it is not V2's project license. See [LICENSE](../LICENSE) and [NOTICE](../NOTICE.md) for the scope and preserved component notices.
+
 Smoke: canonical schema imports; 7 contract tests passed; Deep Agents create_deep_agent signature verified; npm install succeeded with 0 audit vulnerabilities. Full Calendar original source is materialized before domain adaptation; runnable render smoke belongs to UI checkpoint.

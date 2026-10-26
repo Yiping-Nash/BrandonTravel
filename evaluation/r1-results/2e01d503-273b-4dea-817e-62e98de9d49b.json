@@ -91,11 +91,13 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:44:50.639076+00:00",
       "publishedAt": null,
-      "excerpt": "{\"version\": 10, \"trip\": {\"title\": \"合成评测 · 跨周文化独旅\", \"destination\": \"西安\", \"startDate\": \"2026-11-02\", \"endDate\": \"2026-11-10\", \"timezone\": \"Asia/Shanghai\", \"preferences\": \"独自出行，偏好历史、建筑与安静观察。九天跨周，重视灵活调整。\", \"id\": \"fixture-r1-v1-xian-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, \"ideas\": [{\"title\": \"阅读当地历史并写旅行笔记\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-xian-2026-11-02-i0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"备用室内休息安排\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-xian-2026-11-02-i1\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"遇到喜欢的地方多停一会\", \"description\": \"合成用户候选，未预约；仅在用户确认后加入安排。\", \"place\": null, \"sourceKind\": \"manual\", \"evidence\": [], \"id\": \"fixture-r1-v1-xian-2026-11-02-i2\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}], \"activities\": [{\"title\": \"抵达与休息\", \"date\": \"2026-11-02\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a0-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"读一段城市历史\", \"date\": \"2026-11-02\", \"startAt\": \"2026-11-02T19:00\", \"endAt\": \"2026-11-02T20:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a0-1\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 1, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"博物馆主题研究\", \"date\": \"2026-11-03\", \"startAt\": \"2026-11-03T10:00\", \"endAt\": \"2026-11-03T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a1-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"古建筑漫步\", \"date\": \"2026-11-04\", \"startAt\": \"2026-11-04T09:00\", \"endAt\": \"2026-11-04T11:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a2-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"写旅行笔记\", \"date\": \"2026-11-05\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a3-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"自由留白\", \"date\": \"2026-11-06\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a4-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"城市文化展览\", \"date\": \"2026-11-07\", \"startAt\": \"2026-11-07T13:00\", \"endAt\": \"2026-11-07T15:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a5-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"旧街区观察\", \"date\": \"2026-11-08\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a6-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"跨周：再访喜欢的展馆\", \"date\": \"2026-11-09\", \"startAt\": \"2026-11-09T10:00\", \"endAt\": \"2026-11-09T12:00\", \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a7-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}, {\"title\": \"跨周：整理笔记与返程\", \"date\": \"2026-11-10\", \"startAt\": null, \"endAt\": null, \"place\": null, \"ideaId\": null, \"notes\": \"人工合成评测数据；用户确认的是安排，不代表真实购票、预约或营业信息已核验。\", \"id\": \"fixture-r1-v1-xian-2026-11-02-a8-0\", \"tripId\": \"fixture-r1-v1-xian-2026-11-02\", \"sortKey\": 0, \"createdAt\": \"2026-11-02T00:00:00Z\", \"updatedAt\": \"2026-11-02T00:00:00Z\"}]}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "481c76387bffabc8c29fd790da176dc8a36a98491b3d91250afe12082cd5d7a8",
       "verification": "snapshot",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "481c76387bffabc8c29fd790da176dc8a36a98491b3d91250afe12082cd5d7a8",
+      "excerptCharacters": 4640
     },
     {
       "id": "ev:4a8e5fa109f155dd0b910190",
@@ -106,7 +108,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:45:04.889936+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B001D031C7\",\"name\":\"大兴善寺\",\"address\":\"小寨兴善寺西街55号\",\"latitude\":34.227081,\"longitude\":108.943506}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "07a6d754369e17c9d8a38dd4bc29de4a39bc14761b5974e29e8dff213d04dea9",
       "verification": "provider",
       "place": {
@@ -117,7 +119,9 @@
         "latitude": 34.227081,
         "longitude": 108.943506
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "07a6d754369e17c9d8a38dd4bc29de4a39bc14761b5974e29e8dff213d04dea9",
+      "excerptCharacters": 126
     },
     {
       "id": "ev:50b4b744693e556a6b43b6c9",
@@ -128,7 +132,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:45:04.889993+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0FFH1LAP3\",\"name\":\"大兴善寺-观音洞\",\"address\":\"兴善寺西街大兴善寺(西侧)\",\"latitude\":34.227246,\"longitude\":108.942659}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "5147a9f1c5be1bf71828b109b9beac72a8b0d49e209ad0f2b59eda267de67044",
       "verification": "provider",
       "place": {
@@ -139,7 +143,9 @@
         "latitude": 34.227246,
         "longitude": 108.942659
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "5147a9f1c5be1bf71828b109b9beac72a8b0d49e209ad0f2b59eda267de67044",
+      "excerptCharacters": 133
     },
     {
       "id": "ev:3aaa064bd7d1c8c97bb13e88",
@@ -150,7 +156,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:45:04.890023+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B0H33O1RCZ\",\"name\":\"大兴善寺-运石\",\"address\":\"兴善寺西街55号大兴善寺\",\"latitude\":34.227266,\"longitude\":108.943327}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "a9f488981403e6012cb4397176d6eee6e345313b0ab43b57e76f1c174ec8f2db",
       "verification": "provider",
       "place": {
@@ -161,7 +167,9 @@
         "latitude": 34.227266,
         "longitude": 108.943327
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "a9f488981403e6012cb4397176d6eee6e345313b0ab43b57e76f1c174ec8f2db",
+      "excerptCharacters": 131
     },
     {
       "id": "ev:1dfd58ddbd19f64cce7014a9",
@@ -172,7 +180,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:45:04.962312+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B001D026D8\",\"name\":\"小雁塔\",\"address\":\"友谊西路74号\",\"latitude\":34.239195,\"longitude\":108.942011}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "5b13e59502aa905fb05db12e98ececb8f952ff4a53c3ffaf47dae67b3902615f",
       "verification": "provider",
       "place": {
@@ -183,7 +191,9 @@
         "latitude": 34.239195,
         "longitude": 108.942011
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "5b13e59502aa905fb05db12e98ececb8f952ff4a53c3ffaf47dae67b3902615f",
+      "excerptCharacters": 122
     },
     {
       "id": "ev:94dac649bb1a0400c420cc99",
@@ -194,7 +204,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:45:04.962390+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B001D06AOS\",\"name\":\"西安博物院\",\"address\":\"友谊西路72号\",\"latitude\":34.238589,\"longitude\":108.941673}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "63a3e6857538d76f34c5236dd765eebb49690f413b6a97873373d5b7b2cc5d28",
       "verification": "provider",
       "place": {
@@ -205,7 +215,9 @@
         "latitude": 34.238589,
         "longitude": 108.941673
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "63a3e6857538d76f34c5236dd765eebb49690f413b6a97873373d5b7b2cc5d28",
+      "excerptCharacters": 124
     },
     {
       "id": "ev:736c8efb8b443573a8265151",
@@ -216,7 +228,7 @@
       "publisher": null,
       "retrievedAt": "2026-10-25T20:45:04.962449+00:00",
       "publishedAt": null,
-      "excerpt": "{\"provider\":\"amap\",\"providerId\":\"B001D1158K\",\"name\":\"西安博物院北门售票处\",\"address\":\"友谊西路72号(南稍门地铁站F口步行200米)\",\"latitude\":34.240813,\"longitude\":108.942433}",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "8e87d42630820b43788dc3d2514c19fef3d82a25d0f2c330779b744de5d2d37e",
       "verification": "provider",
       "place": {
@@ -227,7 +239,9 @@
         "latitude": 34.240813,
         "longitude": 108.942433
       },
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "8e87d42630820b43788dc3d2514c19fef3d82a25d0f2c330779b744de5d2d37e",
+      "excerptCharacters": 145
     },
     {
       "id": "ev:b690f6cf84307464571e6df0",
@@ -238,11 +252,13 @@
       "publisher": "travelnews.qunar.com",
       "retrievedAt": "2026-10-25T20:45:13.973239+00:00",
       "publishedAt": null,
-      "excerpt": "西安大兴善寺免费无需预约，地铁小寨站步行5分钟直达，开放时间8:00-17:00，可领3支免费香，有文殊殿、观音殿等祈福点，游玩2-3小时。",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "d3c542add5a689342b5b7b14a6e64c2185f2ad138872e1932274c428499eb8b3",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "d3c542add5a689342b5b7b14a6e64c2185f2ad138872e1932274c428499eb8b3",
+      "excerptCharacters": 70
     },
     {
       "id": "ev:388b8f6ea3580531031d055d",
@@ -253,11 +269,13 @@
       "publisher": "xa.bendibao.com",
       "retrievedAt": "2026-10-25T20:45:13.973330+00:00",
       "publishedAt": null,
-      "excerpt": "【导语】：西安大兴善寺位于雁塔区兴善寺西街55号，每日开放时间为08:00—17:00，游客持双绿码即可入寺祈福。 西安大兴善寺开放时间为08:00—17:00。",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "46969a24f15848536dc9c2246164a3200bb6fa284475fb94804f39d2003a1fb5",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "46969a24f15848536dc9c2246164a3200bb6fa284475fb94804f39d2003a1fb5",
+      "excerptCharacters": 81
     },
     {
       "id": "ev:5369ebb347a7de84f03f4c69",
@@ -268,11 +286,13 @@
       "publisher": "www.wingontravel.com",
       "retrievedAt": "2026-10-25T20:45:13.973400+00:00",
       "publishedAt": null,
-      "excerpt": "Logo\n\n 旅行團\n 酒店\n 機票\n 自由行\n 郵輪\n 訂製包團\n 當地參團\n 門票/體驗\n 高鐵火車票\n 船票\n 旅遊攻略\n 奢華遊\n 旅遊禮券\n 港玩港食\n 機場接送\n 機場快線\n 活動/優惠\n 會員資訊\n 個人中心\n\n全部產品\n\n 旅行團\n 郵輪\n 當地參團\n 訂製包團\n 奢華遊\n 旅遊禮券\n\n 酒店\n 機票\n 自由行\n 高鐵火車票\n 船票\n 機場接送\n 機場快線\n\n 門票/體驗\n 旅遊攻略\n 港玩港食\n\n 個人中心\n 會員資訊\n 活動/優惠\n\n 繁體中文\n English\n\n永安旅遊APP\n\n掃碼下載 APP\n\niOS & Android  \n新用戶首單即減優惠\n\nWhatsApp報名/查詢\n\n旅行團whatsapp機票、酒店及自由行whatsapp\n\n客戶服務熱線\n\n報名及查詢 +852 2928 8882\n\n廣東旅行團專線 +852 2646 1128\n\n永安旅遊分行遍佈香港查看分行\n\n客戶服務時間\n\n9:00am-9:00pm（香港時間）\n\n搜尋訂單\n\n登入/註冊\n\n個人\n\n我的訂單會員資訊優惠券我的積分我的收藏賬戶設置\n\n登出\n\n永安旅遊APP\n\n掃碼下載 APP [...] 永安旅遊APP\n\n掃碼下載 APP\n\niOS & Android 支援\n\n登入即享會員優惠\n\n我希望收到最新的優惠資訊！\n\n首页 旅遊攻略 > 亞洲 > 中國 > 西安 > 大興善寺\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n# 大興善寺\n\n4.6分 158 則評價\n\n寺廟\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n永安旅遊\n\n查看全部照片\n\n營業時間： 營業中   詳情\n\n建議逗留時間： 建議游玩1-2小時\n\n地址： \n\n## 西安市雁塔區興善寺西街55號\n\n大興善寺\n\n## 景點門票\n\n#### 大興善寺人工講解(含無線耳麥)所有旅客\n\n即時確認\n\n不可退改\n\nHKD 35+\n\n選擇\n\n## 一日游\n\n查看全部\n\n 西安-宗教文化之旅【大雁塔+小雁塔+興善寺+碑林博物館】\n\n  #### 西安-宗教文化之旅【大雁塔+小雁塔+興善寺+碑林博物館】 [...] HKD 4,553+\n 大興善寺+西安鐘樓+西安鼓樓+回民街+西安千古情一日遊\n\n  #### 大興善寺+西安鐘樓+西安鼓樓+回民街+西安千古情一日遊\n\n  HKD 420+\n\n## 大興善寺介紹\n\n大興善寺始建於晉初，唐玄宗開元年間號稱“開元三大士”的印度僧人善元畏、金剛智、不空到此寺傳授密宗，成為當時長安翻譯佛經的三大譯場之一，其中不空和尚在大興善寺主持譯務，還為大唐皇帝舉行灌頂儀式。他對佛學經典的整理",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "5a6c4c80c43e66277c2f1b30ab3dd2f80546c4f34d131f5e86bbba5606dbb698",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "5a6c4c80c43e66277c2f1b30ab3dd2f80546c4f34d131f5e86bbba5606dbb698",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:f7fc1c7d82f35df40a3ceba5",
@@ -283,11 +303,13 @@
       "publisher": "zh.wikipedia.org",
       "retrievedAt": "2026-10-25T20:45:13.973465+00:00",
       "publishedAt": null,
-      "excerpt": "大兴善寺位于中华人民共和国陕西省西安市雁塔区小寨路街道，是一座汉传佛教寺院。其前身可追溯至西晋泰始 \"泰始 (西晋)\")二年（266年）创建的遵善寺，以及西魏大统 \"大统 (西魏)\")五年（539年）建立的陟岵寺。隋文帝开皇年间在该两寺故址上扩建新寺，因寺址位于长安城靖善坊，遂取寺院所在的“大兴”城之首字与“靖善”之次字，赐名大兴善寺。该寺在隋代为最高宗教管理机构与国立译经道场；唐代开元年间，天竺僧人善无畏、金刚智与不空（佛教史上合称为“开元三大士”）在大兴善寺传授密法，该寺也因此被后世视为中国佛教宗派密宗的祖庭。寺院南北长330米，东西宽219米，现存布局以明清时期院落轴线式规划为主，沿三条纵向轴线分布，主要建筑包括山门殿、天王殿、大雄宝殿、观音殿及法堂等。 [...] 大雄宝殿之后为第三重院落，保留有唐代转轮藏经殿遗址，高出地平面，略呈方形，地面有序排列柱础三十个。院西依次为双层楼阁僧寮房与普贤殿，殿内供奉装金普贤菩萨像一尊，两侧有罗汉造像，殿外设有转经筒；院东依次为斋堂与文殊殿，殿内供奉文殊菩萨装金造像及罗汉像。庭院中央有日本真言宗空海大师同志会赠送的地藏菩萨青铜塑像一尊，立于汉白玉台上，像前有白玉大肚弥勒佛。再北为正中央的观音大士殿，殿内莲台上供奉香樟木雕刻、赤金装饰的千手千眼观音菩萨像。西禅堂壁挂有“开元三大士传略”。观音殿外两侧设有转经筒。殿前院内有两通石碑，分别为清康熙二年刻“重修隋唐敕建大兴善寺来源记碑”与清咸丰元年“大兴善寺法派碑记”，字迹漫漶: 95。\n\n进入第四重内院，有一株三百余年树龄的紫藤。东有玉佛殿，西为卧佛殿，分别供奉从缅甸请回的玉雕释迦牟尼佛与卧佛。二配殿中央有两围放生池。其北为面阔七间的法堂，正门上方悬清光绪御书“觉悟群生”匾额，殿内供奉密宗大日如来，并藏有唐代铜佛像与宋代造像: 96。 [...] 外观\n\n坐标：34°13′42.49″N 108°56′19.50″E﻿ / ﻿34.2284694°N 108.9387500°E﻿ / 34.2284694; 108.9387500\n\n维基百科，自由的百科全书\n\n提示：此条目的主题不是九华山大兴善寺。\n\n| 大兴善寺 |\n\n| 大兴善寺正门 |\n| 陕西省文物保护单位 |\n| 地址 | 西安市雁塔区 |\n| 坐标 | 34°13′42.49″N 108°56′19.50″E﻿ / ﻿34.2284694°N 108.9387500°E﻿ / 34.2284694; 108.9387500 |\n| 分类 | 古建筑 |\n| 时代 | 清 |\n| 编号 | 1-14 |\n| 认定时间 | 1956年 |",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "0eb5ad2e53f639ac5659203698cd473943a1e900ce931ba9c0801bb164f7b908",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "0eb5ad2e53f639ac5659203698cd473943a1e900ce931ba9c0801bb164f7b908",
+      "excerptCharacters": 1111
     },
     {
       "id": "ev:36e7adb7dbc388f753e71e69",
@@ -298,11 +320,13 @@
       "publisher": "qidian.sxtvs.com",
       "retrievedAt": "2026-10-25T20:45:19.861191+00:00",
       "publishedAt": null,
-      "excerpt": "尚德门\n\n陕西历史博物馆\n\n陕西历史博物馆、陕西历史博物馆秦汉馆五一期间均正常开放。陕历博本馆放票时间“五一”假期是提前7天、平日是提前3天，陕历博秦汉馆“五一”假期放票时间是提前3天。\n\n预约时间\n\n预约系统每天10点、11点、18点、19点整点放票（如果10点没有抢到票，系统显示“已约满”，此种情况仅表明此时段无票，在11点、18点、19点还会依次放票，可以继续预约门票）。\n\n预约渠道\n\n通过“陕西历史博物馆”微信公众号预约门票。\n\n门票价格\n\n免费开放。\n\n开放时间\n\n08:30——18:00，16:30停止入场。\n\n每周二至周日开放参观。\n\n周一全天闭馆（国家法定节假日除外）。\n\n西安博物院\n\n预约时间\n\n可提前6天（不包含当天）进行预约。\n\n预约渠道\n\n方式一：\n\n通过西安博物院官方网站预约，网址链接：\n\n\\团队票预约渠道入口仅在西安博物院官方网站上。\n\n方式二：\n\n通过“西安博物院”微信公众号进行预约。\n\n门票价格\n\n免费开放。\n\n开放时间\n\n8:30——18:00，17:00停止入园。\n\n西安碑林博物馆\n\n预约时间\n\n网络门票可提前5天进行预约。\n\n预约渠道 [...] 预约渠道\n\n实行身份证实名预约购票，实行分时预约制。\n\n方式一：\n\n通过西安碑林博物馆官方网站预约，网址链接：\n\n方式二：\n\n通过“西安碑林博物馆”微信公众号预约购票。\n\n门票价格\n\n10元/人。\n\n开放时间\n\n9:00开馆，17:00停止检票，17:30闭馆。\n\n秦始皇帝陵博物院\n\n秦始皇帝陵博物院“五一”假期门票已于4月19日开始发售。\n\n预约时间\n\n秦始皇帝陵博物院门票实行线上分时预约，可提前8天（包含当天）预约购买。\n\n预约渠道\n\n实行实名制线上预约购票，所有观众（含港澳台及外籍观众、政策性免票人员）必须预购门票。\n\n方式一：\n\n通过秦始皇帝陵博物院官方网站预约，网址链接：\n\n方式二：\n\n通过“秦始皇帝陵博物院”“兵马俑票务在线”微信公众号预约门票。\n\n门票价格\n\n成人票120元/人。\n\n学生票60元/人。\n\n开放时间\n\n08:30——17:00\n\n17:00停止检票，18:30闭馆。\n\n提示：由于当前连霍高速（G30）兵马俑专用线公路正在实施改建工程，实行双向交通管制，禁止所有车辆通行，各位游客可由临潼或新丰收费站驶出，请提前了解路况规划路线。\n\n陕西考古博物馆 [...] 陕西考古博物馆\n\n开放时间\n\n“五一”假期正常开放。\n\n门票价格\n\n免费开放。\n\n预约渠道\n\n关注“陕西考古博物馆”微信公众号，点击下方的“门票预约”按钮，在弹出菜单中点击“余票查询”可了解包括当日在内的五天门票余量情况，点击“门票预约”即可进行免费预约。\n\n开放时间\n\n该博物馆开放时间为9:00-17:00，实行实名制检票，凭本人二代身份证原件于闸机处检票入馆，16:20停止检票入馆。人工取票时",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "4ec663bb6cd9541cb29ec9c11d5293d76d619a11f8416af3ef8f67b00c3d963f",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "4ec663bb6cd9541cb29ec9c11d5293d76d619a11f8416af3ef8f67b00c3d963f",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:08658af7b71b6030190c0288",
@@ -313,11 +337,13 @@
       "publisher": "m.cnwest.com",
       "retrievedAt": "2026-10-25T20:45:19.861332+00:00",
       "publishedAt": null,
-      "excerpt": "西安博物院“五一”假期（5月1日-5日）每天8:30—18:00（17:00停止入园）正常开放。游客可通过西安博物院官方网站、微信公众号、美团APP、大众点评APP进行门票预约。每日18：00更新7天内门票预约。每个手机号每天最多预约5张门票，每个身份证每日仅能预约一次。预约成功后持本人身份证在预约时段内刷身份证即可入园。游客需按照预约时段，从入口闸机处刷身份证入园。如错过预约时间段、未带身份证将无法入园。\n\n人工窗口仅对已成功预约门票的儿童、外宾、港澳台人员提供现场换票服务。身高1.4米以下或者6岁以下儿童参观，由预约成功的成人携带入园。每名游客可携带一名儿童。1.4米以上儿童需要正常预约，从入口闸机处刷身份证入园。未办理身份证的儿童，需先成功预约门票后，在人工窗口凭户口本换票入园。老年人、军人、残疾人持有效证件可在人工窗口享受免预约直接换票服务。如有任何疑问或需求，和拨打咨询电话：18066819253。\n\n■西安半坡博物馆：可网络购票，也可在售票处购票 [...] 陕西考古博物馆位于长安区终南大道与文苑南路交汇处，是全国首座考古学科专题博物馆，于2022年4月28日试开放。分为考古历程厅、文化谱系厅、考古发现一厅、考古发现二厅和文保科技厅五个展厅，展出文物4891件组。室外还有田野考古主题展示区、陶瓷石刻文物展示区等。\n\n陕西考古博物馆平时每周三全天闭馆整修，五一假期正常开放。若计划前往参观，可关注“陕西考古博物馆”微信公众号，点击下方的“门票预约”按钮，在弹出菜单中点击“余票查询”可了解包括当日在内的五天门票余量情况，点击“门票预约”即可进行预约。目前陕西考古博物馆仍实行免费预约。\n\n该博物馆开放时间为9:00-17:00，实行实名制检票，凭本人二代身份证原件于闸机处检票入馆，16:20停止检票入馆。人工取票时间为9:00--16:00。如有疑问可咨询029-89251666。\n\n■西安博物院：每日18：00更新7天内门票预约 [...] 半坡遗址是距今六千多年的新石器时代仰韶文化聚落遗址，包括居住区、制陶区和墓葬区三部分，从中发掘出的大量生活、劳作、宗教遗址，上万件生产工具、生活工具、装饰品等遗物，展现了黄河流域发达的史前文明，把人们引入往昔母系氏族社会的遥远岁月。\n\n西安半坡博物馆全年开放，3月1日-11月30日开放时间为8:00--17:30。游客可通过西安半坡博物馆官方网站、微信公众号、美团APP进行门票预约、购票，也可在售票处凭身份证购票。3月1日至11月30日门票价格为：成人票55元/人，学生票27.5元/人，儿童票0元预约。65周岁及以上老年人、残疾人、现役军人及军队离退休干部、“三属”人员、消防救援人员等，可凭相关证件免费参观。\n\n■西安大唐西市博物馆：可现场直接购票，也可通过网络购票\n\n西安大唐西市博物馆在隋唐长安城西市十字街遗址的",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "1cff28c27c86f7ef6003467a20ae72d7ac6fe4a61ded867a22971024b76de9ab",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "1cff28c27c86f7ef6003467a20ae72d7ac6fe4a61ded867a22971024b76de9ab",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:0a4d2a9e58be85250f2bba92",
@@ -328,11 +354,13 @@
       "publisher": "www.iwenbo.fun",
       "retrievedAt": "2026-10-25T20:45:19.861412+00:00",
       "publishedAt": null,
-      "excerpt": "世界文化遗产“小雁塔”是唐长安城中著名皇家寺院荐福寺的佛塔，已有1300余年历史，是西安地区保持了初建时原貌的唐代建筑。荐福寺原名“献福寺”，武则天天授元年改为现名。寺内每日敲响的“雁塔晨钟”被誉为长安八景之一。小雁塔于1961年列入全国重点文物保护单位，2014年随着“丝绸之路：长安\\_\\_天山廊道的路网”申遗成功，小雁塔入选世界文化遗产名录。\n\n“乐知学堂”是西安博物院实施博物馆教育职能的专用空间，遵循乐学、好知、博学、多闻的教育理念，策划开展了一系列“博物馆体验”活动，采取积极主动的方式引导公众走进博物馆参观，并为公众提供各种教育性与娱乐性的文化体验项目，让观众更好地理解博物馆展览内涵和外延，做到博物馆亲近民众，让观众了解博物馆、接近博物馆、爱上博物馆。\n\n参观须知：\n\n### 开放时间\n\n旺季：\n\n3月15日至10月31日，发票时间：9∶00—17∶00，18∶00清园。\n\n淡季：\n\n11月1日至次年3月14日，发票时间：9∶00—16∶30，17∶30清园。  \n每周二（国家法定节假日除外）及除夕全天闭馆，其余时间开放。\n\n### 交通路线\n\n地址： [...] ### 交通路线\n\n地址：\n\n      西安市碑林区朱雀大街北段（西门）  \n公交路线：  \n      小雁塔站：游7、游8、21、203、224、410、508、521、700、五龙专线  \n      夏家庄站：18、204、218、407、713、720  \n地铁：  \n      南稍门站：2号线  \n自驾：  \n      西门停车场\n\n### 预约参观流程\n\n1、官方预约通道：关注西安博物院微信公众号，点击“服务”选择“门票预约”，进入预约界面；也可进入西安博物院官方网站（\n\n2、其他预约通道：美团APP/大众点评APP，搜索西安博物院，点击“免费预约”，选择“游玩日期”“场次”“预订数量”，进行实名登记预约，预定成功后在预约日凭西安市一码通，无需换票，从西安博物院西门闸机处刷身份证有序入园。\n\n3、现场预约：已到达现场但未提前网络预约的游客，需要用微信/美团/大众点评扫描西安博物院门口二维码进行现场预约，同样凭西安市一码通，无需换票，从西安博物院西门闸机处刷身份证有序入园。\n\n### 参观注意事项 [...] ### 参观注意事项\n\n1、入园时，请主动出示本人身份证和绿色健康码，配合工作人员做好体温监测和健康登记工作；\n\n2、应疫情防控要求，采取分时预约、分时入园政策，10月1日至2日，每天分为9-13点、13-17点两个预约场次，10月3日以后，每天分为9-11点、11-13点、13-15点、15-17点四个预约场次。请您提前线上预约，并严格按照预约时间到场入园，提前或者迟到均无法入园；\n\n3、游览全程请自觉佩戴口罩，保持安全距离，并服从工作人员的引导，不扎堆不聚集；\n",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "3e053c46df9df0f10510c304d4a5a72d1049b29c637331e74066812a73cb72b8",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "3e053c46df9df0f10510c304d4a5a72d1049b29c637331e74066812a73cb72b8",
+      "excerptCharacters": 1200
     },
     {
       "id": "ev:a395b46fc18a5e480659d68e",
@@ -343,11 +371,13 @@
       "publisher": "www.stdaily.com",
       "retrievedAt": "2026-10-25T20:45:19.861467+00:00",
       "publishedAt": null,
-      "excerpt": "天津\n\n天津博物馆、天津美术馆和李叔同故居纪念馆4日至6日开放时间为9:00-17:00（16:00停止入馆）。\n\n广东\n\n广东省博物馆4日至6日正常开放，原6日（周一）闭馆日顺延至7日（周二）。\n\n南越王博物院4日至6日正常开放，7日闭馆。王宫展区免费预约参观，王墓展区可在线上预约参观，或到展区售票窗口现场购票。王墓展区大门票不包含特展门票及墓室下层参观。\n\n深圳博物馆金田路馆（历史民俗）、深圳博物馆同心路馆（古代艺术）、深圳改革开放展览馆及东江游击队指挥部旧址4日至6日照常开放。开放时间为10:00-18:00，17:30后停止进场。\n\n陕西\n\n陕西历史博物馆本馆（西安市雁塔区小寨东路91号）4日至6日，每日延长开放3.5小时，开放时间调整为7:30-20:30（19:30停止检票），参观预约数量为14000人次/日。秦汉馆（西咸新区秦汉新城兰池三路东段）4日至6日，每日开放时间8:30-18:00维持不变（17:00停止检票），观众可刷身份证免预约入馆参观。\n\n陕西自然博物馆4日至6日将延时开放。每日开放时间为9:00-18:00（17:00停止售票，17:30停止检票）。 [...] 河北\n\n河北博物院4日至6日正常开放，开放时间为9:00-18:00，17:30停止进馆。观众可通过河北博物院官网和微信公众号预约参观。\n\n邯郸市博物馆4日至6日正常开放，开馆时间为9:00-21:00，20:30停止进馆。\n\n甘肃\n\n甘肃省博物馆4日至6日正常开放，开放时间：9:00-17:00（16:00停止预约，16:30停止入馆）。实行实名制分时预约参观制度，观众可通过官方微信公众号提前预约参观。\n\n山东\n\n山东博物馆4日至6日正常开放，每日9:00开馆，16:00停止入馆，17:00闭馆。\n\n济南市博物馆4日至6日，每天9:00-17:00（16:30停止入馆）。观众需持有效证件（身份证、学生证、军官证、老年证、鲁通码等）参观，团体参观需提前预约。\n\n临沂市博物馆北城馆区、银雀山汉墓竹简博物馆、临沂孔庙4日至6日正常开放，开放时段为每日9:00-17:00（16:00停止进馆）。7日（周二）闭馆。无需预约，游客可持本人身份证经过安检后入馆参观。未成年人需由家长带领参观。\n\n天津 [...] 河南\n\n河南博物院4日至6日正常开放，实行实名制预约免费参观。\n\n洛阳博物馆4日至6日将延时开放，每日开放时间为9:00-19:00（18:30停止入馆）。假期期间将限时推出专属定制夜游活动，详情关注洛阳博物馆微信公众号。\n\n上海\n\n上海博物馆4日至6日照常开放。人民广场馆每日开放时间：9:00-17:00（16:00停止入场），观众可提前14日（含当日）通过上海博物馆微信公众号“go上博-参观预约”栏点击进入小程序预约。东馆每日开放时间：10:00-18:00（17:00",
+      "excerpt": "[Third-party source text omitted from public artifact; consult the source URL.]",
       "contentHash": "a9d6aeeab085c8105114c1a891960f30553eb3a15bc48c9faaf9b36ad25bb764",
       "verification": "search_excerpt",
       "place": null,
-      "commercialStatus": "unknown"
+      "commercialStatus": "unknown",
+      "excerptSha256": "a9d6aeeab085c8105114c1a891960f30553eb3a15bc48c9faaf9b36ad25bb764",
+      "excerptCharacters": 1200
     }
   ],
   "noWorkspaceWrites": true,
@@ -568,5 +598,6 @@
   "modelListPriceEstimateCny": 0.101364,
   "priceBasis": "Qwen Beijing official list 2026-10-26; actual invoice/free/cache effects unverified",
   "traceVerified": true,
-  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/2e01d503-273b-4dea-817e-62e98de9d49b?poll=true"
+  "traceUrl": "https://smith.langchain.com/o/4564f8ef-ab59-4775-ac79-da753311319b/projects/p/55b3a23a-9cbf-403a-93ab-852acadde052/r/2e01d503-273b-4dea-817e-62e98de9d49b?poll=true",
+  "publicationNote": "Source excerpts removed for public distribution. Metadata, original content hashes, outcomes and metrics are retained. This is not a replayable raw evidence file."
 }
